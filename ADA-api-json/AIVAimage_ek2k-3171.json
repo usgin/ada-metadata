@@ -1,0 +1,238 @@
+{
+  "id": 158,
+  "files": [
+    {
+      "id": 652,
+      "name": "20231020_AIVA_JSC-ARES_multiSample_1_AIVAImage_1.tif",
+      "checksum": "066fc828cc5532c42d76b11d0dd8440a7777a025b9d7a957da1a5f159cff2164",
+      "sizeBytes": 588486120,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 20
+    },
+    {
+      "id": 653,
+      "name": "20231020_AIVA_JSC-ARES_multiSample_1_AIVAImage_1.yaml",
+      "checksum": "5b6a2df0c8edc27dbe753eeeee5871c0ea9390e574b195d158b16c276117e2f5",
+      "sizeBytes": 289,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 654,
+      "name": "20231020_AIVA_JSC-ARES_multiSample_1_quickLook_1.jpeg",
+      "checksum": "004c330a171d506028e82f5f0cf49342a8d7813440287c711ad25016ef22ae80",
+      "sizeBytes": 11644592,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 655,
+      "name": "20231020_AIVA_JSC-ARES_multiSample_1_quickLook_1.yaml",
+      "checksum": "4a8baeba7e47878a7271d1c6b1b0080961908ab1f34c3d533a43aaa8343daae2",
+      "sizeBytes": 348,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 52,
+      "fullName": "Blumenfeld, Erika",
+      "nameType": "Personal",
+      "contributionId": 307,
+      "contributorType": "Researcher",
+      "email": "erika.h.blumenfeld@nasa.gov"
+    },
+    {
+      "id": 53,
+      "fullName": "Aebersold, Joseph",
+      "nameType": "Personal",
+      "contributionId": 308,
+      "contributorType": "Researcher",
+      "email": "joseph.e.aebersold@nasa.gov"
+    },
+    {
+      "id": 52,
+      "fullName": "Blumenfeld, Erika",
+      "nameType": "Personal",
+      "contributionId": 309,
+      "contributorType": "Other",
+      "email": "erika.h.blumenfeld@nasa.gov"
+    },
+    {
+      "id": 53,
+      "fullName": "Aebersold, Joseph",
+      "nameType": "Personal",
+      "contributionId": 310,
+      "contributorType": "Other",
+      "email": "joseph.e.aebersold@nasa.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 35,
+      "fullName": "Snead, Christopher",
+      "nameType": "Personal",
+      "creationId": 158,
+      "orcid": "https://orcid.org/0000-0002-7433-3030",
+      "email": "christopher.j.snead@nasa.gov"
+    },
+    {
+      "id": 52,
+      "fullName": "Blumenfeld, Erika",
+      "nameType": "Personal",
+      "creationId": 508,
+      "email": "erika.h.blumenfeld@nasa.gov"
+    },
+    {
+      "id": 53,
+      "fullName": "Aebersold, Joseph",
+      "nameType": "Personal",
+      "creationId": 509,
+      "email": "joseph.e.aebersold@nasa.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 1106,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Fujifilm GFX 100s",
+        "identifier": "FUJIGFX"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 1105,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Advanced Imaging & Visualization of Astromaterials",
+        "identifier": "AIVA"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 1100,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800010-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 1101,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800011-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 1102,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800012-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 1103,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800013-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 1104,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231020_AIVA_JSC-ARES_multiSample_1",
+        "analysisDate": "2024-04-05T22:00:15.802580+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 1107,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 1108,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/ek2k-3171",
+        "channel1": "Red",
+        "channel2": "Green",
+        "channel3": "Blue",
+        "description": "High resolution AIVA image of the bulk Bennu sample in four trays. Imaging acquired before the complete bulk pour. This image was previously named O-REx_PE_I-1_20231020.tif.",
+        "dataComponentType": "AIVAImage"
+      },
+      "sourceFile": 653,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1109,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/ek2k-3171",
+        "numPixelsX": 11435,
+        "numPixelsY": 8576,
+        "supDocType": "quickLook",
+        "description": "Low resolution AIVA image of the bulk Bennu sample in four trays. Imaging acquired before the complete bulk pour.",
+        "OriginalName": "20231020_AIVA_JSC-ARES_multiSample_1_quicklook_1.jpeg",
+        "associatedFiles": [
+          "20231020_AIVA_JSC-ARES_multiSample_1_AIVAImage_1"
+        ]
+      },
+      "sourceFile": 655,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-04-05T23:50:13.395217",
+  "updatedAt": "2024-06-20T18:20:59.711492",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "AIVA image of four deep trays with Bennu bulk sample",
+  "description": "AIVA image of four deep trays with Bennu sample removed from the OSIRIS-REx TAGSAM head before the bulk pour. The image shows samples OREX-800010-0 through OREX-800013-0.\nAdvanced Imaging & Visualization of Astromaterials (AIVA) team members are Erika Blumenfeld (Creative Lead), Joseph Aebersold (Project Lead), and Christopher Snead (Civil Servant Lead). Blumenfeld is a Transdisciplinary Artist, Photographer, and Researcher as well as a Conservation & Imaging Specialist. Aebersold is an Image Scientist and 3D Imagery Analyst. Snead is the Deputy Sample Curator of OSIRIS-REx, as well as the Hayabusa2 Sample Curator and the Small Particle Lead.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Advanced Imaging & Visualization of Astromaterials",
+  "doi": "10.60707/ek2k-3171",
+  "daysUntilRelease": 0,
+  "publicationDate": "2024-06-20T18:20:58.498235",
+  "doiIssuedDate": "2024-04-05",
+  "doiStatus": "findable",
+  "processStatus": "Published",
+  "processMessage": null,
+  "processPath": null
+}

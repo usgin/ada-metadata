@@ -1,0 +1,156 @@
+{
+  "id": 2229,
+  "files": [
+    {
+      "id": 12090,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_ARGTDocument_1.pdf",
+      "checksum": "4187ec1850d2c7c331d5521843e39e34d4dc66342b5e45c8c941ef7ab9b471b9",
+      "sizeBytes": 55102,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 12091,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_ARGTDocument_1.yaml",
+      "checksum": "c7093a08882287a3f5ba22c35c93c7e1b1dd723c176264b5e0d56c539edfe695",
+      "sizeBytes": 369,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 15,
+      "fullName": "Jourdan, Fred",
+      "nameType": "Personal",
+      "contributionId": 4368,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-5626-4521",
+      "email": "f.jourdan@curtin.edu.au"
+    },
+    {
+      "id": 15,
+      "fullName": "Jourdan, Fred",
+      "nameType": "Personal",
+      "contributionId": 4369,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-5626-4521",
+      "email": "f.jourdan@curtin.edu.au"
+    },
+    {
+      "id": 134,
+      "fullName": "",
+      "nameType": "Personal",
+      "contributionId": 4370,
+      "contributorType": "Other",
+      "email": "A.Frew@exchange.curtin.edu.au"
+    }
+  ],
+  "creators": [
+    {
+      "id": 15,
+      "fullName": "Jourdan, Fred",
+      "nameType": "Personal",
+      "creationId": 3426,
+      "orcid": "https://orcid.org/0000-0001-5626-4521",
+      "email": "f.jourdan@curtin.edu.au"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 17310,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803390-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17311,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250121_ARGT_CUWA_OREX-803390-0_1",
+        "analysisDate": "2025-01-21T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 17312,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "40Ar/39Ar geochronology and thermochronology",
+        "identifier": "ARGT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 17313,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher ARGUS VI",
+        "identifier": "TFA5"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 17314,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/02n415q13",
+        "name": "Curtin University",
+        "abbreviation": "CUWA"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 17315,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/w54t-s279",
+        "description": "Summary table of Ar isotope fully reduced",
+        "isotopeType": [
+          "40Ar",
+          "39Ar",
+          "38Ar",
+          "37Ar",
+          "36Ar"
+        ],
+        "dataComponentType": "ARGTDocument"
+      },
+      "sourceFile": 12091,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-06T07:05:05.797656",
+  "updatedAt": "2025-02-27T07:10:14.468587",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "40Ar/39Ar geochronology and thermochronology",
+  "description": "Argon isotope analyses of a single white particles with Lab ID OREX-803390-0 and with a size of 50 x 67 microns. The data were collected at the Western Australia Argon Isotope Facility, John de Laeter Centre, Curtin University, Western Australia",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "40Ar/39Ar geochronology and thermochronology",
+  "doi": "10.60707/w54t-s279",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-06",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

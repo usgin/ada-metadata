@@ -1,0 +1,172 @@
+{
+    "@context": [
+        "https://docs.ddialliance.org/DDI-CDI/1.0/model/encoding/json-ld/ddi-cdi.jsonld",
+        {"skos": "http://www.w3.org/2004/02/skos/core#"}
+    ],
+    "DDICDIModels": [
+        {
+            "@id": "#GeoTimeScaleDataSet",
+            "@type": "PhysicalDataSet",
+            "allowsDuplicates": false,
+            "correspondsTo_DataSet": {
+                "@id": "#timeScaleCSVwideData",
+                "@type": "WideDataSet",
+                "has_PhysicalSegmentLayout": {
+                    "@id": "#physicalSegmentLayout",
+                    "@type": "PhysicalSegmentLayout",
+                    "allowsDuplicates": false,
+                    "isDelimited": "true",
+                    "isFixedWidth": false,
+                    "delimiter": ","
+                },
+                "isStructuredBy": {
+                    "@id": "#timeScaleWideDataStructure",
+                    "@type": "WideDataStructure",
+                    "has_DataStructureComponent": [
+                        {
+                            "@id": "#identifierComponent-geologic_time_id",
+                            "@type": "IdentifierComponent",
+                            "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#integer",
+                            "displayLabel": "identifier",
+                            "name": "identifier",
+                            "has_ValueMappingPosition": {
+                                "@id": "#Position-label",
+                                "@type": "ValueMappingPosition",
+                                "value": 0
+                            },
+                            "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                                "@id": "#substantiveValueDomain-notation",
+                                "@type": "SubstantiveValueDomain",
+                                "description": "positive integers"
+                            }
+                        },
+                        {
+                            "@id": "#timeScaleWideLabel",
+                            "@type": "MeasureComponent",
+                            "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#string",
+                            "displayLabel": "label",
+                            "name": "label",
+                            "has_ValueMappingPosition": {
+                                "@id": "#Position-label",
+                                "@type": "ValueMappingPosition",
+                                "value": 1
+                            },
+                            "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                                "@id": "#substantiveValueDomain-label",
+                                "@type": "SubstantiveValueDomain",
+                                "description": "free text"
+                            }
+                        },
+                        {
+                            "@id": "#measureComponent-abrevURI",
+                            "@type": "MeasureComponent",
+                            "isDefinedBy_RepresentedVariable": {
+                                "@id": "#instanceVariable-abrevURI",
+                                "@type": "InstanceVariable",
+                                "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#string",
+                                "displayLabel": "abrevURI",
+                                "name": "abrevURI",
+                                "has_ValueMappingPosition": {
+                                    "@id": "#Position-label",
+                                    "@type": "ValueMappingPosition",
+                                    "value": 2
+                                },
+                                "has_ValueMapping": "#valueMapping-abrevURI",
+                                "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                                    "@id": "#substantiveValueDomain-abrevURI",
+                                    "@type": "SubstantiveValueDomain",
+                                    "description": "abbreviation for geologic time interval",
+                                    "isDescribedBy": {
+                                        "@id": "#substantiveValueAndConceptDescription-abrevURI",
+                                        "@type": "ValueAndConceptDescription",
+                                        "classificationLevel": "Nominal"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@id": "#measureComponent-geologic_time_interval_uri",
+                            "@type": "MeasureComponent",
+                            "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#anyURI",
+                            "displayLabel": "geologic_time_interval_uri",
+                            "name": "geologic_time_interval_uri",
+                            "has_ValueMappingPosition": {
+                                "@id": "#Position-label",
+                                "@type": "ValueMappingPosition",
+                                "value": 3
+                            },
+                            "takesValuesFrom": {
+                                "@id": "#substantiveValueDomain-geologic_time_interval_uri",
+                                "@type": "CodeList",
+                                "references": {
+                                    "@type": "CategorySet",
+                                    "@id": "http://resource.geosciml.org/vocabulary/timescale/gts2020"
+                                }
+                            }
+                        },
+                        {
+                            "@id": "#measureComponent-numeric_older_bound",
+                            "@type": "MeasureComponent",
+                            "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#decimal",
+                            "displayLabel": "numeric_older_bound",
+                            "name": "numeric_older_bound",
+                            "has_ValueMappingPosition": {
+                                "@id": "#Position-label",
+                                "@type": "ValueMappingPosition",
+                                "value": 4
+                            },
+                            "takesValuesFrom": {
+                                "@id": "#geologicTimeDomain",
+                                "@type": "SubstantiveValueDomain",
+                                "classificationLevel": "Continuous",
+                                "maximumValueInclusive": 4500,
+                                "minimumValueInclusive": 0,
+                                "https://schema.org/unitText": "Million Years (Ma)"
+                            }
+                        },
+                        {
+                            "@id": "#measureComponent-numeric_younger_bound",
+                            "@type": "MeasureComponent",
+                            "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#decimal",
+                            "displayLabel": "numeric_younger_bound",
+                            "name": "numeric_younger_bound",
+                            "has_ValueMappingPosition": {
+                                "@id": "#Position-label",
+                                "@type": "ValueMappingPosition",
+                                "value": 5
+                            },
+                            "takesValuesFrom": {"@id": "#geologicTimeDomain"}
+                        },
+                        {
+                            "@id": "#measureComponent-notation",
+                            "@type": "MeasureComponent",
+                            "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#string",
+                            "displayLabel": "notation",
+                            "name": "notation",
+                            "has_ValueMappingPosition": {
+                                "@id": "#Position-notation",
+                                "@type": "ValueMappingPosition",
+                                "value": 6
+                            },
+                            "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                                "@id": "#substantiveValueDomain-notation",
+                                "@type": "SubstantiveValueDomain",
+                                "isDescribedBy": {
+                                    "@id": "#substantiveValueAndConceptDescription-notation",
+                                    "@type": "ValueAndConceptDescription",
+                                    "classificationLevel": "Nominal"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "formats": {
+                "@id": "#dataStore",
+                "@type": "DataStore",
+                "physicalFileName": "geologic_time_scale.csv",
+                "recordCount": 178
+            }
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+{
+  "id": 6,
+  "files": [
+    {
+      "id": 13,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_1.obj",
+      "checksum": "232997bfe6e17fca46ea2b5eaeed93256ee7a1eea1dc609486a7320d79f43d5e",
+      "sizeBytes": 2463143,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 22
+    },
+    {
+      "id": 14,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_1.yml",
+      "checksum": "a44ae86b07117aeb8292ecf8c08284fec98e1be46ed493532a3cec0798081acf",
+      "sizeBytes": 329,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 15,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_1.png",
+      "checksum": "445511b57a45687844de901828de710e27a3e9846ab46f3fbcbd7c81aab0a789",
+      "sizeBytes": 753615,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 21
+    },
+    {
+      "id": 16,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_1.yml",
+      "checksum": "63a90c49692442a39bef733592822c613b331c2d89ca3bdb64f2439d2bd109ef",
+      "sizeBytes": 283,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 17,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_2.jpeg",
+      "checksum": "ca1cad45050be1fe5657a7eb1a6abdb1605d15f17ba3b407c7f7940f89fa0395",
+      "sizeBytes": 2412336,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 18,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_2.yml",
+      "checksum": "9623ce11799e5febddb9c53f0c1d0d4fba7b1cc88f3a44557988aaba4ebaca63",
+      "sizeBytes": 275,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 19,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_other_1.stl",
+      "checksum": "7504f61972fca685d6f6c635bbe206c6581e55d25fb68198de05220f952757c7",
+      "sizeBytes": 3498384,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 24
+    },
+    {
+      "id": 20,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_other_1.yml",
+      "checksum": "68b088a9a076976165f92c3891a8b5e08a8437c2752a2e9cf3f2ac9258d60a30",
+      "sizeBytes": 176,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 21,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_quickLook_1.png",
+      "checksum": "9416076c9b97e78287d6692d3871336341c30477e26da6c2d49d010ca3a5dc5b",
+      "sizeBytes": 45739,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 21
+    },
+    {
+      "id": 22,
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_quickLook_1.yml",
+      "checksum": "eefe227b630ee331a2fec818f6c35ce7c1b3d038e2d5ce0b61da9d2d785af538",
+      "sizeBytes": 223,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    }
+  ],
+  "contributors": [
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributionId": 7,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributionId": 8,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "creationId": 6,
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 28,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-500003-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 29,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231013_SLS_UAZ_OREX-500003-100_1",
+        "analysisDate": "2023-10-13T21:57:23.658194+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 30,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Structured Light Scanning",
+        "identifier": "SLS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 31,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(UAZ) Polyga Compact C506 structured light scanner",
+        "identifier": "PCC506-UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 32,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 33,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/5x5y-bc35",
+        "facets": 69966,
+        "version": 1,
+        "vertices": 35302,
+        "countScans": 30,
+        "watertight": false,
+        "description": "Unprocessed merged shape model (with holes) of a quick look sample OREX-500003-100_1",
+        "dataComponentType": "SLSShapeModel",
+        "unitsOfMeasurement": "mm"
+      },
+      "sourceFile": 14,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 34,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/5x5y-bc35",
+        "supDocType": "contextPhotography",
+        "description": "Screenshot of FlexScan3D desktop during scan. The SLS was positioned at a very low angle (almost horizontal) at the time.",
+        "associatedFiles": [
+          "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_1",
+          "10.60707/papb-7t64"
+        ]
+      },
+      "sourceFile": 16,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 35,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/5x5y-bc35",
+        "supDocType": "contextPhotography",
+        "description": "Photo of SLS instrument with sample particle sitting on teflon film (taped to stainless steel plate on lab jack).",
+        "associatedFiles": [
+          "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_1",
+          "10.60707/papb-7t64"
+        ]
+      },
+      "sourceFile": 18,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 36,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/5x5y-bc35",
+        "supDocType": "other",
+        "description": "stl copy of obj file (unfilled merged sample scan)",
+        "associatedFiles": [
+          "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_1"
+        ]
+      },
+      "sourceFile": 20,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 37,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/5x5y-bc35",
+        "supDocType": "quickLook",
+        "description": "Quick look image water-tight final shape model of sample OREX-500003-100",
+        "associatedFiles": [
+          "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_1",
+          "10.60707/papb-7t64"
+        ]
+      },
+      "sourceFile": 22,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2023-10-19T22:05:05.201414",
+  "updatedAt": "2023-11-13T17:20:11.925420",
+  "fundingDescription": "N/A",
+  "title": "3d scan of large quick-look particle",
+  "description": "Scanned the large ~2mm quick-look particle that was also CT scanned and shown in the press release. Scanned in Tucson under ambient conditions with multiple scanner look-angles to get difficult edges. I had to do a \"smoothed merge\" instead of the usual \"precise merge\" of particle scans in order to create a good complete model, because the particle was quite small and challenging to measure.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Structured Light Scanning",
+  "doi": "10.60707/5x5y-bc35",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2023-10-19",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

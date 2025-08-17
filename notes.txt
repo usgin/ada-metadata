@@ -1,0 +1,78 @@
+https://ada.astromat.org/?sample=OREX-803050-0
+3 datasets, same title, author, description, date, different sizes and DOI
+
+https://ada.astromat.org/doi/10.60707/pmm3-st23-- what is actual data; how can I figure out what they actually imaged, e.g. what 1 by 1 micron spot where on OREX-803050-0
+
+is there a sample description for OREX-803050-0?
+
+https://ada.astromat.org/doi/10.60707/wspc-wg10  data are tif files; UVF has "pixelSize: 0.09560" (no units), vis image has "numPixelsX: 1280
+numPixelsY: 908"
+The spatial resoultion and image size should be apparent in the description, are the images registered-- e.g. do they overlay? 
+
+
+
+https://ada.astromat.org/doi/10.60707/and7-s828 
+description: "Survey data on OREX-830087-101; separate file folders for Images, Maps, and Point Spectra"  what kind of images, maps, point spectra?  the Files list just lists the zip archive, not the actual file content.
+
+
+https://ada.astromat.org/doi/10.60707/mh28-h390 
+description: "This bundle includes raw images taken by the Quantitative Reflectance Imaging System (QRIS) of the sample moved from the TAGSAM to Tray A2."
+? visible light? what channels are in the QRIS image, resolution? image size, how many images-- all same frame or different part of sample? Is this the entire sample acquired from the platform, or only part of it?
+
+
+https://archive.astromat.org/openapi
+https://archive.astromat.org/api/record/
+Here’s a more data rich result, filtered to dois with metadata submitted https://archive.astromat.org/api/record/?processStatus=Calibration%20and%20Validation||Published
+
+
+
+
+images--
+need better classification system.
+have EMPA WDS images-- depend on spectrometers used;  EDS-- have orbital transition and element for energy bands, fluorescence, visible light (plane polarized, reflectance, not polarized),LIT images of various sorts?, backscatter electron, transmitted electron, electron difraction, secondary electron
+
+are spatially registered images necessarily coupled with a basemap image.
+
+
+what constitutes publication?  the resource (10.60707/2907-3854) with this metadata is not downloadable.  I'm guessing daysUntil gets calculated on the fly?
+  
+NanoIR map collection:  If maps will not be spatially registered [what is a non-spatially registered map?]: Data Collection; 
+If maps will be spatially registered: Spatially Registered Image Data Collection.  
+??? '...map' should denote spatial registration, otherwise should be '...image'.
+
+
+10.60707/7479-bn03  title "MC-ICP-MS Zn Isotopes of Bennu aggregate samples OREX-803015-0 and OREX-501043-0" content is a zip archive, generalType is image. YAML for archive just says "Raw Zn Isotope Data from Neptune Plus".  What is in the zip archive?? is it actually an image, or tabular data.  "dataComponentType": "MCICPMSCollection"--why is it a 'collection'.  is it really multicollector data, or multi sample ???
+
+"name": "20240215_IC_JSC-ARES_OREX-803001-111_1_ICTabular_93.csv",
+      ...
+      "generalType": "Image",
+	 csv file is not an image....
+"name": "20240215_IC_JSC-ARES_OREX-803001-111_1_methodDescription_410.txt",
+....
+      "generalType": "Image",
+	  txt file is not an image.
+	  
+have to distiguish a data collection [maybe series?] (set of files with similar information content, syntax, and structure, like the set of images for an XCTA) from composite dataset-- a dataset consisting of a set of distinct file types, like GIS Shape file or SLS partial scan files. The metadata needs to provide some information about the datatypes (componentType, file type...) in the collection. e.g. If there are different kinds of images (e.g. UVF and visible light), there should be a separeate image detail for each kind of image.  Thus a collection might have several detail entries for images, tabular data, documents, etc included in the collection, particularly if the collection is a composite dataset.
+
+Does anyone understand how spatial registration of points or areas on sample surfaces is working?  SRS is defined in basemap image.  Seems we need coordinates for fiducial marks in the basemap record, and in any spatially registered data. The basemap has to define 
+
+ada questions
+
+supDocType = methodDescription in subjects.  Where is the actual method description file???  If the description is used for many datasets, can it be a separate resource ? Or better to bundle everything in a data delivery package. ?? have table of unique files with info about file, and separate simple correlation table mapping record_id to file_id to associate file with a package. 
+
+.csv, ...collection.zip, methodDescription_1.txt, methodDescription.pdf, .mp4, .emd  files have general type image???
+
+in the instrument section, the identifier should identify an instrument instance. Might also want an identifeir for instrument type. use instrument.name as user-friendly label to identify the instrument
+
+all contributors are 'Researcher'; are there really no other roles taht could be usefully assigned?
+
+in 10.60707/j16b-6288, "Major element composition of olivine and carbonates measured for oxygen isotopic compositions by SIMS in OREX-800045-103" have:
+                    { "label": "MnO(Mass%)",
+                        ...
+                        "fieldDescription": "Abundance of MnO in wt%"  }
+is it wt % or mass%?
+
+DSC data-- have a bunch of 'other' csv files (e.g. "name": "20241111_DSC_NU_OREX-803224-0_1_other_2.csv","description": "Raw and Calibrated heat flow values for empty pans for step scan run 2.",
+but there is no explanation of the fields in the table.  All tabular data should have explanation of fields in the table...
+
+need to represent reusable tableSchema (a la csvw) so can be called by reference, at least in a single product metadata record.

@@ -1,0 +1,28 @@
+"count","id","extension","media_type","type_name"
+"5782","1",".yaml","application/yaml","YAML"
+"1","9",".h5","application/x-hdf5","Hierarchical Data Format v5"
+"508","11",".csv","text/csv","Comma Separated Values"
+"1016","13",".txt","text/plain","Plain Text"
+"813","14",".pdf","application/pdf","Portable Document Format"
+"1079","15",".zip","application/zip","Zip Archive Compression"
+"33","16",".mp4","video/mp4","mp4"
+"87","17",".jpg","image/jpeg","JPEG"
+"257","18",".jpeg","image/jpeg","JPEG"
+"778","19",".tiff","image/tiff","Tagged Image File Format"
+"1477","20",".tif","image/tiff","Tagged Image File Format"
+"366","21",".png","image/png","Portable Network Format"
+"38","22",".obj",NULL,NULL
+"540","23",".yml",NULL,NULL
+"37","24",".stl",NULL,NULL
+"120","34",".emd",NULL,NULL
+"90","35",".bmp",NULL,NULL
+"161","36",".tfw",NULL,NULL
+"8","37",".mzml",NULL,NULL
+"361","38",".docx",NULL,NULL
+"353","39",".m4v",NULL,NULL
+"11","61",".jgw",NULL,NULL
+"8","62",".cpg",NULL,NULL
+"8","63",".dbf",NULL,NULL
+"8","64",".shp",NULL,NULL
+"8","65",".shx",NULL,NULL
+"8","66",".xlsx",NULL,NULL

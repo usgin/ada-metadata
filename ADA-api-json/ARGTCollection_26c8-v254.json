@@ -1,0 +1,223 @@
+{
+  "id": 2230,
+  "files": [
+    {
+      "id": 12084,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_ARGTCollection_1.yaml",
+      "checksum": "a1701d358537be21eeaa770d5d5085f6c99eb287e53996623147366853a510ea",
+      "sizeBytes": 361,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12085,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_ARGTCollection_1.zip",
+      "checksum": "221339a97ee6cd1d680d7d77b18340d52338b9cee0cdce6ce74c27b1648bb983",
+      "sizeBytes": 7097,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    },
+    {
+      "id": 12086,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_methodDescription_2067.pdf",
+      "checksum": "0a3d7c8f16eedb8694a77d401dc2d43fb39091f6a9a26d6b8ed65883e366f95b",
+      "sizeBytes": 89018,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 12087,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_methodDescription_2067.yaml",
+      "checksum": "97989685282e83344e6427756150e9ee0f762714e762d9b3747e576e718051e1",
+      "sizeBytes": 272,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12088,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_report_1.csv",
+      "checksum": "8778afe3bb11c8faba5eb7054a79247ad75bbd9e1f0bda4015f66c6ad5f03857",
+      "sizeBytes": 261323,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 12089,
+      "name": "20250121_ARGT_CUWA_OREX-803390-0_1_report_1.yaml",
+      "checksum": "2d5dc09b4d4e8b12ff6613153d236de1df2f4a19f3f75e3dd1039ec0bc5d8590",
+      "sizeBytes": 150,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 15,
+      "fullName": "Jourdan, Fred",
+      "nameType": "Personal",
+      "contributionId": 4365,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-5626-4521",
+      "email": "f.jourdan@curtin.edu.au"
+    },
+    {
+      "id": 15,
+      "fullName": "Jourdan, Fred",
+      "nameType": "Personal",
+      "contributionId": 4366,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-5626-4521",
+      "email": "f.jourdan@curtin.edu.au"
+    },
+    {
+      "id": 134,
+      "fullName": "",
+      "nameType": "Personal",
+      "contributionId": 4367,
+      "contributorType": "Other",
+      "email": "A.Frew@exchange.curtin.edu.au"
+    }
+  ],
+  "creators": [
+    {
+      "id": 15,
+      "fullName": "Jourdan, Fred",
+      "nameType": "Personal",
+      "creationId": 3427,
+      "orcid": "https://orcid.org/0000-0001-5626-4521",
+      "email": "f.jourdan@curtin.edu.au"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 17302,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803390-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17303,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250121_ARGT_CUWA_OREX-803390-0_1",
+        "analysisDate": "2025-01-21T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 17304,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "40Ar/39Ar geochronology and thermochronology",
+        "identifier": "ARGT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 17305,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher ARGUS VI",
+        "identifier": "TFA5"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 17306,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/02n415q13",
+        "name": "Curtin University",
+        "abbreviation": "CUWA"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 17307,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/26c8-v254",
+        "description": "Raw Data delivered as a TXT file",
+        "isotopeType": [
+          "40Ar",
+          "39Ar",
+          "38Ar",
+          "37Ar",
+          "36Ar"
+        ],
+        "dataComponentType": "ARGTCollection"
+      },
+      "sourceFile": 12084,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 17308,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/26c8-v254",
+        "supDocType": "methodDescription",
+        "description": "Text description of the methodology and analysis conditions",
+        "OriginalName": "20250121_ARGT_CUWA_OREX-803390-0_1_Method Description.pdf",
+        "associatedFiles": [
+          "20250121_ARGT_CUWA_OREX-803390-0_1_ARGTCollection_1"
+        ]
+      },
+      "sourceFile": 12087,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 17309,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/26c8-v254",
+        "supDocType": "report",
+        "description": "CSV file with raw data",
+        "associatedFiles": [
+          "20250121_ARGT_CUWA_OREX-803390-0_1_ARGTCollection_1"
+        ]
+      },
+      "sourceFile": 12089,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-06T07:05:07.214269",
+  "updatedAt": "2025-02-27T07:10:11.723082",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "40Ar/39Ar geochronology and thermochronology",
+  "description": "Argon isotope analyses of a single white particles with Lab ID OREX-803390-0 and with a size of 50 x 67 microns. The data were collected at the Western Australia Argon Isotope Facility, John de Laeter Centre, Curtin University, Western Australia",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "40Ar/39Ar geochronology and thermochronology",
+  "doi": "10.60707/26c8-v254",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-06",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

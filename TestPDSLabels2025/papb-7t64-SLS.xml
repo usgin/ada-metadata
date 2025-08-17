@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 file:/G:/My%20Drive/Astromat/PlanetaryDataSystem/PDS-XML-Schema/PDS4_PDS_1E00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:astromat:astromat_archive:sls-papb-7t64</logical_identifier>
+        <version_id>0.1</version_id>
+        <title>3d scan of large quick-look particle</title>
+        <information_model_version>information_model_version0</information_model_version>
+        <product_class>Dataset:Structured Light Scanning</product_class>
+        <Citation_Information>
+            <author_list>"Ryan, Andy"</author_list>
+            <publication_year>2025</publication_year>
+            <doi>10.60707/papb-7t64</doi>
+            <description>Scanned the large ~2mm quick-look particle that was also CT scanned and shown in the press
+                release. Scanned in Tucson under ambient conditions with multiple scanner look-angles to get difficult
+                edges. I had to do a "smoothed merge" instead of the usual "precise merge" of particle scans in order
+                to create a good complete model, because the particle was quite small and challenging to measure.</description>
+        </Citation_Information>
+    </Identification_Area>
+    <Observation_Area>
+        <Time_Coordinates>
+            <start_date_time>2023-10-19Z</start_date_time>
+            <stop_date_time>2024-01-31Z</stop_date_time>
+        </Time_Coordinates>
+        <Investigation_Area>
+
+            <!-- I assume there's a registry of formal mission names and types somewhere? -->
+            <name>OSIRIS-REx material sample analytical data</name>
+            <type>Other Investigation</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:other_investigation.osirisrex_data</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Investigation_Area>
+            <!-- want to include the analysis session identifier -->
+            <name>20231013_SLS_UAZ_OREX-500003-100_1</name>
+            <type>analysis session</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:astromat:astromat_archive:20231013_sls_uaz_orex-500003-100_1</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+
+        <Observing_System>
+            <Observing_System_Component>
+                <name>(UAZ) Polyga Compact C506 structured light scanner</name>
+                <!-- is there a dictionary of instrument types? -->
+                <type>Structured Light Scanner</type>
+                <description>University of Arizona</description>
+                <External_Reference>
+                    <reference_text>PCC506-UAZ</reference_text>
+                </External_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+
+        <Target_Identification>
+            <name>101955 Bennu</name>
+            <!-- should come from NASA registry, where? -->
+            <type>asteroid</type>
+        </Target_Identification>
+        <Target_Identification>
+            <name>OREX-500003-100</name>
+            <type>Material sample</type>
+        </Target_Identification>
+    </Observation_Area>
+
+    <File_Area_Observational>
+        <File>
+            <file_name>20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2.obj</file_name>
+            <file_size unit="byte">2486516</file_size>
+        </File>
+        <Header>
+            <offset unit="byte">0</offset>
+            <object_length unit="byte">114</object_length>
+            <parsing_standard_id>7-Bit ASCII Text</parsing_standard_id>
+        </Header>
+        <Table_Delimited>
+            <!-- obj files have 4 columns, space delimited -->
+            <name>Object 38_final_copy_clean</name>
+            <!-- this is name in file header -->
+            <offset unit="byte">114</offset>
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>Processed merged shape model (no holes) of a quick look sample OREX-500003-100_1. OBJ file is ASCII text with header, comment fields start with '#'; fields are ' ' (space) delimited. </description>
+            <records>3619425</records>
+            <record_delimiter>CR-LF</record_delimiter>
+            <field_delimiter>0x20</field_delimiter>
+            <!-- delimiter is a space character -->
+            <Record_Delimited>
+                <fields>4</fields>
+                <groups>0</groups>
+                <Field_Delimited>
+                    <name>Column 1</name>
+                    <field_number>1</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>one or two letter identifier for type of data in row </description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Column 2</name>
+                    <field_number>2</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>number or formatted number pair depending on row type</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Column 3</name>
+                    <field_number>3</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>number or formatted number pair depending on row type</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Column 4</name>
+                    <field_number>4</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>number or formatted number pair depending on row typ</description>
+                </Field_Delimited>
+            </Record_Delimited>
+        </Table_Delimited>
+    </File_Area_Observational>
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_1.png</file_name>
+            <file_size unit="byte">753615</file_size>
+        </File>
+        <Encoded_Image>
+            <offset unit="byte">0</offset>
+            <encoding_standard_id>PNG</encoding_standard_id>
+            <description>Screenshot of FlexScan3D desktop during scan. The SLS was positioned at a very low angle (almost horizontal) at the time.</description>
+        </Encoded_Image>
+    </File_Area_Observational_Supplemental>
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_2.jpeg</file_name>
+            <file_size unit="byte">2412336</file_size>
+        </File>
+        <Encoded_Image>
+            <offset unit="byte">2412336</offset>
+            <encoding_standard_id>jpeg</encoding_standard_id>
+            <description>Photo of SLS instrument with sample particle sitting on teflon film (taped to stainless steel plate on lab jack).</description>
+        </Encoded_Image>
+    </File_Area_Observational_Supplemental>
+
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20231013_SLS_UAZ_OREX-500003-100_1_other_2.stl</file_name>
+            <file_size unit="byte">3545984</file_size>
+        </File>
+        <Encoded_Binary>
+            <offset unit="byte">0</offset>
+            <encoding_standard_id>model/x.stl-binary</encoding_standard_id>
+            <description>stl copy of obj file (filled merged sample scan)</description>
+        </Encoded_Binary>
+    </File_Area_Observational_Supplemental>
+
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20231013_SLS_UAZ_OREX-500003-100_1_quickLook_1.png</file_name>
+            <file_size unit="byte">45739</file_size>
+        </File>
+        <Encoded_Image>
+            <offset unit="byte">0</offset>
+            <encoding_standard_id>PNG</encoding_standard_id>
+            <description>Quick look image water-tight final shape model of sample OREX-500003-100</description>
+        </Encoded_Image>
+    </File_Area_Observational_Supplemental>
+</Product_Observational>

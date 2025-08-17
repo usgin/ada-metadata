@@ -1,0 +1,1438 @@
+{
+  "id": 305,
+  "files": [
+    {
+      "id": 1060,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1.obj",
+      "checksum": "1b955ad080e59a7c8415ee20ba6e23eafe5105139f3489516e6dbea9e6a536a8",
+      "sizeBytes": 92734460,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 22
+    },
+    {
+      "id": 1061,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1.yml",
+      "checksum": "9230648243fa97f5459dcce790dd475593e0fec8b9743a78d4db12de436b765e",
+      "sizeBytes": 293,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1062,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_1.jpeg",
+      "checksum": "068ce62cddc03dcb109a8d8a7c479058ca09e60855b1cf3587acfe9ce67c14d5",
+      "sizeBytes": 1901742,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1063,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_1.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1064,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_10.jpeg",
+      "checksum": "650694e320520fdb9dec8004691c1ba5e9f43423e700e73509d5626e77187c58",
+      "sizeBytes": 1736707,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1065,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_10.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1066,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_11.jpeg",
+      "checksum": "589d92d4251e6f7adf893193244d4c3b8a621f45b593611613060e85ce333af9",
+      "sizeBytes": 1265686,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1067,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_11.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1068,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_12.jpeg",
+      "checksum": "005af5cab905e2daa8ebc52ab4f04918fc22323ed24d45337ca76871dc47097e",
+      "sizeBytes": 1437493,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1069,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_12.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1070,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_13.jpeg",
+      "checksum": "6fa1e8340edd2dfab23f9f2acb831df160bb7e8a64df2e4abb3fef7a59440a6d",
+      "sizeBytes": 2750099,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1071,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_13.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1072,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_14.jpeg",
+      "checksum": "6d647f46900043d2fa0da841a0591d2d36663288c2e3652e190e2f0d56c5acdc",
+      "sizeBytes": 1519614,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1073,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_14.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1074,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_15.jpeg",
+      "checksum": "34a71602d9236132373fa286fd69598433dc1e8df92e752114a8c70cc1be6b76",
+      "sizeBytes": 1419091,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1075,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_15.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1076,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_16.jpeg",
+      "checksum": "c2bb8c07deca1ddb5aecbf22ff8b4d890dc19dcb7abb6e290129a663841c229d",
+      "sizeBytes": 1327449,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1077,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_16.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1078,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_17.jpeg",
+      "checksum": "ee4d3472f7c5c1af5edac735ce4a1fb610134bbe563c1f6b51961e74cdaadffa",
+      "sizeBytes": 1105134,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1079,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_17.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1080,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_18.jpeg",
+      "checksum": "bbfaecf81d96b92cdc2ce7b9a01b384c9800eaf3dfe85b08904d3267cd220e81",
+      "sizeBytes": 1096591,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1081,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_18.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1082,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_19.jpeg",
+      "checksum": "c36fa0fd93cc4919ed2d7bbdc4b7f80b587dbc95fcedbdbef88969af24752e87",
+      "sizeBytes": 1625038,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1083,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_19.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1084,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_2.jpeg",
+      "checksum": "3c756a7837a558b13e62bf9c05cefb919b5601f16b4ebcd9689bd2d07f38e6c9",
+      "sizeBytes": 1774281,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1085,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_2.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1086,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_20.jpeg",
+      "checksum": "02be9e4195ccf92b7bd1b28afba6a64633a6998f768de2cc4f01375c7afd01d9",
+      "sizeBytes": 1631911,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1087,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_20.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1088,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_21.jpeg",
+      "checksum": "6a48145e1590c8298b28fd2d5d4e8211a110cc63f7fe8ff5e0fe799d85ec3e11",
+      "sizeBytes": 1612721,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1089,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_21.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1090,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_22.jpeg",
+      "checksum": "de261f3e6c6d3f65c681efc8176a3a9db8df15c0a44dffc8eb282d244a0ea0a5",
+      "sizeBytes": 1629098,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1091,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_22.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1092,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_23.jpeg",
+      "checksum": "0dd6814770ae7abf175ddc8b0d898c967cc81a61ba08b9b3a64e18c6466b568b",
+      "sizeBytes": 1510995,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1093,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_23.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1094,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_24.jpeg",
+      "checksum": "c5c24934ddc5e16db88dd28208ef73ad80132bfc28fae8174a65d811360a15c4",
+      "sizeBytes": 1612987,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1095,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_24.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1096,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_25.jpeg",
+      "checksum": "f8c646633e17b56e7b8f9b85e9dda4518ed34867b106aa953200fb551447651e",
+      "sizeBytes": 3086881,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1097,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_25.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1098,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_26.jpeg",
+      "checksum": "02c207dd2127552f4346bff74aa07d75fab083c0c040b673f8138cfefd7b2488",
+      "sizeBytes": 2571378,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1099,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_26.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1100,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_27.jpeg",
+      "checksum": "5887b1973e81209d35970e92625886826b0c68948ceb0d04066bf8224984b244",
+      "sizeBytes": 1487934,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1101,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_27.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1102,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_28.jpeg",
+      "checksum": "b1d78305cd6adbb4833fe5a90c5ad75aebd4e76fd4e7c722cf577e140c1b81f9",
+      "sizeBytes": 1100124,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1103,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_28.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1104,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_29.jpeg",
+      "checksum": "e844a30b505ebc8aeea402757e9d229b4e416e0590222569a699634d82dd408c",
+      "sizeBytes": 862655,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1105,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_29.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1106,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_3.jpeg",
+      "checksum": "f0cb5c05009689bbd36629c7bdb036b56d62862f71d9631a27d48001925724fc",
+      "sizeBytes": 1606963,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1107,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_3.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1108,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_30.jpeg",
+      "checksum": "7761f1378be5925931c8629b58eeed573fcfe3c33eaaa20b5ecdbce987c30e9f",
+      "sizeBytes": 1133207,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1109,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_30.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1110,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_31.jpeg",
+      "checksum": "21182bb8eb0faa0b740f0e2808679b1baca735f986db323062061ab7b5548f00",
+      "sizeBytes": 1082086,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1111,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_31.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1112,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_32.jpeg",
+      "checksum": "86768b9b21550667a9896706f77208c10272b00432a4dc8b7e4840914d496df0",
+      "sizeBytes": 2004160,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1113,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_32.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1114,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_33.png",
+      "checksum": "01097a272dce8a2da4f16e809114c6a65c9314dd03e3aad0dcbcec9f11d4143d",
+      "sizeBytes": 672203,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 21
+    },
+    {
+      "id": 1115,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_33.yml",
+      "checksum": "d5f1805c49f4dd80d3025e80496387905102416094845dad052d733f75fcf00e",
+      "sizeBytes": 255,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1116,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_4.jpeg",
+      "checksum": "94e8d813f806d885795a264b2bd9b305c56f5b375d0ed0bcf1e39ffce217d965",
+      "sizeBytes": 2014483,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1117,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_4.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1118,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_5.jpeg",
+      "checksum": "1f5c6efd11da42273862cbe92c5870c2947a4b2ff066583ca2f01ca24cbc195f",
+      "sizeBytes": 2283584,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1119,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_5.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1120,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_6.jpeg",
+      "checksum": "3026b8c0d34a9e3033d837fcf549ef331b9be781083a93f52b2b8ad9b58e2474",
+      "sizeBytes": 3150928,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1121,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_6.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1122,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_7.jpeg",
+      "checksum": "f50e2eb837d90ed03779557b7ec753ee2761a023aa5d9fa410f81ed5ae18f7aa",
+      "sizeBytes": 2884236,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1123,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_7.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1124,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_8.jpeg",
+      "checksum": "e186ad8c970428d0ef69c4eb1bc793417741397a1a2a9bda165186313a99a93c",
+      "sizeBytes": 3151594,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1125,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_8.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1126,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_9.jpeg",
+      "checksum": "3c9ea2e64f17377f1c490075273c9eea91067c9538b4128ef793f390741215b9",
+      "sizeBytes": 3191379,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 18
+    },
+    {
+      "id": 1127,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_9.yml",
+      "checksum": "5c70746700725919980ebd8a9efdfa5e65f9e8c701456b76fc4740e1804c57e7",
+      "sizeBytes": 245,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1128,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_other_1.stl",
+      "checksum": "db17b3382bc9e539658599dc74744468fe07f7d7b3c76a3619022fb1018779d3",
+      "sizeBytes": 114362334,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 24
+    },
+    {
+      "id": 1129,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_other_1.yml",
+      "checksum": "e3a3a38083b669303f123be6e389a38bc17e8bf54c9cf4012fd0fda37a6bb20e",
+      "sizeBytes": 144,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1130,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_quickLook_1.jpg",
+      "checksum": "c94fcad5ba450cbae45b57547dc718d9d0e727da1a8b511d7102b6495f678cba",
+      "sizeBytes": 2042,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 17
+    },
+    {
+      "id": 1131,
+      "name": "20240227_SLS_UAZ_OREX-800014-0_1_quickLook_1.yml",
+      "checksum": "a76f120dc658d827bb314a2c53d29ed651a1a40fbb6442d0e3f5076099df273d",
+      "sizeBytes": 243,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    }
+  ],
+  "contributors": [
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributionId": 575,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributionId": 576,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "creationId": 305,
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 1972,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800014-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 1973,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240227_SLS_UAZ_OREX-800014-0_1",
+        "analysisDate": "2024-03-22T19:04:30.252304+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 1974,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Structured Light Scanning",
+        "identifier": "SLS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 1975,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(UAZ) Polyga Compact C506 structured light scanner",
+        "identifier": "PCC506-UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 1976,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 1977,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "facets": 2287245,
+        "version": 1,
+        "vertices": 1166935,
+        "countScans": 36,
+        "watertight": false,
+        "description": "Unprocessed merged shape model (with holes).",
+        "dataComponentType": "SLSShapeModel",
+        "unitsOfMeasurement": "mm"
+      },
+      "sourceFile": 1061,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1978,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1063,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1979,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1065,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1980,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1067,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1981,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1069,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1982,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1071,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1983,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1073,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1984,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1075,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1985,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1077,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1986,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1079,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1987,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1081,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1988,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1083,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1989,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1085,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1990,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1087,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1991,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1089,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1992,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1091,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1993,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1093,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1994,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1095,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1995,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1097,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1996,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1099,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1997,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1101,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1998,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1103,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 1999,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1105,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2000,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1107,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2001,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1109,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2002,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1111,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2003,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1113,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2004,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 1920,
+        "numPixelsY": 1080,
+        "supDocType": "contextPhotography",
+        "description": "Screenshot of SLS desktop during scanning.",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1115,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2005,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1117,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2006,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1119,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2007,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1121,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2008,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1123,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2009,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1125,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2010,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 4032,
+        "numPixelsY": 3024,
+        "supDocType": "contextPhotography",
+        "description": "Photos taken during SLS scanning",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1127,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2011,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "supDocType": "other",
+        "description": "stl copy of obj file",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1"
+        ]
+      },
+      "sourceFile": 1129,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 2012,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mvcp-8z29",
+        "numPixelsX": 100,
+        "numPixelsY": 100,
+        "supDocType": "quickLook",
+        "description": "Quick look thumbnail image of merged scan",
+        "associatedFiles": [
+          "20240227_SLS_UAZ_OREX-800014-0_1_SLSShapeModel_1",
+          "10.60707/p29g-ak78",
+          "10.60707/64vm-zd18"
+        ]
+      },
+      "sourceFile": 1131,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-04-10T20:40:21.627139",
+  "updatedAt": "2024-06-20T18:23:57.675857",
+  "fundingDescription": "N/A",
+  "title": "3d scan of large quick-look particle",
+  "description": "Scanned the largest returned particle in the Orex cleanroom at JSC.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Structured Light Scanning",
+  "doi": "10.60707/mvcp-8z29",
+  "daysUntilRelease": 0,
+  "publicationDate": "2024-06-20T18:23:57.091862",
+  "doiIssuedDate": "2024-04-10",
+  "doiStatus": "findable",
+  "processStatus": "Published",
+  "processMessage": null,
+  "processPath": null
+}

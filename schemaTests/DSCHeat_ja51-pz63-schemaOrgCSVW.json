@@ -1,0 +1,280 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "dcterms": "http://purl.org/dc/terms/",
+            "geosparql": "http://www.opengis.net/ont/geosparql#",
+            "spdx": "http://spdx.org/rdf/terms#",
+            "ada": "https://ada.astromat.org/metadata/",
+            "csvw": "http://www.w3.org/ns/csvw#",
+            "id": "@id",
+            "type": "@type"
+        }
+    ],
+    "id": "https://doi.org/10.60707/ja51-pz63",
+    "type": [
+        "Dataset",
+        "Product"
+    ],
+    "name": "Specific Heat Measurements of OSIRIS-REx Sample OREX-803224-0 by Differential Scanning Calorimetry (223 to 402 K)",
+    "description": "This dataset contains specific heat measurements of the OSIRIS-REx sample OREX-803224-0, acquired through Differential Scanning Calorimetry (DSC) over a temperature range of 223 K to 402 K. It includes heat capacity versus temperature data, raw and processed heat flow measurements, and a comprehensive description of the measurement methodology.",
+    "additionalType": ["Differential Scanning Calorimetry"],
+    "identifier": "https://doi.org/10.60707/ja51-pz63",
+    "mainEntity": [
+        {
+            "@type": "Thing",
+            "additionalType": "MaterialSample",
+            "identifier": "OREX-803224-0"
+        }
+    ],
+    "measurementTechnique": {
+        "@type": "DefinedTerm",
+        "name": "Differential Scanning Calorimetry",
+        "termCode": "DSC"
+    },
+    "ada:AnalysisEvent": {
+        "@type": "Event",
+        "identifier": "20241111_DSC_NU_OREX-803224-0_1",
+        "endDate": "2024-11-11T12:00:00+00:00",
+        "ada:analysis.instrument": {
+            "@type": "Thing",
+            "name": "PerkinsElmer DSC 8000",
+            "identifier": "PE-DSC8000"
+        },
+        "location": {
+            "identifier": "https://ror.org/04chrp450",
+            "name": "Nagoya University",
+            "alternateName": "NU"
+        }
+    },
+    "hasPart": [
+        {
+            "@type": "Dataset",
+            "name": "20241111_DSC_NU_OREX-803224-0_1_DSCHeatTabular_1.csv",
+            "spdx:checksum": "7fe8c67ed903f49f1c939048b80cfcec1e62da5249d72db4193b59fdc8f1eea1",
+            "size": {
+                "@type": "QuantitativeValue",
+                "value": 947,
+                "unitText": "byte"
+            },
+            "additionalType": "ada:DSCIndividualMeasurements",
+            "csvw:tableSchema": {
+                "@id": "ada:schema2623547",
+                "@type": [
+                    "Dataset",
+                    "csvw:Schema"
+                ],
+                "csvw:columns": [
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "T",
+                        "ada:colNum": 0,
+                        "csvw:dataType": "decimal",
+                        "unitText": "K",
+                        "description": "Temperature"
+                    },
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "T",
+                        "ada:colNum": 1,
+                        "csvw:dataType": "decimal",
+                        "unitText": "deg C",
+                        "description": "Temperature"
+                    },
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "Step Scan 1 Cp [J/g/K]",
+                        "ada:colNum": 2,
+                        "csvw:dataType": "decimal",
+                        "unitText": "J/g/K",
+                        "description": "Specific heat of the first scan run"
+                    },
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "Step Scan 2 Cp [J/g/K]",
+                        "ada:colNum": 3,
+                        "csvw:dataType": "decimal",
+                        "unitText": "J/g/K",
+                        "description": "Specific heat of the second scan run"
+                    },
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "Step Scan 3 Cp [J/g/K]",
+                        "ada:colNum": 4,
+                        "csvw:dataType": "decimal",
+                        "unitText": "J/g/K",
+                        "description": "Specific heat of the third scan run"
+                    },
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "Averaged Cp [J/g/K]",
+                        "ada:colNum": 5,
+                        "csvw:dataType": "decimal",
+                        "unitText": "J/g/K",
+                        "description": "Averaged specific heat across scan runs"
+                    },
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "Standard Deviation",
+                        "ada:colNum": 6,
+                        "csvw:dataType": "decimal",
+                        "unitText": "J/g/K",
+                        "description": "Standard deviation of specific heat measurements"
+                    }
+                ]
+            },
+            "ada:countRows": 20,
+            "description": "Heat Capacity Versus Temperature Tables. Results from individual calorimetry runs are reported in tables of calculated heat capacity versus temperature for the OREX-803224-0 sample.",
+            "about": ["heatCapacity"],
+            "ada:countColumns": 7,
+            "csvw:headerRowCount": 1,
+            "encodingFormat": "text/csv",
+            "relatedLink": [
+                {
+                    "@type": "LinkRole",
+                    "linkrelationship": "metthodDescription",
+                    "name": "20241111_DSC_NU_OREX-803224-0_1_methodDescription_1.txt"
+                }
+            ]
+        },
+        {
+            "@type": "Dataset",
+            "name": "20241111_DSC_NU_OREX-803224-0_1_methodDescription_1.txt",
+            "spdx:checksum": "7f13a1ba02240b738109fdad9da53893f77671694d905382561ae57a5feb5c83",
+            "size": {
+                "@type": "QuantitativeValue",
+                "value": 7409,
+                "unitText": "byte"
+            },
+            "about": ["documentation"],
+            "additionalType": "methodDescription",
+            "description": "Description of the calibration data, data processing, sample preparation, instrument methodologies, and analytical methods for Specific Heat Measurements of OSIRIS-REx Sample OREX-803224-0 by Differential Scanning Calorimetry (223 to 402 K).",
+            "encodingFormat": "text/plain",
+            "relatedLink": [
+                {
+                    "@type": "LinkRole",
+                    "linkrelationship": "resultData",
+                    "name": "20241111_DSC_NU_OREX-803224-0_1_DSCHeatTabular_1.csv"
+                }
+            ]
+        },
+        {
+            "@type": "Dataset",
+            "name": "20241111_DSC_NU_OREX-803224-0_1_other_1.csv",
+            "spdx:checksum": "3069dd8739febd56b199d33f7101e6c581421b955a5a70379f115f3ed9b8f1a8",
+            "size": {
+                "@type": "QuantitativeValue",
+                "value": 772690,
+                "unitText": "byte"
+            },
+            "additionalType": "ada:DSCHeatFlow",
+            "encodingFormat": "text/csv",
+            "csvw:tableSchema": {
+                "@id": "ada:schema46387",
+                "@type": [
+                    "Dataset",
+                    "csvw:Schema"
+                ],
+                "description": "this is a dummy table schema to see if I can use in the other csv files using teh same schema.",
+                "csvw:columns": [
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "T K",
+                        "ada:colNum": 0,
+                        "csvw:dataType": "decimal",
+                        "unitText": "K",
+                        "description": "Temperature Kelvin"
+                    },
+                    {
+                        "@type": [
+                            "csvw:Column",
+                            "PropertyValue"
+                        ],
+                        "name": "heat Cp [J/g/K]",
+                        "ada:colNum": 2,
+                        "csvw:dataType": "decimal",
+                        "unitText": "J/g/K",
+                        "description": "Specific heat of the first scan run"
+                    }
+                ]
+            },
+            "description": "Raw and Calibrated heat flow values for empty pans for step scan run 1.",
+            "relatedLink": [
+                {
+                    "@type": "LinkRole",
+                    "linkrelationship": "metthodDescription",
+                    "name": "20241111_DSC_NU_OREX-803224-0_1_methodDescription_1.txt"
+                }
+            ]
+        },
+        {
+            "@type": "Dataset",
+            "name": "20241111_DSC_NU_OREX-803224-0_1_other_2.csv",
+            "spdx:checksum": "852e9d5f0388c4f4f047ed28f94c914e9e5f1375840731a3eee869f3ef395f5b",
+            "size": {
+                "@type": "QuantitativeValue",
+                "value": 849027,
+                "unitText": "byte"
+            },
+            "additionalType": "ada:DSCHeatFlow",
+            "encodingFormat": "text/csv",
+            "csvw:tableSchema": {"@id": "ada:schema46387"},
+            "description": "Raw and Calibrated heat flow values for empty pans for step scan run 2.",
+            "relatedLink": [
+                {
+                    "@type": "LinkRole",
+                    "linkrelationship": "metthodDescription",
+                    "name": "20241111_DSC_NU_OREX-803224-0_1_methodDescription_1.txt"
+                }
+            ]
+        }
+    ],
+    "subjectOf": {
+        "@id": "ada:ja51-pz63",
+        "@type": "Dataset",
+        "dateModified": "2025-05-21",
+        "creator": [
+            {
+                "@id": "https://ada.org/person/3479",
+                "@type": "Person",
+                "name": "Richard, Stephen M.",
+                "identifier": "https://orcid.org/0000-0002-7933-2154",
+                "email": "smrTucson@email.org"
+            }
+        ],
+        "about": "ada:465509",
+        "description": "metadata about documentation for https://doi.org/10.60707/ja51-pz63",
+        "dcterms:conformsTo": [
+            {"@id": "CDIF_basic_1.0"},
+            {"@id": "ada:productDetail"},
+            {"@id": "ada:DSCHeatFlow"},
+            {"@id": "ada:DSCIndividualMeasurements"},
+            {"@id": "ada:methodDescription"},
+            {"@id": "ada:Metadata"}
+        ]
+    }
+}

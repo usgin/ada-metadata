@@ -1,0 +1,587 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "title": "Astromat Archive Product Metadata",
+    "description": "Schema for JSON metadata documenting products in Astromata Data Archive (ADA).  Each project consists of one or mre data files and 0 to many supplemental files. Each file MUST have an associated YAML metadata file, with the same name, but '.yaml' as the file exteension.  ",
+    "type": "object",
+    "properties": {
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "submissionType": {"type": "string"},
+        "productType": {"type": "string"},
+        "files": {
+            "type": "array",
+            "items": {"$ref": "#/$defs/files_type"}
+        }
+    },
+    "$defs": {
+        "files_type": {
+            "type": "object",
+            "description": "properties applying to any file.  GeneralType provides info based on broad categories of file format (tabular, image, dataCube, document)",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "string name of file, must be unique within the containing package"
+                },
+                "description": {"type": "string"},
+                "checksum": {"type": "string"},
+                "sizeBytes": {"type": "integer"},
+                "resultTarget": {"$ref": "#/$defs/stringArray_type"},
+                "fileType": {
+                    "oneOf": [
+                        {"$ref": "#/$defs/image_type"},
+                        {"$ref": "#/$defs/tabularData_type"},
+                        {
+                            "type": "object",
+                            "properties": {
+                                "label": {
+                                    "type": "string",
+                                    "enum": ["Metadata"]
+                                }
+                            },
+                            "required": ["label"]
+                        }
+                    ]
+                },
+                "fileFormat": {
+                    "type": "string",
+                    "description": "MIME type with extension; should indicate the serialization scheme in sufficient detail that machine can know how to parse"
+                },
+                "associatedFiles": {
+                    "type": "array",
+                    "description": "link to related files, e.g. the subject of an image, data visualizations, instrument metadata, measurement methods, etc.",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "identifier": {
+                                "type": "string",
+                                "description": "string that identifies file sufficiently that a link can be establishes; could be http URL, a resolvable URI, file name within the containing delivery package, or a packageName/fileName"
+                            },
+                            "relation": {
+                                "type": "string",
+                                "description": "term that specifies relation; for ORex data this would be an associated supplemental file"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "image_type": {
+            "type": "object",
+            "description": "component types: basemap,AIVAImage_type,EMPAImage_type,LITImage_type",
+            "properties": {
+                "label": {
+                    "const": "image",
+                    "description": "this is the GeneralType"
+                },
+                "acquisitionTime": {"type": "string"},
+                "componentType": {
+                    "oneOf": [
+                        {"$ref": "#/$defs/basemap_detail"},
+                        {
+                            "type": "object",
+                            "properties": {
+                                "label": {
+                                    "enum": [
+                                        "contextPhotography",
+                                        "supplementalBasemap",
+                                        "annotatedImage",
+                                        "spectralPlot",
+                                        "dataVisualization",
+                                        "analysisLocation",
+                                        "AIVAImage",
+                                        "EMPAImage",
+                                        "LITImage",
+                                        "STEMImage",
+                                        "TEMImage",
+                                        "TEMPatternsImage",
+                                        "UVFMImage",
+                                        "VLMImage",
+                                        "SEMEBSDGrainImage",
+                                        "SEMEDSElementalImage",
+                                        "SEMHRCLImage",
+                                        "SEMImage",
+                                        "TEMEDSImage",
+                                        "NanoSIMSImage",
+                                        "XANESImageStack",
+                                        "XANESStackOverviewImage",
+                                        "XRDDiffractionPattern",
+                                        "ShapeModelImage"
+                                    ]
+                                }
+                            },
+                            "required": ["label"]
+                        },
+                        {"$ref": "#/$defs/qris_detail"},
+                        {"$ref": "#/$defs/xctimage_detail"}
+                    ]
+                },
+                "channel1": {"type": "string"},
+                "channel2": {"type": "string"},
+                "channel3": {"type": "string"},
+                "illuminationType": {
+                    "type": "string",
+                    "description": "Type of illumination used to create the image. Examples include Visible light, Cross-polarized visible light, ultraviolet light (240nm), Electron beam, X-ray etc."
+                },
+                "imageType": {
+                    "type": "string",
+                    "description": "Specifies the nature of the sample's response to the illumination that was detected and measured, e.g. reflected visible light, visible fluorescence emission, backscatter electron, secondary electron, brightfield electron, darkfield electron, C K-series x-ray...   [should be a string array with enum?  is this different from what's going in signalUsed or componentType?]  Values in data are like:  [brightfield]; [C K-series, Ca K-series, Cl K-series, Cs L-series, F K-series, Fe K-series, Mg K-series, Na K-series, Ni K-series, O K-series, S K-series, Si K-series]; [element maps, composite]; [secondary]; [single element map, single element map, single element map, single element map, single element map, BSE image, ...]; [single element map]; backscatter; cl; element maps; secondary"
+                },
+                "numPixelsX": {"type": "integer"},
+                "numPixelsY": {"type": "integer"},
+                "pixelScaleX": {
+                    "type": "string",
+                    "description": "Width one pixel in X direction in real world units, as string with number and unit of measure. If only a pixel size is specified assumen X and Y are the same"
+                },
+                "pixelScaleY": {
+                    "type": "string",
+                    "description": "Width one pixel in Y direction in real world units, as string with number and unit of measure. If only a pixel size is specified assumen X and Y are the same"
+                }
+            },
+            "required": ["componentType"]
+        },
+        "tabularData_type": {
+            "type": "object",
+            "properties": {
+                "label": {"const": "tabularData"},
+                "componentType": {
+                    "oneOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "label": {
+                                    "enum": [
+                                        "GCMSSingle-ionChromatogram",
+                                        "AMSRawData",
+                                        "AMSProcessedData",
+                                        "DSCResultsTabular",
+                                        "DSCHeatTabular",
+                                        "FTICRMSTabular",
+                                        "GPYCProcessedTabular",
+                                        "GPYCRawTabular",
+                                        "HRICPMSProcessed",
+                                        "ICPOESIntermediateTabular",
+                                        "ICPOESProcessedTabular",
+                                        "ICTabular",
+                                        "LAFRaw",
+                                        "LAFProcessed",
+                                        "MCICPMSTabular",
+                                        "NanoSIMSTabular",
+                                        "NGNSMSRaw",
+                                        "NGNSMSProcessed",
+                                        "RITOFNGMSTabular",
+                                        "SEMEDSPointData",
+                                        "SIMSTabular",
+                                        "STEMEDSTabular",
+                                        "STEMEELSTabular",
+                                        "SVRUECTabular",
+                                        "SVRUECTabular",
+                                        "QICPMSProcessedTabular",
+                                        "QICPMSRaw",
+                                        "XANESRawTabular",
+                                        "XANESProcessedTabular"
+                                    ]
+                                }
+                            },
+                            "required": ["label"]
+                        },
+                        {"$ref": "#/$defs/empa_detail"},
+                        {"$ref": "#/$defs/eairms_detail"},
+                        {"$ref": "#/$defs/icpoes_detail"},
+                        {"$ref": "#/$defs/laf_detail"},
+                        {"$ref": "#/$defs/nanosims_detail"},
+                        {"$ref": "#/$defs/psfd_detail"},
+                        {"$ref": "#/$defs/vnmir_detail"},
+                        {"$ref": "#/$defs/xrd_detail"}
+                    ]
+                },
+                "columns": {
+                    "type": "array",
+                    "items": {"$ref": "#/$defs/column_type"}
+                },
+                "countRows": {"type": "integer"},
+                "countColumns": {"type": "integer"},
+                "headerRowCount": {"type": "integer"},
+                "xCoordCol": {"type": "string"},
+                "yCoordCol": {"type": "string"},
+                "zCoordCol": {"type": "string"},
+                "spatialRegistration": {"$ref": "#/$defs/spatialRegistration_type"}
+            }
+        },
+        "basemap_detail": {
+            "type": "object",
+            "description": "[need better documentation on how coordinates of fiducial marks are related to coordinate reference system for basemap. the metadata specified in BDD seems insufficient. Basemaps are required to be visible light, RGB channels (or just greyscale channel1)",
+            "properties": {
+                "label": {
+                    "enum": ["basemap"]
+                },
+                "description": {"type": "string"},
+                "pixelUnits": {"type": "string"},
+                "pixelScaleX": {"type": "number"},
+                "pixelScaleY": {"type": "number"},
+                "channel1": {"type": "string"},
+                "channel2": {"type": "string"},
+                "channel3": {"type": "string"}
+            },
+            "required": [
+                "componentType",
+                "pixelScaleX",
+                "pixelScaleY",
+                "pixelUnits"
+            ]
+        },
+        "argt_detail": {
+            "type": "object",
+            "description": "isotopeAnalyzed is specified in resultTarget for the file ",
+            "properties": {
+                "label": {
+                    "enum": ["ARGTDocument"]
+                },
+                "phaseAnalyzed": {"type": "string"}
+            }
+        },
+        "empa_detail": {
+            "type": "object",
+            "description": "SignalUsed gets populated in imageType. Values are 'Vs1 BSE'; 'Vs1 SE'; 'BSE Z, Ca Ka, Fe Ka, Mg Ka, Na Ka, S Ka, BSE Z, C Ka, Cl Ka, Mn Ka, Ni Ka, Si Ka'.",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "EMPAImage",
+                        "EMPAQEATabular"
+                    ]
+                },
+                "spectrometersUsed": {
+                    "type": "string",
+                    "description": "only value says 'see calibration file"
+                }
+            }
+        },
+        "eairms_detail": {
+            "type": "object",
+            "description": "element goes in resultTarget field",
+            "properties": {
+                "label": {
+                    "enum": ["EAIRMSCollection"]
+                },
+                "massConsumed": {"type": "string"}
+            }
+        },
+        "icpoes_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "ICPOESIntermediateTabular",
+                        "ICPOESProcessedTabular",
+                        "ICPOESRawTabular"
+                    ]
+                },
+                "mass": {"type": "string"},
+                "dissolutionFactor": {"type": "number"}
+            }
+        },
+        "l2ms_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": ["L2MSCube"]
+                },
+                "sampleName": {"type": "string"},
+                "ionizationTimeDelay": {"type": "integer"},
+                "massGate": {"type": "boolean"},
+                "photoionizationWavelength": {"type": "integer"},
+                "plasmaShutter": {"type": "boolean"},
+                "timeDelayUnits": {"type": "string"},
+                "wavelengthUnits": {"type": "string"}
+            }
+        },
+        "laf_detail": {
+            "type": "object",
+            "description": "elementAnalyzed goes in resultTarget; sample should only be populated if the containing product includes more than one sample, and this file is specific to a subset of those ",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "LAFProcessed",
+                        "LAFRaw"
+                    ]
+                },
+                "sample": {"$ref": "#/$defs/stringArray_type"},
+                "sampleMassConsumed": {"type": "string"}
+            }
+        },
+        "nanoir_detail": {
+            "type": "object",
+            "description": "isotopeAnalyzed goes in resultTarget for the File",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "NanoIRBackground",
+                        "NanoIRMapCollection",
+                        "NanoIRPointCollection"
+                    ]
+                },
+                "phaseAnalyzed": {"$ref": "#/$defs/stringArray_type"}
+            }
+        },
+        "nanosims_detail": {
+            "type": "object",
+            "description": "isotopeAnalyzed goes in resultTarget for the File",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "NanoSIMSCollection",
+                        "NanoSIMSImageCollection",
+                        "NanoSIMSTabular",
+                        "NanoSIMSMap"
+                    ]
+                },
+                "phaseAnalyzed": {"$ref": "#/$defs/stringArray_type"}
+            }
+        },
+        "psfd_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": ["PSFDTabular"]
+                },
+                "imageName": {"$ref": "#/$defs/stringArray_type"},
+                "imageViewingConditions": {"type": "string"}
+            }
+        },
+        "vnmir_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "VNMIRSpectralPoint",
+                        "VNMIROverviewImage",
+                        "VNMIRSpectralMap"
+                    ]
+                },
+                "detector": {"type": "string"},
+                "beamsplitter": {"type": "string"},
+                "calibrationStandards": {"type": "string"},
+                "comments": {"type": "string"},
+                "numberOfScans": {"type": "integer"},
+                "eMaxFitRegionMax": {"type": "string"},
+                "eMaxFitRegionMin": {"type": "string"},
+                "emissionAngle": {"type": "number"},
+                "emissivityMaximum": {"type": "string"},
+                "environmentalPressure": {"type": "number"},
+                "incidenceAngle": {"type": "number"},
+                "measurement": {"type": "string"},
+                "measurementEnvironment": {"type": "string"},
+                "phaseAngle": {"type": "number"},
+                "sampleHeated": {"type": "boolean"},
+                "samplePreparation": {"type": "string"},
+                "sampleTemperature": {"type": "integer"},
+                "spectralRangeMax": {"type": "string"},
+                "spectralRangeMin": {"type": "string"},
+                "spectralResolution": {"type": "string"},
+                "spectralSampling": {"type": "string"},
+                "spotSize": {"type": "string"},
+                "uncertaintyNoise": {"type": "number"},
+                "vacuumExposedSample": {"type": "boolean"}
+            }
+        },
+        "qris_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "QRISCalibrated",
+                        "QRISRaw"
+                    ]
+                },
+                "calibrationFile": {"type": "string"},
+                "pipelineVersion": {"type": "string"},
+                "focalLength": {"type": "integer"},
+                "illuminationColor": {"$ref": "#/$defs/stringArray_type"},
+                "illuminationLevel": {"type": "integer"},
+                "exposureTime": {"type": "integer"},
+                "target": {"type": "string"}
+            }
+        },
+        "slsshapemodel_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": [
+                        "SLSShapeModel",
+                        "SLSPartialScan"
+                    ]
+                },
+                "countScans": {"type": "integer"},
+                "facets": {"type": "integer"},
+                "unitsOfMeasurement": {"type": "string"},
+                "version": {"type": "integer"},
+                "vertices": {"type": "integer"},
+                "watertight": {"type": "boolean"}
+            }
+        },
+        "xctimage_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": ["XCTImage"]
+                },
+                "analysis_date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "beamFilterMaterial": {"type": "string"},
+                "beamFilterThickness": {"type": "number"},
+                "dataRangeLower": {"type": "integer"},
+                "dataRangeUpper": {"type": "integer"},
+                "detectorGain": {"type": "string"},
+                "detectorBinning": {"type": "string"},
+                "detectorSize": {"type": "string"},
+                "detectorType": {"type": "string"},
+                "imageExposure": {"type": "number"},
+                "imageFPS": {"type": "string"},
+                "imageGain": {"type": "number"},
+                "imageSize": {"type": "string"},
+                "instrumentType": {"type": "string"},
+                "nsiBeamHardening": {"type": "number"},
+                "numberOfFramesAveragedPerProjection": {"type": "integer"},
+                "numberOfProjections": {"type": "integer"},
+                "numberOfSlices": {"type": "integer"},
+                "pixelPitch": {"type": "string"},
+                "reconstructedDataFormat": {"type": "string"},
+                "reconstructedVoxelSize": {"type": "string"},
+                "reconstructionSoftware": {"type": "string"},
+                "rotationAngle": {"type": "string"},
+                "rotationType": {"type": "string"},
+                "sourceToDetectorDistance": {"type": "string"},
+                "sourceToObjectDistance": {"type": "number"},
+                "subPixGrid": {"type": "string"},
+                "subPixShift": {"type": "string"},
+                "xraySource": {"type": "string"},
+                "xrayTargetMaterial": {"type": "string"},
+                "xrayTubeCurrent": {"type": "number"},
+                "xrayTubeEnergy": {"type": "number"},
+                "xrayTubePower": {"type": "number"}
+            }
+        },
+        "xrd_detail": {
+            "type": "object",
+            "properties": {
+                "label": {
+                    "enum": ["XRDTabular"]
+                },
+                "geometry": {"type": "string"},
+                "sampleMount": {"type": "string"},
+                "stepSize": {"type": "number"},
+                "timePerStep": {"type": "number"},
+                "wavelength": {"type": "number"}
+            }
+        },
+        "column_type": {
+            "type": "object",
+            "properties": {
+                "colNum": {"type": "integer"},
+                "fieldDescription": {"type": "string"},
+                "fieldType": {"type": "string"},
+                "label": {"type": "string"},
+                "maxVal": {"type": "number"},
+                "minVal": {"type": "number"},
+                "unitOfMeasure": {"type": "string"}
+            },
+            "required": [
+                "colNum",
+                "fieldDescription",
+                "label",
+                "fieldType"
+            ]
+        },
+        "dimensions_type": {
+            "type": "object",
+            "properties": {
+                "dimension": {"type": "string"},
+                "unitOfMeasure": {"type": "string"},
+                "fieldDescription": {"type": "string"}
+            },
+            "required": [
+                "unitOfMeasure",
+                "fieldDescription",
+                "dimension"
+            ]
+        },
+        "stringArray_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {"type": "string"}
+        },
+        "spatialRegistration_type": {
+            "type": "object",
+            "properties": {
+                "basemap": {
+                    "type": "string",
+                    "description": "link to appropriate basemap image map"
+                },
+                "originX": {"type": "integer"},
+                "originY": {"type": "integer"},
+                "originZ": {"type": "integer"},
+                "coordDef": {
+                    "type": "string",
+                    "description": "are the coordinates stage-defined or pixel-defined; if the pixel-defined, are the coordinates coming from: Range {stage, upperleftPixel, centerPixel}"
+                },
+                "coordUnits": {"type": "string"},
+                "pixelUnits": {"type": "string"},
+                "pixelScaleX": {"type": "number"},
+                "pixelScaleY": {"type": "number"},
+                "originLocation": {
+                    "type": "string",
+                    "description": "the location of the origin pixel of an image. Range: {upperLeft, upperRight, lowerLeft, lowerRight, center}"
+                }
+            },
+            "required": [
+                "originX",
+                "originY",
+                "pixelScaleX",
+                "pixelScaleY",
+                "pixelUnits",
+                "originLocation",
+                "coordDef"
+            ]
+        },
+        "analysis.technique_type": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "identifier": {"type": "string"}
+            }
+        },
+        "analysis.laboratory_type": {
+            "type": "object",
+            "properties": {
+                "ror": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "name": {"type": "string"},
+                "abbreviation": {"type": "string"}
+            }
+        },
+        "agent_type": {
+            "type": "object",
+            "properties": {
+                "fullName": {"type": "string"},
+                "nameType": {"type": "string"},
+                "orcid": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                }
+            },
+            "required": [
+                "nameType",
+                "fullName",
+                "orcid",
+                "email"
+            ]
+        }
+    }
+}

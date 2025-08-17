@@ -1,0 +1,366 @@
+{
+  "id": 2436,
+  "files": [
+    {
+      "id": 13832,
+      "name": "20241206_AMS_PU_multiSample_1_AMSProcessedData_1.csv",
+      "checksum": "79e7a9fc87b6d589770f466b85d3effe6fab4a6cd6d3e21544be8aad4f54d21d",
+      "sizeBytes": 905,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 13833,
+      "name": "20241206_AMS_PU_multiSample_1_AMSProcessedData_1.yaml",
+      "checksum": "d34f87c46d19ed14a0e38d559e64ede43f01e7487503fafa7b89a45a3c771495",
+      "sizeBytes": 3020,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13834,
+      "name": "20241206_AMS_PU_multiSample_1_methodDescription_1.pdf",
+      "checksum": "b70e739d899a7c964a9558d43ffbbbae2fadf2035baef7d4b76de70bf6db41f4",
+      "sizeBytes": 113493,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13835,
+      "name": "20241206_AMS_PU_multiSample_1_methodDescription_1.yaml",
+      "checksum": "cce42a6812a3639dffaa258091c739a524c986af6bb3c2b0da9ccfba2e2c6c4c",
+      "sizeBytes": 268,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13836,
+      "name": "20241206_AMS_PU_multiSample_1_processingDescription_1.pdf",
+      "checksum": "e9046c67e2b0db3988f7dea5641893262475f0334d42e97b3371d0d267cc6681",
+      "sizeBytes": 102587,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13837,
+      "name": "20241206_AMS_PU_multiSample_1_processingDescription_1.yaml",
+      "checksum": "35b3819d1df9c0838f632b371cfc705bc7e0b05d2837ecb81e9ed51e07fcd025",
+      "sizeBytes": 274,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 154,
+      "fullName": "Caffee, Marc",
+      "nameType": "Personal",
+      "contributionId": 5019,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-6846-8967",
+      "email": "mcaffee@purdue.edu"
+    },
+    {
+      "id": 63,
+      "fullName": "Thomas Woodruff",
+      "nameType": "Personal",
+      "contributionId": 5020,
+      "contributorType": "Researcher",
+      "email": "woodruft@purdue.edu"
+    },
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "contributionId": 5021,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    },
+    {
+      "id": 63,
+      "fullName": "Thomas Woodruff",
+      "nameType": "Personal",
+      "contributionId": 5022,
+      "contributorType": "Other",
+      "email": "woodruft@purdue.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "creationId": 3657,
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 19215,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800055-11"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19216,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803228-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19217,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800117-103"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19218,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20241206_AMS_PU_multiSample_1",
+        "analysisDate": "2024-12-06T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 19219,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Accelerator Mass Spectrometry",
+        "identifier": "AMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 19220,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Purdue Rare Isotope Measurement (PRIME) Lab AMS facility",
+        "identifier": "PRIME-AMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 19221,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/05p8z3f47",
+        "name": "Purdue University",
+        "abbreviation": "PU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 19222,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/2mdz-qh58",
+        "columns": [
+          {
+            "label": "Sample Name",
+            "colNum": 1,
+            "fieldType": "string",
+            "fieldDescription": "ID number of sample analyzed at PRIME lab"
+          },
+          {
+            "label": "Sample Description",
+            "colNum": 2,
+            "fieldType": "string",
+            "fieldDescription": "Full sample description"
+          },
+          {
+            "label": "Sample mass",
+            "colNum": 3,
+            "fieldType": "decimal",
+            "unitOfmeasure": "mg",
+            "fieldDescription": "Amount of sample dissolved for radionuclide analysis"
+          },
+          {
+            "label": "Type of sample",
+            "colNum": 4,
+            "fieldType": "string",
+            "fieldDescription": "Type of sample dissolved (bulk, aggregate, powder, lithology x, fine, coarse)"
+          },
+          {
+            "label": "Be carrier",
+            "colNum": 5,
+            "fieldType": "decimal",
+            "unitOfmeasure": "mg",
+            "fieldDescription": "Amount of 9Be carrier added"
+          },
+          {
+            "label": "9Be atoms",
+            "colNum": 6,
+            "fieldType": "decimal",
+            "unitOfmeasure": "atoms",
+            "fieldDescription": "Amount of 9Be atoms in carrier"
+          },
+          {
+            "label": "Sample Holder",
+            "colNum": 7,
+            "fieldType": "integer",
+            "fieldDescription": "Number of cathode (sample holder)"
+          },
+          {
+            "label": "PRIME ID",
+            "colNum": 8,
+            "fieldType": "integer",
+            "fieldDescription": "PRIME Lab Sample Analysis Number"
+          },
+          {
+            "label": "10Be/9Be ratio",
+            "colNum": 9,
+            "fieldType": "decimal",
+            "fieldDescription": "Normalized 10Be/9Be ratio (10^-15)"
+          },
+          {
+            "label": "10Be/9Be error1",
+            "colNum": 10,
+            "fieldType": "decimal",
+            "fieldDescription": "1-sigma uncertainty in 10Be/9Be ratio (10^-15)"
+          },
+          {
+            "label": "10Be/9Be Blank",
+            "colNum": 11,
+            "fieldType": "decimal",
+            "fieldDescription": "Normalized 10Be/9Be ratio of blank Be from carrier (10^-15)"
+          },
+          {
+            "label": "10Be/9Be error2",
+            "colNum": 12,
+            "fieldType": "decimal",
+            "fieldDescription": "1-sigma uncertainty in Blank 10Be/9Be ratio (10^-15)"
+          },
+          {
+            "label": "10Be/9Be blank-corrected",
+            "colNum": 13,
+            "fieldType": "decimal",
+            "fieldDescription": "Blank-corrected 10Be/9Be ratio (10^-15)"
+          },
+          {
+            "label": "10Be/9Be error3",
+            "colNum": 14,
+            "fieldType": "decimal",
+            "fieldDescription": "1-sigma uncertainty in Blank-corrected 10Be/9Be ratio (10^-15)"
+          },
+          {
+            "label": "10Be concentration",
+            "colNum": 15,
+            "fieldType": "decimal",
+            "unitOfmeasure": "atoms/g",
+            "fieldDescription": "10Be concentration (atoms/g)"
+          },
+          {
+            "label": "10Be error1",
+            "colNum": 16,
+            "fieldType": "decimal",
+            "unitOfmeasure": "atoms/g",
+            "fieldDescription": "1-sigma uncertainty in 10Be concentration"
+          },
+          {
+            "label": "10Be activity",
+            "colNum": 17,
+            "fieldType": "decimal",
+            "unitOfmeasure": "disintegrations per minute per kg (dpm/kg)",
+            "fieldDescription": "10Be activity"
+          },
+          {
+            "label": "10Be error2",
+            "colNum": 18,
+            "fieldType": "decimal",
+            "unitOfmeasure": "disintegrations per minute per kg (dpm/kg)",
+            "fieldDescription": "1-sigma uncertainty in 10Be activity"
+          }
+        ],
+        "countRows": 5,
+        "description": "This file contains the processed AMS 10BE data for multiple samples, including sample mass, amount of 9Be carrier added (in mg and atoms), the normalized and blank-corrected 10Be/Be ratios of each sample, and the calculated 10Be concentrations of the sample (in atoms/g), as well as the decay activities (in dpm/kg) with 1-sigma uncertainties.",
+        "countColumns": 18,
+        "headerRowCount": 1,
+        "dataComponentType": "AMSProcessedData"
+      },
+      "sourceFile": 13833,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19223,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/2mdz-qh58",
+        "supDocType": "methodDescription",
+        "description": "Methods and Sample processing description",
+        "OriginalName": "20241206_AMS_PU_multiSample_1_MethodDescription_1.pdf",
+        "associatedFiles": [
+          "10.60707/t0gq-7t37",
+          "20241206_AMS_PU_multiSample_1_AMSProcessedData_1"
+        ]
+      },
+      "sourceFile": 13835,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19224,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/2mdz-qh58",
+        "supDocType": "processingDescription",
+        "description": "Description of data processing, including calculations to convert measured 10Be/9Be ratio to 10Be concentration",
+        "associatedFiles": [
+          "10.60707/t0gq-7t37",
+          "20241206_AMS_PU_multiSample_1_AMSProcessedData_1"
+        ]
+      },
+      "sourceFile": 13837,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-25T01:35:06.585249",
+  "updatedAt": "2025-03-18T01:40:09.202197",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. This study is supported by NASA grant 80NSSC22K1693 through the OREX-PSP.",
+  "title": "AMS, 10Be, stones of interest and aggregate sample",
+  "description": "Accelerator mass spectrometry analysis of 10Be concentrations in splits of stones of interest, OREX-800055-11, OREX-803228-0, and of aggregate sample OREX-800117-103. The samples were dissolved in HF/HNO3 and a small aliquot of the dissolved sample was taken for chemical analysis by ICP-OES. The 10Be concentrations in the samples range from 6.5 to 9.0 dpm/kg, compared to a concentration of ~8 dpm/kg in the aggregate sample. The results constrain the cosmic-ray exposure age of the sample to at least a few Myr near the sufrace of asteroid Bennu.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Accelerator Mass Spectrometry",
+  "doi": "10.60707/2mdz-qh58",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-25",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

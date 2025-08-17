@@ -1,0 +1,370 @@
+{
+  "id": 2429,
+  "files": [
+    {
+      "id": 13792,
+      "name": "20240306_AMS_PU_multiSample_1_AMSRawData_1.csv",
+      "checksum": "343fcbf8a46f8759d279f12c5d8105c86946ab7938290304d57e68e58c95a77a",
+      "sizeBytes": 1292,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 13793,
+      "name": "20240306_AMS_PU_multiSample_1_AMSRawData_1.yaml",
+      "checksum": "c8741f2af14f186e62384222f5690eb0ece4dc80dca5d0ada2aa78fcd9071047",
+      "sizeBytes": 2776,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13794,
+      "name": "20240306_AMS_PU_multiSample_1_methodDescription_1.pdf",
+      "checksum": "4a3a15ed6a321cdebfef9fc46c0b8f2f63b601e8afc364005a3134395acb3d45",
+      "sizeBytes": 121600,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13795,
+      "name": "20240306_AMS_PU_multiSample_1_methodDescription_1.yaml",
+      "checksum": "1d78357a87641336145522a1b59d081c61b2423c85d2db48aed10350c1891c4d",
+      "sizeBytes": 262,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13796,
+      "name": "20240306_AMS_PU_multiSample_1_processingDescription_1.pdf",
+      "checksum": "68e3808bd5f6aaa294f08a4044d6198da681238da9489fadbb066df714558b9a",
+      "sizeBytes": 98084,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13797,
+      "name": "20240306_AMS_PU_multiSample_1_processingDescription_1.yaml",
+      "checksum": "5ba7601eb0ed298cb54aacf451b7cc83bdb8823dbe98716ee2647ba57dcd1a57",
+      "sizeBytes": 404,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 63,
+      "fullName": "Thomas Woodruff",
+      "nameType": "Personal",
+      "contributionId": 5005,
+      "contributorType": "Researcher",
+      "email": "woodruft@purdue.edu"
+    },
+    {
+      "id": 154,
+      "fullName": "Caffee, Marc",
+      "nameType": "Personal",
+      "contributionId": 5006,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-6846-8967",
+      "email": "mcaffee@purdue.edu"
+    },
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "contributionId": 5007,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    },
+    {
+      "id": 63,
+      "fullName": "Thomas Woodruff",
+      "nameType": "Personal",
+      "contributionId": 5008,
+      "contributorType": "Other",
+      "email": "woodruft@purdue.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "creationId": 3650,
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 19159,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Purdue Rare Isotope Measurement (PRIME) Lab AMS facility",
+        "identifier": "PRIME-AMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 19160,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/05p8z3f47",
+        "name": "Purdue University",
+        "abbreviation": "PU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 19151,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803048-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19152,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803049-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19153,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803050-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19154,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803051-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19155,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803052-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19156,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803047-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19157,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240306_AMS_PU_multiSample_1",
+        "analysisDate": "2024-03-06T00:30:02.637164+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 19158,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Accelerator Mass Spectrometry",
+        "identifier": "AMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 19161,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/tp3n-b412",
+        "columns": [
+          {
+            "label": "PRIME_ID",
+            "colNum": 1,
+            "fieldType": "integer",
+            "fieldDescription": "ID number of sample analyzed at PRIME lab"
+          },
+          {
+            "label": "Sample Holder",
+            "colNum": 2,
+            "fieldType": "integer",
+            "fieldDescription": "ID Number of cathode (sample holder)"
+          },
+          {
+            "label": "Sample Name",
+            "colNum": 3,
+            "fieldType": "string",
+            "fieldDescription": "UC Berkeley sample ID"
+          },
+          {
+            "label": "26Al/27Al ratio",
+            "colNum": 4,
+            "fieldType": "decimal",
+            "fieldDescription": "Normalized 26Al/27Al ratio (10^-15)"
+          },
+          {
+            "label": "26Al/27Al error",
+            "colNum": 5,
+            "fieldType": "decimal",
+            "fieldDescription": "1-sigma uncertainty in 26Al/27Al ratio (10^-15)"
+          },
+          {
+            "label": "Rel. Uncertainty",
+            "colNum": 6,
+            "fieldType": "decimal",
+            "fieldDescription": "1-sigma uncertainty in 26Al/27Al ratio (%)"
+          },
+          {
+            "label": "Max 27Al current",
+            "colNum": 7,
+            "fieldType": "integer",
+            "unitOfmeasure": "nA",
+            "fieldDescription": "Maximum 27Al current of the sample during the run (in nano-Ampere)"
+          },
+          {
+            "label": "Min 27Al current",
+            "colNum": 8,
+            "fieldType": "integer",
+            "unitOfmeasure": "nA",
+            "fieldDescription": "Minimum 27Al current of the sample during the run (in nano-Ampere)"
+          },
+          {
+            "label": "Avg 27Al current",
+            "colNum": 9,
+            "fieldType": "integer",
+            "unitOfmeasure": "nA",
+            "fieldDescription": "Average 27Al current of the sample during the run (in nano-Ampere)"
+          },
+          {
+            "label": "Total 26Al counts",
+            "colNum": 10,
+            "fieldType": "integer",
+            "fieldDescription": "total number of 26Al ion counts in gas ionization detector"
+          },
+          {
+            "label": "Intf count rate",
+            "colNum": 11,
+            "fieldType": "integer",
+            "unitOfMeasure": "counts per second (cps)",
+            "fieldDescription": "interference count rate in gas ionization detector"
+          },
+          {
+            "label": "Intf/27Al",
+            "colNum": 12,
+            "fieldType": "decimal",
+            "unitOfMeasure": "counts per second per nano-Ampere (cps/nA)",
+            "fieldDescription": "ratio of interference count rate to average 27Al current"
+          },
+          {
+            "label": "26Al/27Al-corrected",
+            "colNum": 13,
+            "fieldType": "decimal",
+            "fieldDescription": "Interference corrected 26Al/27Al ratio (10^-15)"
+          },
+          {
+            "label": "err26",
+            "colNum": 14,
+            "fieldType": "decimal",
+            "fieldDescription": "1-sigma uncertainty in 26Al/27Al ratio (10^-15)"
+          }
+        ],
+        "countRows": 10,
+        "description": "This file contains the raw 26Al AMS data for multiple samples analyzed in the same AMS run, including normalized 26Al/27Al ratios of each sample, along with the maximum, minimum and average 27Al current of each sample and the total number of 26Al ions counted in the detector. The file also shows the interference count rates in the detector, which is dominated by 26Mg ions and requires a small correction on the measured 26Al/27Al ratio. The last two columns show the interference-corrected 26Al/27Al ratio (and 1 sigma uncertainty) of the samples.",
+        "countColumns": 14,
+        "headerRowCount": 8,
+        "dataComponentType": "AMSRawData"
+      },
+      "sourceFile": 13793,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19162,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/tp3n-b412",
+        "supDocType": "methodDescription",
+        "description": "Methods and Sample processing description",
+        "OriginalName": "20240306_AMS_PU_multiSample_1_MethodDescription_1.pdf",
+        "associatedFiles": [
+          "20240306_AMS_PU_multiSample_1_AMSRawData_1",
+          "10.60707/81r9-tv08"
+        ]
+      },
+      "sourceFile": 13795,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19163,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/tp3n-b412",
+        "supDocType": "processingDescription",
+        "description": "Description of data processing for 26Al AMS data, including calculations to convert the normalized 26Al/27Al ratio to 26Al concentration (in atoms/g and dpm/kg) based on amount of sample dissolved and total amount of Al (from sample + carrier)",
+        "associatedFiles": [
+          "20240306_AMS_PU_multiSample_1_AMSRawData_1",
+          "10.60707/81r9-tv08"
+        ]
+      },
+      "sourceFile": 13797,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-22T01:00:06.045259",
+  "updatedAt": "2025-03-15T01:05:24.142236",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. This study is supported by NASA grant 80NSSC22K1693 through the OREX-PSP.",
+  "title": "AMS, 26Al, particles and bulk aggregate sample of OREX-803014-0",
+  "description": "Accelerator mass spectrometry analysis of 26Al concentrations in six sub-samples from aggregate sample OEX-803014-0. The samples include one bulk aggregate sample, OREX-803047-0, of almost 10 mg, and 5 individual mm-sized particles (OREX-803048-0, OREX-803049-0, OREX-803050-0, OREX-803051-0, OREX-803052-0), each one weighing less than 1 mg. For comparison, we also measured two aliquots of the Orgueil CI chondrite. Each sample was dissolved in HF/HNO3 and a small aliquot of the dissolved sample was taken for chemical analysis by ICP-OES. The 26Al concentrations in the particles range from ~20 to ~26 dpm/kg, compared to a 26Al concentration of ~21 dpm/kg in the aggregate sample. Combined with the 10Be data, these results constrain the cosmic-ray exposure age of the samples to at least a few Myr near the sufrace of asteroid Bennu.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Accelerator Mass Spectrometry",
+  "doi": "10.60707/tp3n-b412",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-22",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

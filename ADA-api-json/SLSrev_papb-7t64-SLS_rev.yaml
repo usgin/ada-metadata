@@ -1,0 +1,187 @@
+---
+id: 5
+files:
+- id: 149
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2.obj
+  checksum: 078de0147a3cb5f15a07b20a41bd3ab1edacd93eb3565e6f077c9a8f884897fc  #need MD5 for PDS
+  sizeBytes: 2486516
+  generalType: Image   #OBJ files are actually tabular text, I don't think image makes sense.
+  specificType: SLS Shape model  # use the dataComponentType as the specific type for files
+  extension: obj  # would be more useful to have text file type name here instead of the id from the file_extensions table
+  description: Processed merged shape model (no holes) of a quick look sample OREX-500003-100_1.
+  dataComponentType: SLSShapeModel
+  #  following fields define by schema for data component.
+  facets: 70918
+  version: 1
+  vertices: 35461
+  countScans: 30
+  watertight: true
+  unitsOfMeasurement: mm
+- id: 150
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2.yml
+  checksum: c70e59d3f66a91a459622ed18457d564947ad5c409c64674c3f065546061ceed
+  sizeBytes: 328
+  generalType: Metadata
+  specificType: ''
+  extension: 23
+- id: 151
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_1.png
+  checksum: 445511b57a45687844de901828de710e27a3e9846ab46f3fbcbd7c81aab0a789
+  sizeBytes: 753615
+  generalType: Image
+  specificType: ''
+  extension: png
+  supDocType: contextPhotography  # make specific type
+  description: Screenshot of FlexScan3D desktop during scan. The SLS was positioned at a very low angle
+    (almost horizontal) at the time.
+  associatedFiles:
+  - 20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2   # listing associated files without any indication of the relationship isn't very useful.  
+      #  the fact that this entry is part of the package for the SLSShapeModel makes this redundant.
+- id: 152
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_1.yml
+  checksum: 320baa3d1e3a4494325e9970bea8750fa06d14faa75c95f1b9dcc9fb9b674bf1
+  sizeBytes: 283
+  generalType: Metadata
+  specificType: ''
+  extension: 23
+- id: 153
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_2.jpeg
+  checksum: ca1cad45050be1fe5657a7eb1a6abdb1605d15f17ba3b407c7f7940f89fa0395
+  sizeBytes: 2412336
+  generalType: Image
+  specificType: ''
+  extension: jpeg
+  supDocType: contextPhotography
+  description: Photo of SLS instrument with sample particle sitting on teflon film (taped to stainless
+    steel plate on lab jack).
+  associatedFiles:
+  - 20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2
+- id: 154
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_contextPhotography_2.yml
+  checksum: 0034c076ef798de1be7670f2724821794416ee33ca58d3c44d7f00e93cbccbcd
+  sizeBytes: 275
+  generalType: Metadata
+  specificType: ''
+  extension: 23
+- id: 155
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_other_2.stl
+  checksum: f87155bb25c08cdf9fd7b0da9bd0bcc348b22866796dbfbc6b977e9289f6f4fb
+  sizeBytes: 3545984
+  generalType: Image
+  specificType: ''
+  extension: stl
+  supDocType: other
+  description: stl copy of obj file (filled merged sample scan)
+  associatedFiles:
+  - 20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2
+- id: 156
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_other_2.yml
+  checksum: c627e5eec050494d2e02920425199579ee38c039caa5288a1b7bfc2849b7065d
+  sizeBytes: 174
+  generalType: Metadata
+  specificType: ''
+  extension: 23
+- id: 157
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_quickLook_1.png
+  checksum: 9416076c9b97e78287d6692d3871336341c30477e26da6c2d49d010ca3a5dc5b
+  sizeBytes: 45739
+  generalType: Image
+  specificType: ''
+  extension: 21
+  supDocType: quickLook
+  description: Quick look image water-tight final shape model of sample OREX-500003-100
+  associatedFiles:
+  - 10.60707/5x5y-bc35
+  - 20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2
+- id: 158
+  name: 20231013_SLS_UAZ_OREX-500003-100_1_quickLook_1.yml
+  checksum: 7ea41b352228c9a683c599007a0da88be30733f8c9d903f51664fb50160e441b
+  sizeBytes: 223
+  generalType: Metadata
+  specificType: ''
+  extension: 23
+contributors:
+- id: 3
+  fullName: Ryan, Andy  # same person repeated 3 times. probably only need to ackno creator in this case.
+  nameType: Personal
+  contributionId: 55
+  contributorType: Researcher
+  orcid: https://orcid.org/0000-0002-7535-8416
+  email: ajryan@orex.lpl.arizona.edu
+- id: 3
+  fullName: Ryan, Andy
+  nameType: Personal
+  contributionId: 56
+  contributorType: Other  #this one could be left out.
+  orcid: https://orcid.org/0000-0002-7535-8416
+  email: ajryan@orex.lpl.arizona.edu
+creators:
+- id: 3
+  fullName: Ryan, Andy
+  nameType: Personal
+  creationId: 5
+  orcid: https://orcid.org/0000-0002-7535-8416
+  email: ajryan@orex.lpl.arizona.edu
+funding: []
+licenses: []
+subjects:
+- id: 240
+  subjectSchemaName: sample
+  subject:
+    identifier: OREX-500003-100
+  sourceFile: null
+  associatedFile: null
+  subjectSchema: 1
+- id: 241
+  subjectSchemaName: analysis.general
+  subject:
+    sessionId: 20231013_SLS_UAZ_OREX-500003-100_1
+    analysisDate: '2023-10-13T21:57:23.658194+00:00'
+  sourceFile: null
+  associatedFile: null
+  subjectSchema: 2
+- id: 242
+  subjectSchemaName: analysis.technique
+  subject:
+    name: Structured Light Scanning
+    identifier: SLS
+  sourceFile: null
+  associatedFile: null
+  subjectSchema: 3
+- id: 243
+  subjectSchemaName: analysis.instrument
+  subject:
+    name: (UAZ) Polyga Compact C506 structured light scanner
+    identifier: PCC506-UAZ
+  sourceFile: null
+  associatedFile: null
+  subjectSchema: 4
+- id: 244
+  subjectSchemaName: analysis.laboratory
+  subject:
+    ror: https://ror.org/03m2x1q45
+    name: University of Arizona
+    abbreviation: UAZ
+  sourceFile: null
+  associatedFile: null
+  subjectSchema: 5
+relatedIdentifiers: []
+createdAt: '2023-10-19T22:05:04.096437'
+updatedAt: '2024-01-31T17:25:11.268679'
+fundingDescription: N/A
+title: 3d scan of large quick-look particle
+description: Scanned the large ~2mm quick-look particle that was also CT scanned and shown in the press
+  release. Scanned in Tucson under ambient conditions with multiple scanner look-angles to get difficult
+  edges. I had to do a "smoothed merge" instead of the usual "precise merge" of particle scans in order
+  to create a good complete model, because the particle was quite small and challenging to measure.
+submissionType: BundleDelivery
+generalType: Dataset
+specificType: Structured Light Scanning
+doi: 10.60707/papb-7t64
+daysUntilRelease: 0
+publicationDate: '2025-12-31T00:00:00'
+doiIssuedDate: '2023-10-19'
+doiStatus: findable
+processStatus: Calibration and Validation
+processMessage: null
+processPath: null

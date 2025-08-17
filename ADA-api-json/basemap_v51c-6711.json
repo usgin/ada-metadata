@@ -1,0 +1,196 @@
+{
+  "id": 1481,
+  "files": [
+    {
+      "id": 8383,
+      "name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_basemap_1.jgw",
+      "checksum": "6a5c968a9fd9e7a6366afb34fbbd52255020aadf2d9e3443748f0a8f674cea23",
+      "sizeBytes": 41,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 61
+    },
+    {
+      "id": 8384,
+      "name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_basemap_1.jpg",
+      "checksum": "a5a4b5ac9e1f28778a529c6461cf841bb86ea224e93d43aac06d9e9ad8aade08",
+      "sizeBytes": 1031263839,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 17
+    },
+    {
+      "id": 8385,
+      "name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_basemap_1.yaml",
+      "checksum": "8bd68d1158673626994ef25ca4652f34e72a38cca82ac15ee482876f19a9277f",
+      "sizeBytes": 292,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 8386,
+      "name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_other_1.jpg",
+      "checksum": "2a167986f0f337ef46d0fccdd99b1911e243208c6962f588bfe6b7668cd3d4eb",
+      "sizeBytes": 1103156598,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 17
+    },
+    {
+      "id": 8387,
+      "name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_other_1.yaml",
+      "checksum": "262831ef242fbe7e0809c8fb616c3ca0825ce45f2dc0fc1c14681d3048d5d2c1",
+      "sizeBytes": 204,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 86,
+      "fullName": "Westermann, Mathilde",
+      "nameType": "Personal",
+      "contributionId": 2997,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-2050-7293",
+      "email": "mmwest@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 132,
+      "fullName": "Haenecour, Pierre",
+      "nameType": "Personal",
+      "contributionId": 2998,
+      "contributorType": "Researcher",
+      "email": "pierre@lpl.arizona.edu"
+    },
+    {
+      "id": 132,
+      "fullName": "Haenecour, Pierre",
+      "nameType": "Personal",
+      "contributionId": 2999,
+      "contributorType": "Other",
+      "email": "pierre@lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 86,
+      "fullName": "Westermann, Mathilde",
+      "nameType": "Personal",
+      "creationId": 1521,
+      "orcid": "https://orcid.org/0000-0002-2050-7293",
+      "email": "mmwest@orex.lpl.arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 12446,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800055-17"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 12447,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240826_VLMBasemap_UAZ_OREX-800055-17_1",
+        "analysisDate": "2024-08-26T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 12448,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Visible Light Microscopy Basemap",
+        "identifier": "VLMBasemap"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 12449,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(UAZ)Keyence VHX-7000 Digital Microscope",
+        "identifier": "KEY7000-UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 12450,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 12451,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/v51c-6711",
+        "channel1": "Intensity",
+        "pixelUnits": "micrometer",
+        "description": "Reflected Light VML mosaic of sample OREX-800055-17",
+        "pixelScaleX": 0.803212851,
+        "pixelScaleY": 0.803212851,
+        "dataComponentType": "basemap"
+      },
+      "sourceFile": 8385,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 12452,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/v51c-6711",
+        "numPixelsX": 11539,
+        "numPixelsY": 9268,
+        "supDocType": "other",
+        "description": "Coaxial VML mosaic of sample OREX-800055-17",
+        "associatedFiles": [
+          "20240826_VLMBasemap_UAZ_OREX-800055-17_1_basemap_1"
+        ]
+      },
+      "sourceFile": 8387,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-09-25T18:25:21.627251",
+  "updatedAt": "2025-01-27T23:26:28.231700",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Official SAMIS basemap for sample OREX-800055-17",
+  "description": "This image will be used to define the thick-section coordinate system for all subsequent SAMIS µGIS spatial registration and will serve as the basemap image in SAMIS Viz.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Visible Light Microscopy Basemap",
+  "doi": "10.60707/v51c-6711",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-09-25",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

@@ -1,0 +1,130 @@
+{
+    "$schema": "../../metadataWork/adaMetadataSchema.json",
+    "title": "HR-CL on carbonate dolomite of OREX-800045-106",
+    "description": "HRCL image of a carbonate, dolomite, from sample OREX800045-106. The image reveals zonation during the growth of the crystal. Embedded in the dolomite there is also a brunnerite, that appears dark in CL. Showing simultaneous growth of dolomite and breunnerite in a complex system.",
+    "submissionType": "BundleDelivery",
+    "productType": "Scanning electron microscopy",
+    "doi": "10.60707/ny54-wk53",
+    "sample": ["OREX800045-106"],
+    "sessionId": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1",
+    "analysisDate": "2023-12-18T12:00:00+00:00",
+    "analysis.technique": {
+        "name": "Scanning electron microscopy",
+        "identifier": "SEM"
+    },
+    "analysis.instrument": {
+        "name": "Gatan MonoCL4",
+        "identifier": "MONOCL4"
+    },
+    "analysis.laboratory": {
+        "ror": "https://ror.org/02feahw73",
+        "name": "CNRS - Centre de Recherche sur l'Hetero-Epitaxie et ses Applications",
+        "abbreviation": "CNRS-CRHEA"
+    },
+    "creators": [
+        {
+            "fullName": "Portail, Marc",
+            "nameType": "Personal",
+            "orcid": "https://orcid.org/0000-0002-2305-6758",
+            "email": "marc.portail@crhea.cnrs.fr"
+        }
+    ],
+    "funding": ["NASA contract NNM10AA11C"],
+    "licenses": ["URI for license"],
+    "createdAt": "2024-07-02T07:35:05",
+    "updatedAt": "2025-01-29T16:38:03",
+    "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+    "publicationDate": "2025-01-29T16:38:02",
+    "doiIssuedDate": "2024-07-02",
+    "doiStatus": "findable",
+    "processStatus": "Published",
+    "files": [
+        {
+            "name": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_SEMHRCLMap_1.tif",
+            "description": "Panchromatic image of 20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_SEMHRCLMap_1_, perfomed at 5kV, magnification of 4.5kx and an integration time of 800µs.",
+            "checksum": "bb994861e7aa270f399f5a61b7dd4b503202c39353182e9939a44a85f3cba713",
+            "sizeBytes": 940768,
+            "resultTarget": ["cathodoluminescensce image"],
+            "fileType": {
+                "label": "imageMap",
+                "acquisitionTime": "2023-12-18T10:15:31",
+                "componentType": {"label":"SEMHRCLMap"},
+                "channel1": "Photon intensities received by the detector over the whole 200 - 1000 nm",
+                "spatialRegistration": {
+                    "originX": 33124.4,
+                    "originY": 25234.2,
+                    "originZ": 11575.6,
+                    "coordDef": "stage",
+                    "coordUnits": "micrometer",
+                    "pixelUnits": "micrometer",
+                    "pixelScaleX": 0.0240097,
+                    "pixelScaleY": 0.0240097,
+                    "originLocation": "lowerRight"
+                }
+            },
+            "fileFormat": "image/tif"
+        },
+        {
+            "name": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_SEMHRCLMap_1.yml",
+            "checksum": "26363a9b25912cbb785be96697da888df063031b500efe1f82c06467df08dca6",
+            "sizeBytes": 612,
+            "resultTarget": ["20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_SEMHRCLMap_1.tif"],
+            "fileType": {"label": "Metadata"},
+            "fileFormat": "application/yaml"
+        },
+        {
+            "name": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_annotatedProduct_1.tif",
+            "description": "Scaled SEM image",
+            "checksum": "21699d63ab2d878df81c166ceb801cc2326cd5f5f047656f256c8b851df94e0b",
+            "sizeBytes": 1057549,
+            "resultTarget": ["cathodoluminescensce image"],
+            "fileType": {
+                "label": "image",
+                "componentType": {"label": "annotatedImage"},
+                "numPixelsX": 1024,
+                "numPixelsY": 1024
+            },
+            "fileFormat": "image/tif",
+            "associatedFiles": [
+                {
+                    "identifier": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_SEMHRCLMap_1",
+                    "relation": "relatedData"
+                }
+            ]
+        },
+        {
+            "id": 10114,
+            "name": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_annotatedProduct_1.yml",
+            "checksum": "89ca44419197e1a19d9dabe75a60b61a7ed3d910320e15862891a70aca2870ff",
+            "sizeBytes": 191,
+            "resultTarget": ["20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_annotatedProduct_1.tif"],
+            "fileType": {"label": "Metadata"},
+            "fileFormat": "application/yaml"
+        },
+        {
+            "name": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_instrumentMetadata_1.txt",
+            "description": "Instrument metadata of measurements",
+            "checksum": "5807fb48878e409ce02f2957485198c21be72c2f38820d43be6115f29b84221b",
+            "sizeBytes": 325,
+            "resultTarget": ["20231218_SEM_CNRS-CRHEA_OREX-800045-106_1"],
+            "fileType": {
+                "label": "document",
+                "componentType": {"label": "instrumentMetadata"},
+                "associatedFiles": [
+                    {
+                        "identifier": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_SEMHRCLMap_1",
+                        "relation": "dataProduct"
+                    }
+                ]
+            },
+            "fileFormat": "text/plain"
+        },
+        {
+            "name": "20231218_SEM_CNRS-CRHEA_OREX-800045-106_1_instrumentMetadata_1.yml",
+            "checksum": "99d42967d9f4d0dcd08a3ee9f5c3ab073b930a0502cfd79febd2c4ab388898ab",
+            "sizeBytes": 178,
+            "fileType": {"label": "Metadata"},
+            "fileFormat": "application/yaml"
+        }
+    ]
+}

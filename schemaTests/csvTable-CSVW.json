@@ -1,0 +1,68 @@
+{    "@context": [
+    "https://schema.org/",
+    {
+        "dcterms": "http://purl.org/dc/terms/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ada": "https://ada.astromat.org/metadata/",
+         "csvw":"http://www.w3.org/ns/csvw#",
+        "id": "@id",
+        "type": "@type"
+    }
+],
+"id": "ada:schema465509",
+"type": ["Thing","csvw:Schema"],
+    "csvw:tableSchema":{
+        "csvw:columns": [
+        {
+            "name": "T",
+            "colNum": 0,
+            "csvw:dataType": "decimal",
+            "unitText": "K",
+            "description": "Temperature"
+        },
+        {
+            "name": "T",
+            "colNum": 1,
+            "csvw:dataType": "decimal",
+            "unitText": "deg C",
+            "description": "Temperature"
+        },
+        {
+            "name": "Step Scan 1 Cp [J/g/K]",
+            "colNum": 2,
+            "csvw:dataType": "decimal",
+            "unitText": "J/g/K",
+            "description": "Specific heat of the first scan run"
+        },
+        {
+            "name": "Step Scan 2 Cp [J/g/K]",
+            "colNum": 3,
+            "csvw:dataType": "decimal",
+            "unitText": "J/g/K",
+            "description": "Specific heat of the second scan run"
+        },
+        {
+            "name": "Step Scan 3 Cp [J/g/K]",
+            "colNum": 4,
+            "csvw:dataType": "decimal",
+            "unitText": "J/g/K",
+            "description": "Specific heat of the third scan run"
+        },
+        {
+            "name": "Averaged Cp [J/g/K]",
+            "colNum": 5,
+            "csvw:dataType": "decimal",
+            "unitText": "J/g/K",
+            "description": "Averaged specific heat across scan runs"
+        },
+        {
+            "name": "Standard Deviation",
+            "colNum": 6,
+            "csvw:dataType": "decimal",
+            "unitText": "J/g/K",
+            "description": "Standard deviation of specific heat measurements"
+        }
+    ]
+}
+}

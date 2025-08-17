@@ -1,0 +1,79 @@
+{
+  "title": "3d scan of large quick-look particle",
+  "description": "Scanned the large ~2mm quick-look particle that was also CT scanned and shown in the press release. Scanned in Tucson under ambient conditions with multiple scanner look-angles to get difficult edges. I had to do a \"smoothed merge\" instead of the usual \"precise merge\" of particle scans in order to create a good complete model, because the particle was quite small and challenging to measure.",
+  "submissionType": "BundleDelivery",
+  "productType": "Structured Light Scanning",
+  "doi": "10.60707/papb-7t64",
+  "sample": ["OREX-500003-100"],
+  "sessionId": "20231013_SLS_UAZ_OREX-500003-100_1",
+  "analysisDate": "2023-10-13T21:57:23.658194+00:00",
+  "analysis.technique": {
+    "name": "Structured Light Scanning",
+    "identifier": "SLS"
+  },
+  "analysis.instrument": {
+    "name": "(UAZ) Polyga Compact C506 structured light scanner",
+    "identifier": "PCC506-UAZ"
+  },
+  "analysis.laboratory": {
+    "ror": "https://ror.org/03m2x1q45",
+    "name": "University of Arizona",
+    "abbreviation": "UAZ"
+  },
+  "contributors": [
+    {
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributorType": ["Researcher","Other"],
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "relatedIdentifiers": [],
+  "createdAt": "2023-10-19T22:05:04.096437",
+  "updatedAt": "2024-01-31T17:25:11.268679",
+  "fundingDescription": "N/A",
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2023-10-19",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null,
+  "files": [
+    {
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2.obj",
+      "checksum": "078de0147a3cb5f15a07b20a41bd3ab1edacd93eb3565e6f077c9a8f884897fc",
+      "sizeBytes": 2486516,
+      "generalType": "Image",
+      "specificType": "SLS Shape model",
+      "extension": "obj",
+      "facets": 70918,
+      "version": 1,
+      "vertices": 35461,
+      "countScans": 30,
+      "watertight": true,
+      "description": "Processed merged shape model (no holes) of a quick look sample OREX-500003-100_1.",
+      "dataComponentType": "SLSShapeModel",
+      "unitsOfMeasurement": "mm"
+    },
+    {
+      "name": "20231013_SLS_UAZ_OREX-500003-100_1_SLSShapeModel_2.yml",
+      "checksum": "c70e59d3f66a91a459622ed18457d564947ad5c409c64674c3f065546061ceed",
+      "sizeBytes": 328,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    
+    }
+  ]
+}

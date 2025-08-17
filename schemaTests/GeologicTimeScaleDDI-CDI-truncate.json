@@ -1,0 +1,284 @@
+{
+    "@context": [
+        "https://docs.ddialliance.org/DDI-CDI/1.0/model/encoding/json-ld/ddi-cdi.jsonld",
+        {"skos": "http://www.w3.org/2004/02/skos/core#"}
+    ],
+    "@id": "#GeoTimeScaleDataSet",
+    "@type": "WideDataSet",
+    "physicalFileName": "geologic_time_scale.csv",
+    "recordCount": 178,
+    "allowsDuplicates": false,
+    "has_PhysicalSegmentLayout": {
+        "@id": "#physicalSegmentLayout",
+        "@type": "PhysicalSegmentLayout",
+        "isDelimited": "true",
+        "isFixedWidth": false,
+        "delimiter": ","
+    },
+    "isStructuredBy": {
+        "@id": "#timeScaleWideDataStructure",
+        "@type": "WideDataStructure",
+        "has_DataStructureComponent": [
+            {
+                "@id": "#measureComponent-geologic_time_id",
+                "@type": "IdentifierComponent",
+                "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#integer",
+                "displayLabel": "identifier",
+                "name": {
+                    "@type": "ObjectName",
+                    "name": "identifier"
+                },
+                "description":"unique integer assigned to each named ordinal era in the scheme",
+                "has_PhysicalSegmentLayout": "#physicalSegmentLayout",
+                "has_ValueMappingPosition": {
+                    "@id": "#valueMappingPosition-geologic_time_id",
+                    "@type": "ValueMappingPosition",
+                    "value": 0
+                },
+                "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                    "@id": "#substantiveValueDomain-geologic_time_id",
+                    "@type": "SubstantiveValueDomain",
+                    "recommendedDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "https://www.w3.org/TR/xmlschema-2/#integer"
+                    },
+                    "isDescribedBy": {
+                        "@type": "ValueAndConceptDescription",
+                        "classificationLevel": "Nominal",
+                        "minimumValueInclusive":"0"
+                    }
+                }
+            },
+            {
+                "@id": "#measureComponent-timeIntervalLabel",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "#labelVariable",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel":  "label",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "label"
+                    },
+                    "description":"free text label for time interval, unique in scope of this dataset",
+                    "has_PhysicalSegmentLayout": "#physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "#position-timeScaleWideLabel",
+                        "@type": "ValueMappingPosition",
+                        "value": 1
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "#substantiveValueDomain-label",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#string"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal",
+                            "description":"free text",
+                            "formatPattern":""
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "#measureComponent-abrevURI",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "#instanceVariable-abrevURI",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel":  "abrevURI",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "abrevURI"
+                    },
+                    "has_PhysicalSegmentLayout": "#physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "#position-abbrevURI",
+                        "@type": "ValueMappingPosition",
+                        "value": 2
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "#substantiveValueDomain-abrevURI",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#string"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal",
+                            "description":"values are CURIEs for identified geologic time intervals"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "#measureComponent-geologic_time_interval_uri",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "#instanceVariable-geologic_time_interval_uri",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel":  "geologic_time_interval_uri",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "geologic_time_interval_uri"
+                    },
+                    "has_PhysicalSegmentLayout": "#physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "#position-geologic_time_interval_uri",
+                        "@type": "ValueMappingPosition",
+                        "value": 3
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "#substantiveValueDomain-geologic_time_interval_uri",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://github.com/i-c-stratigraphy/chart-data/blob/main/isc2020.ttl"
+                        },
+                        
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal",
+                            "formatPattern":"xsd:AnyURI"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "#measureComponent-numeric_older_bound",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "#instanceVariable-numeric_older_bound",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "numeric"
+                    },
+                    "displayLabel": "numeric_older_bound",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "numeric_older_bound"
+                    },
+                    "has_PhysicalSegmentLayout": "#physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "#position-numeric_older_bound",
+                        "@type": "ValueMappingPosition",
+                        "value": 4
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "#substantiveValueDomain-numeric_older_bound",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#decimal"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Continuous",
+                            "description":"units are Million Years (Ma)",
+                            "minimumValueInclusive":"0.0",
+                            "maximumValueInclusive":"4560" 
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "#measureComponent-numeric_younger_bound",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "#instanceVariable-numeric_younger_bound",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "numeric"
+                    },
+                    "displayLabel":  "numeric_younger_bound",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "numeric_younger_bound"
+                    },
+                    "has_PhysicalSegmentLayout": "#physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "#position-numeric_younger_bound",
+                        "@type": "ValueMappingPosition",
+                        "value": 5
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "#substantiveValueDomain-numeric_younger_bound",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#decimal"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Continuous",
+                            "description":"units are Million Years (Ma)",
+                            "minimumValueInclusive":"0.0",
+                            "maximumValueInclusive":"4560"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "#measureComponent-notation",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "#instanceVariable-notation",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel": {
+                        "@type": "LabelForDisplay",
+                        "locationVariant": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "notation"
+                        }
+                    },
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "notation"
+                    },
+                    "description":"numeric outline string to use for sorting the ages chronologically and ranked",
+                    "has_PhysicalSegmentLayout": "#physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "#position-notation",
+                        "@type": "ValueMappingPosition",
+                        "value": 6
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "#substantiveValueDomain-notation",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#string"
+                        },
+                        "isDescribedBy": {
+                            "@id": "#substantiveValueAndConceptDescription-notation",
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+ }

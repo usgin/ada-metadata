@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 file:/G:/My%20Drive/Astromat/PlanetaryDataSystem/PDS-XML-Schema/PDS4_PDS_1E00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:astromat:astromat_archive:empa-j16b6288</logical_identifier>
+        <version_id>0.1</version_id>
+        <title>Major element composition of olivine and carbonates measured for oxygen isotopic
+            compositions by SIMS in OREX-800045-103</title>
+        <information_model_version>information_model_version0</information_model_version>
+        <product_class>Dataset:Electron microprobe analysis</product_class>
+        <Citation_Information>
+            <author_list>Laurette Piani</author_list>
+            <publication_year>2024</publication_year>
+            <doi>10.60707/j16b-6288</doi>
+            <description>
+                Here we report the major element composition of olivine and carbonate grains that
+                have been measured at CRPG for their oxygen isotopic composition in the fine-grained
+                material of three particles of OREX-800045-103.</description>
+        </Citation_Information>
+    </Identification_Area>
+    <Observation_Area>
+        <Time_Coordinates>
+            <start_date_time>2024-06-03Z</start_date_time>
+            <stop_date_time>2025-01-27Z</stop_date_time>
+        </Time_Coordinates>
+        <Investigation_Area>
+
+            <!-- I assume there's a registry of formal mission names and types somewhere? -->
+            <name>OSIRIS-REx material sample analytical data</name>
+            <type>Other Investigation</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:other_investigation.osirisrex_data</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Investigation_Area>
+            <!-- want to include the analysis session identifier -->
+            <name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1</name>
+            <type>analysis session</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:astromat:astromat_archive:20240603_empa_cnrs-crpg_orex-800045-103_1</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+
+        <Observing_System>
+            <Observing_System_Component>
+                <name>JEOL JXA-8230</name>
+                <!-- is there a dictionary of instrument types? -->
+                <type>Electron Microprobe</type>
+                <description>Centre de Recherches Petrographiques et Geochimiques (Nancy, France)</description>
+                <External_Reference>
+                    <reference_text>JXA-8230</reference_text>
+                </External_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+
+        <Target_Identification>
+            <name>101955 Bennu</name>
+            <!-- should come from NASA registry, where? -->
+            <type>asteroid</type>
+        </Target_Identification>
+        <Target_Identification>
+            <name>OREX-800045-103</name>
+            <type>Material sample</type>
+        </Target_Identification>
+    </Observation_Area>
+
+    <File_Area_Observational>
+        <File>
+            <file_name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_EMPAQEATabular_1.csv</file_name>
+            <file_size unit="byte">9266</file_size>
+        </File>
+        <Header>
+            <name>Column Headings</name>
+            <offset unit="byte">0</offset>
+            <object_length unit="byte">172</object_length>
+            <!-- don't have this information -->
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>Comma-separated names of columns in the data table.</description>
+        </Header>
+        <Table_Delimited>
+            <!-- how is the header with column names indicated? -->
+            <name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_EMPAQEATabular_1.csv</name>
+            <offset unit="byte">172</offset>
+            <!-- We don't have this information -->
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>EMPA analyses of the olivine and carbonate grains of OREX-800045-103 (raw data)</description>
+            <records>108</records>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+            <field_delimiter>Comma</field_delimiter>
+            <Record_Delimited>
+                <fields>11</fields>
+                <groups>0</groups>
+                <Field_Delimited>
+                    <name>Analysis</name>
+                    <field_number>1</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>Name of the analysis</description>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>SiO2(Mass%)</name>
+                    <field_number>2</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of SiO2 in wt%</description>
+                    <Field_Statistics>
+                        <maximum>55.34</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>Al203(Mass%)</name>
+                    <field_number>3</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of Al203 in wt%</description>
+                    <Field_Statistics>
+                        <maximum>54.6</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>CaO(Mass%)</name>
+                    <field_number>4</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of CaO in wt%</description>
+                    <Field_Statistics>
+                        <maximum>57.56</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>Cr2O3(Mass%)</name>
+                    <field_number>5</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of Cr2O3 in wt%</description>
+                    <Field_Statistics>
+                        <maximum>61.12</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>MgO(Mass%)</name>
+                    <field_number>6</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of MgO in wt%</description>
+                    <Field_Statistics>
+                        <maximum>58.48</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>FeO(Mass%)</name>
+                    <field_number>7</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of FeO in wt%</description>
+                    <Field_Statistics>
+                        <maximum>68.51</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>MnO(Mass%)</name>
+                    <field_number>8</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of MnO in wt%</description>
+                    <Field_Statistics>
+                        <maximum>4.59</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>TiO2(Mass%)</name>
+                    <field_number>9</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Abundance of TiO2 in wt%</description>
+                    <Field_Statistics>
+                        <maximum>58.48</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>Total(Mass%)</name>
+                    <field_number>10</field_number>
+                    <data_type>Decimal</data_type>
+                    <description>Total in wt%</description>
+                    <Field_Statistics>
+                        <maximum>58.48</maximum>
+                        <minimum>0</minimum>
+                    </Field_Statistics>
+                </Field_Delimited>
+
+                <Field_Delimited>
+                    <name>Comments</name>
+                    <field_number>11</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>comments on the analysis location</description>
+                </Field_Delimited>
+            </Record_Delimited>
+        </Table_Delimited>
+    </File_Area_Observational>
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_analysisLocation_1.jpeg</file_name>
+            <file_size unit="byte">826271</file_size>
+        </File>
+        <Encoded_Image>
+            <name>analysisLocation_1</name>
+            <offset unit="byte">0</offset>
+            <encoding_standard_id>jpeg</encoding_standard_id>
+            <description>Scanning electron microscope images showing the location of the analyses of 20240603_EMPA_CNRS-CRPG_OREX-800045-103_1 (EMPA)</description>
+        </Encoded_Image>
+    </File_Area_Observational_Supplemental>
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_analysisLocation_2.jpeg</file_name>
+            <file_size unit="byte">826271</file_size>
+        </File>
+        <Encoded_Image>
+            <name>analysisLocation_2</name>
+            <offset unit="byte">0</offset>
+            <encoding_standard_id>jpeg</encoding_standard_id>
+            <description>Scanning electron microscope images showing the location of the analyses of 20240603_EMPA_CNRS-CRPG_OREX-800045-103_1 (EMPA)</description>
+        </Encoded_Image>
+    </File_Area_Observational_Supplemental>
+
+    <File_Area_Observational_Supplemental>
+        <File>
+          <file_name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_calibrationFile_1.txt</file_name>
+            <file_size unit="byte">2500</file_size>
+        </File>
+        <Stream_Text>
+            <name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_calibrationFile_1</name>
+            <offset unit="byte">0</offset>
+            <parsing_standard_id>7-Bit ASCII Text</parsing_standard_id>
+            <description>description of the method for EMPA analysis</description>
+            <record_delimiter>EOF</record_delimiter>
+        </Stream_Text>
+    </File_Area_Observational_Supplemental>
+
+    <File_Area_Observational_Supplemental>
+        <File>
+ <file_name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_methodDescription_1.pdf</file_name>
+            <file_size unit="byte">53619</file_size>
+        </File>
+
+        <Stream_Text>
+
+            <name>20240603_EMPA_CNRS-CRPG_OREX-800045-103_1_methodDescription_1</name>
+            <offset unit="byte">0</offset>
+            <parsing_standard_id>PDF/A</parsing_standard_id>
+            <description>calibration file for EMPA analysis</description>
+            <record_delimiter>EOF</record_delimiter>
+        </Stream_Text>
+    </File_Area_Observational_Supplemental>
+</Product_Observational>

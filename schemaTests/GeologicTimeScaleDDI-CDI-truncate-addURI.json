@@ -1,0 +1,300 @@
+{
+    "@context": [
+        {"@vocab":"https://docs.ddialliance.org/DDI-CDI/1.0",
+        "skos": "http://www.w3.org/2004/02/skos/core#"}
+    ],
+    "@id": "https://test.xyz/GeoTimeScaleDataSet",
+    "@type": "WideDataSet",
+    "physicalFileName": "geologic_time_scale.csv",
+    "name":"Geologic Time Scale",
+    "recordCount": 178,
+    "allowsDuplicates": false,
+    
+    "isStructuredBy": {
+        "@id": "https://test.xyz/timeScaleWideDataStructure",
+        "@type": "WideDataStructure",
+        "has":{
+            "PrimaryKey":{
+                "isComposedOf": [{
+                    "@id":"blahbla",
+                    "@type":"PrimaryKeyComponent",
+                        "correspondsTo":{"@id": "https://test.xyz/measureComponent-geologic_time_id"}
+                }]
+            }
+        },
+        "has_DataStructureComponent": [
+            {
+                "@id": "https://test.xyz/measureComponent-geologic_time_id",
+                "@type": "IdentifierComponent",
+                "isDefinedBy":{
+                    "@id": "identifeaq465478",
+                    "@type": "InstanceVariable"
+                },
+                "physicalDataType": "https://www.w3.org/TR/xmlschema-2/#integer",
+                "displayLabel": "identifier",
+                "name": {
+                    "@type": "ObjectName",
+                    "name": "identifier"
+                },
+                "description":"unique integer assigned to each named ordinal era in the scheme",
+                "has_PhysicalSegmentLayout": "https://test.xyz/physicalSegmentLayout",
+                "has_ValueMappingPosition": {
+                    "@id": "https://test.xyz/valueMappingPosition-geologic_time_id",
+                    "@type": "ValueMappingPosition",
+                    "value": 0
+                },
+                "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                    "@id": "https://test.xyz/substantiveValueDomain-geologic_time_id",
+                    "@type": "SubstantiveValueDomain",
+                    "recommendedDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "https://www.w3.org/TR/xmlschema-2/#integer"
+                    },
+                    "isDescribedBy": {
+                        "@type": "ValueAndConceptDescription",
+                        "classificationLevel": "Nominal",
+                        "minimumValueInclusive":"0"
+                    }
+                }
+            },
+            {
+                "@id": "https://test.xyz/measureComponent-timeIntervalLabel",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "https://test.xyz/labelVariable",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel":  "label",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "label"
+                    },
+                    "description":"free text label for time interval, unique in scope of this dataset",
+                    "has_PhysicalSegmentLayout": "https://test.xyz/physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "https://test.xyz/position-timeScaleWideLabel",
+                        "@type": "ValueMappingPosition",
+                        "value": 1
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "https://test.xyz/substantiveValueDomain-label",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#string"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal",
+                            "description":"free text",
+                            "formatPattern":""
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "https://test.xyz/measureComponent-abrevURI",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "https://test.xyz/instanceVariable-abrevURI",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel":  "abrevURI",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "abrevURI"
+                    },
+                    "has_PhysicalSegmentLayout": "https://test.xyz/physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "https://test.xyz/position-abbrevURI",
+                        "@type": "ValueMappingPosition",
+                        "value": 2
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "https://test.xyz/substantiveValueDomain-abrevURI",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#string"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal",
+                            "description":"values are CURIEs for identified geologic time intervals"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "https://test.xyz/measureComponent-geologic_time_interval_uri",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "https://test.xyz/instanceVariable-geologic_time_interval_uri",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel":  "geologic_time_interval_uri",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "geologic_time_interval_uri"
+                    },
+                    "has_PhysicalSegmentLayout": "https://test.xyz/physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "https://test.xyz/position-geologic_time_interval_uri",
+                        "@type": "ValueMappingPosition",
+                        "value": 3
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "https://test.xyz/substantiveValueDomain-geologic_time_interval_uri",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://github.com/i-c-stratigraphy/chart-data/blob/main/isc2020.ttl"
+                        },
+                        
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal",
+                            "formatPattern":"xsd:AnyURI"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "https://test.xyz/measureComponent-numeric_older_bound",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "https://test.xyz/instanceVariable-numeric_older_bound",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "numeric"
+                    },
+                    "displayLabel": "numeric_older_bound",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "numeric_older_bound"
+                    },
+                    "has_PhysicalSegmentLayout": "https://test.xyz/physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "https://test.xyz/position-numeric_older_bound",
+                        "@type": "ValueMappingPosition",
+                        "value": 4
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "https://test.xyz/substantiveValueDomain-numeric_older_bound",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#decimal"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Continuous",
+                            "description":"units are Million Years (Ma)",
+                            "minimumValueInclusive":"0.0",
+                            "maximumValueInclusive":"4560" 
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "https://test.xyz/measureComponent-numeric_younger_bound",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "https://test.xyz/instanceVariable-numeric_younger_bound",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "numeric"
+                    },
+                    "displayLabel":  "numeric_younger_bound",
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "numeric_younger_bound"
+                    },
+                    "has_PhysicalSegmentLayout": "https://test.xyz/physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "https://test.xyz/position-numeric_younger_bound",
+                        "@type": "ValueMappingPosition",
+                        "value": 5
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "https://test.xyz/substantiveValueDomain-numeric_younger_bound",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#decimal"
+                        },
+                        "isDescribedBy": {
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Continuous",
+                            "description":"units are Million Years (Ma)",
+                            "minimumValueInclusive":"0.0",
+                            "maximumValueInclusive":"4560"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "https://test.xyz/measureComponent-notation",
+                "@type": "MeasureComponent",
+                "isDefinedBy_RepresentedVariable": {
+                    "@id": "https://test.xyz/instanceVariable-notation",
+                    "@type": "InstanceVariable",
+                    "physicalDataType": {
+                        "@type": "ControlledVocabularyEntry",
+                        "entryValue": "string"
+                    },
+                    "displayLabel": {
+                        "@type": "LabelForDisplay",
+                        "locationVariant": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "notation"
+                        }
+                    },
+                    "name": {
+                        "@type": "ObjectName",
+                        "name": "notation"
+                    },
+                    "description":"numeric outline string to use for sorting the ages chronologically and ranked",
+                    "has_PhysicalSegmentLayout": "https://test.xyz/physicalSegmentLayout",
+                    "has_ValueMappingPosition": {
+                        "@id": "https://test.xyz/position-notation",
+                        "@type": "ValueMappingPosition",
+                        "value": 6
+                    },
+                    "takesSubstantiveValuesFrom_SubstantiveValueDomain": {
+                        "@id": "https://test.xyz/substantiveValueDomain-notation",
+                        "@type": "SubstantiveValueDomain",
+                        "recommendedDataType": {
+                            "@type": "ControlledVocabularyEntry",
+                            "entryValue": "https://www.w3.org/TR/xmlschema-2/#string"
+                        },
+                        "isDescribedBy": {
+                            "@id": "https://test.xyz/substantiveValueAndConceptDescription-notation",
+                            "@type": "ValueAndConceptDescription",
+                            "classificationLevel": "Nominal"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+ }
+
+"has_PhysicalSegmentLayout": {
+        "@id": "https://test.xyz/physicalSegmentLayout",
+        "@type": "PhysicalSegmentLayout",
+        "isDelimited": "true",
+        "isFixedWidth": false,
+        "delimiter": ","
+    },

@@ -1,0 +1,19 @@
+PDS questions:
+analysis session
+
+responsible party--agent with role (author, researcher, contributor....)
+ORCID for person
+
+processStatus
+
+how to deal with .obj (3D model) files in <File_Area_Observational>  what is type?
+file is text, has header, space-delimited, 4 columns.  could treat as delimited text, but space is not allowed as delimiter
+
+stl format.  appears to be binary in example I looked at.
+
+pixel width and height for images.
+
+are adobe acrobat documents treated as Encoded_Image, encoding_standard_id = PDF/A
+
+what about license?
+

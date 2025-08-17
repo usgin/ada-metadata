@@ -1,0 +1,245 @@
+{
+  "id": 752,
+  "files": [
+    {
+      "id": 3467,
+      "name": "73001,75A_contents.docx",
+      "checksum": "9mfO+AYa/ku/vDq2+J62p+/+ChlytBejXDbU4z9zHEc=",
+      "sizeBytes": 12066,
+      "generalType": "Document",
+      "specificType": null,
+      "extension": 38
+    },
+    {
+      "id": 3468,
+      "name": "73001,75A_TIFF video.m4v",
+      "checksum": "JeIZCBC3sn2h+BnznFUrJU3ICqJIiLOJ4SIM5NUmPyY=",
+      "sizeBytes": 22741696,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 39
+    },
+    {
+      "id": 3469,
+      "name": "16-bit TIFF.zip",
+      "checksum": "kosmp49vW7aSmv6+dDjg+oQ9hKBsNBAdWiTupL39hOY=",
+      "sizeBytes": 3120504707,
+      "generalType": "Data Collection",
+      "specificType": null,
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 4,
+      "fullName": "Eckley, Scott",
+      "nameType": "Personal",
+      "contributionId": 1431,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-2692-2164",
+      "email": "scott.a.eckley@nasa.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 4,
+      "fullName": "Eckley, Scott",
+      "nameType": "Personal",
+      "creationId": 2791,
+      "orcid": "https://orcid.org/0000-0002-2692-2164",
+      "email": "scott.a.eckley@nasa.gov"
+    },
+    {
+      "id": 126,
+      "fullName": "Zeigler, Ryan",
+      "nameType": "Personal",
+      "creationId": 2792,
+      "orcid": "https://orcid.org/0000-0002-1139-7571",
+      "email": "ryan.a.zeigler@nasa.gov"
+    },
+    {
+      "id": 127,
+      "fullName": "Gross, Juliane",
+      "nameType": "Personal",
+      "creationId": 2793,
+      "orcid": "https://orcid.org/0000-0002-5288-0981",
+      "email": "juliane.gross@nasa.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 6212,
+      "subjectSchemaName": "mission",
+      "subject": {
+        "mission": "Apollo 17"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 34
+    },
+    {
+      "id": 6213,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "73001,75A"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 6214,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "None",
+        "analysisDate": "2022-04-29T04:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 6215,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "X-ray computed tomography",
+        "identifier": "XCT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 6216,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Nikon XTH 320",
+        "identifier": "XTH320"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 6217,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "Astromaterials X-ray Fluorescence and Computed Tomography (X-FaCT) Lab at NASA JSC",
+        "abbreviation": "X-FaCT at NASA JSC"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 6218,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8tyh-ex23",
+        "imageFps": "1.000",
+        "imageGain": "0",
+        "description": "This dataset contains X-ray computed tomography data for an individual clast removed from Apollo drive tube 73001.",
+        "pixelPitch": "200 um",
+        "xraySource": "180 kV transmission target source",
+        "analysisDate": "2022-04-29T04:00:00+00:00",
+        "detectorSize": "2000 x 2000",
+        "detectorType": "Perkin Elmer CCD",
+        "rotationType": "Continuous",
+        "imageExposure": "1.000 s",
+        "rotationAngle": "360",
+        "instrumentType": "Nikon XTH 320",
+        "xrayTubePower": "3.0 W",
+        "detectorBinning": "1x1",
+        "numberOfSlices": "1173",
+        "xrayTubeEnergy": "90 kV",
+        "xrayTubeCurrent": "33 uA",
+        "dataComponentType": "XCTImageCollection",
+        "beamFilterMaterial": "No Filter",
+        "xrayTargetMaterial": "Tungsten (W)",
+        "beamFilterThickness": "N/A mm",
+        "numberOfProjections": "3141",
+        "reconstructionSoftware": "Nikon CTPro3D (v. 5.4)",
+        "reconstructedVoxelSize": "3.49 um",
+        "reconstructedDataFormat": "16-bit TIFF",
+        "sourceToObjectDistance": "11.86217 mm",
+        "sourceToDetectorDistance": "679.5143 mm",
+        "numberOfFramesAveragedPerProjection": "2"
+      },
+      "sourceFile": null,
+      "associatedFile": 3469,
+      "subjectSchema": 6
+    },
+    {
+      "id": 6219,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8tyh-ex23",
+        "description": "XCT scan metadata",
+        "supDocType": "instrumentMetadata",
+        "associatedFiles": [
+          "73001,75A_contents"
+        ]
+      },
+      "sourceFile": null,
+      "associatedFile": 3467,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "10.60707/70fs-yv50",
+      "relatedIdentifierType": "DOI",
+      "relationType": "IsPartOf",
+      "record": {
+        "doi": "10.60707/70fs-yv50",
+        "title": "73001 and 73002 Particle XCT Collection - ANGSA",
+        "generalType": "Collection",
+        "creators": [
+          {
+            "id": 4,
+            "fullName": "Eckley, Scott",
+            "nameType": "Personal",
+            "orcid": "https://orcid.org/0000-0002-2692-2164",
+            "email": "scott.a.eckley@nasa.gov"
+          },
+          {
+            "id": 126,
+            "fullName": "Zeigler, Ryan",
+            "nameType": "Personal",
+            "orcid": "https://orcid.org/0000-0002-1139-7571",
+            "email": "ryan.a.zeigler@nasa.gov"
+          },
+          {
+            "id": 127,
+            "fullName": "Gross, Juliane",
+            "nameType": "Personal",
+            "orcid": "https://orcid.org/0000-0002-5288-0981",
+            "email": "juliane.gross@nasa.gov"
+          }
+        ],
+        "files": [],
+        "processStatus": "Published",
+        "doiStatus": "findable"
+      }
+    }
+  ],
+  "createdAt": "2024-06-13T15:37:53.509520",
+  "updatedAt": "2025-01-13T19:46:13.883018",
+  "fundingDescription": "Astromaterials Curation",
+  "title": "73001,75A",
+  "description": "This dataset contains X-ray computed tomography data for an individual clast removed from Apollo drive tube 73001.",
+  "submissionType": "Regular",
+  "generalType": "Dataset",
+  "specificType": "X-ray computed tomography",
+  "doi": "10.60707/8tyh-ex23",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-01-13T19:46:13.060165",
+  "doiIssuedDate": "2024-06-13",
+  "doiStatus": "findable",
+  "processStatus": "Published",
+  "processMessage": null,
+  "processPath": "astromat-ada-production-custom-uploads-mcp/ANGSA/ANGSAIndividualParticleXCTData/73001,75A"
+}

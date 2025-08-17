@@ -1,0 +1,139 @@
+{
+    "id": 306,
+    "files": [
+        {
+            "id": 1132,
+            "name": "20240227_SLS_UAZ_OREX-800014-0_1_SLSPartialScan_1.yml",
+            "checksum": "72d65ed0fdb2df44cf374f08e231d3dc7ad5eec0226fe68a9dd0407e68a97004",
+            "sizeBytes": 158,
+            "generalType": "Metadata",
+            "specificType": "",
+            "extension": 23
+        },
+        {
+            "id": 1133,
+            "name": "20240227_SLS_UAZ_OREX-800014-0_1_SLSPartialScan_1.zip",
+            "checksum": "962c24d41b05743b26f457fbe0ce2ba6ff9ed316b496b263ca5c96aa9ee2b629",
+            "sizeBytes": 685756713,
+            "generalType": "Image",
+            "specificType": "",
+            "extension": 15
+        }
+    ],
+    "contributors": [
+        {
+            "id": 3,
+            "fullName": "Ryan, Andy",
+            "nameType": "Personal",
+            "contributionId": 577,
+            "contributorType": "Researcher",
+            "orcid": "https://orcid.org/0000-0002-7535-8416",
+            "email": "ajryan@orex.lpl.arizona.edu"
+        },
+        {
+            "id": 3,
+            "fullName": "Ryan, Andy",
+            "nameType": "Personal",
+            "contributionId": 578,
+            "contributorType": "Other",
+            "orcid": "https://orcid.org/0000-0002-7535-8416",
+            "email": "ajryan@orex.lpl.arizona.edu"
+        }
+    ],
+    "creators": [
+        {
+            "id": 3,
+            "fullName": "Ryan, Andy",
+            "nameType": "Personal",
+            "creationId": 306,
+            "orcid": "https://orcid.org/0000-0002-7535-8416",
+            "email": "ajryan@orex.lpl.arizona.edu"
+        }
+    ],
+    "funding": [],
+    "licenses": [],
+    "subjects": [
+        {
+            "id": 2013,
+            "subjectSchemaName": "sample",
+            "subject": {"identifier": "OREX-800014-0"},
+            "sourceFile": null,
+            "associatedFile": null,
+            "subjectSchema": 1
+        },
+        {
+            "id": 2014,
+            "subjectSchemaName": "analysis.general",
+            "subject": {
+                "sessionId": "20240227_SLS_UAZ_OREX-800014-0_1",
+                "analysisDate": "2024-03-22T19:04:30.252304+00:00"
+            },
+            "sourceFile": null,
+            "associatedFile": null,
+            "subjectSchema": 2
+        },
+        {
+            "id": 2015,
+            "subjectSchemaName": "analysis.technique",
+            "subject": {
+                "name": "Structured Light Scanning",
+                "identifier": "SLS"
+            },
+            "sourceFile": null,
+            "associatedFile": null,
+            "subjectSchema": 3
+        },
+        {
+            "id": 2016,
+            "subjectSchemaName": "analysis.instrument",
+            "subject": {
+                "name": "(UAZ) Polyga Compact C506 structured light scanner",
+                "identifier": "PCC506-UAZ"
+            },
+            "sourceFile": null,
+            "associatedFile": null,
+            "subjectSchema": 4
+        },
+        {
+            "id": 2017,
+            "subjectSchemaName": "analysis.laboratory",
+            "subject": {
+                "ror": "https://ror.org/03m2x1q45",
+                "name": "University of Arizona",
+                "abbreviation": "UAZ"
+            },
+            "sourceFile": null,
+            "associatedFile": null,
+            "subjectSchema": 5
+        },
+        {
+            "id": 2018,
+            "subjectSchemaName": "unknown",
+            "subject": {
+                "doi": "10.60707/s1kw-0n52",
+                "description": "Partial scan files, including thumbnails.",
+                "dataComponentType": "SLSPartialScan"
+            },
+            "sourceFile": 1132,
+            "associatedFile": null,
+            "subjectSchema": 6
+        }
+    ],
+    "relatedIdentifiers": [],
+    "createdAt": "2024-04-10T20:40:22.692556",
+    "updatedAt": "2024-06-20T18:23:54.463541",
+    "fundingDescription": "N/A",
+    "title": "3d scan of large quick-look particle",
+    "description": "Scanned the largest returned particle in the Orex cleanroom at JSC.",
+    "submissionType": "BundleDelivery",
+    "generalType": "Dataset",
+    "specificType": "Structured Light Scanning",
+    "doi": "10.60707/s1kw-0n52",
+    "daysUntilRelease": 0,
+    "publicationDate": "2024-06-20T18:23:53.847249",
+    "doiIssuedDate": "2024-04-10",
+    "doiStatus": "findable",
+    "processStatus": "Published",
+    "processMessage": null,
+    "processPath": null
+}

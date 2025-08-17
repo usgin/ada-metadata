@@ -1,0 +1,156 @@
+{
+    "$schema": "../../metadataWork/adaMetadataSchema.json",
+    "title": "JSC-ARES Panalytical XRD data for sample OREX-500005-0",
+    "description": "JSC-ARES Panalytical XRD data for sample OREX-500005-0",
+    "submissionType": "BundleDelivery",
+    "productType": "X-ray diffraction",
+    "doi": "10.60707/2j0t-gq80",
+    "sample": ["OREX-500005-0"],
+    "sessionId": "20230928_XRD_JSC-ARES_OREX-500005-0_1",
+    "analysisDate": "2024-01-28T14:06:04+00:00",
+    "analysis.technique": {
+        "name": "X-ray diffraction",
+        "identifier": "XRD"
+    },
+    "analysis.instrument": {
+        "name": "(JSC-ARES)Malvern PANalytical XPert Pro XRD",
+        "identifier": "MPANX-JSC-ARES"
+    },
+    "analysis.laboratory": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+    },
+    "creators": [
+        {
+            "fullName": "King, Ashley",
+            "nameType": "Personal",
+            "orcid": "https://orcid.org/0000-0001-6113-5417",
+            "email": "a.king@nhm.ac.uk"
+        }
+    ],
+    "funding": ["NASA contract NNM10AA11C"],
+    "licenses": ["URI for license"],
+    "relatedIdentifiers": [],
+    "createdAt": "2024-01-28T15:35:03",
+    "updatedAt": "2024-06-20T18:22:18",
+    "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+    "publicationDate": "2024-06-20T18:22:17",
+    "doiIssuedDate": "2024-01-28",
+    "doiStatus": "findable",
+    "processStatus": "Published",
+    "processMessage": "",
+    "processPath": "",
+    "files": [
+        {
+            "name": "20230928_XRD_JSC-ARES_OREX-500005-0_1_XRDTabular_1.csv",
+            "description": "Panalytical XRD data for sample OREX-500005-0",
+            "checksum": "7f98ff5f2ce5078a6820725580280d742d020eb4cb99bcad296ffea565bdf4fa",
+            "sizeBytes": 311630,
+            "resultTarget":["X-ray diffraction pattern"],
+            "fileType": {
+                "label": "tabularData",
+                "componentType": {"label": "XRDTabular"},
+                "geometry": "reflection",
+                "stepSize": 0.007,
+                "sampleMount": "zero background",
+                "timePerStep": 5,
+                "wavelength": 1.78901,
+                "columns": [
+                    {
+                        "label": "Angle",
+                        "colNum": 1,
+                        "maxVal": 89.99428257,
+                        "minVal": 2.00428257,
+                        "fieldType": "decimal",
+                        "unitOfMeasure": "degrees 2theta",
+                        "fieldDescription": "Angle of the detector in 2theta"
+                    },
+                    {
+                        "label": "Intensity",
+                        "colNum": 2,
+                        "maxVal": 568846,
+                        "minVal": 18821.9,
+                        "fieldType": "decimal",
+                        "unitOfMeasure": "counts",
+                        "fieldDescription": "Intensity of diffracted X-rays in counts"
+                    }
+                ],
+                "countRows": 12571,
+                "countColumns": 2,
+                "HeaderRowCount": 1
+            },
+            "fileFormat": "text/csv",
+            "associatedFiles": [
+                {
+                    "identifier": "20230928_XRD_JSC-ARES_OREX-500005-0_1_instrumentMetadata_1.txt",
+                    "relation": "instrumentMetadata"
+                },
+                {
+                    "identifier": "20230928_XRD_JSC-ARES_OREX-500005-0_1_plot_1.jpg",
+                    "relation": "dataVisualization"
+                }
+            ]
+        },
+        {
+            "name": "20230928_XRD_JSC-ARES_OREX-500005-0_1_XRDTabular_1.yaml",
+            "checksum": "37be2186d5fcd22e6695aca0d3fe903fce95b580c558b0d4e957751b062f2221",
+            "sizeBytes": 765,
+            "resultTarget": ["20230928_XRD_JSC-ARES_OREX-500005-0_1_XRDTabular_1.csv"],
+            "fileType": {"label": "Metadata"},
+            "fileFormat": "application/yaml"
+        },
+        {
+            "name": "20230928_XRD_JSC-ARES_OREX-500005-0_1_instrumentMetadata_1.txt",
+            "description": "Metadata for Panalytical XRD analysis of sample OREX-500005-0",
+            "checksum": "255c055e7e7937f318e0db6a2847319618538f7caa40ac4e598173669955ab7d",
+            "sizeBytes": 232,
+            "fileType": {
+                "label": "document",
+                "componentType": {"label": "instrumentMetadata"}
+            },
+            "fileFormat": "text/plain",
+            "associatedFiles": [
+                {
+                    "identifier": "20230928_XRD_JSC-ARES_OREX-500005-0_1_XRDTabular_1",
+                    "relation": "tabularData"
+                }
+            ]
+        },
+        {
+            "name": "20230928_XRD_JSC-ARES_OREX-500005-0_1_instrumentMetadata_1.yaml",
+            "checksum": "f2092bb9336d1dc718ce56d7c92912038d8556c17d814a978a8351898567af23",
+            "sizeBytes": 200,
+            "resultTarget": ["20230928_XRD_JSC-ARES_OREX-500005-0_1_instrumentMetadata_1.txt"],
+            "fileType": {"label": "Metadata"},
+            "fileFormat": "application/yaml"
+        },
+        {
+            "name": "20230928_XRD_JSC-ARES_OREX-500005-0_1_plot_1.jpg",
+            "description": "Image of Panalytical XRD data for sample OREX-500005-0",
+            "checksum": "6f86127a8542aed46f664e66d52b384a571a88474a37af8189f72d3b6b5632d2",
+            "sizeBytes": 244385,
+            "fileType": {
+                "label": "image",
+                "componentType": {"label": "plot"},
+                "numPixelsX": 2910,
+                "numPixelsY": 2178
+            },
+            "fileFormat": "image/jpeg",
+            "associatedFiles": [
+                {
+                    "identifier": "20230928_XRD_JSC-ARES_OREX-500005-0_1_XRDTabular_1",
+                    "relation": "tabularData"
+                }
+            ]
+        },
+        {
+            "name": "20230928_XRD_JSC-ARES_OREX-500005-0_1_plot_1.yaml",
+            "checksum": "e669b4a4aee3488e635b94a0a790f42f5b04aaca21679e429e005a2f403f4605",
+            "sizeBytes": 213,
+            "resultTarget": ["20230928_XRD_JSC-ARES_OREX-500005-0_1_plot_1.jpg"],
+            "fileType": {"label": "Metadata"},
+            "fileFormat": "application/yaml"
+        }
+    ]
+}
