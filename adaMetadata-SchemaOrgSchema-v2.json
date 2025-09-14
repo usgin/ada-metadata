@@ -1,0 +1,1766 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "$id": "https://w3id.org/adaJSONLD/schema/1.0",
+    "title": "Astromat Archive Product Metadata",
+    "description": "Schema for JSON metadata documenting products in Astromata Data Archive (ADA).  Each project consists of one or mre data files and 0 to many supplemental files. Each file MUST have an associated YAML metadata file, with the same name, but '.yaml' as the file extension.  ",
+    "type": "object",
+    "properties": {
+        "@id": {"type": "string"},
+        "@type": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "schema:Dataset",
+                    "schema:Product"
+                ]
+            }
+        },
+        "schema:name": {"type": "string"},
+        "schema:description": {"type": "string"},
+        "schema:additionalType": {
+            "type": "array",
+            "description": "this should have the ada product type and 'ada:DataDeliveryPackage'",
+            "items": {"type": "string"}
+        },
+        "submissionType": {"type": "string"},
+        "schema:funding": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {
+                        "type": "string",
+                        "default": "schema:MonetaryGrant",
+                        "const": "schema:MonetaryGrant"
+                    },
+                    "identifier": {
+                        "type": "string",
+                        "description": "string that identifies a particular grant"
+                    },
+                    "name": {
+                        "type": "string",
+                        "description": "title of the grant"
+                    },
+                    "funder": {"$ref": "#/$defs/funder_type"}
+                }
+            }
+        },
+        "schema:identifier": {
+            "description": "The primary identifier for the dataset; other identifiers should be listed in the sameAs field. Schema.org has three ways of encoding identifiers-- a text description, a URL, or by using the schema:PropertyValue field. The Science on Schema.org guidance strongly recommends using the PropertyValue approach. see https://github.com/ESIPFed/science-on-schema.org   .... Dataset.md#identifier.  Ideally, for any given data provided they would provide identifiers either all as strings or all as identifier_type.  Dataset identifiers must be a URL, Text or PropertyValue&quot;",
+            "anyOf": [
+                {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "anyOf": [
+                            {"$ref": "#/$defs/identifier_type"},
+                            {"type": "string"}
+                        ]
+                    }
+                },
+                {"$ref": "#/$defs/identifier_type"},
+                {"type": "string"}
+            ]
+        },
+        "schema:creator": {
+            "description": "author or orginator of intellectual content of dataset. Uset the JSON-LD @list construct to preserve author order. Use contributor with the Role property to specify other roles related to creation or stewardship of the resource.",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@list": {
+                        "type": "array",
+                        "items": {
+                            "anyOf": [
+                                {"$ref": "#/$defs/person_type"},
+                                {"$ref": "#/$defs/organization_type"}
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "schema:contributor": {
+            "description": "other parties who played a role in production of dataset",
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {"type": "string"},
+                    {
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "description": "a identifier for an agent defined in this metadata, or externally; must be dereferenceable"
+                            }
+                        }
+                    },
+                    {"$ref": "#/$defs/person_type"},
+                    {"$ref": "#/$defs/organization_type"},
+                    {
+                        "type": "object",
+                        "description": "For more granularity on how a person contributed to a Dataset, use schema:Role. The schema.org documentation does not state that the Role type is an expected data type of author, creator and contributor, but that is addressed in this blog post (http://blog.schema.org/2014/06/introducing-role.html). see https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/Dataset.md#roles-of-people",
+                        "properties": {
+                            "@type": {
+                                "type": "string",
+                                "default": "Role",
+                                "const": "Role"
+                            },
+                            "roleName": {"type": "string"},
+                            "contributor": {
+                                "type": "object",
+                                "items": {
+                                    "anyOf": [
+                                        {"$ref": "#/$defs/person_type"},
+                                        {"$ref": "#/$defs/organization_type"},
+                                        {
+                                            "type": "object",
+                                            "properties": {
+                                                "@id": {
+                                                    "type": "string",
+                                                    "description": "a identifier for an agent defined in this metadata, or externally; must be dereferenceable"
+                                                }
+                                            }
+                                        },
+                                        {"type": "string"}
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "schema:license": {
+            "description": "legal statement of conditions for use and access; recommend using schema:CreativeWork to provide a label (name) for the license, and an identifier. Sources of license identifiers: https://opensource.org/licenses/, https://creativecommons.org/about/cclicenses/, https://spdx.org/licenses/, http://cor.esipfed.org/ont/earthcube/swl. If only a string is provided, it should be an identifier for the license, ideally a resolvable URI",
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "anyOf": [
+                    {"type": "string"},
+                    {"$ref": "#/$defs/creativeWork_type"}
+                ]
+            }
+        },
+        "schema:relatedLink": {
+            "type": "array",
+            "description": "links to related resoruces at the product level",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {
+                        "type": "string",
+                        "const": "schema:LinkRole"
+                    },
+                    "schema:linkRelationship": {"type": "string"},
+                    "schema:target": {
+                        "type": "object",
+                        "properties": {
+                            "@type": {
+                                "type": "string",
+                                "const": "schema:EntryPoint"
+                            },
+                            "schema:encodingFormat": {"type": "string"},
+                            "schema:name": {"type": "string"},
+                            "schema:url": {"type": "string"}
+                        }
+                    }
+                }
+            }
+        },
+        "schema:dateModified": {"type": "string"},
+        "schema:datePublished": {"type": "string"},
+        "schema:creativeWorkStatus": {"type": "string"},
+        "schema:measurementTechnique": {
+            "type": "object",
+            "description": "A text description of the measurement method used to determine values for this variable. If standard measurement protocols are defined and registered, these can be identified via http URI's. analysis.technique_type in SAMIS",
+            "properties": {
+                "@type": {"const": "schema:DefinedTerm"},
+                "schema:name": {"type": "string"},
+                "schema:identifier": {"type": "string"}
+            }
+        },
+        "prov:wasGeneratedBy": {
+            "type": "object",
+            "description": "",
+            "properties": {
+                "@type": {
+                    "description": "include 'schema:Event', 'xas:AnalysisEvent','prov:Activity'",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "prov:used": {
+                    "type": "array",
+                    "description": "a single entry can define one instrumentn, or can define a set of componetns in an instrumentation setup like for XAS a source, beamline, detector.",
+                    "items": {"$ref": "#/$defs/analysis.instrument_type"}
+                },
+                "schema:location": {"$ref": "#/$defs/analysis.laboratory_type"},
+                "schema:mainEntity": {
+                    "type": "array",
+                    "description": "the main entity of the analysis event is the sample or samples that were analyzed",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "@type": {
+                                "const": [
+                                    "schema:Thing",
+                                    "https://w3id.org/isample/vocabulary/materialsampleobjecttype/materialsample"
+                                ]
+                            },
+                            "schema:additionalType": {
+                                "type": "array",
+                                "items": {"type": "string"},
+                                "description": "expected to include 'MaterialSample'. Obviously more properties of the analyzed sample would be useful!"
+                            },
+                            "schema:identifier": {"type": "string"}
+                        }
+                    }
+                },
+                "schema:identifier": {
+                    "description": "identifier for the analysis event (sessionID)",
+                    "type": "string"
+                },
+                "schema:startDate": {"type": "string"}
+            },
+            "required": ["prov:used"]
+        },
+        "schema:variableMeasured": {
+            "description": "What does the dataset measure? (e.g., temperature, pressure). Define the variables here as the conceptual level; the physical implementation details are described in the data structure associated with files in the distribution.",
+            "type": "array",
+            "items": {"$ref": "#/$defs/variable_type"}
+        },
+        "schema:distribution": {
+            "type": "array",
+            "description": "there might be multiple access options for a dataset; e.g. the Astromat API",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "const": "schema:DataDownload"
+                        }
+                    },
+                    "schema:encodingFormat": {
+                        "type": "string",
+                        "default": "application/zip",
+                        "description": "most submissions are zip archives containing data files, supplemental documents, and metadata "
+                    },
+                    "schema:description": {"type": "string"},
+                    "schema:contentURL": {
+                        "type": "string",
+                        "format": "anyURI"
+                    },
+                    "schema:hasPart": {
+                        "type": "array",
+                        "description": "this is an array of datasets describing the files in the zip archive. Pattern based on Croissant metadata spec",
+                        "items": {"$ref": "#/$defs/files_type"}
+                    }
+                }
+            }
+        },
+        "schema:subjectOf": {
+            "type": "object",
+            "description": "see https://github.com/Cross-Domain-Interoperability-Framework/Discovery/issues/13 for discussion on how to make assertion about the sample registration and metadata distinct from statements about the physical object",
+            "properties": {
+                "@type": {
+                    "type": "string",
+                    "const": "schema:Dataset"
+                },
+                "@id": {
+                    "type": "string",
+                    "description": "identifier for the metadata record"
+                },
+                "schema:about": {
+                    "type": "object",
+                    "properties": {
+                        "@id": {
+                            "type": "string",
+                            "description": "this should be the @id value found in the parent sample metadata record"
+                        }
+                    }
+                },
+                "dcterms:conformsTo": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "$id": {
+                                "type": "string",
+                                "description": "uri for specifications that this metadata record conforms to. Minimimally should specify uri for CDIF discovery profile"
+                            }
+                        }
+                    }
+                },
+                "schema:maintainer": {
+                    "description": "iSamples Registrant. identification of the agent that registered the sample, with contact information. Should include person name and affiliation, or position name and affiliation, or just organization name. e-mail address is preferred contact information.",
+                    "anyOf": [
+                        {"$ref": "#/$defs/person_type"},
+                        {"$ref": "#/$defs/organization_type"}
+                    ]
+                },
+                "schema:sdDatePublished": {
+                    "description": "date of most recent update to the metadata content, extends iSamples schema",
+                    "type": "string",
+                    "format": "datetime"
+                },
+                "schema:includedInDataCatalog": {
+                    "type": "object",
+                    "description": "identify the data collection or repository that contains the described dataset. The value is expected to be a schema:DataCatalog",
+                    "properties": {
+                        "@id": {
+                            "type": "string",
+                            "description": "identifier for the containing catalog or repository; example data at https://github.com/ESIPFed/science-on-schema.org/blob/develop/guides/Dataset.md#catalog puts identifier here"
+                        },
+                        "@type": {
+                            "type": "string",
+                            "default": "schema:DataCatalog",
+                            "const": "schema:DataCatalog"
+                        },
+                        "schema:name": {"type": "string"},
+                        "schema:url": {
+                            "type": "string",
+                            "description": "locator to access a landing page for the collection or catalog"
+                        },
+                        "schema:identifier": {
+                            "$ref": "#/$defs/identifier_type",
+                            "description": "identifier for the collection or catalog; use identifier_type to provide information on identifier scheme and context for identifier"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "$defs": {
+        "files_type": {
+            "type": "object",
+            "description": "properties applying to any file.  GeneralType provides info based on broad categories of file format (tabular, image, dataCube, document)",
+            "properties": {
+                "@id": {"type": "string"},
+                "@type": {"const": "schema:Dataset"},
+                "schema:additionalType": {
+                    "type": "array",
+                    "description": "this is the dataComponentType or supDocType",
+                    "items": {"type": "string"}
+                },
+                "schema:name": {
+                    "type": "string",
+                    "description": "string name of file, must be unique within the containing package"
+                },
+                "schema:description": {"type": "string"},
+                "spdx:checksum": {"type": "string"},
+                "schema:size": {
+                    "type": "object",
+                    "properties": {
+                        "@type": {"const": "schema:QuantitativeValue"},
+                        "schema:value": {"type": "integer"},
+                        "schema:unitText": {
+                            "type": "string",
+                            "default": "byte"
+                        }
+                    }
+                },
+                "schema:encodingFormat": {
+                    "type": "string",
+                    "description": "MIME type with extension; should indicate the serialization scheme in sufficient detail that machine can know how to parse"
+                },
+                "resultTarget": {"$ref": "#/$defs/stringArray_type"},
+                "fileDetail": {
+                    "anyOf": [
+                        {"$ref": "#/$defs/image_type"},
+                        {"$ref": "#/$defs/imageMap_type"},
+                        {"$ref": "#/$defs/tabularData_type"},
+                        {"$ref": "#/$defs/collection_type"},
+                        {"$ref": "#/$defs/dataCube_type"},
+                        {"$ref": "#/$defs/document_type"},
+                        {"$ref": "#/$defs/supDocImage_type"},
+                        {"$ref": "#/$defs/other_type"},
+                        {
+                            "type": "object",
+                            "properties": {
+                                "@type": {
+                                    "const": ["Metadata"]
+                                }
+                            },
+                            "required": ["@type"]
+                        }
+                    ]
+                },
+                "schema:relatedLink": {
+                    "type": "array",
+                    "description": "links between files in the product.use schema:name for path to target in product, or use #id JSON-LD links if @ids are consistently assigned.",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "@type": {
+                                "type": "string",
+                                "const": "schema:LinkRole"
+                            },
+                            "schema:linkRelationship": {"type": "string"},
+                            "schema:target": {
+                                "type": "object",
+                                "properties": {
+                                    "@type": {
+                                        "type": "string",
+                                        "const": "schema:EntryPoint"
+                                    },
+                                    "schema:encodingFormat": {"type": "string"},
+                                    "schema:name": {"type": "string"},
+                                    "schema:url": {"type": "string"}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "image_type": {
+            "type": "object",
+            "description": "",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "ada:image",
+                        "schema:ImageObject"
+                    ],
+                    "description": "this is the GeneralType"
+                },
+                "acquisitionTime": {"type": "string"},
+                "componentType": {
+                    "type": "object",
+                    "properties": {
+                        "@type": {
+                            "enum": [
+                                "ada:AIVAImage",
+                                "ada:EMPAImage",
+                                "ada:LITImage",
+                                "ada:STEMImage",
+                                "ada:TEMImage",
+                                "ada:TEMPatternsImage",
+                                "ada:UVFMImage",
+                                "ada:VLMImage",
+                                "ada:SEMEBSDGrainImage",
+                                "ada:SEMEDSElementalMap",
+                                "ada:SEMHRCLImage",
+                                "ada:SEMImageCollection",
+                                "ada:TEMEDSImageCollection",
+                                "ada:NanoSIMSImage",
+                                "ada:XANESImageStack",
+                                "ada:XANESStackOverviewImage",
+                                "ada:XRDDiffractionPattern",
+                                "ada:ShapeModelImage"
+                            ]
+                        }
+                    },
+                    "required": ["@type"]
+                },
+                "channel1": {"type": "string"},
+                "channel2": {"type": "string"},
+                "channel3": {"type": "string"},
+                "pixelSize": {"type": "string"},
+                "illuminationType": {
+                    "type": "string",
+                    "description": "Type of illumination used to create the image. Examples include Visible light, Cross-polarized visible light, ultraviolet light (240nm), Electron beam, X-ray etc."
+                },
+                "imageType": {
+                    "type": "string",
+                    "description": "Specifies the nature of the sample's response to the illumination that was detected and measured, e.g. reflected visible light, visible fluorescence emission, backscatter electron, secondary electron, brightfield electron, darkfield electron, C K-series x-ray...   [should be a string array with enum?  is this different from what's going in signalUsed or componentType?]  Values in data are like:  [brightfield]; [C K-series, Ca K-series, Cl K-series, Cs L-series, F K-series, Fe K-series, Mg K-series, Na K-series, Ni K-series, O K-series, S K-series, Si K-series]; [element maps, composite]; [secondary]; [single element map, single element map, single element map, single element map, single element map, BSE image, ...]; [single element map]; backscatter; cl; element maps; secondary"
+                }
+            },
+            "required": [
+                "@type",
+                "componentType"
+            ]
+        },
+        "imageMap_type": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "ada:imageMap",
+                        "schema:ImageObject"
+                    ]
+                },
+                "acquisitionTime": {"type": "string"},
+                "componentType": {
+                    "anyOf": [
+                        {"$ref": "#/$defs/empa_detail"},
+                        {
+                            "type": "object",
+                            "properties": {
+                                "@type": {
+                                    "enum": [
+                                        "basemap",
+                                        "supplementalBasemap",
+                                        "L2MSOverviewImage",
+                                        "NanoIRMap",
+                                        "LITImage",
+                                        "UVFMImage",
+                                        "VLMImage",
+                                        "SEMEBSDGrainImageMap",
+                                        "SEMEDSElementalMap",
+                                        "SEMHRCLMap",
+                                        "SEMImageMap",
+                                        "STEMImage",
+                                        "TEMImage",
+                                        "TEMPatternsImage",
+                                        "VLMImage",
+                                        "NanoSIMSMap",
+                                        "XANESimage",
+                                        "VNMIROverviewImage"
+                                    ]
+                                }
+                            },
+                            "required": ["@type"]
+                        }
+                    ]
+                },
+                "channel1": {"type": "string"},
+                "channel2": {"type": "string"},
+                "channel3": {"type": "string"},
+                "illuminationType": {
+                    "type": "string",
+                    "description": "Type of illumination used to create the image. Examples include Visible light, Cross-polarized visible light, ultraviolet light (240nm), Electron beam, X-ray etc."
+                },
+                "imageType": {
+                    "type": "string",
+                    "description": "Specifies the nature of the sample's response to the illumination that was detected and measured, e.g. reflected visible light, visible fluorescence emission, backscatter electron, secondary electron, brightfield electron, darkfield electron, C K-series x-ray...   [should be a string array with enum?  is this different from what's going in signalUsed or componentType?]  Values in data are like:  [brightfield]; [C K-series, Ca K-series, Cl K-series, Cs L-series, F K-series, Fe K-series, Mg K-series, Na K-series, Ni K-series, O K-series, S K-series, Si K-series]; [element maps, composite]; [secondary]; [single element map, single element map, single element map, single element map, single element map, BSE image, ...]; [single element map]; backscatter; cl; element maps; secondary"
+                },
+                "numPixelsX": {"type": "integer"},
+                "numPixelsY": {"type": "integer"},
+                "spatialRegistration": {"$ref": "#/$defs/spatialRegistration_type"}
+            },
+            "required": [
+                "@type",
+                "componentType"
+            ]
+        },
+        "supDocImage_type": {
+            "type": "object",
+            "description": "component types: ",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "ada:image",
+                        "schema:DigitalDocument"
+                    ],
+                    "description": "this is the GeneralType"
+                },
+                "componentType": {
+                    "type": "object",
+                    "properties": {
+                        "@type": {
+                            "enum": [
+                                "ada:analysisLocation",
+                                "ada:annotatedProduct",
+                                "ada:contextPhotography",
+                                "ada:areaOfInterest",
+                                "ada:instrumentMetadata",
+                                "ada:supplementalBasemap",
+                                "ada:plot",
+                                "ada:quickLook",
+                                "ada:report",
+                                "ada:visImage"
+                            ]
+                        }
+                    },
+                    "required": ["@type"]
+                },
+                "numPixelsX": {"type": "integer"},
+                "numPixelsY": {"type": "integer"},
+                "_original_name": {"type": "string"}
+            },
+            "required": [
+                "@type",
+                "componentType"
+            ]
+        },
+        "tabularData_type": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "cdi:PhysicalDataSet",
+                        "ada:tabularData"
+                    ]
+                },
+                "componentType": {
+                    "anyOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "@type": {
+                                    "enum": [
+                                        "ada:AMSRawData",
+                                        "ada:AMSProcessedData",
+                                        "ada:DSCResultsTabular",
+                                        "ada:FTICRMSTabular",
+                                        "ada:GPYCProcessedTabular",
+                                        "ada:GPYCRawTabular",
+                                        "ada:HRICPMSProcessed",
+                                        "ada:HRICPMSRaw",
+                                        "ada:ICPOESIntermediateTabular",
+                                        "ada:ICPOESProcessedTabular",
+                                        "ada:ICPOESRawTabular",
+                                        "ada:ICTabular",
+                                        "ada:MCICPMSTabular",
+                                        "ada:NGNSMSRaw",
+                                        "ada:NGNSMSProcessed",
+                                        "ada:QICPMSProcessedTabular",
+                                        "ada:QICPMSRawTabular",
+                                        "ada:RAMANRawTabular",
+                                        "ada:RITOFNGMSTabular",
+                                        "ada:RITOFNGMSCollection",
+                                        "ada:SEMEDSPointData",
+                                        "ada:SIMSTabular",
+                                        "ada:STEMEDSTabular",
+                                        "ada:STEMEELSTabular",
+                                        "ada:SVRUECTabular",
+                                        "ada:XANESRawTabular",
+                                        "ada:XANESProcessedTabular"
+                                    ]
+                                }
+                            },
+                            "required": ["@type"]
+                        },
+                        {"$ref": "#/$defs/dsc_detail"},
+                        {"$ref": "#/$defs/eairms_detail"},
+                        {"$ref": "#/$defs/empa_detail"},
+                        {"$ref": "#/$defs/laf_detail"},
+                        {"$ref": "#/$defs/nanosims_detail"},
+                        {"$ref": "#/$defs/nanoir_detail"},
+                        {"$ref": "#/$defs/psfd_detail"},
+                        {"$ref": "#/$defs/vnmir_detail"},
+                        {"$ref": "#/$defs/xrd_detail"}
+                    ]
+                },
+                "cdi:isStructuredBy": {
+                    "type": "object",
+                    "description": "use the DDI-CDI elements for describing a tabular data structure",
+                    "properties": {
+                        "@type": {"const": "cdi:WideDataStructure"},
+                        "cdi:has_DataStructureComponent": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "@id": {"type": "string"},
+                                    "@type": {
+                                        "oneOf": [
+                                            {"const": "cdi:IdentifierComponent"},
+                                            {"const": "cdi:MeasureComponent"},
+                                            {"const": "cdi:AttributeComponent"}
+                                        ]
+                                    },
+                                    "schema:name": {
+                                        "type": "string",
+                                        "description": "label for this component in the datafile; overrides name in associated InstanceVariable if specified"
+                                    },
+                                    "cdi:isDefinedBy_InstanceVariable": {
+                                        "type": "object",
+                                        "description": "use @id to reference one of the variables defined in the measuredVariable section at the product level",
+                                        "properties": {
+                                            "@id": {"type": "string"}
+                                        }
+                                    },
+                                    "cdi:qualifies": {
+                                        "type": "object",
+                                        "description": "only for Attribute components, use @id to link to the component the attribute qualifies",
+                                        "properties": {
+                                            "@id": {"type": "string"}
+                                        }
+                                    },
+                                    "cdi:has": {
+                                        "type": "object",
+                                        "description": "if isDelimited is false, cdi:length is required. DDI-CDI value mapping has other properties that might be useful. see https://docs.ddialliance.org/DDI-CDI/1.0/model/FieldLevelDocumentation/DDICDILibrary/Classes/FormatDescription/PhysicalSegmentLayout.html",
+                                        "properties": {
+                                            "@type": {"const": "cdi:ValueMapping"},
+                                            "cdi:hasIndex": {
+                                                "description": "column number in the table layout",
+                                                "type": "integer"
+                                            },
+                                            "cdi:length": {
+                                                "description": "number of characters in this column. required if isDelimited is faulse",
+                                                "type": "integer"
+                                            },
+                                            "cdi:physicalDataType": {"type": "string"}
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "allowsDuplicates": {
+                            "type": "boolean",
+                            "description": "can rows in the table have identical values",
+                            "default": false
+                        },
+                        "arrayBase": {
+                            "type": "string",
+                            "enum": [
+                                "0",
+                                "1"
+                            ],
+                            "description": "if 0, then left most column is columnn 0"
+                        },
+                        "commentPrefix": {
+                            "type": "string",
+                            "description": "lines beginning with this string will be ignored"
+                        },
+                        "headerRowCount": {
+                            "type": "integer",
+                            "description": "number of rows in the file to skip before data start"
+                        },
+                        "isDelimited": {"type": "boolean"},
+                        "delimiter": {
+                            "type": "string",
+                            "description": "required if isDelimited is true"
+                        }
+                    }
+                },
+                "countRows": {"type": "integer"},
+                "countColumns": {"type": "integer"},
+                "xCoordCol": {
+                    "description": "the column names are redundant, they are lists in the isStructuredBy/cdi:WideDataStructure array. Include here for convience",
+                    "type": "string"
+                },
+                "yCoordCol": {"type": "string"},
+                "zCoordCol": {"type": "string"},
+                "coordUnits": {"type": "string"},
+                "spatialRegistration": {"$ref": "#/$defs/spatialRegistration_type"}
+            },
+            "required": [
+                "@type",
+                "componentType"
+            ]
+        },
+        "collection_type": {
+            "type": "object",
+            "description": "a collection can be a set of files with identical information model and serialization/formatting (a collection), or a heterogeneous set of files that together constitute a dataset (an composite dataset). The file list might list all the files, or provide a template for the collection of file names if they all have similar prefix with some differentiating suffix. Consider using croissant cr:FileSet",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "ada:collection",
+                        "https://schema.org/Collection"
+                    ],
+                    "description": "this is the GeneralType"
+                },
+                "componentType": {
+                    "type": "object",
+                    "properties": {
+                        "@type": {
+                            "type": "string",
+                            "enum": [
+                                "ada:AIVAImageCollection",
+                                "ada:ARGTCollection",
+                                "ada:EAIRMSCollection",
+                                "ada:EMPAImageCollection",
+                                "ada:GCMSCollection",
+                                "ada:GCGCMSCollection",
+                                "ada:LCMSCollection",
+                                "ada:LCMSMSCollection",
+                                "ada:LIT2DDataCollection",
+                                "ada:LITPolarDataCollection",
+                                "ada:MCICPMSCollection",
+                                "ada:NanoIRMapCollection",
+                                "ada:NanoIRPointCollection",
+                                "ada:NanoSIMSCollection",
+                                "ada:NanoSIMSImageCollection",
+                                "ada:QRISCalibratedCollection",
+                                "ada:QRISRawCollection",
+                                "ada:RITOFNGMSCollection",
+                                "ada:SEMEDSElementalMaps",
+                                "ada:SEMEDSPointDataCollection",
+                                "ada:SEMImageCollection",
+                                "ada:SIMSCollection",
+                                "ada:TEMEDSImageCollection",
+                                "ada:TOFSIMSCollection",
+                                "ada:UVFMImageCollection",
+                                "ada:VLMImageCollection",
+                                "ada:XANESCollection",
+                                "XCTImageCollection"
+                            ]
+                        }
+                    }
+                },
+                "memberTypes": {
+                    "description": "list of the component types in the collection",
+                    "$ref": "#/$defs/stringArray_type"
+                },
+                "nFiles": {
+                    "type": "integer",
+                    "description": "number of files in the collection, including metadata files"
+                },
+                "filelist": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "fileName": {
+                                "type": "string",
+                                "description": "full path to file in container object, use for file types for which there is a single instance in the collection"
+                            },
+                            "fileNamePattern": {
+                                "type": "string",
+                                "description": "if the collection contains multiple files of the same type (described by the same file object), e.g. '20240227_SLS_UAZ_OREX-800014-0_1_contextPhotography_*.jpeg'.  The text at the '*' is a parameter that differentes members of the collection; the remainder of the pattern is constant for all members of the collection"
+                            },
+                            "componentType":{
+                            "description":"the component type for the file(s)",
+                            "type":"string"},
+                            "schema:encodingFormat": {
+                                "type": "string",
+                                "description": "MIME type with extension; should indicate the serialization scheme in sufficient detail that machine can know how to parse"
+                            }
+                        },
+                        "oneOf": [
+                            {
+                                "required": ["fileName"]
+                            },
+                            {
+                                "required": ["fileNamePattern"]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "dataCube_type": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "ada:dataCube",
+                        "cdi:DimensionalDataStructure"
+                    ]
+                },
+                "componentType": {
+                    "anyOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "@type": {
+                                    "enum": [
+                                        "ada:GCMSCollection",
+                                        "ada:GCMSCube",
+                                        "ada:FTICRMSCube",
+                                        "ada:LCMSCollection",
+                                        "ada:SEMEBSDGrainImageMapCube",
+                                        "ada:SEMEDSElementalMapsCube",
+                                        "ada:SEMEDSPointDataCube",
+                                        "ada:SEMHRCLCube",
+                                        "ada:STEMEDSCube",
+                                        "ada:STEMEDSTomo",
+                                        "ada:STEMEELSCube",
+                                        "ada:VNMIRSpectralMap"
+                                    ]
+                                }
+                            },
+                            "required": ["@type"]
+                        },
+                        {"$ref": "#/$defs/l2ms_detail"}
+                    ]
+                },
+                "dataComponentResource": {"type": "string"},
+                "cdi:isStructuredBy": {
+                    "type": "object",
+                    "properties": {
+                        "@type": {"const": "cdi:DimensionalDataStructure"},
+                        "cdi:has_DataStructureComponent": {
+                            "type": "array",
+                            "items": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "@type": {"const": "cdi:DimensionComponent"},
+                                            "schema:name": {"type": "string"},
+                                            "cdi:isDefinedBy_InstanceVariable": {
+                                                "type": "object",
+                                                "description": "use @id to reference one of the variables defined in the measuredVariable section at the product level",
+                                                "properties": {
+                                                    "@id": {"type": "string"}
+                                                }
+                                            },
+                                            "cdi:physicalDataType": {"type": "string"},
+                                            "cdi:isStructuredBy": {
+                                                "type": "object",
+                                                "description": "what is the structure of values on this dimension; samples at a regular interval between min and max values, an enumerated set of values (numeric or categorical), a sequence of integers...  more work necessary with real examples",
+                                                "properties": {
+                                                    "@id": {"type": "string"},
+                                                    "@type": {"const": "cdi:SubstantiveValueDomain"},
+                                                    "schema:description": {"type": "string"},
+                                                    "cdi:takesValuesFrom": {
+                                                        "anyOf": [
+                                                            {
+                                                                "type": "object",
+                                                                "description": "specification for a sequence here, start value and end value; number of steps is valueMapping length",
+                                                                "properties": {
+                                                                    "@type": {"const": "sequence"},
+                                                                    "valueDomainMin": {"type": "number"},
+                                                                    "valueDomainMax": {"type": "number"}
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "object",
+                                                                "description": "controllecd vocabulary, or list of values, @id is uri for the vocabulary",
+                                                                "properties": {
+                                                                    "@id": {"type": "string"}
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "has": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "@type": {"const": "cdi:ValueMapping"},
+                                                    "cdi:valuepath": {
+                                                        "type": "string",
+                                                        "description": "depending on the encodingFormat for the dataCube, different syntax might be used. The string provided here should be what is needed to access values of this dimension using tools appropriate to the particular cube format. Development of conventions here is still under way."
+                                                    },
+                                                    "cdi:length": {
+                                                        "type": "integer",
+                                                        "description": "number that specifies how many values are present on this dimension",
+                                                        "exclusiveMinimum": 0
+                                                    },
+                                                    "cdi:index": {
+                                                        "type": "integer",
+                                                        "description": "the index for ordering cube coordinates in the key to identify measure values",
+                                                        "minimum": 0
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "@type": {
+                                                "oneOf": [
+                                                    {"const": "cdi:MeasureComponent"},
+                                                    {"const": "cdi:AttributeComponent"}
+                                                ]
+                                            },
+                                            "cdi:isDefinedBy_InstanceVariable": {
+                                                "type": "object",
+                                                "description": "use @id to reference one of the variables defined in the measuredVariable section at the product level",
+                                                "properties": {
+                                                    "@id": {"type": "string"}
+                                                }
+                                            },
+                                            "cdi:isStructuredBy": {
+                                                "anyOf": [
+                                                    {
+                                                        "type": "object",
+                                                        "description": "measure values are scalar, using a primitive data type. Link With @id",
+                                                        "properties": {
+                                                            "@id": {"type": "string"},
+                                                            "@type": {"const": "cdi:SubstantiveValueDomain"},
+                                                            "schema:description": {
+                                                                "type": "string",
+                                                                "description": "free text description of the value domain. Detail modeling of kinds of domains TBD..."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "object",
+                                                        "description": "Measure values are structured-- e.g. vectors, tensors, arrays... link with @id",
+                                                        "properties": {
+                                                            "@id": {"type": "string"},
+                                                            "@type": {"const": "cdi:DataStructure"},
+                                                            "schema:description": {
+                                                                "type": "string",
+                                                                "description": "free text description of the data structure. Detail modeling of kinds of domains TBD..."
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "cdi:qualifies": {
+                                                "type": "object",
+                                                "description": "only for Attribute components, use @id to link to the component the attribute qualifies",
+                                                "properties": {
+                                                    "@id": {"type": "string"}
+                                                }
+                                            },
+                                            "has": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "@type": {"const": "cdi:ValueMapping"},
+                                                    "cdi:cubepath": {
+                                                        "type": "string",
+                                                        "description": "depending on the encodingFormat for the dataCube, different syntax might be used. The string provided here should be what is needed to access values of this measure using tools appropriate to the particular cube format. Development of conventions here is still under way."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "document_type": {
+            "type": "object",
+            "description": "text or pdf/A documents providing supplemental information, typically related to calibration, instrument metadata details, analysis methods, or data representation in non-standard formats. Supplementary images are treated as images with correct supplementary type",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "ada:document",
+                        "schema:DigitalDocument"
+                    ]
+                },
+                "componentType": {
+                    "description": "one of the supplemental document types if applicable ",
+                    "anyOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "@type": {
+                                    "enum": [
+                                        "ada:calibrationFile",
+                                        "ada:contextVideo",
+                                        "ada:logFile",
+                                        "ada:methodDescription",
+                                        "ada:peaks",
+                                        "ada:processingDescription",
+                                        "ada:QRISCalibrationFile",
+                                        "ada:samplePreparation",
+                                        "ada:shapefiles"
+                                    ]
+                                }
+                            }
+                        },
+                        {"$ref": "#/$defs/argt_detail"}
+                    ]
+                },
+                "schema:version": {"type": "string"},
+                "schema:isBasedOn": {
+                    "description": "same as ada/samis '_originalName'",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "@type",
+                "componentType"
+            ]
+        },
+        "other_type": {
+            "type": "object",
+            "description": "files in other widely used formats that have been approvide for submission to the Astromat Archive.",
+            "properties": {
+                "@type": {
+                    "const": ["ada:otherFileType"]
+                },
+                "componentType": {
+                    "anyOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "@type": {
+                                    "enum": ["ada:other"]
+                                }
+                            },
+                            "required": ["@type"]
+                        },
+                        {"$ref": "#/$defs/slsshapemodel_detail"}
+                    ]
+                },
+                "schema:encodingFormat": {
+                    "description": "one of the supplemental document types if applicable ",
+                    "enum": [
+                        "Spectral Data Exchange File (.emsa)",
+                        "3D model file (.obj)",
+                        "Standard Triangle Language (.stl)",
+                        "Open XML workbook (.xlsx)",
+                        "Neptune Plus export (.exp)"
+                    ]
+                },
+                "formatDescription": {
+                    "type": "string",
+                    "description": "free text explantion of file format, or a link to a publicly accessible specification for the format"
+                }
+            },
+            "required": [
+                "@type",
+                "componentType"
+            ]
+        },
+        "basemap_detail": {
+            "type": "object",
+            "description": "[need better documentation on how coordinates of fiducial marks are related to coordinate reference system for basemap. the metadata specified in BDD seems insufficient. Basemaps are required to be visible light, RGB channels (or just greyscale channel1)",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "ada:basemap",
+                        "schema:Map"
+                    ]
+                },
+                "schema:description": {"type": "string"},
+                "pixelUnits": {"type": "string"},
+                "pixelScaleX": {"type": "number"},
+                "pixelScaleY": {"type": "number"},
+                "channel1": {"type": "string"},
+                "channel2": {"type": "string"},
+                "channel3": {"type": "string"}
+            },
+            "required": [
+                "@type",
+                "pixelScaleX",
+                "pixelScaleY",
+                "pixelUnits"
+            ]
+        },
+        "argt_detail": {
+            "type": "object",
+            "description": "isotopeAnalyzed is specified in resultTarget for the file ",
+            "properties": {
+                "@type": {
+                    "const": ["ada:ARGTDocument"]
+                },
+                "phaseAnalyzed": {"type": "string"},
+                "isotopeType": {"type": "string"}
+            }
+        },
+        "dsc_detail": {
+            "type": "object",
+            "description": " ",
+            "properties": {
+                "@type": {
+                    "const": ["ada:DSCHeatTabular"]
+                },
+                "analysisType": {"type": "string"}
+            }
+        },
+        "empa_detail": {
+            "type": "object",
+            "description": "SignalUsed gets populated in imageType. Values are 'Vs1 BSE'; 'Vs1 SE'; 'BSE Z, Ca Ka, Fe Ka, Mg Ka, Na Ka, S Ka, BSE Z, C Ka, Cl Ka, Mn Ka, Ni Ka, Si Ka'.",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:EMPAImage"]
+                        },
+                        {
+                            "const": ["ada:EMPAQEATabular"]
+                        },
+                        {
+                            "const": ["ada:EMPAImageCollection"]
+                        }
+                    ]
+                },
+                "spectrometersUsed": {
+                    "type": "string",
+                    "description": "only value says 'see calibration file"
+                },
+                "signalUsed": {"type": "string"}
+            }
+        },
+        "eairms_detail": {
+            "type": "object",
+            "description": "element goes in resultTarget field",
+            "properties": {
+                "@type": {
+                    "const": ["ada:EAIRMSCollection"]
+                },
+                "massConsumed": {"type": "string"},
+                "elementType": {"type": "string"}
+            }
+        },
+        "icpoes_detail": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:ICPOESIntermediateTabular"]
+                        },
+                        {
+                            "const": ["ada:ICPOESProcessedTabular"]
+                        },
+                        {
+                            "const": ["ada:ICPOESRawTabular"]
+                        }
+                    ]
+                },
+                "mass": {"type": "string"},
+                "dissolutionFactor": {"type": "number"}
+            }
+        },
+        "l2ms_detail": {
+            "type": "object",
+            "description": "ionizationTimeDelay,massGate,photoionizationWavelength,plasmaShutter,sampleName,timeDelayUnits,wavelengthUnits",
+            "properties": {
+                "@type": {
+                    "const": ["ada:L2MSCube"]
+                },
+                "sampleName": {"type": "string"},
+                "ionizationTimeDelay": {"type": "integer"},
+                "massGate": {"type": "boolean"},
+                "photoionizationWavelength": {"type": "integer"},
+                "plasmaShutter": {"type": "boolean"},
+                "timeDelayUnits": {"type": "string"},
+                "wavelengthUnits": {"type": "string"}
+            }
+        },
+        "laf_detail": {
+            "type": "object",
+            "description": "elementAnalyzed goes in resultTarget; sample should only be populated if the containing product includes more than one sample, and this file is specific to a subset of those ",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:LAFProcessed"]
+                        },
+                        {
+                            "const": ["ada:LAFRaw"]
+                        }
+                    ]
+                },
+                "elementAnalyzed": {"type": "string"},
+                "sampleMassConsumed": {"type": "string"},
+                "sampleType": {"type": "string"}
+            }
+        },
+        "nanoir_detail": {
+            "type": "object",
+            "description": "isotopeAnalyzed goes in resultTarget for the File",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:NanoIRBackground"]
+                        },
+                        {
+                            "const": ["ada:NanoIRMapCollection"]
+                        },
+                        {
+                            "const": ["ada:NanoIRPointCollection"]
+                        }
+                    ]
+                },
+                "phaseAnalyzed": {"$ref": "#/$defs/stringArray_type"}
+            }
+        },
+        "nanosims_detail": {
+            "type": "object",
+            "description": "isotopeAnalyzed goes in resultTarget for the File",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:NanoSIMSCollection"]
+                        },
+                        {
+                            "const": ["ada:NanoSIMSImageCollection"]
+                        },
+                        {
+                            "const": ["ada:NanoSIMSTabular"]
+                        },
+                        {
+                            "const": ["ada:NanoSIMSMap"]
+                        }
+                    ]
+                },
+                "phaseAnalyzed": {"$ref": "#/$defs/stringArray_type"},
+                "isotopeAnalyzed": {"$ref": "#/$defs/stringArray_type"}
+            }
+        },
+        "psfd_detail": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": ["ada:PSFDTabular"]
+                },
+                "imageName": {"$ref": "#/$defs/stringArray_type"},
+                "imageViewingConditions": {"type": "string"}
+            }
+        },
+        "vnmir_detail": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:VNMIRSpectralPoint"]
+                        },
+                        {
+                            "const": ["ada:VNMIROverviewImage"]
+                        },
+                        {
+                            "const": ["ada:VNMIRSpectralMap"]
+                        }
+                    ]
+                },
+                "detector": {"type": "string"},
+                "beamsplitter": {"type": "string"},
+                "calibrationStandards": {"type": "string"},
+                "comments": {"type": "string"},
+                "numberOfScans": {"type": "integer"},
+                "eMaxFitRegionMax": {"type": "string"},
+                "eMaxFitRegionMin": {"type": "string"},
+                "emissionAngle": {"type": "number"},
+                "emissivityMaximum": {"type": "string"},
+                "environmentalPressure": {"type": "number"},
+                "incidenceAngle": {"type": "number"},
+                "measurement": {"type": "string"},
+                "measurementEnvironment": {"type": "string"},
+                "phaseAngle": {"type": "number"},
+                "sampleHeated": {"type": "boolean"},
+                "samplePreparation": {"type": "string"},
+                "sampleTemperature": {"type": "integer"},
+                "spectralRangeMax": {"type": "string"},
+                "spectralRangeMin": {"type": "string"},
+                "spectralResolution": {"type": "string"},
+                "spectralSampling": {"type": "string"},
+                "spotSize": {"type": "string"},
+                "uncertaintyNoise": {"type": "number"},
+                "vacuumExposedSample": {"type": "boolean"}
+            }
+        },
+        "qris_detail": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:QRISCalibrated"]
+                        },
+                        {
+                            "const": ["ada:QRISRaw"]
+                        }
+                    ]
+                },
+                "calibrationFile": {"type": "string"},
+                "pipelineVersion": {"type": "string"},
+                "focalLength": {"type": "integer"},
+                "illuminationColor": {"$ref": "#/$defs/stringArray_type"},
+                "illuminationLevel": {"type": "integer"},
+                "exposureTime": {"type": "integer"},
+                "target": {"type": "string"}
+            }
+        },
+        "slsshapemodel_detail": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["ada:SLSShapeModel"]
+                        },
+                        {
+                            "const": ["ada:SLSPartialScan"]
+                        }
+                    ]
+                },
+                "countScans": {"type": "integer"},
+                "facets": {"type": "integer"},
+                "unitsOfMeasurement": {"type": "string"},
+                "version": {"type": "integer"},
+                "vertices": {"type": "integer"},
+                "watertight": {"type": "boolean"}
+            }
+        },
+        "xctimage_detail": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": ["ada:XCTImageCollection"]
+                },
+                "beamFilterMaterial": {"type": "string"},
+                "beamFilterThickness": {"type": "number"},
+                "dataRangeLower": {"type": "integer"},
+                "dataRangeUpper": {"type": "integer"},
+                "detectorGain": {"type": "string"},
+                "detectorBinning": {"type": "string"},
+                "detectorSize": {"type": "string"},
+                "detectorType": {"type": "string"},
+                "imageExposure": {"type": "number"},
+                "imageFPS": {"type": "string"},
+                "imageGain": {"type": "number"},
+                "imageSize": {"type": "string"},
+                "instrumentType": {"type": "string"},
+                "nsiBeamHardening": {"type": "number"},
+                "numberOfFramesAveragedPerProjection": {"type": "integer"},
+                "numberOfProjections": {"type": "integer"},
+                "numberOfSlices": {"type": "integer"},
+                "pixelPitch": {"type": "string"},
+                "reconstructedDataFormat": {"type": "string"},
+                "reconstructedVoxelSize": {"type": "string"},
+                "reconstructionSoftware": {"type": "string"},
+                "rotationAngle": {"type": "string"},
+                "rotationType": {"type": "string"},
+                "sourceToDetectorDistance": {"type": "string"},
+                "sourceToObjectDistance": {"type": "number"},
+                "subPixGrid": {"type": "string"},
+                "subPixShift": {"type": "string"},
+                "xraySource": {"type": "string"},
+                "xrayTargetMaterial": {"type": "string"},
+                "xrayTubeCurrent": {"type": "number"},
+                "xrayTubeEnergy": {"type": "number"},
+                "xrayTubePower": {"type": "number"}
+            }
+        },
+        "xrd_detail": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": ["ada:XRDTabular"]
+                },
+                "geometry": {"type": "string"},
+                "sampleMount": {"type": "string"},
+                "stepSize": {"type": "number"},
+                "timePerStep": {"type": "number"},
+                "wavelength": {"type": "number"}
+            }
+        },
+        "variable_type": {
+            "type": "object",
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "description": "if components are defined in distribution/datastructure, must provide an @id for the variable definitions to link those"
+                },
+                "@type": {"const": "schema:PropertyValue"},
+                "schema:description": {"type": "string"},
+                "schema:name": {
+                    "description": "the name as it typically appears in a dataset.  Might be overridden by ",
+                    "type": "string"
+                },
+                "schema:alternateName": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "description": "human intelligible name for variable that conveys semantics, also include other commonly used labels for this variable"
+                    }
+                },
+                "schema:propertyID": {
+                    "description": "ideally a resovable URI for a property concept; a SKOS concept schema can be attached to the metdata to provide property definitions; multiple identifiers can be provided to identify properties at different levels of granularity.",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "schema:maxValue": {"type": "number"},
+                "schema:minValue": {"type": "number"},
+                "cdi:unitOfMeasureKind": {
+                    "description": "use https://qudt.org/3.1.2/vocab/quantitykind",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "@id",
+                "schema:description",
+                "schema:name"
+            ]
+        },
+        "stringArray_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {"type": "string"}
+        },
+        "spatialRegistration_type": {
+            "type": "object",
+            "properties": {
+                "basemap": {
+                    "type": "string",
+                    "description": "link to appropriate basemap image map"
+                },
+                "originX": {"type": "number"},
+                "originY": {"type": "number"},
+                "originZ": {"type": "number"},
+                "coordDef": {
+                    "type": "string",
+                    "description": "are the coordinates stage-defined or pixel-defined; if the pixel-defined, are the coordinates coming from: Range {stage, upperleftPixel, centerPixel}"
+                },
+                "coordUnits": {"type": "string"},
+                "pixelUnits": {"type": "string"},
+                "pixelScaleX": {"type": "number"},
+                "pixelScaleY": {"type": "number"},
+                "originLocation": {
+                    "type": "string",
+                    "description": "the location of the origin pixel of an image. Range: {upperLeft, upperRight, lowerLeft, lowerRight, center}"
+                }
+            },
+            "required": [
+                "originX",
+                "originY",
+                "pixelScaleX",
+                "pixelScaleY",
+                "pixelUnits",
+                "originLocation",
+                "coordDef"
+            ]
+        },
+        "analysis.instrument_type": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "schema:Thing",
+                        "prov:Entity",
+                        "nxs:BaseClass/NXinstrument"
+                    ]
+                },
+                "schema:additionalType": {
+                    "description": "identifer for an instrument or component in teh analytical instrumentation. e.g. https://gcmd.earthdata.nasa.gov/kms/concept/ff564c87-78f2-47eb-a857-a4bdc0a71ae5",
+                    "type": "array",
+                    "items": {"type": "string"}
+                },
+                "schema:name": {"type": "string"},
+                "schema:description": {"type": "string"},
+                "schema:identifier": {"type": "string"}
+            }
+        },
+        "analysis.laboratory_type": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "const": [
+                        "schema:Place",
+                        "nxs:BaseClass/NXsource"
+                    ]
+                },
+                "schema:identifier": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "schema:name": {"type": "string"},
+                "schema:alternateName": {"type": "string"}
+            }
+        },
+        "creativeWork_type": {
+            "type": "object",
+            "description": "this is a shell used mostly for labeled links to other resources, but any schema.org CreativeWork property could be included.",
+            "properties": {
+                "@type": {
+                    "type": "string",
+                    "default": "schema:CreativeWork",
+                    "const": "schema:CreativeWork"
+                },
+                "schema:name": {"type": "string"},
+                "schema:description": {"type": "string"},
+                "schema:url": {"type": "string"}
+            },
+            "required": ["@type"]
+        },
+        "definedTerm_type": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "type": "string",
+                    "const": "schema:DefinedTerm"
+                },
+                "schema:name": {
+                    "type": "string",
+                    "description": "text label for the keyord that is useful to human user"
+                },
+                "schema:identifier": {"$ref": "#/$defs/identifier_type"},
+                "schema:inDefinedTermSet": {
+                    "type": "string",
+                    "description": "Identifier for the controlled vocabulary responsible for this keyword."
+                },
+                "schema:termCode": {
+                    "type": "string",
+                    "description": "A representative code for this keyword in the controlled vocabulary (Optional).  Analogous to skos:Notation"
+                }
+            },
+            "required": [
+                "@type",
+                "schema:name"
+            ]
+        },
+        "person_type": {
+            "type": "object",
+            "properties": {
+                "@id": {"type": "string"},
+                "@type": {
+                    "type": "string",
+                    "const": "schema:Person",
+                    "default": "schema:Person"
+                },
+                "schema:name": {
+                    "type": "string",
+                    "description": "string label for person that is meaningful for human users"
+                },
+                "schema:alternateName": {
+                    "type": "string",
+                    "description": "other labels by which the person might be known"
+                },
+                "schema:affiliation": {"$ref": "#/$defs/organization_type"},
+                "schema:description": {"type": "string"},
+                "schema:identifier": {
+                    "description": "identifier for person",
+                    "anyOf": [
+                        {"$ref": "#/$defs/identifier_type"},
+                        {"type": "string"}
+                    ]
+                },
+                "schema:sameAs": {
+                    "type": "array",
+                    "description": "other identifiers for the person",
+                    "items": {"type": "string"}
+                }
+            },
+            "required": [
+                "@type",
+                "schema:name"
+            ]
+        },
+        "organization_type": {
+            "type": "object",
+            "properties": {
+                "@id": {"type": "string"},
+                "@type": {
+                    "anyOf": [
+                        {
+                            "const": ["schema:Organization"]
+                        },
+                        {
+                            "const": ["schema:FundingAgency"]
+                        },
+                        {
+                            "const": ["schema:Consortium"]
+                        },
+                        {
+                            "const": ["schema:Corporation"]
+                        },
+                        {
+                            "const": ["schema:EducationalOrganization"]
+                        },
+                        {
+                            "const": ["schema:FundingScheme"]
+                        },
+                        {
+                            "const": ["schema:GovernmentOrganization"]
+                        },
+                        {
+                            "const": ["schema:NGO"]
+                        },
+                        {
+                            "const": ["schema:Project"]
+                        },
+                        {
+                            "const": ["schema:ResearchOrganization"]
+                        }
+                    ],
+                    "default": ["schema:Organization"]
+                },
+                "schema:name": {
+                    "type": "string",
+                    "description": "string label for organization that is meaningful for human users"
+                },
+                "schema:alternateName": {
+                    "type": "string",
+                    "description": "other labels by which the organization might be known"
+                },
+                "schema:description": {"type": "string"},
+                "schema:identifier": {"type": "string"},
+                "schema:sameAs": {
+                    "type": "array",
+                    "description": "other identifiers for the organization",
+                    "items": {"type": "string"}
+                }
+            },
+            "required": [
+                "@type",
+                "schema:name"
+            ]
+        },
+        "funder_type": {
+            "anyOf": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "@id": {
+                            "type": "string",
+                            "description": "a identifier for an agent defined in this metadata, or externally; must be dereferenceable"
+                        }
+                    }
+                },
+                {"$ref": "#/$defs/person_type"},
+                {"$ref": "#/$defs/organization_type"}
+            ]
+        },
+        "identifier_type": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "type": "string",
+                    "const": "schema:PropertyValue",
+                    "default": "schema:PropertyValue"
+                },
+                "schema:propertyID": {
+                    "type": "string",
+                    "description": "identifier for the identifier schema, e.g. DOI, ARK.  Get values from https://registry.identifiers.org/registry/ for interoperability",
+                    "default": "https://registry.identifiers.org/registry/doi"
+                },
+                "schema:value": {
+                    "type": "string",
+                    "description": "the identifier string. E.g. doi:10.5066/F7VX0DMQ"
+                },
+                "schema:url": {
+                    "type": "string",
+                    "description": "web-resolveable string for the identifier; host name part is location of a resolver that will return some representation for the given identifier value. E.g. https://doi.org/10.5066/F7VX0DMQ "
+                }
+            }
+        },
+        "variableMeasured_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {
+                        "type": "string",
+                        "default": "schema:PropertyValue",
+                        "const": "schema:PropertyValue"
+                    },
+                    "@id": {"type": "string"},
+                    "schema:name": {
+                        "type": "string",
+                        "description": "this is the string label that is expected to be associated with the variable in the dataset serialization"
+                    },
+                    "schema:description": {"type": "string"},
+                    "schema:propertyID": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "identifier or name for the property concept quantified by the values in this variable slot. Multiple values can specify the property at different levels of granularity."
+                    },
+                    "schema:measurementTechnique": {
+                        "type": "string",
+                        "description": "A text description of the measurement method used to determine values for this variable. If standard measurement protocols are defined and registered, these can be identified via http URI's."
+                    },
+                    "schema:unitText": {
+                        "type": "string",
+                        "description": "A string that identifies a unit of measurement that applies to all values for this variable."
+                    },
+                    "schema:unitCode": {
+                        "type": "string",
+                        "description": "Value is expected to be TEXT or URL. We recommend providing an HTTP URI that identifies a unit of measure from a vocabulary accessible on the web. The QUDT unit vocabulary provides and extensive set of registered units of measure that can be used to populate the schema:unitCode property to specify the units of measure used to report datavalues when that is appropriate."
+                    },
+                    "schema:minValue": {
+                        "type": "number",
+                        "description": " If the value for the variable is numeric, this is the minimum value that occurs in the dataset. Not useful for other value types."
+                    },
+                    "schema:maxValue": {
+                        "type": "number",
+                        "description": " If the value for the variable is numeric, this is the maximum value that occurs in the dataset. Not useful for other value types."
+                    },
+                    "schema:url": {
+                        "type": "string",
+                        "description": "Any schema:Thing can have a URL property, but because the value is simply a url the relationship of the linked resource can not be expressed. Usage is optional. The recommendation is that schema:url should link to a web page that would be useful for a person to interpret the variable, but is not intended to be machine-actionable."
+                    }
+                },
+                "required": [
+                    "@id",
+                    "@type",
+                    "schema:name",
+                    "schema:description"
+                ]
+            }
+        }
+    }
+}
