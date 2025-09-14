@@ -1,0 +1,231 @@
+{
+  "id": 2252,
+  "files": [
+    {
+      "id": 12166,
+      "name": "20250107_XCT_JSC-ARES_OREX-800151-0_1_XCTImageCollection_1.yaml",
+      "checksum": "99478d1303830ea08f4e7a1e6a9fcf86a2b1fefbf8e10cf1ebf648a50554bfcf",
+      "sizeBytes": 1015,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12167,
+      "name": "20250107_XCT_JSC-ARES_OREX-800151-0_1_XCTImageCollection_1.zip",
+      "checksum": "abef913338ec37f60aaf0cd825b53c141d00d47ec6ee686d2562c20fe954ebac",
+      "sizeBytes": 1993688440,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    },
+    {
+      "id": 12168,
+      "name": "20250107_XCT_JSC-ARES_OREX-800151-0_1_contextVideo_1.mp4",
+      "checksum": "7c1e6c3821e9fbff9bed73471ff5b1921872856a8838ab11f62d78830b2dc9f6",
+      "sizeBytes": 78081479,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 16
+    },
+    {
+      "id": 12169,
+      "name": "20250107_XCT_JSC-ARES_OREX-800151-0_1_contextVideo_1.yaml",
+      "checksum": "1d4309bac944d2ee3be3859809ba7d2eaba30a54177167c3585d7ff43428a70d",
+      "sizeBytes": 168,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12170,
+      "name": "20250107_XCT_JSC-ARES_OREX-800151-0_1_instrumentMetadata_1.pdf",
+      "checksum": "36b9c1b580418be361f79e97838d62159afe2b49d8c2282f76414b6310e74a13",
+      "sizeBytes": 144045,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 12171,
+      "name": "20250107_XCT_JSC-ARES_OREX-800151-0_1_instrumentMetadata_1.yaml",
+      "checksum": "a80a953e932974ada8d970a48f3eeb412b9c17f49fe9121bdbe04164934b928f",
+      "sizeBytes": 164,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 4,
+      "fullName": "Eckley, Scott",
+      "nameType": "Personal",
+      "contributionId": 4419,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-2692-2164",
+      "email": "scott.a.eckley@nasa.gov"
+    },
+    {
+      "id": 4,
+      "fullName": "Eckley, Scott",
+      "nameType": "Personal",
+      "contributionId": 4420,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-2692-2164",
+      "email": "scott.a.eckley@nasa.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 4,
+      "fullName": "Eckley, Scott",
+      "nameType": "Personal",
+      "creationId": 3449,
+      "orcid": "https://orcid.org/0000-0002-2692-2164",
+      "email": "scott.a.eckley@nasa.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 17461,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800151-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17462,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250107_XCT_JSC-ARES_OREX-800151-0_1",
+        "analysisDate": "2025-01-07T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 17463,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "X-ray computed tomography",
+        "identifier": "XCT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 17464,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Nikon XTH 320",
+        "identifier": "XTH320"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 17465,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 17466,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/h1pn-e892",
+        "imageFps": 0.25,
+        "imageGain": 12,
+        "xraySource": "180 kV transmission source",
+        "description": "Stack of 16 bit grayscale TIFF images oriented orthogonally to the XCT scan rotation axis",
+        "detectorSize": "2000 x 2000",
+        "detectorType": "Perkin Elmer CCD",
+        "rotationType": "Continuous",
+        "imageExposure": 4,
+        "rotationAngle": 360,
+        "xrayTubePower": 3,
+        "instrumentType": "Nikon XT H 320 CT Scanner",
+        "numberOfSlices": 926,
+        "xrayTubeEnergy": 110,
+        "detectorBinning": "1 x 1",
+        "xrayTubeCurrent": 27,
+        "dataComponentType": "XCTImageCollection",
+        "beamFilterMaterial": "Aluminum",
+        "xrayTargetMaterial": "Tungsten",
+        "beamFilterThickness": 0.25,
+        "numberOfProjections": 3141,
+        "reconstructedVoxelSize": 7,
+        "reconstructionSoftware": "Nikon CTPro3D v5.4",
+        "sourceToObjectDistance": 23.78,
+        "reconstructedDataFormat": "16-bit TIFF",
+        "sourceToDetectorDistance": 679.51,
+        "numberOfFramesAveragedPerProjection": 2
+      },
+      "sourceFile": 12166,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 17467,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/h1pn-e892",
+        "supDocType": "contextVideo",
+        "description": "mp4 video of XCT TIFF stack",
+        "associatedFiles": [
+          "20250107_XCT_JSC-ARES_OREX-800151-0_1_XCTImageCollection_1"
+        ]
+      },
+      "sourceFile": 12169,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 17468,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/h1pn-e892",
+        "supDocType": "instrumentMetadata",
+        "description": "XCT scan metadata",
+        "associatedFiles": [
+          "20250107_XCT_JSC-ARES_OREX-800151-0_1_XCTImageCollection_1"
+        ]
+      },
+      "sourceFile": 12171,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-12T18:50:53.739347",
+  "updatedAt": "2025-03-05T19:04:24.296050",
+  "fundingDescription": "Astromaterials Curation",
+  "title": "X-ray CT data for Bennu particle OREX-800151-0",
+  "description": "This dataset contains X-ray computed tomography images, videos, and metadata for Bennu particle OREX-800151-0 as part of the OSIRIS-REx mission",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "X-ray computed tomography",
+  "doi": "10.60707/h1pn-e892",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-12",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

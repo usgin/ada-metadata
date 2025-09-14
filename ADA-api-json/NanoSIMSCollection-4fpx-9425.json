@@ -1,0 +1,212 @@
+{
+  "id": 927,
+  "files": [
+    {
+      "id": 4995,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSCollection_1.yaml",
+      "checksum": "d362094211cac908a63c408cd3d04c5617100f0a889cdb166d32902882d8d1c6",
+      "sizeBytes": 327,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 4996,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSCollection_1.zip",
+      "checksum": "11a6802ce4182a4f9829d311ba01367d1d88c3b3c704e19cdda025191333c829",
+      "sizeBytes": 490403,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    },
+    {
+      "id": 4997,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_analysisLocation_1.pdf",
+      "checksum": "145bc3789183c2fb5913c81b0be04d1cf7f58ddaec9d5625b1f066bb0e5725b1",
+      "sizeBytes": 268299,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 4998,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_analysisLocation_1.yaml",
+      "checksum": "74a2d5a0145e51497b376acc5ae2e9b76b3cce26ddebdda2b2bce78bad604ab1",
+      "sizeBytes": 442,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 4999,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_methodDescription_1.pdf",
+      "checksum": "b431a0f9fef33e3c8a1f5bdc9be8b1894787bda143bdbb70f87ecfc00da5ba0d",
+      "sizeBytes": 96923,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 5000,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_methodDescription_1.yaml",
+      "checksum": "e347def1dfa1983ac5e38c3eb6743a42da1957aae380eb06f3cf00a0e5a0c423",
+      "sizeBytes": 371,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 73,
+      "fullName": "Franchi, Ian",
+      "nameType": "Personal",
+      "contributionId": 1667,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0003-4151-0480",
+      "email": "ian.franchi@open.ac.uk"
+    },
+    {
+      "id": 133,
+      "fullName": "",
+      "nameType": "Personal",
+      "contributionId": 1668,
+      "contributorType": "Other",
+      "email": "xuchao.zhao@open.ac.uk"
+    }
+  ],
+  "creators": [
+    {
+      "id": 73,
+      "fullName": "Franchi, Ian",
+      "nameType": "Personal",
+      "creationId": 959,
+      "orcid": "https://orcid.org/0000-0003-4151-0480",
+      "email": "ian.franchi@open.ac.uk"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 7756,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501059-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 7757,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240111_NanoSIMS_OU_OREX-501059-0_1",
+        "analysisDate": "2024-01-11T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 7758,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Nanoscale secondary ion mass spectrometry",
+        "identifier": "NanoSIMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 7759,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(OU)NanoSIMS 50L",
+        "identifier": "NS50L-OU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 7760,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/05mzfcs16",
+        "name": "Open University",
+        "abbreviation": "OU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 7761,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/4fpx-9425",
+        "description": "NanoSIMS O isotope spot analyses Data Collection for OREX 501059-0",
+        "phaseAnalyzed": "olivine, pyroxene",
+        "isotopeAnalyzed": "16O, 17O, 18O, 30Si, 26Mg16O, 42Ca16O, 56Fe16O",
+        "dataComponentType": "NanoSIMSCollection"
+      },
+      "sourceFile": 4995,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 7762,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/4fpx-9425",
+        "supDocType": "analysisLocation",
+        "description": "Secondary electron images showing the analysis location of precursor silicate olivine and pyroxene grains analysed",
+        "associatedFiles": [
+          "/samisprod/samismgr/prod_deploy/data/SEIWG/NS50L-OU/2024-07-11T13:50:06.263175/methodDescription/20240111_NanoSIMS_OU_OREX-501059-0_1_methodDescription_1.yaml",
+          "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSCollection_1",
+          "10.60707/4q94-c237"
+        ]
+      },
+      "sourceFile": 4998,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 7763,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/4fpx-9425",
+        "supDocType": "methodDescription",
+        "description": "description of the methods and data processing",
+        "associatedFiles": [
+          "/samisprod/samismgr/prod_deploy/data/SEIWG/NS50L-OU/2024-07-11T13:50:06.263175/analysisLocation/20240111_NanoSIMS_OU_OREX-501059-0_1_analysisLocation_1.yaml",
+          "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSCollection_1",
+          "10.60707/4q94-c237"
+        ]
+      },
+      "sourceFile": 5000,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-07-11T13:50:06.193108",
+  "updatedAt": "2025-01-27T17:19:16.343890",
+  "fundingDescription": "STFC Grant ST/Y000188/1",
+  "title": "NanoSIMS O isotopic analysis of precursor silicates in sample OREX-501059-0",
+  "description": "Small oliivne, pyrovene and other silicate and oxide phases exist within the matrix of Bennu samples. These phases are the remnants of the precursor components that formed the original Bennu parent asteroid. The oxygen isotopic composititon of these grains helps constrain the nature of what Bennu's parent formed from, and where in the protoplanetary disk this happened.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Nanoscale secondary ion mass spectrometry",
+  "doi": "10.60707/4fpx-9425",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-07-11",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

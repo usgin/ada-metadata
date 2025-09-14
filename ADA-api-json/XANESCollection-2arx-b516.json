@@ -1,0 +1,141 @@
+{
+  "id": 2608,
+  "files": [
+    {
+      "id": 14266,
+      "name": "20241027_XANES_ALS_OREX-800055-125_1_XANESCollection_241026023.yaml",
+      "checksum": "bff6bcf4c5ba05fa0b7a21f362f10367df173a70e4042c3417a48f6adc1b2e92",
+      "sizeBytes": 92,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 14267,
+      "name": "20241027_XANES_ALS_OREX-800055-125_1_XANESCollection_241026023.zip",
+      "checksum": "eb68f67f103b35f8ab49f6343d27250f3c269452a87dddff932e6802f404fc94",
+      "sizeBytes": 62716,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 17,
+      "fullName": "Gainsforth, Zack",
+      "nameType": "Personal",
+      "contributionId": 5343,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-8180-3507",
+      "email": "zackg@ssl.berkeley.edu"
+    },
+    {
+      "id": 17,
+      "fullName": "Gainsforth, Zack",
+      "nameType": "Personal",
+      "contributionId": 5344,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-8180-3507",
+      "email": "zackg@ssl.berkeley.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 17,
+      "fullName": "Gainsforth, Zack",
+      "nameType": "Personal",
+      "creationId": 3829,
+      "orcid": "https://orcid.org/0000-0001-8180-3507",
+      "email": "zackg@ssl.berkeley.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 20214,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800055-125"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 20215,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20241027_XANES_ALS_OREX-800055-125_1",
+        "analysisDate": "2024-10-27T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 20216,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "X-ray absorption near edge structure (XANES) spectroscopy",
+        "identifier": "XANES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 20217,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "ALS STXM beamline 5.3.2.2",
+        "identifier": "ALSSTXM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 20218,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/00319zh75",
+        "name": "Advanced Light Source at Lawrence Berkeley National Laboratory",
+        "abbreviation": "ALS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 20219,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/2arx-b516",
+        "description": "default description",
+        "dataComponentType": "XANESCollection"
+      },
+      "sourceFile": 14266,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-07T03:25:56.637407",
+  "updatedAt": "2025-03-28T03:30:58.526731",
+  "fundingDescription": "NASA",
+  "title": "C-K, N-K, O-K XANES of N-rich sample from the angular lithology",
+  "description": "XANES was done immediately after FIBing to preserve spectroscopy as best as possible.  Data was taken as linescans to reduce beam damage, and two line scans of carbon were done sequentially to monitor sample modification due to X-ray irradiation.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "X-ray absorption near edge structure (XANES) spectroscopy",
+  "doi": "10.60707/2arx-b516",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-07",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

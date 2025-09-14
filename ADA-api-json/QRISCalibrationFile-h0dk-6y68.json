@@ -1,0 +1,195 @@
+{
+  "id": 351,
+  "files": [
+    {
+      "id": 1375,
+      "name": "20231024_QRIS_JSC-ARES_multiSample_1_QRISCalibrationFile_2.pdf",
+      "checksum": "b67e1eef25836ce9d1d8db73997c736ebbc13cbbeb63dce2e80d8e9a0a3e80a6",
+      "sizeBytes": 36242062,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 14
+    },
+    {
+      "id": 1376,
+      "name": "20231024_QRIS_JSC-ARES_multiSample_1_QRISCalibrationFile_2.yaml",
+      "checksum": "9e2ba359f2595195472e15ff636da3d54a3e7dbf5db8f1950d0fc0722bcf530d",
+      "sizeBytes": 387,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "contributionId": 685,
+      "contributorType": "Researcher",
+      "email": "ref1@arizona.edu"
+    },
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "contributionId": 686,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "contributionId": 687,
+      "contributorType": "Other",
+      "email": "ref1@arizona.edu"
+    },
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "contributionId": 688,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "creationId": 351,
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "creationId": 514,
+      "email": "ref1@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 2397,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800012-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 2398,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800010-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 2399,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800011-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 2400,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800013-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 2401,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231024_QRIS_JSC-ARES_multiSample_1",
+        "analysisDate": "2024-04-11T23:23:16.956544+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 2402,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Quantitative Reflectance Imaging System",
+        "identifier": "QRIS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 2403,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Quantitative Reflectance Imaging System",
+        "identifier": "QRIS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 2404,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 2405,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/h0dk-6y68",
+        "description": "This file describes in depth the process of image acquisition and data calibration for the Quantitative Reflectance Imaging System. The manuscript also discusses the challenges encountered during PE imaging.",
+        "documentVersion": "v2",
+        "dataComponentType": "QRISCalibrationFile"
+      },
+      "sourceFile": 1376,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-04-13T05:15:04.575286",
+  "updatedAt": "2024-06-05T19:06:07.487351",
+  "fundingDescription": "None, besides OSIRIS-REx grant.",
+  "title": "QRIS Calibration Document",
+  "description": "This document provides detailed explanation of the QRIS data collection procedure, the calibration pipeline, and the data products that will be delivered.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Quantitative Reflectance Imaging System",
+  "doi": "10.60707/h0dk-6y68",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-04-13",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

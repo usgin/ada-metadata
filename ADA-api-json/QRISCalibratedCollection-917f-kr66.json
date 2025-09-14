@@ -1,0 +1,166 @@
+{
+  "id": 459,
+  "files": [
+    {
+      "id": 2231,
+      "name": "20231024_QRIS_JSC-ARES_OREX-800010-0_1_QRISCalibratedCollection_1.yaml",
+      "checksum": "0c02bf33f61659313d3d5e1781ca8ae0cb542338e9a51d06cb2c91c416f10b1b",
+      "sizeBytes": 529,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 2232,
+      "name": "20231024_QRIS_JSC-ARES_OREX-800010-0_1_QRISCalibratedCollection_1.zip",
+      "checksum": "4fcce7c721915821df097715b722ddcab0e26c14d21ce3d3eb7706e11144948e",
+      "sizeBytes": 1182272753,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "contributionId": 967,
+      "contributorType": "Researcher",
+      "email": "ref1@arizona.edu"
+    },
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "contributionId": 968,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "contributionId": 969,
+      "contributorType": "Other",
+      "email": "ref1@arizona.edu"
+    },
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "contributionId": 970,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "creationId": 459,
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "creationId": 527,
+      "email": "ref1@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 3323,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800010-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 3324,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231024_QRIS_JSC-ARES_OREX-800010-0_1",
+        "analysisDate": "2024-05-14T20:23:24.500865+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 3325,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Quantitative Reflectance Imaging System",
+        "identifier": "QRIS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 3326,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Quantitative Reflectance Imaging System",
+        "identifier": "QRIS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 3327,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 3328,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/917f-kr66",
+        "description": "The folder '20231024_tray11_L2s' contains fully calibrated images of sample in Tray A1 along with associated metadata files. There are 18 images total, including TIFF and PNG images for all nine wavelength bands. Images are taken with the 50 mm focal length lens, achieving a magnification of ~4X.",
+        "calibrationFile": "10.60707/h0dk-6y68",
+        "pipelineVersion": "v2",
+        "dataComponentType": "QRISCalibratedCollection"
+      },
+      "sourceFile": 2231,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-05-15T08:30:09.073763",
+  "updatedAt": "2024-06-06T00:07:05.081754",
+  "fundingDescription": "None, besides OSIRIS-REx funding",
+  "title": "Level 2 Calibrated 4X Reflectance Images of Sample in Tray A1",
+  "description": "This bundle includes calibrated images taken by the Quantitative Reflectance Imaging System (QRIS) of bulk sample moved from the TAGSAM into Tray A1. We use a 50 mm focal length lens that achieves ~4X magnification. There are 18 images total, including TIFF and PNG images of the sample under all 9 LED wavelength bands. Violet, deep red, and infrared images are taken at seperate focus settings. All images are registered to the green image.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Quantitative Reflectance Imaging System",
+  "doi": "10.60707/917f-kr66",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-05-15",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

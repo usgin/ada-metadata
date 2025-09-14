@@ -1,0 +1,144 @@
+{
+  "id": 2718,
+  "files": [
+    {
+      "id": 14751,
+      "name": "20250213_SEM_NMNH_OREX-803089-100_1_SEMImageCollection_596.yaml",
+      "checksum": "67e8c7a37949125cb7c562061715dfa1023c550df28e02d20d7c1b24145ffd98",
+      "sizeBytes": 230,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 14752,
+      "name": "20250213_SEM_NMNH_OREX-803089-100_1_SEMImageCollection_596.zip",
+      "checksum": "c8923f6379f3bad57fbdf5d3a3044b11843974a89e1568860b00da7929629f3e",
+      "sizeBytes": 591421459,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "contributionId": 5591,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    },
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "contributionId": 5592,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "creationId": 3940,
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 21069,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803089-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 21070,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250213_SEM_NMNH_OREX-803089-100_1",
+        "analysisDate": "2025-02-13T13:32:35.223487+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 21071,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Scanning electron microscopy",
+        "identifier": "SEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 21072,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Quattro",
+        "identifier": "TFQUATT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 21073,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/00cz47042",
+        "name": "Smithsonian National Museum of Natural History",
+        "abbreviation": "NMNH"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 21074,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/xnxf-m505",
+        "imageType": [
+          "backscatter"
+        ],
+        "description": "BSE and SE images taken at 15kV and ~0.5nA",
+        "dataComponentType": "SEMImageCollection"
+      },
+      "sourceFile": 14751,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-17T18:35:14.417536",
+  "updatedAt": "2025-04-07T18:41:45.225856",
+  "fundingDescription": "OSIRIS-REx",
+  "title": "OREX-803089-100",
+  "description": "Survey data on OREX-803089-100; separate file folders for Images, Maps, and Point Spectra",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Scanning electron microscopy",
+  "doi": "10.60707/xnxf-m505",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-17",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

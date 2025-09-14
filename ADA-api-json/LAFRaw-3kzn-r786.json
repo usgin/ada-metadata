@@ -1,0 +1,184 @@
+{
+  "id": 1066,
+  "files": [
+    {
+      "id": 8882,
+      "name": "20240222_LAF_OU_OREX-803137-0_1_LAFRaw_1.yaml",
+      "checksum": "18e3919fa7435593082197752ccc75f0877dec07c6c56d5e4729407d3ec4df33",
+      "sizeBytes": 3131,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 8883,
+      "name": "20240222_LAF_OU_OREX-803137-0_1_LAFRaw_1.zip",
+      "checksum": "34efced1b33f55b31b6d741356044c9fba807c23b3a65dd92f67cd9e1792d8c6",
+      "sizeBytes": 9640,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    },
+    {
+      "id": 8884,
+      "name": "20240222_LAF_OU_OREX-803137-0_1_methodDescription_1.pdf",
+      "checksum": "9fadceea551c4a06a9a09195eb0908b8a86025da805950226b5649f10906a936",
+      "sizeBytes": 46698,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 8885,
+      "name": "20240222_LAF_OU_OREX-803137-0_1_methodDescription_1.yaml",
+      "checksum": "a1bc8045f30719d8cf9cae43654ec63f69081f4760be66c269854c598390b1ad",
+      "sizeBytes": 195,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 73,
+      "fullName": "Franchi, Ian",
+      "nameType": "Personal",
+      "contributionId": 3178,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0003-4151-0480",
+      "email": "ian.franchi@open.ac.uk"
+    },
+    {
+      "id": 130,
+      "fullName": "",
+      "nameType": "Personal",
+      "contributionId": 3179,
+      "contributorType": "Other",
+      "email": "james.malley@open.ac.uk"
+    }
+  ],
+  "creators": [
+    {
+      "id": 73,
+      "fullName": "Franchi, Ian",
+      "nameType": "Personal",
+      "creationId": 1106,
+      "orcid": "https://orcid.org/0000-0003-4151-0480",
+      "email": "ian.franchi@open.ac.uk"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 13093,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803137-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 13094,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240222_LAF_OU_OREX-803137-0_1",
+        "analysisDate": "2024-02-22T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 13095,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Laser Assisted Fluorination for Bulk Oxygen Isotope Ratio Measurements",
+        "identifier": "LAF"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 13096,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo MAT 253",
+        "identifier": "TMAT253"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 13097,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/05mzfcs16",
+        "name": "Open University",
+        "abbreviation": "OU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 13098,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/3kzn-r786",
+        "columns": [
+          {
+            "label": null,
+            "colNum": 41,
+            "fieldDescription": "Measurment Infos"
+          }
+        ],
+        "countRows": 21,
+        "description": "RAW data output from MAT 253",
+        "countColumns": 41,
+        "headerRowCount": 1,
+        "dataComponentType": "LAFRaw"
+      },
+      "sourceFile": 8882,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 13099,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/3kzn-r786",
+        "supDocType": "methodDescription",
+        "description": "description of the methods and data processing",
+        "associatedFiles": [
+          "20240222_LAF_OU_OREX-803137-0_1_LAFRaw_1",
+          "10.60707/qx28-w397"
+        ]
+      },
+      "sourceFile": 8885,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-07-19T13:40:04.575822",
+  "updatedAt": "2025-01-27T23:45:31.047486",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. Oxygen isotope work supported by STFC Grant ST/Y000188/1.",
+  "title": "Bulk oxygen isotope analysis of finer fraction of bulk aggregate sample OREX-803137-0",
+  "description": "Laser assisted fluorination of a bulk sample of finer fraction of aggregate Bennu sample from TAGSAM",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Laser Assisted Fluorination for Bulk Oxygen Isotope Ratio Measurements",
+  "doi": "10.60707/3kzn-r786",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-07-19",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

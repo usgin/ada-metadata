@@ -1,0 +1,308 @@
+{
+  "id": 524,
+  "files": [
+    {
+      "id": 2611,
+      "name": "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_NGNSMSRaw_11.csv",
+      "checksum": "f962af0b2e2f02752aa258a58cede1263f05c7a78e3b9d162da960368f7dc54b",
+      "sizeBytes": 4808,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 11
+    },
+    {
+      "id": 2612,
+      "name": "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_NGNSMSRaw_11.yaml",
+      "checksum": "28956d5947eedf6cc3e4f38924dbd5db1890e5773a458608c08f0065c31b64b3",
+      "sizeBytes": 2281,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 2613,
+      "name": "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_logFile_1.pdf",
+      "checksum": "0204277917f82a93082549d6a8e28859db70c1408a69f6485aac1c5045b168fb",
+      "sizeBytes": 24661,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 14
+    },
+    {
+      "id": 2614,
+      "name": "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_logFile_1.yaml",
+      "checksum": "55f43d419986495f8b032d9441eae5ce987010ad48731a51dbbbed347f36c64b",
+      "sizeBytes": 516,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 2615,
+      "name": "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_methodDescription_1.pdf",
+      "checksum": "9f492c17e6730b7832e6fbf67b7e9ca4cd9b3076e8cc96d71a4d63e234fff449",
+      "sizeBytes": 56062,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 14
+    },
+    {
+      "id": 2616,
+      "name": "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_methodDescription_1.yaml",
+      "checksum": "69df351ae7c7902520684f6183b808be15bce84616662567bd7dc8ae9a70dd56",
+      "sizeBytes": 505,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 60,
+      "fullName": "Fueri, Evelyn",
+      "nameType": "Personal",
+      "contributionId": 1125,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-7680-2478",
+      "email": "evelyn.furi@univ-lorraine.fr"
+    },
+    {
+      "id": 60,
+      "fullName": "Fueri, Evelyn",
+      "nameType": "Personal",
+      "contributionId": 1126,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-7680-2478",
+      "email": "evelyn.furi@univ-lorraine.fr"
+    }
+  ],
+  "creators": [
+    {
+      "id": 60,
+      "fullName": "Fueri, Evelyn",
+      "nameType": "Personal",
+      "creationId": 548,
+      "orcid": "https://orcid.org/0000-0002-7680-2478",
+      "email": "evelyn.furi@univ-lorraine.fr"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 3889,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803034-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 3890,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1",
+        "analysisDate": "2024-01-18T15:41:27.994673+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 3891,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Noble gas and Nitrogen Static Mass Spectrometry",
+        "identifier": "NG-NS-MS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 3892,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(CNRS-CRPG)Nu Instruments Noblesse HR",
+        "identifier": "NOBLESSE-CNRS-CRPG"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 3893,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/011nqat45",
+        "name": "Centre de Recherches Petrographiques et Geochimiques (Nancy, France)",
+        "abbreviation": "CNRS-CRPG"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 3894,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/08fx-rj13",
+        "columns": [
+          {
+            "label": "Date",
+            "colNum": 1,
+            "fieldDescription": "Date of analysis (month/day/year)"
+          },
+          {
+            "label": "Sample",
+            "colNum": 2,
+            "fieldDescription": "Identifier of the Ne standard aliquot, laser chamber blank or sample aliquot"
+          },
+          {
+            "label": "Laser power",
+            "colNum": 3,
+            "fieldDescription": "Laser power used for gas extraction (X % of the total power of 32 W)"
+          },
+          {
+            "label": "Cycles",
+            "colNum": 4,
+            "fieldDescription": "Number of cycles for the neon analysis"
+          },
+          {
+            "label": "Trap",
+            "colNum": 5,
+            "fieldDescription": "Trap current used (in 𝛍A)"
+          },
+          {
+            "label": "20Ne",
+            "colNum": 6,
+            "fieldDescription": "Measured 20Ne ion signal, in counts per second (cps)"
+          },
+          {
+            "label": "±20Ne",
+            "colNum": 7,
+            "fieldDescription": "Uncertainty of the 20Ne ion signal, in counts per second (cps)"
+          },
+          {
+            "label": "21Ne",
+            "colNum": 8,
+            "fieldDescription": "Measured 21Ne ion signal, in counts per second (cps)"
+          },
+          {
+            "label": "±21Ne",
+            "colNum": 9,
+            "fieldDescription": "Uncertainty of the 21Ne ion signal, in counts per second (cps)"
+          },
+          {
+            "label": "22Ne",
+            "colNum": 10,
+            "fieldDescription": "Measured 22Ne ion signal, in counts per second (cps), corrected for CO2++"
+          },
+          {
+            "label": "±22Ne",
+            "colNum": 11,
+            "fieldDescription": "Uncertainty of the 22Ne ion signal, in counts per second (cps)"
+          },
+          {
+            "label": "40Ar++",
+            "colNum": 12,
+            "fieldDescription": "Measured 40Ar++ ion signal at mass 20, in counts per second (cps)"
+          },
+          {
+            "label": "CO2+",
+            "colNum": 13,
+            "fieldDescription": "Measured CO2+ ion signal at mass 44, in counts per second (cps)"
+          },
+          {
+            "label": "20/22",
+            "colNum": 14,
+            "fieldDescription": "Measured 20Ne/22Ne ratio, corrected for CO2++"
+          },
+          {
+            "label": "±20/22",
+            "colNum": 15,
+            "fieldDescription": "Uncertainty of the 20Ne/22Ne ratio"
+          },
+          {
+            "label": "21/22",
+            "colNum": 16,
+            "fieldDescription": "Measured 21Ne/22Ne ratio, corrected for CO2++"
+          },
+          {
+            "label": "±21/22",
+            "colNum": 17,
+            "fieldDescription": "Uncertainty of the 21Ne/22Ne ratio"
+          },
+          {
+            "label": "Dilution",
+            "colNum": 18,
+            "fieldDescription": "Volume-dilution-factor"
+          }
+        ],
+        "countRows": 42,
+        "description": "Raw neon data acquired with the Noblesse-HR noble gas mass spectrometer at CRPG's noble gas facility",
+        "countColumns": 18,
+        "headerRowCount": 1,
+        "dataComponentType": "NGNSMSRaw"
+      },
+      "sourceFile": 2612,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 3895,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/08fx-rj13",
+        "supDocType": "logFile",
+        "description": "Run log of step-heating neon, argon, and nitrogen analyses of single OSIRIS-REx aggregate particles using the Noblesse-HR noble gas mass spectrometer at CRPG's noble gas facility",
+        "associatedFiles": [
+          "/samisprod/samismgr/prod_deploy/data/SEIWG/NOBLESSE-CNRS-CRPG/2024-06-07T08:30:09.904444/logFile/20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_logFile_1.yaml",
+          "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_NGNSMSRaw_11",
+          "10.60707/xm9q-4j17",
+          "10.60707/5keg-wg64"
+        ]
+      },
+      "sourceFile": 2614,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 3896,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/08fx-rj13",
+        "supDocType": "methodDescription",
+        "description": "Naming scheme and method description for neon, argon, and nitrogen data acquired using the Noblesse-HR noble gas mass spectrometer at CRPG's noble gas facility",
+        "associatedFiles": [
+          "/samisprod/samismgr/prod_deploy/data/SEIWG/NOBLESSE-CNRS-CRPG/2024-06-07T08:30:09.904444/logFile/20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_logFile_1.yaml",
+          "20240118_NG-NS-MS_CNRS-CRPG_OREX-803034-0_1_NGNSMSRaw_11",
+          "10.60707/xm9q-4j17",
+          "10.60707/5keg-wg64"
+        ]
+      },
+      "sourceFile": 2616,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-06-07T08:30:06.408197",
+  "updatedAt": "2024-06-28T08:35:13.589492",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. This work was cofunded by the European Union (ERC, IRONIS, 10187562). Support from the French Space Agency (CNES) is also acknowledged.",
+  "title": "Neon, argon, and nitrogen analysis using the Noblesse-HR",
+  "description": "Step-heating Ne-Ar-N analyses of single aggregate particle OREX-803034-0 (0.1578 mg) were performed using the Noblesse-HR noble gas mass spectrometer at CRPG's noble gas facility.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Noble gas and Nitrogen Static Mass Spectrometry",
+  "doi": "10.60707/08fx-rj13",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-06-07",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

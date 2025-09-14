@@ -1,0 +1,220 @@
+{
+  "id": 2067,
+  "files": [
+    {
+      "id": 10447,
+      "name": "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_SEMHRCLMap_1.tif",
+      "checksum": "325fdf13ed9c559f7abe6a867455892ba0b2e83aae69360a27ae942fb8c3396f",
+      "sizeBytes": 3156243,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 20
+    },
+    {
+      "id": 10448,
+      "name": "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_SEMHRCLMap_1.yml",
+      "checksum": "f8ea1b4f2a2c09b83d68b67278122dc5395f7ee528533975c48ae0cf62e08237",
+      "sizeBytes": 612,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 23
+    },
+    {
+      "id": 10449,
+      "name": "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_annotatedProduct_1.tif",
+      "checksum": "5578fc96ac35963c97602300d40b4b004bf73b75518e301daa3ceb48bd62f330",
+      "sizeBytes": 3156243,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 20
+    },
+    {
+      "id": 10450,
+      "name": "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_annotatedProduct_1.yml",
+      "checksum": "3d7d38095ca7ec6976f6b9d7352a59761b9a8ac2d01e230a72229da3a29948b5",
+      "sizeBytes": 191,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 23
+    },
+    {
+      "id": 10451,
+      "name": "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_instrumentMetadata_1.txt",
+      "checksum": "ba22a5124aee6f792555e3930a64bb660ddc94f3a3623a74ceb50c4a29bdfcf5",
+      "sizeBytes": 327,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 10452,
+      "name": "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_instrumentMetadata_1.yml",
+      "checksum": "8cba3d7c9c7ca49eebab3bc90a9c68a198206865dac5b76177ab0659890ec6a2",
+      "sizeBytes": 178,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 23
+    }
+  ],
+  "contributors": [
+    {
+      "id": 68,
+      "fullName": "Portail, Marc",
+      "nameType": "Personal",
+      "contributionId": 3678,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-2305-6758",
+      "email": "marc.portail@crhea.cnrs.fr"
+    },
+    {
+      "id": 68,
+      "fullName": "Portail, Marc",
+      "nameType": "Personal",
+      "contributionId": 3679,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-2305-6758",
+      "email": "marc.portail@crhea.cnrs.fr"
+    }
+  ],
+  "creators": [
+    {
+      "id": 68,
+      "fullName": "Portail, Marc",
+      "nameType": "Personal",
+      "creationId": 2116,
+      "orcid": "https://orcid.org/0000-0002-2305-6758",
+      "email": "marc.portail@crhea.cnrs.fr"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 15023,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800045-103"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 15024,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1",
+        "analysisDate": "2023-12-14T06:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 15025,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Scanning electron microscopy",
+        "identifier": "SEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 15026,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "JEOL JSM7000F FEG-SEM",
+        "identifier": "JSM7000F"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 15027,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/02feahw73",
+        "name": "CNRS - Centre de Recherche sur l'Hetero-Epitaxie et ses Applications",
+        "abbreviation": "CNRS-CRHEA"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 15028,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/epbg-vr71",
+        "originX": 31812.2,
+        "originY": 23013.3,
+        "originZ": 11519.7,
+        "channel1": "Photon intensities received by the detector over the whole 200 - 1000 nm",
+        "coordDef": "stage",
+        "coordUnits": "micrometer",
+        "pixelUnits": "micrometer",
+        "description": "Panchromatic image of 20231214_SEM_CNRS-CRHEA_OREX-800045-106_3_SEMHRCLMap_1_, perfomed at 5kV, magnification of 1.8kx and an integration time of 800µs.",
+        "pixelScaleX": 0.0240097,
+        "pixelScaleY": 0.0240097,
+        "originLocation": "lowerRight",
+        "acquisitionTime": "2023-12-14T10:57:23",
+        "dataComponentType": "SEMHRCLMap"
+      },
+      "sourceFile": 10448,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 15029,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/epbg-vr71",
+        "numPixelsX": 1024,
+        "numPixelsY": 1024,
+        "supDocType": "annotatedProduct",
+        "description": "Scaled SEM image",
+        "associatedFiles": [
+          "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_SEMHRCLMap_1"
+        ]
+      },
+      "sourceFile": 10450,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 15030,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/epbg-vr71",
+        "supDocType": "instrumentMetadata",
+        "description": "Instrument metadata of measurements",
+        "associatedFiles": [
+          "20231214_SEM_CNRS-CRHEA_OREX-800045-103_1_SEMHRCLMap_1"
+        ]
+      },
+      "sourceFile": 10452,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-11-27T15:45:05.039870",
+  "updatedAt": "2025-01-29T16:40:11.272396",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "HR-CL on carbonate dolomite of OREX-800045-103",
+  "description": "HRCL image of a carbonate, dolomite, from sample OREX800045-103. The image reveals zonation during the growth of the crystal. Embedded in the dolomite there is also a brunnerite, that appears dark in CL. Showing simultaneous growth of dolomite and breunnerite in a complex system.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Scanning electron microscopy",
+  "doi": "10.60707/epbg-vr71",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-11-27",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

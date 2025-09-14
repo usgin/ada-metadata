@@ -1,0 +1,258 @@
+{
+  "id": 532,
+  "files": [
+    {
+      "id": 2655,
+      "name": "20231214_MC-ICP-MS_LLNL_OREX-803015-101_1_MCICPMSTabular_1.csv",
+      "checksum": "fa9c41aaeea99b70cdf46f90299ebd4af07369bebdb360620c8051d5087631d2",
+      "sizeBytes": 6249,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 11
+    },
+    {
+      "id": 2656,
+      "name": "20231214_MC-ICP-MS_LLNL_OREX-803015-101_1_MCICPMSTabular_1.yaml",
+      "checksum": "2ebe12bf4a14f7d72aa8518be88f31eb831d85fc89c5232a39ebaedf62264de0",
+      "sizeBytes": 1840,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 71,
+      "fullName": "Brennecka, Greg",
+      "nameType": "Personal",
+      "contributionId": 1149,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-0852-5595",
+      "email": "brennecka2@llnl.gov"
+    },
+    {
+      "id": 72,
+      "fullName": "Render, Jan",
+      "nameType": "Personal",
+      "contributionId": 1150,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-6534-9129",
+      "email": "render1@llnl.gov"
+    },
+    {
+      "id": 62,
+      "fullName": "Shollenberger, Quinn",
+      "nameType": "Personal",
+      "contributionId": 1151,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-6435-2177",
+      "email": "shollenberger@llnl.gov"
+    },
+    {
+      "id": 71,
+      "fullName": "Brennecka, Greg",
+      "nameType": "Personal",
+      "contributionId": 1152,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-0852-5595",
+      "email": "brennecka2@llnl.gov"
+    },
+    {
+      "id": 72,
+      "fullName": "Render, Jan",
+      "nameType": "Personal",
+      "contributionId": 1153,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-6534-9129",
+      "email": "render1@llnl.gov"
+    },
+    {
+      "id": 62,
+      "fullName": "Shollenberger, Quinn",
+      "nameType": "Personal",
+      "contributionId": 1154,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-6435-2177",
+      "email": "shollenberger@llnl.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 62,
+      "fullName": "Shollenberger, Quinn",
+      "nameType": "Personal",
+      "creationId": 556,
+      "orcid": "https://orcid.org/0000-0001-6435-2177",
+      "email": "shollenberger@llnl.gov"
+    },
+    {
+      "id": 71,
+      "fullName": "Brennecka, Greg",
+      "nameType": "Personal",
+      "creationId": 950,
+      "orcid": "https://orcid.org/0000-0002-0852-5595",
+      "email": "brennecka2@llnl.gov"
+    },
+    {
+      "id": 72,
+      "fullName": "Render, Jan",
+      "nameType": "Personal",
+      "creationId": 951,
+      "orcid": "https://orcid.org/0000-0002-6534-9129",
+      "email": "render1@llnl.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 3961,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803015-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 3962,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231214_MC-ICP-MS_LLNL_OREX-803015-101_1",
+        "analysisDate": "2024-06-11T15:56:28.141287+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 3963,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Multi-Collector Inductively Coupled Plasma Mass Spectrometry",
+        "identifier": "MC-ICP-MS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 3964,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Neoma",
+        "identifier": "Neoma-LLNL"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 3965,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory/Dept of Energy",
+        "abbreviation": "LLNL"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 3966,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/0y88-ps96",
+        "columns": [
+          {
+            "label": "Lable",
+            "colNum": 1,
+            "unitOfMeasure": "none",
+            "fieldDescription": "Sample or standard name"
+          },
+          {
+            "label": "Date/Time",
+            "colNum": 2,
+            "unitOfMeasure": "month:day:year:hours:minutes",
+            "fieldDescription": "Starting time of cycle"
+          },
+          {
+            "label": "44Ca Static 1 Mean",
+            "colNum": 3,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 44 after electronic baseline correction"
+          },
+          {
+            "label": "46Ti Static 1 Mean",
+            "colNum": 4,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 46 after electronic baseline correction"
+          },
+          {
+            "label": "47Ti Static 1 Mean",
+            "colNum": 5,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 47 after electronic baseline correction"
+          },
+          {
+            "label": "48Ti Static 1 Mean",
+            "colNum": 6,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 48 after electronic baseline correction"
+          },
+          {
+            "label": "49Ti Static 1 Mean",
+            "colNum": 7,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 49 after electronic baseline correction"
+          },
+          {
+            "label": "50Ti Static 1 Mean",
+            "colNum": 8,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 50 after electronic baseline correction"
+          },
+          {
+            "label": "51V Static 1 Mean",
+            "colNum": 9,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 51 after electronic baseline correction"
+          },
+          {
+            "label": "52Cr Static 1 Mean",
+            "colNum": 10,
+            "unitOfMeasure": "volts",
+            "fieldDescription": "voltage recorded for the cup at mass 52 after electronic baseline correction"
+          }
+        ],
+        "countRows": 45,
+        "description": "Titanium isotope raw data",
+        "countColumns": 10,
+        "headerRowCount": 1,
+        "dataComponentType": "MCICPMSTabular"
+      },
+      "sourceFile": 2656,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-06-11T16:50:03.885618",
+  "updatedAt": "2024-07-02T16:55:15.328840",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Ti isotope data",
+  "description": "Data for Ti isotopes on OREX-803015-101_1",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Multi-Collector Inductively Coupled Plasma Mass Spectrometry",
+  "doi": "10.60707/0y88-ps96",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-06-11",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

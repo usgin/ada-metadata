@@ -1,0 +1,446 @@
+{
+  "id": 2405,
+  "files": [
+    {
+      "id": 13445,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_LITImage_1_a.bmp",
+      "checksum": "016d91a2cbb75da43b30fbe54a121e70c79804a18248dcecb724c659592fc832",
+      "sizeBytes": 1458230,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 35
+    },
+    {
+      "id": 13446,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_LITImage_1_a.yaml",
+      "checksum": "e5233ca40ecb8bceb7d9de35160e47106ce7b9f298cdeb1f201d24822f3f51e4",
+      "sizeBytes": 268,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13447,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_analysisLocation_1.png",
+      "checksum": "163c65ec830a947367a38d504ff2e9536ef01106ccf8e4f2225a9e32d145ac17",
+      "sizeBytes": 53562,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 21
+    },
+    {
+      "id": 13448,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_analysisLocation_1.yaml",
+      "checksum": "f221f1abf66ccf303b7056f0fe7e1b45c0d7440eecdc6f1c03e3e0282e45c028",
+      "sizeBytes": 357,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13449,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_instrumentMetadata_1.txt",
+      "checksum": "8bafa9888b98a963379b1849db040ca006f7cdaa0ef22093bd1995ce8f93f39b",
+      "sizeBytes": 962,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 13450,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_instrumentMetadata_1.yaml",
+      "checksum": "cab160e135ef343e9045e8419385a1919cb353d4ee3a371b7e0a66702e9e1eab",
+      "sizeBytes": 1273,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13451,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_methodDescription_1.txt",
+      "checksum": "f99a02c0b614d26124ef1f5ec3e8b1fc43c2848176187a2c15dd6fb0f19edfd4",
+      "sizeBytes": 2377,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 13452,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_methodDescription_1.yaml",
+      "checksum": "9ff67d8d865b66c3c5473869c04f1b2311e12f2979d6b667963e2f0126013048",
+      "sizeBytes": 1363,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13453,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_other_1.csv",
+      "checksum": "7262151badebfba7b536454139cd2ea8a255ba534458d3b1e47b5543371c25c3",
+      "sizeBytes": 66,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 13454,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_other_1.yaml",
+      "checksum": "ac0bc4b2d41c8d1b0ca9f9203deb31960f7718191b782be12903dd08392cb390",
+      "sizeBytes": 430,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13455,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_other_1_a.yaml",
+      "checksum": "74438c7ba953a3ca40e17e8b4c0263f1c0cd659efd76df183c5a1f84df9aca43",
+      "sizeBytes": 415,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13456,
+      "name": "20241022_LIT_NU_OREX-800118-0_1_other_1_a.zip",
+      "checksum": "526a1846488fdf968a2a390b179d9bc8a7803ce6f383737f059febeea16efdae",
+      "sizeBytes": 3164602,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 49,
+      "fullName": "Ishizaki, Takuya",
+      "nameType": "Personal",
+      "contributionId": 4889,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-3094-6716",
+      "email": "ishizaki.takuya@jaxa.jp"
+    },
+    {
+      "id": 18,
+      "fullName": "ALASLI, Abdulkareem",
+      "nameType": "Personal",
+      "contributionId": 4890,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-1681-0492",
+      "email": "al.asli.abdulkareem.m6@f.mail.nagoya-u.ac.jp"
+    },
+    {
+      "id": 49,
+      "fullName": "Ishizaki, Takuya",
+      "nameType": "Personal",
+      "contributionId": 4891,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-3094-6716",
+      "email": "ishizaki.takuya@jaxa.jp"
+    },
+    {
+      "id": 18,
+      "fullName": "ALASLI, Abdulkareem",
+      "nameType": "Personal",
+      "contributionId": 4892,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-1681-0492",
+      "email": "al.asli.abdulkareem.m6@f.mail.nagoya-u.ac.jp"
+    }
+  ],
+  "creators": [
+    {
+      "id": 18,
+      "fullName": "ALASLI, Abdulkareem",
+      "nameType": "Personal",
+      "creationId": 3626,
+      "orcid": "https://orcid.org/0000-0002-1681-0492",
+      "email": "al.asli.abdulkareem.m6@f.mail.nagoya-u.ac.jp"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 18756,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800118-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 18757,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20241022_LIT_NU_OREX-800118-0_1",
+        "analysisDate": "2024-10-22T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 18758,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Lock-In Thermography",
+        "identifier": "LIT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 18759,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Infratec camera model ThermoHAWK H9000",
+        "identifier": "InfRec-H9000"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 18760,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04chrp450",
+        "name": "Nagoya University",
+        "abbreviation": "NU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 18761,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/by2q-ts31",
+        "channel1": "images with a color scale, check scale bar.",
+        "description": "Images converted to maps of amplitude form lock-in thermography measurements on OREX-800118-0 sample location 1 at a modulation frequency of 2.0 Hz.",
+        "dataComponentType": "LITImage"
+      },
+      "sourceFile": 13446,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18762,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/by2q-ts31",
+        "numPixelsX": 185,
+        "numPixelsY": 188,
+        "supDocType": "analysisLocation",
+        "description": "Image including the analysis location 1 on the OREX-800118-0 Sample.",
+        "associatedFiles": [
+          "10.60707/a7ah-6540",
+          "20241022_LIT_NU_OREX-800118-0_1_LITImage_1_a",
+          "10.60707/nz1n-5009",
+          "10.60707/ev0r-py08",
+          "10.60707/9rnx-4p71",
+          "10.60707/6ps5-sx22",
+          "10.60707/nj56-y489"
+        ]
+      },
+      "sourceFile": 13448,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18763,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/by2q-ts31",
+        "supDocType": "instrumentMetadata",
+        "description": "LIT instruments generated text for OREX-800118-0 sample measurements.",
+        "associatedFiles": [
+          "10.60707/a7ah-6540",
+          "20241022_LIT_NU_OREX-800118-0_1_LITImage_1_a",
+          "10.60707/nz1n-5009",
+          "10.60707/ev0r-py08",
+          "10.60707/9rnx-4p71",
+          "10.60707/6ps5-sx22",
+          "10.60707/nj56-y489",
+          "10.60707/f86w-0488",
+          "10.60707/9c19-5c53",
+          "10.60707/eh0r-0p93",
+          "10.60707/2d58-fd87",
+          "10.60707/pejb-rb32",
+          "10.60707/3kjk-0r21",
+          "10.60707/7t7y-vx77",
+          "10.60707/csg0-8786",
+          "10.60707/stff-vr55",
+          "10.60707/7cn9-3e46",
+          "10.60707/9pxg-1c53",
+          "10.60707/2jvc-t005",
+          "10.60707/acgy-wv64",
+          "10.60707/1vr3-hw70",
+          "10.60707/g59p-yw76",
+          "10.60707/kqcb-wj93",
+          "10.60707/04th-2p67",
+          "10.60707/6d0d-v634",
+          "10.60707/sktc-5923",
+          "10.60707/9xmc-yj03",
+          "10.60707/s9cq-5796",
+          "10.60707/q0n0-8y27",
+          "10.60707/j67k-cw42",
+          "10.60707/0e7q-t889",
+          "10.60707/tdgq-6z78",
+          "10.60707/qn8r-x990",
+          "10.60707/p4q4-1268",
+          "10.60707/9jyj-8577",
+          "10.60707/w8td-a594",
+          "10.60707/eva2-tb02",
+          "10.60707/2qex-jg89",
+          "10.60707/eamw-0p69",
+          "10.60707/xxtn-4181",
+          "10.60707/x55k-tk59",
+          "10.60707/5d6r-nv53",
+          "10.60707/reqm-jd08",
+          "10.60707/1qkw-sp19",
+          "10.60707/7wn4-f040",
+          "10.60707/vr7t-2264",
+          "10.60707/p4k1-bc27",
+          "10.60707/2znt-em17",
+          "10.60707/4np5-nc10",
+          "10.60707/my5j-sa34",
+          "10.60707/v1rt-fr82",
+          "10.60707/7z6m-yd52"
+        ]
+      },
+      "sourceFile": 13450,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18764,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/by2q-ts31",
+        "supDocType": "methodDescription",
+        "description": "Description of the data processing, sample preparation, instrument methodologies, and analytical methods for OREX-800118-0 sample at four different locations.",
+        "associatedFiles": [
+          "10.60707/a7ah-6540",
+          "20241022_LIT_NU_OREX-800118-0_1_LITImage_1_a",
+          "10.60707/nz1n-5009",
+          "10.60707/ev0r-py08",
+          "10.60707/9rnx-4p71",
+          "10.60707/6ps5-sx22",
+          "10.60707/nj56-y489",
+          "10.60707/f86w-0488",
+          "10.60707/9c19-5c53",
+          "10.60707/eh0r-0p93",
+          "10.60707/2d58-fd87",
+          "10.60707/pejb-rb32",
+          "10.60707/3kjk-0r21",
+          "10.60707/7t7y-vx77",
+          "10.60707/csg0-8786",
+          "10.60707/stff-vr55",
+          "10.60707/7cn9-3e46",
+          "10.60707/9pxg-1c53",
+          "10.60707/2jvc-t005",
+          "10.60707/acgy-wv64",
+          "10.60707/1vr3-hw70",
+          "10.60707/g59p-yw76",
+          "10.60707/kqcb-wj93",
+          "10.60707/04th-2p67",
+          "10.60707/6d0d-v634",
+          "10.60707/sktc-5923",
+          "10.60707/9xmc-yj03",
+          "10.60707/s9cq-5796",
+          "10.60707/q0n0-8y27",
+          "10.60707/j67k-cw42",
+          "10.60707/0e7q-t889",
+          "10.60707/tdgq-6z78",
+          "10.60707/qn8r-x990",
+          "10.60707/p4q4-1268",
+          "10.60707/9jyj-8577",
+          "10.60707/w8td-a594",
+          "10.60707/eva2-tb02",
+          "10.60707/2qex-jg89",
+          "10.60707/eamw-0p69",
+          "10.60707/xxtn-4181",
+          "10.60707/x55k-tk59",
+          "10.60707/5d6r-nv53",
+          "10.60707/reqm-jd08",
+          "10.60707/1qkw-sp19",
+          "10.60707/7wn4-f040",
+          "10.60707/vr7t-2264",
+          "10.60707/p4k1-bc27",
+          "10.60707/2znt-em17",
+          "10.60707/4np5-nc10",
+          "10.60707/my5j-sa34",
+          "10.60707/v1rt-fr82",
+          "10.60707/7z6m-yd52"
+        ]
+      },
+      "sourceFile": 13452,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18765,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/by2q-ts31",
+        "supDocType": "other",
+        "description": "Files describing laser intensity, spot size, and frequency setting for OREX-800118-0 sample location 1 measurements.",
+        "OriginalName": "20241022_LIT_NU_OREX-800118-0_1_other_Laser_1.csv",
+        "associatedFiles": [
+          "10.60707/a7ah-6540",
+          "20241022_LIT_NU_OREX-800118-0_1_LITImage_1_a",
+          "10.60707/nz1n-5009",
+          "10.60707/ev0r-py08",
+          "10.60707/9rnx-4p71",
+          "10.60707/6ps5-sx22",
+          "10.60707/nj56-y489"
+        ]
+      },
+      "sourceFile": 13454,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18766,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/by2q-ts31",
+        "supDocType": "other",
+        "description": "Ascii files for the amplitude, phase, and topography for the lock-in thermography measurements on OREX-800118-0 sample location 1 at a modulation frequency of 2.0 Hz.",
+        "OriginalName": "20241022_LIT_NU_OREX-800118-0_1_other_1_1.zip",
+        "associatedFiles": [
+          "10.60707/a7ah-6540",
+          "20241022_LIT_NU_OREX-800118-0_1_LITImage_1_a",
+          "10.60707/nz1n-5009",
+          "10.60707/ev0r-py08"
+        ]
+      },
+      "sourceFile": 13455,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-18T10:46:24.527051",
+  "updatedAt": "2025-03-11T10:52:08.014983",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Thermal diffusivity measuremnts by Lock-in thermography technique of particle of interest OREX-800118-0_1 (Polar Distribution Data)",
+  "description": "This bundle contains the results of thermal diffusivity measurements conducted on nine different regions of OREX-800118-0_1 using the Lock-In Thermography (LIT) technique. The dataset includes the polar distribution of thermal diffusivity, detailed measurement conditions, and the lock-in thermal response with corresponding infrared images.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Lock-In Thermography",
+  "doi": "10.60707/by2q-ts31",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-18",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

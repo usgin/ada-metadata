@@ -1,0 +1,193 @@
+{
+  "id": 951,
+  "files": [
+    {
+      "id": 7813,
+      "name": "20240226_GPYC_JSC-ARES_OREX-800023-0_1_GPYCProcessedTabular_1.csv",
+      "checksum": "697b3a7eb38dc7cc8459760ef09c21cc55f690e5ffe0df535d3663107278a764",
+      "sizeBytes": 214,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 7814,
+      "name": "20240226_GPYC_JSC-ARES_OREX-800023-0_1_GPYCProcessedTabular_1.yaml",
+      "checksum": "ad447a482cdb916796c869c1129054ffa669a719da0149d415f702b8def1c0dd",
+      "sizeBytes": 1864,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 74,
+      "fullName": "Macke, Robert",
+      "nameType": "Personal",
+      "contributionId": 2768,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-7387-6498",
+      "email": "macke@jesuits.net"
+    },
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributionId": 2769,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 74,
+      "fullName": "Macke, Robert",
+      "nameType": "Personal",
+      "creationId": 983,
+      "orcid": "https://orcid.org/0000-0002-7387-6498",
+      "email": "macke@jesuits.net"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 11655,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800023-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 11656,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240226_GPYC_JSC-ARES_OREX-800023-0_1",
+        "analysisDate": "2024-02-26T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 11657,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Gas pycnometry",
+        "identifier": "GPYC"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 11658,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Densinator - Custom-built glove-box mounted pycnometer",
+        "identifier": "DENSINATOR"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 11659,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 11660,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/7hya-7y42",
+        "columns": [
+          {
+            "label": "Object",
+            "colNum": 1,
+            "fieldDescription": "Which object's measurements the following rows contain. The first row is sphere data, and the second row is the specimen data."
+          },
+          {
+            "label": "Mass",
+            "colNum": 2,
+            "unitOfMeasure": "g",
+            "fieldDescription": "Mass of the object. For the spheres, we use the nominal volume instead of weighing the object."
+          },
+          {
+            "label": "V measured",
+            "colNum": 3,
+            "unitOfMeasure": "cm^3",
+            "fieldDescription": "measured volume of the spheres or the specimen. These data are taken directly from the raw pycnometer measurement results."
+          },
+          {
+            "label": "stdev",
+            "colNum": 4,
+            "unitOfMeasure": "cm^3",
+            "fieldDescription": "standard deviation of the volumes. These data are taken directly from the raw pycnometer results."
+          },
+          {
+            "label": "V actual/corrected",
+            "colNum": 5,
+            "unitOfMeasure": "cm^3",
+            "fieldDescription": "For the spheres, this is the nominal actual volume of the spheres, hence, the same value as what is in column 2. For the specimen, it is the corrected volume calculated from the difference in sphere volumes."
+          },
+          {
+            "label": "err",
+            "colNum": 6,
+            "unitOfMeasure": "cm^3",
+            "fieldDescription": "uncertainty calculated for the corrected volume, taking into account propagation of errors and the number of measurement loops performed. Blank for spheres."
+          },
+          {
+            "label": "Raw Dens",
+            "colNum": 7,
+            "unitOfMeasure": "g cm^-3",
+            "fieldDescription": "Mass of object divided by uncorrected volume. Blank for spheres."
+          },
+          {
+            "label": "Corr Dens",
+            "colNum": 8,
+            "unitOfMeasure": "g cm^-3",
+            "fieldDescription": "Mass of the object divided by the corrected volume. Blank for spheres."
+          }
+        ],
+        "countRows": 2,
+        "description": "Corrected sample volume and density for specimen OREX-800023-0 based on calibration sphere data.",
+        "countColumns": 8,
+        "headerRowCount": 2,
+        "dataComponentType": "GPYCProcessedTabular"
+      },
+      "sourceFile": 7814,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-07-12T10:30:05.748338",
+  "updatedAt": "2025-01-27T23:07:35.489870",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Gas Pycnometry Bundle Data for OREX-800023-0",
+  "description": "Ideal gas pycnometry performed at JSC-ARES in glove box environment for grain density. Bundled data contains raw calibration files, raw measurement files of specimens, may contain raw measurement files of spheres of comparable volume, and log file. Also contains corrected volume for the specimen. Caveat-Due to unforeseen effects, data are not representative of true grain density.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Gas pycnometry",
+  "doi": "10.60707/7hya-7y42",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-07-12",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

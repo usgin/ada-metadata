@@ -1,0 +1,375 @@
+{
+  "id": 2072,
+  "files": [
+    {
+      "id": 6543,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_GPYCRawTabular_1.csv",
+      "checksum": "28ee730e773cd67226e2c297b82f5ca2620ee9255e8a7543686426514303c4d0",
+      "sizeBytes": 3114,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 6544,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_GPYCRawTabular_1.yaml",
+      "checksum": "e6a940261b836860e298abed832eb40540db6a6dc5b009841165c1026c7a6873",
+      "sizeBytes": 2288,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 6545,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_calibrationFile_1.csv",
+      "checksum": "afe64dfb0ed1399397d3f7bc2c30afaceed8007ba95755818bed680a2967611f",
+      "sizeBytes": 2274,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 6546,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_calibrationFile_1.yaml",
+      "checksum": "60eb152fa305c33f6605a03b11ea4361de47681d5b07fd15263fba8067a7ad01",
+      "sizeBytes": 324,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 6547,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_calibrationFile_2.csv",
+      "checksum": "6146279ea763343e9bc4b081eba4393d8a834c4fcdd2e9bf50ca8497ae22c60f",
+      "sizeBytes": 2571,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 6548,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_calibrationFile_2.yaml",
+      "checksum": "13b5c97d3d3ef801369fc7b2a7e844f922851cac17a2eb389e12577e632dd141",
+      "sizeBytes": 390,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 6549,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_calibrationFile_3.csv",
+      "checksum": "17f96c230577955506017ea2df346008e9f998840a2785cae52af905292d270a",
+      "sizeBytes": 2466,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 6550,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_calibrationFile_3.yaml",
+      "checksum": "bb3d7a284897303ac2bdd8b56b378685455c51c8d4b782499fcc3fae255fcd1f",
+      "sizeBytes": 390,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 6551,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_methodDescription_1.txt",
+      "checksum": "85a10ea90adcb85ca433add8852845cc5f3e95a958662e345d08e4b3326b1aa4",
+      "sizeBytes": 4354,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 6552,
+      "name": "20241125_GPYC_UCa_OREX-800123-0_1_methodDescription_1.yaml",
+      "checksum": "a582ee99119ffdbfe18667de99590f523e78f0834c3f5a73cbb5cc496bd18c87",
+      "sizeBytes": 513,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 136,
+      "fullName": "Hanton, Lincoln",
+      "nameType": "Personal",
+      "contributionId": 2275,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-5497-4554",
+      "email": "ltjhanto@ucalgary.ca"
+    },
+    {
+      "id": 122,
+      "fullName": "Hildebrand, Alan",
+      "nameType": "Personal",
+      "contributionId": 2276,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-9926-2059",
+      "email": "ahildebr@ucalgary.ca"
+    },
+    {
+      "id": 136,
+      "fullName": "Hanton, Lincoln",
+      "nameType": "Personal",
+      "contributionId": 2277,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-5497-4554",
+      "email": "ltjhanto@ucalgary.ca"
+    },
+    {
+      "id": 122,
+      "fullName": "Hildebrand, Alan",
+      "nameType": "Personal",
+      "contributionId": 2278,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-9926-2059",
+      "email": "ahildebr@ucalgary.ca"
+    }
+  ],
+  "creators": [
+    {
+      "id": 136,
+      "fullName": "Hanton, Lincoln",
+      "nameType": "Personal",
+      "creationId": 3289,
+      "orcid": "https://orcid.org/0000-0001-5497-4554",
+      "email": "ltjhanto@ucalgary.ca"
+    },
+    {
+      "id": 122,
+      "fullName": "Hildebrand, Alan",
+      "nameType": "Personal",
+      "creationId": 2121,
+      "orcid": "https://orcid.org/0000-0001-9926-2059",
+      "email": "ahildebr@ucalgary.ca"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 9926,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800123-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 9927,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20241125_GPYC_UCa_OREX-800123-0_1",
+        "analysisDate": "2024-11-25T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 9928,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Gas pycnometry",
+        "identifier": "GPYC"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 9929,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Anton Paar Ultrapyc 5000 Micro Pycnometer",
+        "identifier": "ULTRAPYC"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 9930,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary",
+        "abbreviation": "UCa"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 9931,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/kzfq-t450",
+        "columns": [
+          {
+            "label": "run",
+            "colNum": 1,
+            "fieldDescription": "Number of measurement run. Last row is average of last nine runs."
+          },
+          {
+            "label": "p0 [bar]",
+            "colNum": 2,
+            "unitOfMeasure": "bar",
+            "fieldDescription": "Ambient pressure in laboratory."
+          },
+          {
+            "label": "pi [bar]",
+            "colNum": 3,
+            "unitOfMeasure": "bar",
+            "fieldDescription": "Absolute initial pressure in reference chamber."
+          },
+          {
+            "label": "pf [bar]",
+            "colNum": 4,
+            "unitOfMeasure": "bar",
+            "fieldDescription": "Absolute final pressure in reference and sample chamber."
+          },
+          {
+            "label": "vol [cm3]",
+            "colNum": 5,
+            "unitOfMeasure": "centimetres cubed",
+            "fieldDescription": "Volume of spacers and grain volume of sample"
+          },
+          {
+            "label": "sample grain volume [cm3]",
+            "colNum": 6,
+            "unitOfMeasure": "centimetres cubed",
+            "fieldDescription": "Grain volume of sample, calculated by subtracting spacer volume from column 5."
+          },
+          {
+            "label": "stdev",
+            "colNum": 7,
+            "unitOfMeasure": "centimetres cubed",
+            "fieldDescription": "Standard deviation (1 sigma) of sample grain volume measurements. Blank in all rows except 'Average of last nine runs'."
+          },
+          {
+            "label": "temp [K]",
+            "colNum": 8,
+            "unitOfMeasure": "Kelvin",
+            "fieldDescription": "Temperature of instrument"
+          },
+          {
+            "label": "time [hh:mm:ss]",
+            "colNum": 9,
+            "unitOfMeasure": "hours:minutes:seconds",
+            "fieldDescription": "Instrument recorded time of run."
+          },
+          {
+            "label": "density [g/cm3]",
+            "colNum": 10,
+            "unitOfMeasure": "grams per centimetre cubed",
+            "fieldDescription": "Calculated non-representative intermediate value based on sample mass, and spacer and sample grain volumes."
+          },
+          {
+            "label": "sample grain density [g/cm3]",
+            "colNum": 11,
+            "unitOfMeasure": "grams per centimetre cubed",
+            "fieldDescription": "Measured sample grain density, calculated by dividing sample mass by volume in column 6."
+          },
+          {
+            "label": "stdev",
+            "colNum": 12,
+            "unitOfMeasure": "grams per centimetre cubed",
+            "fieldDescription": "Standard deviation (1 sigma) of sample grain density measurements. Blank in all rows except 'Average of last nine runs'."
+          }
+        ],
+        "countRows": 13,
+        "description": "Ultrapyc 5000 Micro pycnometry (GPYC) data using helium gas for Bennu angular lithology particle OREX-800123-0 after atmospheric exposure.",
+        "countColumns": 12,
+        "headerRowCount": 43,
+        "dataComponentType": "GPYCRawTabular"
+      },
+      "sourceFile": 6544,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 9932,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/kzfq-t450",
+        "supDocType": "calibrationFile",
+        "description": "Ultrapyc 5000 Micro pycnometer instrument calibration file for micro cell mode reference and sample chambers using helium gas to measure Bennu angular lithology particle OREX-800123-0.",
+        "associatedFiles": [
+          "20241125_GPYC_UCa_OREX-800123-0_1_GPYCRawTabular_1"
+        ]
+      },
+      "sourceFile": 6546,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 9933,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/kzfq-t450",
+        "supDocType": "calibrationFile",
+        "description": "Verification check file for Ultrapyc 5000 Micro pycnometer using helium gas, spacers and nano calibration sphere to confirm instrument reproducibility. This is the first verification check, which was done before measurement of sample OREX-800123-0.",
+        "associatedFiles": [
+          "20241125_GPYC_UCa_OREX-800123-0_1_GPYCRawTabular_1"
+        ]
+      },
+      "sourceFile": 6548,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 9934,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/kzfq-t450",
+        "supDocType": "calibrationFile",
+        "description": "Verification check file for Ultrapyc 5000 Micro pycnometer using helium gas, spacers and nano calibration sphere to confirm instrument reproducibility. This is the second verification check, which was done after measurement of sample OREX-800123-0.",
+        "associatedFiles": [
+          "20241125_GPYC_UCa_OREX-800123-0_1_GPYCRawTabular_1"
+        ]
+      },
+      "sourceFile": 6550,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 9935,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/kzfq-t450",
+        "supDocType": "methodDescription",
+        "description": "Discussion of pycnometry theory and measurement limiting factors, calibration procedures, and sample handling and laboratory procedures. The small size of the Bennu angular lithology particle OREX-800123-0 required manufacturing custom spacers to reduce working volumes. Discussion of pycnometry operations, including calibration, verification and sample measurement.",
+        "associatedFiles": [
+          "20241125_GPYC_UCa_OREX-800123-0_1_GPYCRawTabular_1"
+        ]
+      },
+      "sourceFile": 6552,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-12-18T23:30:04.922830",
+  "updatedAt": "2025-01-27T22:12:30.390239",
+  "fundingDescription": "Grant 22EXPOSICA from Planetary Exploration, Space Exploration, Canadian Space Agency. This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Helium Gas Ultrapyc 5000 Micro Pycnometry Bundle Data for OREX-800123-0 after Atmospheric Exposure",
+  "description": "Helium gas pycnometry performed at UCa after approximately three hours of atmospheric exposure for grain density measurement of Bennu angular lithology particle OREX-800123-0. The bundled data contains instrument calibration and verification results, grain density measurement results for sample OREX-800123-0, and methods description. These data apparently constrain a valid grain density.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Gas pycnometry",
+  "doi": "10.60707/kzfq-t450",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-12-18",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

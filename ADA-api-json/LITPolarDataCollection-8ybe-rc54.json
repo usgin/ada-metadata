@@ -1,0 +1,404 @@
+{
+  "id": 2343,
+  "files": [
+    {
+      "id": 12983,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2.yml",
+      "checksum": "d50d66fbebb7453e3b32533c60836facdf2850d7c26434eaef98800c57952036",
+      "sizeBytes": 339,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 23
+    },
+    {
+      "id": 12984,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2.zip",
+      "checksum": "bbc2c82c76d029c8288db9fa7bea91886f81ad256c99de3b56f14095078a885d",
+      "sizeBytes": 343500,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    },
+    {
+      "id": 12985,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_analysisLocation_2.png",
+      "checksum": "a367c1abfe7c8b128aa36d170292ec616f74902167eba844cbae017abfefe0a5",
+      "sizeBytes": 50107,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 21
+    },
+    {
+      "id": 12986,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_analysisLocation_2.yaml",
+      "checksum": "f68f1e0aa8cab7929b6f80cd8ce14430a6c118ce9e9b482a4355b52c86b96384",
+      "sizeBytes": 312,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12987,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_instrumentMetadata_2.txt",
+      "checksum": "c16845bfc5c9231691852b983560f6da799b184fd66792a911939fa436134746",
+      "sizeBytes": 960,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 12988,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_instrumentMetadata_2.yaml",
+      "checksum": "bf15ad35bac8ee3f250bd4a07e149e7eaf17fb053abbf098f7b6ecc1d152381f",
+      "sizeBytes": 451,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12989,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_methodDescription_2.txt",
+      "checksum": "8a72929e095d9a67990c867f4991441e45ec9440ddd4babc1806330121ac22d0",
+      "sizeBytes": 2378,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 12990,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_methodDescription_2.yaml",
+      "checksum": "fab78ae9958e6b0af61cd676ef5a52fb7704cc3811ce5379082b89b8f96f2be6",
+      "sizeBytes": 541,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12991,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_other_2.csv",
+      "checksum": "1e269c9882345eb13613f00ecf98916ddd34a1c63287822da6e1f2e42cd522a3",
+      "sizeBytes": 57,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 12992,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_other_2.yaml",
+      "checksum": "f978af9344f893a8ed0b266341aef721940fbe8c9e33d169a357a18fc6d065ce",
+      "sizeBytes": 335,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12993,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_other_2.zip",
+      "checksum": "7f906d737378cc597a9d2829b1682268bd7282f21324156482c0c45c52ab4963",
+      "sizeBytes": 2259431,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    },
+    {
+      "id": 12994,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_other_3.csv",
+      "checksum": "3baeb498578a0152cacf57abbe16e92564913fc06a89912cf8167d6c21a4e902",
+      "sizeBytes": 57,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 12995,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_other_3.yaml",
+      "checksum": "7ac3437095cd99b108a0398536623375e55328e32ef7abffbda2f3f4b527b17e",
+      "sizeBytes": 389,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12996,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_other_4.csv",
+      "checksum": "1e269c9882345eb13613f00ecf98916ddd34a1c63287822da6e1f2e42cd522a3",
+      "sizeBytes": 57,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 12997,
+      "name": "20240110_LIT_JAXA_OREX-803009-102_1_other_4.yaml",
+      "checksum": "dcb615e88573abd1a706a02ed6f1dfb530a0a51f5c67472dbf6d520ecd440c67",
+      "sizeBytes": 389,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 49,
+      "fullName": "Ishizaki, Takuya",
+      "nameType": "Personal",
+      "contributionId": 4735,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-3094-6716",
+      "email": "ishizaki.takuya@jaxa.jp"
+    },
+    {
+      "id": 18,
+      "fullName": "ALASLI, Abdulkareem",
+      "nameType": "Personal",
+      "contributionId": 4736,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-1681-0492",
+      "email": "al.asli.abdulkareem.m6@f.mail.nagoya-u.ac.jp"
+    },
+    {
+      "id": 49,
+      "fullName": "Ishizaki, Takuya",
+      "nameType": "Personal",
+      "contributionId": 4737,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-3094-6716",
+      "email": "ishizaki.takuya@jaxa.jp"
+    },
+    {
+      "id": 18,
+      "fullName": "ALASLI, Abdulkareem",
+      "nameType": "Personal",
+      "contributionId": 4738,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-1681-0492",
+      "email": "al.asli.abdulkareem.m6@f.mail.nagoya-u.ac.jp"
+    }
+  ],
+  "creators": [
+    {
+      "id": 18,
+      "fullName": "ALASLI, Abdulkareem",
+      "nameType": "Personal",
+      "creationId": 3564,
+      "orcid": "https://orcid.org/0000-0002-1681-0492",
+      "email": "al.asli.abdulkareem.m6@f.mail.nagoya-u.ac.jp"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 18331,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803009-102"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 18332,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240110_LIT_JAXA_OREX-803009-102_1",
+        "analysisDate": "2024-01-10T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 18333,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Lock-In Thermography",
+        "identifier": "LIT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 18334,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Infratec camera model Image IR 8350 hp",
+        "identifier": "InfRec-8350hp"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 18335,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/059yhyy33",
+        "name": "Japan Aerospace Exploration Agency",
+        "abbreviation": "JAXA"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 18336,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8ybe-rc54",
+        "description": "Files containing polar plot data for thermal diffusivity distribution for OREX-803009-102 sample location 2 at room temperature. The unit is in mm^2/S The data includes one figure and the corresponding tabular data.",
+        "dataComponentType": "LITPolarDataCollection"
+      },
+      "sourceFile": 12983,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18337,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8ybe-rc54",
+        "numPixelsX": 211,
+        "numPixelsY": 238,
+        "supDocType": "analysisLocation",
+        "description": "Image including the analysis location 1 on the OREX-803009-102 Sample.",
+        "associatedFiles": [
+          "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2",
+          "10.60707/mm4t-8817",
+          "10.60707/6425-1z44",
+          "10.60707/4ajc-7529"
+        ]
+      },
+      "sourceFile": 12986,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18338,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8ybe-rc54",
+        "supDocType": "instrumentMetadata",
+        "description": "LIT instruments generated text for OREX-803009-102 sample measurements.",
+        "associatedFiles": [
+          "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2",
+          "10.60707/mm4t-8817",
+          "10.60707/6425-1z44",
+          "10.60707/4ajc-7529",
+          "10.60707/3fa1-3w46",
+          "10.60707/2731-r881",
+          "10.60707/acwy-0959",
+          "10.60707/fb5r-kd38",
+          "10.60707/zqkp-g646",
+          "10.60707/nqq3-ks25",
+          "10.60707/v155-1n28",
+          "10.60707/mryq-9j60"
+        ]
+      },
+      "sourceFile": 12988,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18339,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8ybe-rc54",
+        "supDocType": "methodDescription",
+        "description": "Description of the data processing, sample preparation, instrument methodologies, and analytical methods for OREX-803009-102 sample at four different locations.",
+        "associatedFiles": [
+          "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2",
+          "10.60707/mm4t-8817",
+          "10.60707/6425-1z44",
+          "10.60707/4ajc-7529",
+          "10.60707/3fa1-3w46",
+          "10.60707/2731-r881",
+          "10.60707/acwy-0959",
+          "10.60707/fb5r-kd38",
+          "10.60707/zqkp-g646",
+          "10.60707/nqq3-ks25",
+          "10.60707/v155-1n28",
+          "10.60707/mryq-9j60"
+        ]
+      },
+      "sourceFile": 12990,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18340,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8ybe-rc54",
+        "supDocType": "other",
+        "description": "Ascii files for the amplitude, phase, and topography for the lock-in thermography measurements on OREX-803009-102_1 sample location 1.",
+        "associatedFiles": [
+          "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2",
+          "10.60707/mm4t-8817",
+          "10.60707/6425-1z44",
+          "10.60707/4ajc-7529"
+        ]
+      },
+      "sourceFile": 12992,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18341,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8ybe-rc54",
+        "supDocType": "other",
+        "description": "Files describing laser intensity, spot size, and frequency setting for OREX-803009-102 sample location 3 measurements.",
+        "OriginalName": "20240110_LIT_JAXA_OREX-803009-102_1_other_Laser_3.csv",
+        "associatedFiles": [
+          "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2",
+          "10.60707/mm4t-8817",
+          "10.60707/6425-1z44",
+          "10.60707/4ajc-7529"
+        ]
+      },
+      "sourceFile": 12995,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18342,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/8ybe-rc54",
+        "supDocType": "other",
+        "description": "Files describing laser intensity, spot size, and frequency setting for OREX-803009-102 sample location 6 measurements.",
+        "OriginalName": "20240110_LIT_JAXA_OREX-803009-102_1_other_Laser_4.csv",
+        "associatedFiles": [
+          "20240110_LIT_JAXA_OREX-803009-102_1_LITPolarDataCollection_2",
+          "10.60707/mm4t-8817",
+          "10.60707/6425-1z44",
+          "10.60707/4ajc-7529"
+        ]
+      },
+      "sourceFile": 12997,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-17T00:35:09.902851",
+  "updatedAt": "2025-03-10T00:40:36.884060",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Thermal diffusivity measuremnts by Lock-in thermography technique of particle of interest OREX-803009-102 (Polar Distribution Data)",
+  "description": "This bundle contains the results of thermal diffusivity measurements conducted on four different regions of OREX-803009-102 using the Lock-In Thermography (LIT) technique. The dataset includes the polar distribution of thermal diffusivity, detailed measurement conditions, and the lock-in thermal response with corresponding infrared images.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Lock-In Thermography",
+  "doi": "10.60707/8ybe-rc54",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-17",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

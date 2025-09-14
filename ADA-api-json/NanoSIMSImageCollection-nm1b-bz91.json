@@ -1,0 +1,141 @@
+{
+  "id": 31,
+  "files": [
+    {
+      "id": 163,
+      "name": "20231221_NanoSIMS_JSC-ARES_OREX-501018-100_1_NanoSIMSImageCollection_1.yaml",
+      "checksum": "466430ac09870bb9018b2ab070b278e7ca4158f7c49faf489d4d7107a5dacab8",
+      "sizeBytes": 323,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 164,
+      "name": "20231221_NanoSIMS_JSC-ARES_OREX-501018-100_1_NanoSIMSImageCollection_1.zip",
+      "checksum": "486f0cad084cf5afec1a9c88fa3c44ae80c979cf1871de2abc77101f055d1aad",
+      "sizeBytes": 1273264698,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 11,
+      "fullName": "Nguyen, Ann",
+      "nameType": "Personal",
+      "contributionId": 61,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-0442-1991",
+      "email": "lan-anh.n.nguyen@nasa.gov"
+    },
+    {
+      "id": 11,
+      "fullName": "Nguyen, Ann",
+      "nameType": "Personal",
+      "contributionId": 62,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-0442-1991",
+      "email": "lan-anh.n.nguyen@nasa.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 11,
+      "fullName": "Nguyen, Ann",
+      "nameType": "Personal",
+      "creationId": 32,
+      "orcid": "https://orcid.org/0000-0002-0442-1991",
+      "email": "lan-anh.n.nguyen@nasa.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 262,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501018-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 263,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231221_NanoSIMS_JSC-ARES_OREX-501018-100_1",
+        "analysisDate": "2024-01-02T17:51:02.656491+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 264,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Nanoscale secondary ion mass spectrometry",
+        "identifier": "NanoSIMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 265,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(JSC-ARES)NanoSIMS 50L",
+        "identifier": "NS50L-JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 266,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 267,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/nm1b-bz91",
+        "description": "Isotope maps (12C, 13C, 16O, 17O, 18O, 28Si, 24Mg16O) acquired for regions of sample OREX-501018-100, as well as isotope maps for San Carlos olivine (16O, 17O, 18O) and graphite (12C, 13C) standards.",
+        "dataComponentType": "NanoSIMSImageCollection"
+      },
+      "sourceFile": 163,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-01-18T20:40:11.279197",
+  "updatedAt": "2024-06-20T18:23:29.077438",
+  "fundingDescription": "NASA contract NNM10AA11C",
+  "title": "NanoSIMS C and O isotopic analysis of fines in sample OREX-501018-100",
+  "description": "The NanoSIMS 50L at NASA JSC was used to analyze concurrently the 12C, 13C, 16O, 17O, 18O, 28Si, and 24Mg16O in sample OREX-501018-100 through raster ion imaging. On the sample, isotope maps were collected for 20 micrometer fields of view. These 20-micron regions were analyzed sequentially during chained analyses. The data were collected with the goal of identifying presolar grains. A cluster of forsterite grains were also targeted for O isotopic analysis. San Carlos olivine (16O, 17O, 18O) and graphite (12C, 13C) were measured as isotopic standards.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Nanoscale secondary ion mass spectrometry",
+  "doi": "10.60707/nm1b-bz91",
+  "daysUntilRelease": 0,
+  "publicationDate": "2024-06-20T18:23:28.387426",
+  "doiIssuedDate": "2024-01-18",
+  "doiStatus": "findable",
+  "processStatus": "Published",
+  "processMessage": null,
+  "processPath": null
+}

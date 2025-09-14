@@ -1,0 +1,253 @@
+{
+  "id": 900,
+  "files": [
+    {
+      "id": 2673,
+      "name": "20240206_HR-ICP-MS_LLNL_OREX-803015-101_1_HRICPMSRaw_1.csv",
+      "checksum": "9302287cf0be75843d96b739f67d38a928709b39c03f6bda24bef83128b429b0",
+      "sizeBytes": 96538,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 11
+    },
+    {
+      "id": 2674,
+      "name": "20240206_HR-ICP-MS_LLNL_OREX-803015-101_1_HRICPMSRaw_1.yaml",
+      "checksum": "b0d685bf945eb92b0f03932677d8d744aca030b8c4dbe71bc0ccf04e629ee944",
+      "sizeBytes": 139,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 2675,
+      "name": "20240206_HR-ICP-MS_LLNL_OREX-803015-101_1_methodDescription_1.txt",
+      "checksum": "92c4b5e84b58620c11fcf0a5964e515c81613b6387b4e61c681ef95d4a2ea3f4",
+      "sizeBytes": 1153,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 13
+    },
+    {
+      "id": 2676,
+      "name": "20240206_HR-ICP-MS_LLNL_OREX-803015-101_1_methodDescription_1.yaml",
+      "checksum": "e7f644f5a006e2fdfa00a97d5c927f692147c06da5f487e09aa3b49f99bf5740",
+      "sizeBytes": 236,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 71,
+      "fullName": "Brennecka, Greg",
+      "nameType": "Personal",
+      "contributionId": 1167,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-0852-5595",
+      "email": "brennecka2@llnl.gov"
+    },
+    {
+      "id": 72,
+      "fullName": "Render, Jan",
+      "nameType": "Personal",
+      "contributionId": 1168,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-6534-9129",
+      "email": "render1@llnl.gov"
+    },
+    {
+      "id": 62,
+      "fullName": "Shollenberger, Quinn",
+      "nameType": "Personal",
+      "contributionId": 1169,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-6435-2177",
+      "email": "shollenberger@llnl.gov"
+    },
+    {
+      "id": 66,
+      "fullName": "Wimpenny, Josh",
+      "nameType": "Personal",
+      "contributionId": 1170,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-7637-0978",
+      "email": "wimpenny1@llnl.gov"
+    },
+    {
+      "id": 71,
+      "fullName": "Brennecka, Greg",
+      "nameType": "Personal",
+      "contributionId": 1171,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-0852-5595",
+      "email": "brennecka2@llnl.gov"
+    },
+    {
+      "id": 72,
+      "fullName": "Render, Jan",
+      "nameType": "Personal",
+      "contributionId": 1172,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-6534-9129",
+      "email": "render1@llnl.gov"
+    },
+    {
+      "id": 62,
+      "fullName": "Shollenberger, Quinn",
+      "nameType": "Personal",
+      "contributionId": 1173,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-6435-2177",
+      "email": "shollenberger@llnl.gov"
+    },
+    {
+      "id": 66,
+      "fullName": "Wimpenny, Josh",
+      "nameType": "Personal",
+      "contributionId": 1174,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-7637-0978",
+      "email": "wimpenny1@llnl.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 66,
+      "fullName": "Wimpenny, Josh",
+      "nameType": "Personal",
+      "creationId": 924,
+      "orcid": "https://orcid.org/0000-0002-7637-0978",
+      "email": "wimpenny1@llnl.gov"
+    },
+    {
+      "id": 71,
+      "fullName": "Brennecka, Greg",
+      "nameType": "Personal",
+      "creationId": 990,
+      "orcid": "https://orcid.org/0000-0002-0852-5595",
+      "email": "brennecka2@llnl.gov"
+    },
+    {
+      "id": 72,
+      "fullName": "Render, Jan",
+      "nameType": "Personal",
+      "creationId": 991,
+      "orcid": "https://orcid.org/0000-0002-6534-9129",
+      "email": "render1@llnl.gov"
+    },
+    {
+      "id": 62,
+      "fullName": "Shollenberger, Quinn",
+      "nameType": "Personal",
+      "creationId": 992,
+      "orcid": "https://orcid.org/0000-0001-6435-2177",
+      "email": "shollenberger@llnl.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 3990,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803015-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 3991,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240206_HR-ICP-MS_LLNL_OREX-803015-101_1",
+        "analysisDate": "2024-06-11T15:57:29.233199+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 3992,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "High-resolution inductively coupled plasma mass spectrometry",
+        "identifier": "HR-ICP-MS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 3993,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Element 2XR",
+        "identifier": "Element-LLNL"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 3994,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory/Dept of Energy",
+        "abbreviation": "LLNL"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 3995,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/d62h-j641",
+        "description": "Raw data from an Element XR",
+        "dataComponentType": "HRICPMSRaw"
+      },
+      "sourceFile": 2674,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 3996,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/d62h-j641",
+        "supDocType": "methodDescription",
+        "description": "Description of sample preparation, analytical method and data processing.",
+        "associatedFiles": [
+          "20240206_HR-ICP-MS_LLNL_OREX-803015-101_1_HRICPMSRaw_1",
+          "10.60707/q4b0-v203"
+        ]
+      },
+      "sourceFile": 2676,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-06-25T21:25:04.699405",
+  "updatedAt": "2024-07-16T21:30:19.667032",
+  "fundingDescription": "NASA OSIRIS-REx",
+  "title": "Concentration data",
+  "description": "Data for major and trace elemental abundances",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "High-resolution inductively coupled plasma mass spectrometry",
+  "doi": "10.60707/d62h-j641",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-06-25",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

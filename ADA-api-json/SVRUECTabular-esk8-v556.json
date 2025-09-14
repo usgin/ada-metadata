@@ -1,0 +1,458 @@
+{
+  "id": 2077,
+  "files": [
+    {
+      "id": 11369,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1.csv",
+      "checksum": "4180836253881c0795c5e7bd203110832e38af2eb05f0b09b891624695243d09",
+      "sizeBytes": 1491,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 11370,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1.yaml",
+      "checksum": "d6a1f9db3a2f137a94ece78d4a7e5e95080b5cc7c5cb7f77b8f3ec3079fccb25",
+      "sizeBytes": 1845,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 11371,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_contextPhotography_1.png",
+      "checksum": "4161d4f2fbb717b0a2a3333507c7ec5bd40cf754c01c433e1ed5b35655e4de77",
+      "sizeBytes": 22532405,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 21
+    },
+    {
+      "id": 11372,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_contextPhotography_1.yaml",
+      "checksum": "71eb4ebacfec2e2fc9e9c569eabfec190c7c5dcb7b2e29cf006cb84f5bb21e85",
+      "sizeBytes": 280,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 11373,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_contextPhotography_2.png",
+      "checksum": "b4966d1ad7ca8deb06aa945e798ef553d8e982f95bb615f040949e4b2cba631f",
+      "sizeBytes": 26515420,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 21
+    },
+    {
+      "id": 11374,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_contextPhotography_2.yaml",
+      "checksum": "088836202053d878bd78a236dbc488cc0154cf5351be00f23a54e332c4a9fdf3",
+      "sizeBytes": 280,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 11375,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_methodDescription_1.txt",
+      "checksum": "c5dfc6469404d9818d00a800c8618e6c43cdda3bd59aacabf821b5fd9a9e09da",
+      "sizeBytes": 3167,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 11376,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_methodDescription_1.yaml",
+      "checksum": "5af6e2d8a2a6b5c73e4f747ed008ecdc6616e45d7f256202177aab59e1193c78",
+      "sizeBytes": 320,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 11377,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_other_1.csv",
+      "checksum": "493d0054a1660b2ba1335406bc8ef3af28a7eee1b831b4d99bb440d5f1f3a885",
+      "sizeBytes": 1877270,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 11378,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_other_1.yaml",
+      "checksum": "26b2c4d5fdfc2811d265857c0b4be4ab18c07d6a2274148a0c2f66e870c8fcc9",
+      "sizeBytes": 336,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 11379,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_other_2.csv",
+      "checksum": "db1ce827c2d926e2f6a9a28d3167c73a68620a234fa8f1f679e693bbdad139c0",
+      "sizeBytes": 1574447,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 11380,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_other_2.yaml",
+      "checksum": "cca156d99d6d6c3c4b05bc6eda826293b5ff5ecf1d0c9246861afd37b496acff",
+      "sizeBytes": 332,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 11381,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_plot_1.jpg",
+      "checksum": "739d8d6f28a84592bc1b8ab029334cdf7185a42be86034ecb2c15315c2d24390",
+      "sizeBytes": 144150,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 17
+    },
+    {
+      "id": 11382,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_plot_1.yaml",
+      "checksum": "89e8a0b4dd8ace8a74d0a30eb4e3b04aec338e5a623fbd0c06c28603504682e4",
+      "sizeBytes": 305,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 11383,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_plot_2.jpg",
+      "checksum": "de5ae5b42831338b6e6667bba0169bc7dd315e6e68bba8f40b5cb6e0e7f3176b",
+      "sizeBytes": 101081,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 17
+    },
+    {
+      "id": 11384,
+      "name": "20241216_SV-RUEC_UCa_OREX-800123-0_1_plot_2.yaml",
+      "checksum": "e727864ab31a336de99aac22ab5472a986d6406e6e80d5e90bfca285b8a98224",
+      "sizeBytes": 301,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 136,
+      "fullName": "Hanton, Lincoln",
+      "nameType": "Personal",
+      "contributionId": 3975,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-5497-4554",
+      "email": "ltjhanto@ucalgary.ca"
+    },
+    {
+      "id": 122,
+      "fullName": "Hildebrand, Alan",
+      "nameType": "Personal",
+      "contributionId": 3976,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-9926-2059",
+      "email": "ahildebr@ucalgary.ca"
+    },
+    {
+      "id": 122,
+      "fullName": "Hildebrand, Alan",
+      "nameType": "Personal",
+      "contributionId": 3977,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-9926-2059",
+      "email": "ahildebr@ucalgary.ca"
+    },
+    {
+      "id": 136,
+      "fullName": "Hanton, Lincoln",
+      "nameType": "Personal",
+      "contributionId": 3978,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-5497-4554",
+      "email": "ltjhanto@ucalgary.ca"
+    }
+  ],
+  "creators": [
+    {
+      "id": 122,
+      "fullName": "Hildebrand, Alan",
+      "nameType": "Personal",
+      "creationId": 2126,
+      "orcid": "https://orcid.org/0000-0001-9926-2059",
+      "email": "ahildebr@ucalgary.ca"
+    },
+    {
+      "id": 136,
+      "fullName": "Hanton, Lincoln",
+      "nameType": "Personal",
+      "creationId": 3311,
+      "orcid": "https://orcid.org/0000-0001-5497-4554",
+      "email": "ltjhanto@ucalgary.ca"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 16193,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800123-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 16194,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20241216_SV-RUEC_UCa_OREX-800123-0_1",
+        "analysisDate": "2024-12-16T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 16195,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Seismic Velocities and Rock Ultrasonic Elastic Constants",
+        "identifier": "SV-RUEC"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 16196,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Olympus Model 5077 PR with 35 MHz ultrasonic bandwidth",
+        "identifier": "OM5077"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 16197,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary",
+        "abbreviation": "UCa"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 16198,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "columns": [
+          {
+            "label": "Sample ID",
+            "colNum": 1,
+            "fieldDescription": "Sample identification."
+          },
+          {
+            "label": "Mass (g)",
+            "colNum": 2,
+            "unitOfMeasure": "grams",
+            "fieldDescription": "Mass of sample."
+          },
+          {
+            "label": "Dimension (mm)",
+            "colNum": 3,
+            "unitOfMeasure": "millimetres",
+            "fieldDescription": "Dimension of sample for seismic velocity measurement."
+          },
+          {
+            "label": "Applied Force (N)",
+            "colNum": 4,
+            "unitOfMeasure": "newtons",
+            "fieldDescription": "Force applied on sample by transducers. The PVC standard was measured holding the transducers on its planar surfaces by hand."
+          },
+          {
+            "label": "P Wave First Arrival (micro-s)",
+            "colNum": 5,
+            "unitOfMeasure": "microseconds",
+            "fieldDescription": "Time of p wave arrival, taken as the first break of the waveform. This value has internal transducer delay removed."
+          },
+          {
+            "label": "P Wave Velocity (m/s)",
+            "colNum": 6,
+            "unitOfMeasure": "metres per second",
+            "fieldDescription": "Velocity of p wave through the sample. Calculated by dividing the sample dimension (column 3) by the p wave first arrival time (column 5)."
+          },
+          {
+            "label": "S Wave First Arrival (micro-s)",
+            "colNum": 7,
+            "unitOfMeasure": "microseconds",
+            "fieldDescription": "Time of s wave arrival, taken as the first waveform peak just before the large trough. This value has internal transducer delay removed."
+          },
+          {
+            "label": "S Wave Velocity (m/s)",
+            "colNum": 8,
+            "unitOfMeasure": "metres per second",
+            "fieldDescription": "Velocity of s wave through the sample. Calculated by dividing the sample dimension (column 3) by the s wave first arrival time (column 7)."
+          }
+        ],
+        "countRows": 2,
+        "description": "p and s wave seismic results for PVC standard and Bennu particle OREX-800123-0, which has been cut into a 3.58 mm thick, parallel-sided slab.",
+        "countColumns": 8,
+        "headerRowCount": 28,
+        "dataComponentType": "SVRUECTabular"
+      },
+      "sourceFile": 11370,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 16199,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "numPixelsX": 6800,
+        "numPixelsY": 5088,
+        "supDocType": "contextPhotography",
+        "description": "Photograph of planar side 1 of measured Bennu particle OREX-800123-0. The sample slab is 3.58 mm thick.",
+        "associatedFiles": [
+          "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1"
+        ]
+      },
+      "sourceFile": 11372,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 16200,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "numPixelsX": 6800,
+        "numPixelsY": 5088,
+        "supDocType": "contextPhotography",
+        "description": "Photograph of planar side 2 of measured Bennu particle OREX-800123-0. The sample slab is 3.58 mm thick.",
+        "associatedFiles": [
+          "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1"
+        ]
+      },
+      "sourceFile": 11374,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 16201,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "supDocType": "methodDescription",
+        "description": "Methods description for seismic velocity measurements, including sample preparation techniques and conditions, instrument settings and setup, and general measurement procedure.",
+        "associatedFiles": [
+          "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1"
+        ]
+      },
+      "sourceFile": 11376,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 16202,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "supDocType": "other",
+        "description": "Olympus V103-RM transducer output data used to generate the compression waveform (p wave) plot for Bennu particle OREX-800123-0 measurement. Internal delay of the transducer (210 ns) has not been removed.",
+        "associatedFiles": [
+          "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1"
+        ]
+      },
+      "sourceFile": 11378,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 16203,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "supDocType": "other",
+        "description": "Olympus V153-RM transducer output data used to generate the shear waveform (s wave) plot for Bennu particle OREX-800123-0 measurement. Internal delay of the transducer (270.8 ns) has not been removed.",
+        "associatedFiles": [
+          "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1"
+        ]
+      },
+      "sourceFile": 11380,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 16204,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "numPixelsX": 2077,
+        "numPixelsY": 941,
+        "supDocType": "plot",
+        "description": "Plot of compression waveform data for Bennu particle OREX-800123-0 measurement. Internal delay of the transducer (210 ns) has not been removed.",
+        "associatedFiles": [
+          "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1"
+        ]
+      },
+      "sourceFile": 11382,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 16205,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/esk8-v556",
+        "numPixelsX": 2005,
+        "numPixelsY": 950,
+        "supDocType": "plot",
+        "description": "Plot of shear waveform data for Bennu particle OREX-800123-0 measurement. Internal delay of the transducer (270.8 ns) has not been removed.",
+        "associatedFiles": [
+          "20241216_SV-RUEC_UCa_OREX-800123-0_1_SVRUECTabular_1"
+        ]
+      },
+      "sourceFile": 11384,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-01-09T23:50:05.550444",
+  "updatedAt": "2025-01-30T23:55:23.546515",
+  "fundingDescription": "Grant 22EXPOSICA from Planetary Exploration, Space Exploration, Canadian Space Agency. This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "P and S Wave Seismic Velocity Measurement Data Bundle for Bennu Particle OREX-800123-0",
+  "description": "The data bundle contains methods description, seismic velocity measurements, as well as supplementary sample reference images, seismic waveform data, and seismic waveform data plots of Bennu particle OREX-800123-0, which has been cut into a parallel-sided slab. Additionally, the dataset will be used to derive dynamic elastic constants of an angular Bennu particle. The sample measurements went nominally without the slab breaking along known XCT-imaged fractures. The seismic velocities were slightly faster than expected.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Seismic Velocities and Rock Ultrasonic Elastic Constants",
+  "doi": "10.60707/esk8-v556",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-01-09",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

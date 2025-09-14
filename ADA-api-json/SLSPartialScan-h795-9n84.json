@@ -1,0 +1,141 @@
+{
+  "id": 408,
+  "files": [
+    {
+      "id": 1953,
+      "name": "20240228_SLS_UAZ_OREX-800089-0_1_SLSPartialScan_1.yml",
+      "checksum": "88262b09cfd1dd13f1a69e67a3099a63fc1001e39069ba7a7268426be738dc2c",
+      "sizeBytes": 158,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 23
+    },
+    {
+      "id": 1954,
+      "name": "20240228_SLS_UAZ_OREX-800089-0_1_SLSPartialScan_1.zip",
+      "checksum": "501e1e7135005a670965158dfa03aaedfe8508b55ca3c5c7bf58c81172877cc7",
+      "sizeBytes": 63097339,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributionId": 767,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "contributionId": 768,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 3,
+      "fullName": "Ryan, Andy",
+      "nameType": "Personal",
+      "creationId": 408,
+      "orcid": "https://orcid.org/0000-0002-7535-8416",
+      "email": "ajryan@orex.lpl.arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 2889,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800089-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 2890,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240228_SLS_UAZ_OREX-800089-0_1",
+        "analysisDate": "2024-03-22T19:20:05.209934+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 2891,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Structured Light Scanning",
+        "identifier": "SLS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 2892,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(UAZ) Polyga Compact C506 structured light scanner",
+        "identifier": "PCC506-UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 2893,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 2894,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/h795-9n84",
+        "description": "Partial scan files, including thumbnails.",
+        "dataComponentType": "SLSPartialScan"
+      },
+      "sourceFile": 1953,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-04-19T23:10:23.335448",
+  "updatedAt": "2024-06-20T18:26:25.257815",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "3d scan of OREX-800089-0",
+  "description": "3D SLS scan of sample OREX-800089-0, one of the largest stone in the Bennu sample collection and a first-round team Stone of Interest (SOI) in the hummocky morphology category. Sample scan conducted in JSC clean room environment under pristine conditions.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Structured Light Scanning",
+  "doi": "10.60707/h795-9n84",
+  "daysUntilRelease": 0,
+  "publicationDate": "2024-06-20T18:26:24.650829",
+  "doiIssuedDate": "2024-04-19",
+  "doiStatus": "findable",
+  "processStatus": "Published",
+  "processMessage": null,
+  "processPath": null
+}

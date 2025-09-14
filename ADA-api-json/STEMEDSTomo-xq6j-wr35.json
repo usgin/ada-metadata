@@ -1,0 +1,156 @@
+{
+  "id": 2704,
+  "files": [
+    {
+      "id": 14634,
+      "name": "20240605_TEM_LBNL_OREX-501044-104_1_STEMEDSTomo_00001.emd",
+      "checksum": "eb870a35be5cef4b0b041ef0f152dcb46f613ae446cb520d3f35ec95de28ff3f",
+      "sizeBytes": 66834988,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 34
+    },
+    {
+      "id": 14635,
+      "name": "20240605_TEM_LBNL_OREX-501044-104_1_STEMEDSTomo_00001.yaml",
+      "checksum": "07cd0a3f4e034af33d217d54d6b002f825263976530d19c2cd7963fef1bce8ae",
+      "sizeBytes": 375,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 164,
+      "fullName": "Zack Gainsforth",
+      "nameType": "Personal",
+      "contributionId": 5561,
+      "contributorType": "Researcher",
+      "email": "zackg@berkeley.edu"
+    },
+    {
+      "id": 164,
+      "fullName": "Zack Gainsforth",
+      "nameType": "Personal",
+      "contributionId": 5562,
+      "contributorType": "Other",
+      "email": "zackg@berkeley.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "creationId": 3925,
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 20943,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501044-104"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 20944,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240605_TEM_LBNL_OREX-501044-104_1",
+        "analysisDate": "2024-06-05T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 20945,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Transmission Electron Microscopy",
+        "identifier": "TEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 20946,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "TitanX TEM",
+        "identifier": "TITANX"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 20947,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/02jbv0t02",
+        "name": "Lawrence Berkeley National Laboratory",
+        "abbreviation": "LBNL"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 20948,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/xq6j-wr35",
+        "dimensions": [
+          {
+            "dimension": "X",
+            "unitOfMeasure": "um",
+            "fieldDescription": "Height"
+          },
+          {
+            "dimension": "Y",
+            "unitOfMeasure": "um",
+            "fieldDescription": "Width"
+          },
+          {
+            "dimension": "Z",
+            "unitOfMeasure": "keV",
+            "fieldDescription": "Energy"
+          }
+        ],
+        "description": "TomoData.emd",
+        "dataComponentType": "STEMEDSTomo"
+      },
+      "sourceFile": 14635,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-13T18:25:06.082215",
+  "updatedAt": "2025-04-03T18:30:32.546149",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Electron tomography on a fluid inclusion in orex-501044-104",
+  "description": "Using electron tomography to get a 3d reconstruction of a fluid inclusion in pyrrhotite in orex-501044-104. Using TitanX at Lawrence Berkeley National Laboratory",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Transmission Electron Microscopy",
+  "doi": "10.60707/xq6j-wr35",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-13",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

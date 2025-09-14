@@ -1,0 +1,186 @@
+{
+  "id": 2353,
+  "files": [
+    {
+      "id": 13033,
+      "name": "20240229_SIMS_HU_OREX-803114-0_1_SIMSTabular_1.xlsx",
+      "checksum": "7ea29d8f618736ce64ca1dcb50815b6b280d878022ae7b89a393308ffe1a2564",
+      "sizeBytes": 21426,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 66
+    },
+    {
+      "id": 13034,
+      "name": "20240229_SIMS_HU_OREX-803114-0_1_SIMSTabular_1.yaml",
+      "checksum": "6e93ce209a7652d4e962bdd90d60c019531138c716eef8eb29e4d97319c1856a",
+      "sizeBytes": 365,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13035,
+      "name": "20240229_SIMS_HU_OREX-803114-0_1_methodDescription_1.pdf",
+      "checksum": "8729b3cbb00b34f665f3aa8bb6056dd1bd6f1fa6b836f6aae4126b2656bd9596",
+      "sizeBytes": 152362,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13036,
+      "name": "20240229_SIMS_HU_OREX-803114-0_1_methodDescription_1.yaml",
+      "checksum": "ef8f979681d692b668ec940edfcfda60fdbe536dd90f5a8cf345c85acffc1596",
+      "sizeBytes": 215,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 147,
+      "fullName": "Kawasaki, Noriyuki",
+      "nameType": "Personal",
+      "contributionId": 4751,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-6502-6488",
+      "email": "kawasaki@ep.sci.hokudai.ac.jp"
+    },
+    {
+      "id": 147,
+      "fullName": "Kawasaki, Noriyuki",
+      "nameType": "Personal",
+      "contributionId": 4752,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-6502-6488",
+      "email": "kawasaki@ep.sci.hokudai.ac.jp"
+    }
+  ],
+  "creators": [
+    {
+      "id": 147,
+      "fullName": "Kawasaki, Noriyuki",
+      "nameType": "Personal",
+      "creationId": 3574,
+      "orcid": "https://orcid.org/0000-0001-6502-6488",
+      "email": "kawasaki@ep.sci.hokudai.ac.jp"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 18377,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Secondary ion mass spectrometry",
+        "identifier": "SIMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 18378,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Cameca IMS 1280",
+        "identifier": "CIMS1280"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 18375,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803114-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 18376,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240229_SIMS_HU_OREX-803114-0_1",
+        "analysisDate": "2024-02-29T01:42:37.400743+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 18379,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xt43068",
+        "name": "Hokkaido University",
+        "abbreviation": "HU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 18380,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/c7rk-nk69",
+        "columns": [
+          {
+            "label": "Analysis Name",
+            "colNum": 1,
+            "fieldType": "string",
+            "displayInVizTool": true,
+            "fieldDescription": "Give the name of the analysis"
+          }
+        ],
+        "countRows": 28,
+        "description": "O-isotope and chemical compositions of olivine and pyroxene in Bennu measured in Hokkaido University",
+        "countColumns": 1,
+        "headerRowCount": 1,
+        "dataComponentType": "SIMSTabular"
+      },
+      "sourceFile": 13034,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 18381,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/c7rk-nk69",
+        "supDocType": "methodDescription",
+        "description": "description of the methods used for measuring oxygen isotopes with the IMS 1280",
+        "associatedFiles": [
+          "20240229_SIMS_HU_OREX-803114-0_1_SIMSTabular_1"
+        ]
+      },
+      "sourceFile": 13036,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-18T04:40:05.173885",
+  "updatedAt": "2025-03-11T04:45:09.668434",
+  "fundingDescription": null,
+  "title": "O-isotope and chemical compositions of olivine and pyroxene in Bennu measured in Hokkaido University",
+  "description": "O-isotope and chemical compositions of olivine and pyroxene in Bennu measured in Hokkaido University",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Secondary ion mass spectrometry",
+  "doi": "10.60707/c7rk-nk69",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-18",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

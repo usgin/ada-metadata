@@ -1,0 +1,179 @@
+{
+  "id": 2697,
+  "files": [
+    {
+      "id": 14616,
+      "name": "20240116_TEM_UAZ_OREX-501044-100_1_TEMImage_927.tif",
+      "checksum": "c5f44ad393ec202e66e2f7711d4dc9c1f2a1818113872dd3212a582f46503e7b",
+      "sizeBytes": 16778236,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 20
+    },
+    {
+      "id": 14617,
+      "name": "20240116_TEM_UAZ_OREX-501044-100_1_TEMImage_927.yaml",
+      "checksum": "fbdb9cf27a7a4ad43c495fae6ed92eda3fd54e0098559324b9fc91403a08c897",
+      "sizeBytes": 213,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 14618,
+      "name": "20240116_TEM_UAZ_OREX-501044-100_1_instrumentMetadata_2432.txt",
+      "checksum": "07110bff52b3532d85b21f440aa49ff00ca6f3f9d8284bc7275d38097dae47c9",
+      "sizeBytes": 1250,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 14619,
+      "name": "20240116_TEM_UAZ_OREX-501044-100_1_instrumentMetadata_2432.yaml",
+      "checksum": "c2fa236c98e9cea34f40b59bf1c638ae23334aa645fdc8cb4f21264af9d26a96",
+      "sizeBytes": 265,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5547,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    },
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5548,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "creationId": 3918,
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 20899,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501044-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 20900,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240116_TEM_UAZ_OREX-501044-100_1",
+        "analysisDate": "2024-01-16T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 20901,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Transmission Electron Microscopy",
+        "identifier": "TEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 20902,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Hitachi HF5000",
+        "identifier": "HF5000"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 20903,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 20904,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/dzcq-ym02",
+        "pxUnits": "micrometer",
+        "channel1": "Intensity",
+        "pxScaleX": 0.006006076466292143,
+        "pxScaleY": 0.006006076466292143,
+        "description": "OREX-501044-0-100 200kV ADF(H) 1600X 0063.dm4",
+        "dataComponentType": "TEMImage"
+      },
+      "sourceFile": 14617,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 20905,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/dzcq-ym02",
+        "supDocType": "instrumentMetadata",
+        "description": "OREX-501044-0-100 200kV ADF(H) 1600X 0063.dm4",
+        "OriginalName": "20240116_TEM_UAZ_OREX-501044-100_1_instrumentMetadata_00001.ome.txt",
+        "associatedFiles": [
+          "20240116_TEM_UAZ_OREX-501044-100_1_TEMImage_927"
+        ]
+      },
+      "sourceFile": 14619,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-12T20:50:05.124468",
+  "updatedAt": "2025-04-02T20:55:25.702957",
+  "fundingDescription": null,
+  "title": "STEM analysis of orex-501044-100",
+  "description": "Some STEM images of a section of pyrrhotite and phyllosilicates",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Transmission Electron Microscopy",
+  "doi": "10.60707/dzcq-ym02",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-12",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

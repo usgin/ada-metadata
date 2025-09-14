@@ -1,0 +1,290 @@
+{
+  "id": 1354,
+  "files": [
+    {
+      "id": 9332,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_TOFSIMSCollection_1.yaml",
+      "checksum": "817ec2e1f4723f816d8e92be9cd96e7caf9743ff392e535f4c6534407020b644",
+      "sizeBytes": 947,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 9333,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_TOFSIMSCollection_1.zip",
+      "checksum": "2c9522e6bf3912db75ed86a07f4bfe77552d35c9546ee2e50240c86ea57252bb",
+      "sizeBytes": 4658893,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    },
+    {
+      "id": 9334,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_contextPhotography_1.tif",
+      "checksum": "205cb106ce0349f4f663c687c28a098226c75f5b4b955fdcb8c5a1962d5a50d7",
+      "sizeBytes": 800654,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 20
+    },
+    {
+      "id": 9335,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_contextPhotography_1.yaml",
+      "checksum": "7a8d2eac2079d3f94ba55870428b0d670f4f90493f28ba57522465f853754d6f",
+      "sizeBytes": 473,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 9336,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_contextPhotography_2.bmp",
+      "checksum": "3e71eb1547e7cc24eba6e71684220966f056aafeedf6ad5e9c10ba13a9cca884",
+      "sizeBytes": 786486,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 35
+    },
+    {
+      "id": 9337,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_contextPhotography_2.yaml",
+      "checksum": "d3620f56e0ebb9eccf96a53a0f6eecb77437400359733cbeff1f36c57ba21655",
+      "sizeBytes": 419,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 9338,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_methodDescription_1.pdf",
+      "checksum": "e3c4e2b7512ad6ad2c991a43bf57b58cbae9577d8d5c94e65d33b8931054366e",
+      "sizeBytes": 777499,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 9339,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_methodDescription_1.yaml",
+      "checksum": "b8905b8020ec5e6079dfcd2ad54c3838129a3f177f593810633b8f893b89108e",
+      "sizeBytes": 430,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 9340,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_peaks_1.csv",
+      "checksum": "59a4e5ca3eaca8cf2a77fd9e5ce20763d585c8d0c6ed4355a145fcf61b373127",
+      "sizeBytes": 5039,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 9341,
+      "name": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_peaks_1.yaml",
+      "checksum": "465c660f56427224c3831c750fd885f0a36b03baafcf835a8b162cba0ffde08f",
+      "sizeBytes": 345,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 85,
+      "fullName": "Rickard, William",
+      "nameType": "Personal",
+      "contributionId": 3312,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-8118-730X",
+      "email": "W.Rickard@curtin.edu.au"
+    },
+    {
+      "id": 82,
+      "fullName": "Timms, Nicholas",
+      "nameType": "Personal",
+      "contributionId": 3313,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0003-2997-4303",
+      "email": "N.Timms@curtin.edu.au"
+    },
+    {
+      "id": 85,
+      "fullName": "Rickard, William",
+      "nameType": "Personal",
+      "contributionId": 3314,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-8118-730X",
+      "email": "W.Rickard@curtin.edu.au"
+    }
+  ],
+  "creators": [
+    {
+      "id": 85,
+      "fullName": "Rickard, William",
+      "nameType": "Personal",
+      "creationId": 1394,
+      "orcid": "https://orcid.org/0000-0002-8118-730X",
+      "email": "W.Rickard@curtin.edu.au"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 13622,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501070-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 13623,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1",
+        "analysisDate": "2023-11-25T18:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 13624,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Time-of-Flight Secondary Ion Mass Spectrometer",
+        "identifier": "ToF-SIMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 13625,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "IONTOF M6",
+        "identifier": "IONTOFM6"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 13626,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/02n415q13",
+        "name": "Curtin University",
+        "abbreviation": "CUWA"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 13627,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/htk9-f770",
+        "description": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1, Curtin University, Western Australia, IONTOF M6, William Rickard, data collected 2023/11/25 \n ToF-SIMS ion maps and spectra, particle A, FIB-milled surface and exterior.",
+        "dataComponentType": "TOFSIMSCollection"
+      },
+      "sourceFile": 9332,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 13628,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/htk9-f770",
+        "numPixelsX": 558,
+        "numPixelsY": 720,
+        "supDocType": "contextPhotography",
+        "description": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1, Curtin University, Western Australia, IONTOF M6, William Rickard, data collected 2023/11/25 \n Context images for ToF-SIMS ion maps and spectra, particles A, B, and C, FIB-milled surface and exterior.",
+        "associatedFiles": [
+          "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_TOFSIMSCollection_1",
+          "10.60707/3jfz-5h93",
+          "10.60707/x0wk-ep12"
+        ]
+      },
+      "sourceFile": 9335,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 13629,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/htk9-f770",
+        "numPixelsX": 512,
+        "numPixelsY": 512,
+        "supDocType": "contextPhotography",
+        "description": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1, Curtin University, Western Australia, IONTOF M6, William Rickard, data collected 2023/11/25 \n Context image for ToF-SIMS ion maps and spectra, particle A, FIB-milled surface and exterior.",
+        "associatedFiles": [
+          "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_TOFSIMSCollection_1"
+        ]
+      },
+      "sourceFile": 9337,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 13630,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/htk9-f770",
+        "supDocType": "methodDescription",
+        "description": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1, Curtin University, Western Australia, IONTOF M6, William Rickard, data collected 2023/11/25 \n method description for time of flight secondary ion mass spectrometry (ToF-SIMS), all particles",
+        "associatedFiles": [
+          "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_TOFSIMSCollection_1",
+          "10.60707/3jfz-5h93",
+          "10.60707/x0wk-ep12"
+        ]
+      },
+      "sourceFile": 9339,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 13631,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/htk9-f770",
+        "supDocType": "peaks",
+        "description": "20231125_ToF-SIMS_CUWA_OREX-501070-0_1, Curtin University, Western Australia, IONTOF M6, William Rickard, data collected 2023/11/25 \n List of ion peaks for ToF-SIMS ion maps and spectra, particle A.",
+        "associatedFiles": [
+          "20231125_ToF-SIMS_CUWA_OREX-501070-0_1_TOFSIMSCollection_1"
+        ]
+      },
+      "sourceFile": 9341,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-09-04T13:40:07.205626",
+  "updatedAt": "2025-01-27T23:57:33.057914",
+  "fundingDescription": "Australian Research Council LIEF190100053; Space Science and Technology Centre and the John de Laeter Centre at Curtin University.",
+  "title": "Analysis of particles of OREX-501070-0 by Time of flight mass spectrometry (ToF-SIMS) at Curtin University, Western Australia.",
+  "description": "Ion mapping of particles of OREX-501070-0 via Time of flight mass spectrometry (ToF-SIMS). The dataset comprises ion maps of particles in positive ion and negative ion mapping mode.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Time-of-Flight Secondary Ion Mass Spectrometer",
+  "doi": "10.60707/htk9-f770",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-01-27T23:57:32.217410",
+  "doiIssuedDate": "2024-09-04",
+  "doiStatus": "findable",
+  "processStatus": "Published",
+  "processMessage": null,
+  "processPath": null
+}

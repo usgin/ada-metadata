@@ -1,0 +1,383 @@
+{
+  "id": 2434,
+  "files": [
+    {
+      "id": 13826,
+      "name": "20250220_PSFD_JSC-ARES_multiSample_1_PSFDTabular_251.csv",
+      "checksum": "c2d3843168479e42cbefc29c06a57f2b0d234402ad2002a9cf926b3a24c5695c",
+      "sizeBytes": 1153361,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 13827,
+      "name": "20250220_PSFD_JSC-ARES_multiSample_1_PSFDTabular_251.yaml",
+      "checksum": "55bcd25f900c2908083adb7e7a2f3ff2469af1362c7960a77c5b735d6ba9fafd",
+      "sizeBytes": 882,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13828,
+      "name": "20250220_PSFD_JSC-ARES_multiSample_1_quickLook_2292.png",
+      "checksum": "a00231ad0dda057b96c00e65cf9da5d8219c876eb5bd13253132ab5a49c93a0a",
+      "sizeBytes": 95105981,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 21
+    },
+    {
+      "id": 13829,
+      "name": "20250220_PSFD_JSC-ARES_multiSample_1_quickLook_2292.yaml",
+      "checksum": "530f100b2a26a3bb163588e4a646c6c0b2879236ff377db455fc2f9183d390bb",
+      "sizeBytes": 412,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13830,
+      "name": "20250220_PSFD_JSC-ARES_multiSample_1_shapefiles_2291.yaml",
+      "checksum": "a2241d4251d5063c2c29baddf0bce10e99dffd61cb0bfce2ee9ff9e8169d7f44",
+      "sizeBytes": 241,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13831,
+      "name": "20250220_PSFD_JSC-ARES_multiSample_1_shapefiles_2291.zip",
+      "checksum": "81b27ab8491abb608af2837a817cca81f9e2624f411620718aa83122f3308015",
+      "sizeBytes": 2980290,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 9,
+      "fullName": "Pajola, Maurizio",
+      "nameType": "Personal",
+      "contributionId": 5015,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-3144-1277",
+      "email": "maurizio.pajola@inaf.it"
+    },
+    {
+      "id": 10,
+      "fullName": "Tusberti, Filippo",
+      "nameType": "Personal",
+      "contributionId": 5016,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-9290-1679",
+      "email": "filippo.tusberti@inaf.it"
+    },
+    {
+      "id": 10,
+      "fullName": "Tusberti, Filippo",
+      "nameType": "Personal",
+      "contributionId": 5017,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-9290-1679",
+      "email": "filippo.tusberti@inaf.it"
+    },
+    {
+      "id": 9,
+      "fullName": "Pajola, Maurizio",
+      "nameType": "Personal",
+      "contributionId": 5018,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-3144-1277",
+      "email": "maurizio.pajola@inaf.it"
+    }
+  ],
+  "creators": [
+    {
+      "id": 9,
+      "fullName": "Pajola, Maurizio",
+      "nameType": "Personal",
+      "creationId": 3655,
+      "orcid": "https://orcid.org/0000-0002-3144-1277",
+      "email": "maurizio.pajola@inaf.it"
+    },
+    {
+      "id": 10,
+      "fullName": "Tusberti, Filippo",
+      "nameType": "Personal",
+      "creationId": 3939,
+      "orcid": "https://orcid.org/0000-0002-9290-1679",
+      "email": "filippo.tusberti@inaf.it"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 19201,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800003-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19202,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800002-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19203,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800001-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19204,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800013-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19205,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800012-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19200,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800004-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19196,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800008-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19197,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800007-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19198,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800006-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19199,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800005-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19206,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800011-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19207,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800010-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19208,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250220_PSFD_JSC-ARES_multiSample_1",
+        "analysisDate": "2025-02-20T14:46:16.910565+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 19209,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Particle Size Frequency Distribution",
+        "identifier": "PSFD"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 19210,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Fujifilm GFX 100s",
+        "identifier": "FUJIGFX"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 19211,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 19212,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fwkp-de27",
+        "columns": [
+          {
+            "label": "Num",
+            "colNum": 1,
+            "maxVal": 72776,
+            "minVal": 1,
+            "fieldType": "integer",
+            "fieldDescription": "cumulative numbers of particles"
+          },
+          {
+            "label": "Size_mm",
+            "colNum": 2,
+            "maxVal": 36.639903,
+            "minVal": 0.030073,
+            "fieldType": "decimal",
+            "unitOfMeasure": "mm",
+            "fieldDescription": "Sizes of each particle"
+          }
+        ],
+        "countRows": 727777,
+        "imageName": [
+          "OREX-800001-0",
+          "OREX-800002-0",
+          "OREX-800003-0",
+          "OREX-800004-0",
+          "OREX-800005-0",
+          "OREX-800006-0",
+          "OREX-800007-0",
+          "OREX-800008-0",
+          "OREX-800009-0",
+          "OREX-800010-0",
+          "OREX-800011-0",
+          "OREX-800012-0"
+        ],
+        "description": "measurements of all the particle mapped in the shapefile 20250220_PSFD_JSC-ARES_multiSample_1__shapefiles",
+        "countColumns": 2,
+        "HeaderRowCount": 1,
+        "dataComponentType": "PSFDTabular"
+      },
+      "sourceFile": 13827,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19213,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fwkp-de27",
+        "numPixelsX": 4604,
+        "numPixelsY": 6884,
+        "supDocType": "quickLook",
+        "description": "Image showing every trays with the mapped particles and the numbers of the trays which are also reffered to the tray number in the shapefile's table of content.",
+        "OriginalName": "20250220_PSFD_JSC-ARES_multiSample_1_quicklook_ParticleCounts.png",
+        "associatedFiles": [
+          "20250220_PSFD_JSC-ARES_multiSample_1_PSFDTabular_251"
+        ]
+      },
+      "sourceFile": 13829,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19214,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fwkp-de27",
+        "supDocType": "shapefiles",
+        "description": "shapefile containing the particle mapped",
+        "OriginalName": "20250220_PSFD_JSC-ARES_multiSample_1_shapefiles.zip",
+        "associatedFiles": [
+          "20250220_PSFD_JSC-ARES_multiSample_1_PSFDTabular_251"
+        ]
+      },
+      "sourceFile": 13830,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-24T09:40:06.615878",
+  "updatedAt": "2025-03-17T09:45:25.334809",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "PSFD analysis of Multisample Aggregate.",
+  "description": "PSFD Analysis concucted on the 12 trays AIVA images. We measured the largest axis of 72776 particles, which ranged from 0.03 to 36.64 mm. The power-law value we computed for this PSFD is -2.1 +- 0.3 and the Xmin is 1.1 +- 0.3.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Particle Size Frequency Distribution",
+  "doi": "10.60707/fwkp-de27",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-24",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

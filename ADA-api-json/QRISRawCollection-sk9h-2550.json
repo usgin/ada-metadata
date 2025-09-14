@@ -1,0 +1,167 @@
+{
+  "id": 454,
+  "files": [
+    {
+      "id": 2221,
+      "name": "20231024_QRIS_JSC-ARES_OREX-800010-0_1_QRISRawCollection_1.yaml",
+      "checksum": "ac75805f6171d5071838cc43a486148e9b7596177d5fb6c044a878ab46901cf2",
+      "sizeBytes": 491,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 2222,
+      "name": "20231024_QRIS_JSC-ARES_OREX-800010-0_1_QRISRawCollection_1.zip",
+      "checksum": "26fddbee61f2f12e38b2b18d29b3e491ae29e718b058a6b17f741a813123b785",
+      "sizeBytes": 1462929033,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "contributionId": 947,
+      "contributorType": "Researcher",
+      "email": "ref1@arizona.edu"
+    },
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "contributionId": 948,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "contributionId": 949,
+      "contributorType": "Other",
+      "email": "ref1@arizona.edu"
+    },
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "contributionId": 950,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 39,
+      "fullName": "Golish, Dathon",
+      "nameType": "Personal",
+      "creationId": 454,
+      "orcid": "https://orcid.org/0000-0002-6159-539X",
+      "email": "dgolish@orex.lpl.arizona.edu"
+    },
+    {
+      "id": 56,
+      "fullName": "Fulford, Ruby",
+      "nameType": "Personal",
+      "creationId": 522,
+      "email": "ref1@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 3293,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800010-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 3294,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20231024_QRIS_JSC-ARES_OREX-800010-0_1",
+        "analysisDate": "2024-05-14T20:23:24.500865+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 3295,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Quantitative Reflectance Imaging System",
+        "identifier": "QRIS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 3296,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Quantitative Reflectance Imaging System",
+        "identifier": "QRIS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 3297,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 3298,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/sk9h-2550",
+        "target": "Sample in Tray A1, removed from TAGSAM head",
+        "description": "All raw images of sample in Tray A1. This collection includes images taken with a range of exposure times for all nine QRIS wavelength bands. Violet, deep red, and infrared images are taken at seperate focus settings.",
+        "focalLength": 50,
+        "calibrationFile": "10.60707/h0dk-6y68",
+        "dataComponentType": "QRISRawCollection"
+      },
+      "sourceFile": 2221,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-05-14T20:45:11.708198",
+  "updatedAt": "2024-06-06T00:00:45.746623",
+  "fundingDescription": "None, besides OSIRIS-REx grant",
+  "title": "Raw Images of Sample in Tray A1",
+  "description": "This bundle includes raw images taken by the Quantitative Reflectance Imaging System (QRIS) of the sample moved from the TAGSAM into Tray A1.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Quantitative Reflectance Imaging System",
+  "doi": "10.60707/sk9h-2550",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-05-14",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

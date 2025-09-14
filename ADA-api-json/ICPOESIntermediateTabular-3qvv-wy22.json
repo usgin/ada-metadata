@@ -1,0 +1,378 @@
+{
+  "id": 2433,
+  "files": [
+    {
+      "id": 13818,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_ICPOESIntermediateTabular_1.csv",
+      "checksum": "6b03268bd6579e281d86ef51b0cfef8b8ae60ff11f1abc289865e569a5173409",
+      "sizeBytes": 2407,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 13819,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_ICPOESIntermediateTabular_1.yaml",
+      "checksum": "352299f3c9987662aa401418fb61595b412a59f17f1b07940a5fe58bafa69650",
+      "sizeBytes": 2770,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13820,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_1.pdf",
+      "checksum": "e79725d724db01f515e5067b93c8e682dc150b3bbc4eebdc84d078009eca99f2",
+      "sizeBytes": 90044,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13821,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_1.yaml",
+      "checksum": "bc26f741e6c2c22342cde6ae9d9492744ba26e676eb0548d721bf42af5501d89",
+      "sizeBytes": 515,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13822,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_2.pdf",
+      "checksum": "f9cae41ccde51fe527a57b56a2f629f5ed59c61cc8a9eef917533a13bc8d1cab",
+      "sizeBytes": 74682,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13823,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_2.yaml",
+      "checksum": "f78a981fc8f5d788d8a4dc1462a298bdba46464799e8b2e0aa70af1b58f34e10",
+      "sizeBytes": 460,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13824,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_3.pdf",
+      "checksum": "a4d03daeec289914a857c2aad2158e29b0a8f356e5d41f250cff290c9e6d1ffc",
+      "sizeBytes": 86728,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13825,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_3.yaml",
+      "checksum": "c5a432eba0e244c14138280fe924b90d9cb5ee7801fe278f68588c7a08bcfec3",
+      "sizeBytes": 427,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "contributionId": 5013,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    },
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "contributionId": 5014,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "creationId": 3654,
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 19186,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803047-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19187,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803047-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19188,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240125_ICP-OES_UCB_multiSample_1",
+        "analysisDate": "2024-01-25T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 19189,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Inductively coupled plasma - optical emission spectrometry",
+        "identifier": "ICP-OES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 19190,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Scientific iCAP 6300 duo",
+        "identifier": "ICAP6300"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 19191,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley",
+        "abbreviation": "UCB"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 19192,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/3qvv-wy22",
+        "columns": [
+          {
+            "label": "Date",
+            "colNum": 1,
+            "fieldType": "string",
+            "fieldDescription": "Date of ICP-OES measurement (mm/dd/yyyy)"
+          },
+          {
+            "label": "Time",
+            "colNum": 2,
+            "fieldType": "string",
+            "fieldDescription": "Time of ICP-OES measurement (hh:mm:ss am/pm)"
+          },
+          {
+            "label": "Sample",
+            "colNum": 3,
+            "fieldType": "string",
+            "fieldDescription": "Name of sample that is measured as an unknown"
+          },
+          {
+            "label": "Method",
+            "colNum": 4,
+            "fieldType": "string",
+            "fieldDescription": "Name and version number of ICP-OES method"
+          },
+          {
+            "label": "Be",
+            "colNum": 5,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Be concentration based on Be2348 and Be3130 lines"
+          },
+          {
+            "label": "Na",
+            "colNum": 6,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Na concentration based on Na5895 line"
+          },
+          {
+            "label": "Mg",
+            "colNum": 7,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Mg concentration based on Mg2852 line"
+          },
+          {
+            "label": "Al",
+            "colNum": 8,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Al concentration based on Al3961 line"
+          },
+          {
+            "label": "P_1774",
+            "colNum": 9,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "P concentration based on P_1774 and P_1782 lines"
+          },
+          {
+            "label": "S",
+            "colNum": 10,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "S concentration based on S_1820 line"
+          },
+          {
+            "label": "K",
+            "colNum": 11,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "K concentration based on K7664 line"
+          },
+          {
+            "label": "Ca",
+            "colNum": 12,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ca concentration based on Ca1840 line"
+          },
+          {
+            "label": "Ti",
+            "colNum": 13,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ti concentration based on Ti3234, Ti3349 and Ti3383 lines"
+          },
+          {
+            "label": "Mn",
+            "colNum": 14,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Mn concentration based on Mn2576 and Mn2605 lines"
+          },
+          {
+            "label": "Fe",
+            "colNum": 15,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Fe concentration based on Fe2382, Fe2598 and Fe2599 lines"
+          },
+          {
+            "label": "Co",
+            "colNum": 16,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Co concentration based on Co2285 line"
+          },
+          {
+            "label": "Ni",
+            "colNum": 17,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ni concentration based on Ni2216, Ni2303 and Ni2316 lines"
+          }
+        ],
+        "countRows": 18,
+        "description": "Intermediate ICP-OES Data for ORX-8 (blank), ORX-9 (Orgueil) and ORX-10 (Bennu aggregate sample, OREX-803047-0). ORX-Y-1 and ORX-Y-2 represent two consecutive dilutions of the dissolved samples. For ORX-10, dilution 1 is OREX-803047-100 and dilution 2 is OREX-803047-101.",
+        "countColumns": 17,
+        "headerRowCount": 1,
+        "dataComponentType": "ICPOESIntermediateTabular"
+      },
+      "sourceFile": 13819,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19193,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/3qvv-wy22",
+        "supDocType": "methodDescription",
+        "description": "Methods and Sample processing description, part 1. This section describes dissolution of the samples in HF/HNO3, the addition of Be, Al and Cl carrier solutions and the procedure for taking aliquots of the dissolved sample for ICP-OES analysis.",
+        "OriginalName": "20240125_ICP-OES_UCB_multiSample_1_MethodDescription_1.pdf",
+        "associatedFiles": [
+          "10.60707/fj10-mc96",
+          "20240125_ICP-OES_UCB_multiSample_1_ICPOESIntermediateTabular_1",
+          "10.60707/rm08-bg04"
+        ]
+      },
+      "sourceFile": 13821,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19194,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/3qvv-wy22",
+        "supDocType": "methodDescription",
+        "description": "Methods and Sample processing description, part 2; This section includes details of the ICP-OES analysis, including a description of the standards and elemental lines used for each element.",
+        "OriginalName": "20240125_ICP-OES_UCB_multiSample_1_MethodDescription_2.pdf",
+        "associatedFiles": [
+          "10.60707/fj10-mc96",
+          "20240125_ICP-OES_UCB_multiSample_1_ICPOESIntermediateTabular_1",
+          "10.60707/rm08-bg04"
+        ]
+      },
+      "sourceFile": 13823,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19195,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/3qvv-wy22",
+        "supDocType": "methodDescription",
+        "description": "Methods and Sample processing description, part 3. This section describes how the processed ICP data of Fe, Co are used to calculate the concentrations in the dissolved samples.",
+        "OriginalName": "20240125_ICP-OES_UCB_multiSample_1_MethodDescription_3.pdf",
+        "associatedFiles": [
+          "20240125_ICP-OES_UCB_multiSample_1_ICPOESIntermediateTabular_1",
+          "10.60707/rm08-bg04"
+        ]
+      },
+      "sourceFile": 13825,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-23T04:30:08.684190",
+  "updatedAt": "2025-03-16T04:35:24.765055",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. This study is supported by NASA grant 80NSSC22K1693 through the OREX Participating Scientist Program.",
+  "title": "Chemical composition of Bennu samples",
+  "description": "This dataset shows the chemical composition of Bennu aggregate sample OREX-803047-0 and Orgueil CI chondrite that were dissolved for cosmogenic radionuclide analysis. A small aliquot (~5%) of each of the dissolved samples was taken for chemical analysis by ICP-OES.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Inductively coupled plasma - optical emission spectrometry",
+  "doi": "10.60707/3qvv-wy22",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-23",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

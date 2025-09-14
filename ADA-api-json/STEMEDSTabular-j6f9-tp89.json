@@ -1,0 +1,194 @@
+{
+  "id": 2463,
+  "files": [
+    {
+      "id": 13894,
+      "name": "20240220_TEM_JSC-ARES_OREX-501017-101_1_STEMEDSTabular_1.xlsx",
+      "checksum": "c9c95521d12b338e606564f941bc98d4815e54dfd97aa5fa53ccae7f8068ecc9",
+      "sizeBytes": 10939,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 66
+    },
+    {
+      "id": 13895,
+      "name": "20240220_TEM_JSC-ARES_OREX-501017-101_1_STEMEDSTabular_1.yaml",
+      "checksum": "5a0667771ba20460a4d6167ac965bf4f628ca9e4aca6f46c2fcc1eff9152c445",
+      "sizeBytes": 567,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13896,
+      "name": "20240220_TEM_JSC-ARES_OREX-501017-101_1_other_1.xlsx",
+      "checksum": "e02c1e702fba38f2e7e9f6ce833045c6fd3c2f28eec7e7624bf549259be1c96e",
+      "sizeBytes": 11081,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 66
+    },
+    {
+      "id": 13897,
+      "name": "20240220_TEM_JSC-ARES_OREX-501017-101_1_other_1.yaml",
+      "checksum": "bb18fd7113aed211c4fb8b1d7a75ba6b272b253a121927201a350385db8258de",
+      "sizeBytes": 403,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 44,
+      "fullName": "Keller, Lindsay",
+      "nameType": "Personal",
+      "contributionId": 5077,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0003-1560-2939",
+      "email": "lindsay.p.keller@nasa.gov"
+    },
+    {
+      "id": 44,
+      "fullName": "Keller, Lindsay",
+      "nameType": "Personal",
+      "contributionId": 5078,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0003-1560-2939",
+      "email": "lindsay.p.keller@nasa.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 44,
+      "fullName": "Keller, Lindsay",
+      "nameType": "Personal",
+      "creationId": 3684,
+      "orcid": "https://orcid.org/0000-0003-1560-2939",
+      "email": "lindsay.p.keller@nasa.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 19385,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501017-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19386,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240220_TEM_JSC-ARES_OREX-501017-101_1",
+        "analysisDate": "2024-02-20T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 19387,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Transmission Electron Microscopy",
+        "identifier": "TEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 19388,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "JEOL 2500SE",
+        "identifier": "J2500SE"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 19389,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 19390,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/j6f9-tp89",
+        "columns": [
+          {
+            "label": "Element",
+            "colNum": 1,
+            "fieldDescription": "element name"
+          },
+          {
+            "label": "At.%",
+            "colNum": 2,
+            "fieldDescription": "atomic percentage"
+          },
+          {
+            "label": "At.%",
+            "colNum": 3,
+            "fieldDescription": "atomic percentage"
+          }
+        ],
+        "countRows": 15,
+        "description": "Energy-dispersive X-ray analyses from a FIB section extracted from aggregate sample OREX-501017-0 and measured the bulk composition of the melt deposit.",
+        "countColumns": 3,
+        "HeaderRowCount": 4,
+        "dataComponentType": "STEMEDSTabular"
+      },
+      "sourceFile": 13895,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19391,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/j6f9-tp89",
+        "supDocType": "other",
+        "description": "Comparison of 20240219_TEM_JSC-ARES_OREX-501017-100_1 and 20240219_TEM_JSC-ARES_OREX-501017-101_1 data products: energy-dispersive X-ray analyses from a FIB section extracted from aggregate sample OREX-501017-0 and measured the bulk composition of the melt deposit.",
+        "associatedFiles": [
+          "20240220_TEM_JSC-ARES_OREX-501017-101_1_STEMEDSTabular_1"
+        ]
+      },
+      "sourceFile": 13897,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-27T20:50:06.751352",
+  "updatedAt": "2025-03-20T20:55:12.805147",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Quantitative Analyses of OREX-501017-101 melt deposit bulk composition.",
+  "description": "We obtained energy-dispersive X-ray analyses from a FIB section extracted from aggregate sample OREX-501017-0 and measured the bulk composition of the melt deposit.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Transmission Electron Microscopy",
+  "doi": "10.60707/j6f9-tp89",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-27",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

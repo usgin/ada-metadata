@@ -1,0 +1,573 @@
+{
+  "id": 2244,
+  "files": [
+    {
+      "id": 12136,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_QICPMSProcessedTabular_1.csv",
+      "checksum": "76120485695e13c33bb43be53c48219dc5d96b9251e9d565797eb92a5e85d906",
+      "sizeBytes": 4148,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 12137,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_QICPMSProcessedTabular_1.yaml",
+      "checksum": "312d750268135e288cde63d9b1808b773507c1844fc516bb01e0c2e5ed984d13",
+      "sizeBytes": 6795,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12138,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_methodDescription_1.pdf",
+      "checksum": "672b6eb87cc9fb4f25659590544f44ca560fb5d68e9f56b437ada2de555ecca2",
+      "sizeBytes": 83011,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 12139,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_methodDescription_1.yaml",
+      "checksum": "d48235c906ed1ea06fa43a8dd141964046e5c2002a7b3f32a28143b3b0879d99",
+      "sizeBytes": 209,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 6,
+      "fullName": "Koefoed, Piers",
+      "nameType": "Personal",
+      "contributionId": 4403,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-4036-6088",
+      "email": "piers.koefoed@wustl.edu"
+    },
+    {
+      "id": 6,
+      "fullName": "Koefoed, Piers",
+      "nameType": "Personal",
+      "contributionId": 4404,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-4036-6088",
+      "email": "piers.koefoed@wustl.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 6,
+      "fullName": "Koefoed, Piers",
+      "nameType": "Personal",
+      "creationId": 3441,
+      "orcid": "https://orcid.org/0000-0002-4036-6088",
+      "email": "piers.koefoed@wustl.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 17398,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800117-107"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17399,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800055-103"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17400,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803231-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17401,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800023-113"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17402,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800107-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17403,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250128_Q-ICP-MS_WUSTL_multiSample_1",
+        "analysisDate": "2025-01-28T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 17404,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Quadrupole Inductively Coupled Plasma Mass Spectrometry",
+        "identifier": "Q-ICP-MS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 17405,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Scientific iCAP Q",
+        "identifier": "iCAP-Q"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 17406,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/01yc7t268",
+        "name": "Washington University in St. Louis",
+        "abbreviation": "WUSTL"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 17407,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/bdq3-px39",
+        "columns": [
+          {
+            "label": "Sample Name",
+            "colNum": 1,
+            "fieldDescription": "list of sample names analyzed"
+          },
+          {
+            "label": "Weight",
+            "colNum": 2,
+            "unitOfMeasure": "grams",
+            "fieldDescription": "sample weights in grams"
+          },
+          {
+            "label": "Li",
+            "colNum": 3,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Li in ppm"
+          },
+          {
+            "label": "Na",
+            "colNum": 4,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Na in ppm"
+          },
+          {
+            "label": "Mg",
+            "colNum": 5,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Mg in ppm"
+          },
+          {
+            "label": "Al",
+            "colNum": 6,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Al in ppm"
+          },
+          {
+            "label": "P",
+            "colNum": 7,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of P in ppm"
+          },
+          {
+            "label": "K",
+            "colNum": 8,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of K in ppm"
+          },
+          {
+            "label": "Ca",
+            "colNum": 9,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ca in ppm"
+          },
+          {
+            "label": "Sc",
+            "colNum": 10,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Sc in ppm"
+          },
+          {
+            "label": "Ti",
+            "colNum": 11,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ti in ppm"
+          },
+          {
+            "label": "V",
+            "colNum": 12,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of V in ppm"
+          },
+          {
+            "label": "Cr",
+            "colNum": 13,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Cr in ppm"
+          },
+          {
+            "label": "Mn",
+            "colNum": 14,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Mn in ppm"
+          },
+          {
+            "label": "Fe",
+            "colNum": 15,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Fe in ppm"
+          },
+          {
+            "label": "Co",
+            "colNum": 16,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Co in ppm"
+          },
+          {
+            "label": "Ni",
+            "colNum": 17,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ni in ppm"
+          },
+          {
+            "label": "Cu",
+            "colNum": 18,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Cu in ppm"
+          },
+          {
+            "label": "Zn",
+            "colNum": 19,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Zn in ppm"
+          },
+          {
+            "label": "Ga",
+            "colNum": 20,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ga in ppm"
+          },
+          {
+            "label": "As",
+            "colNum": 21,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of As in ppm"
+          },
+          {
+            "label": "Se",
+            "colNum": 22,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Se in ppm"
+          },
+          {
+            "label": "Rb",
+            "colNum": 23,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Rb in ppm"
+          },
+          {
+            "label": "Sr",
+            "colNum": 24,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Sr in ppm"
+          },
+          {
+            "label": "Y",
+            "colNum": 25,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Y in ppm"
+          },
+          {
+            "label": "Zr",
+            "colNum": 26,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Zr in ppm"
+          },
+          {
+            "label": "Nb",
+            "colNum": 27,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Nb in ppm"
+          },
+          {
+            "label": "Mo",
+            "colNum": 28,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Mo in ppm"
+          },
+          {
+            "label": "Ag",
+            "colNum": 29,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ag in ppm"
+          },
+          {
+            "label": "Cd",
+            "colNum": 30,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Cd in ppm"
+          },
+          {
+            "label": "In",
+            "colNum": 31,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of In in ppm"
+          },
+          {
+            "label": "Sb",
+            "colNum": 32,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Sb in ppm"
+          },
+          {
+            "label": "Te",
+            "colNum": 33,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Te in ppm"
+          },
+          {
+            "label": "Cs",
+            "colNum": 34,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Cs in ppm"
+          },
+          {
+            "label": "Ba",
+            "colNum": 35,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ba in ppm"
+          },
+          {
+            "label": "La",
+            "colNum": 36,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of La in ppm"
+          },
+          {
+            "label": "Ce",
+            "colNum": 37,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ca in ppm"
+          },
+          {
+            "label": "Pr",
+            "colNum": 38,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Pr in ppm"
+          },
+          {
+            "label": "Nd",
+            "colNum": 39,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Nd in ppm"
+          },
+          {
+            "label": "Sm",
+            "colNum": 40,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Sm in ppm"
+          },
+          {
+            "label": "Eu",
+            "colNum": 41,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Eu in ppm"
+          },
+          {
+            "label": "Gd",
+            "colNum": 42,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Gd in ppm"
+          },
+          {
+            "label": "Tb",
+            "colNum": 43,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Tb in ppm"
+          },
+          {
+            "label": "Dy",
+            "colNum": 344,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Dy in ppm"
+          },
+          {
+            "label": "Ho",
+            "colNum": 45,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ho in ppm"
+          },
+          {
+            "label": "Er",
+            "colNum": 46,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Er in ppm"
+          },
+          {
+            "label": "Tm",
+            "colNum": 47,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Tm in ppm"
+          },
+          {
+            "label": "Yb",
+            "colNum": 48,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Yb in ppm"
+          },
+          {
+            "label": "Lu",
+            "colNum": 49,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Lu in ppm"
+          },
+          {
+            "label": "Hf",
+            "colNum": 50,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Hf in ppm"
+          },
+          {
+            "label": "Ta",
+            "colNum": 51,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ta in ppm"
+          },
+          {
+            "label": "W",
+            "colNum": 52,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of W in ppm"
+          },
+          {
+            "label": "Ir",
+            "colNum": 53,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Ir in ppm"
+          },
+          {
+            "label": "Pt",
+            "colNum": 54,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Pt in ppm"
+          },
+          {
+            "label": "Tl",
+            "colNum": 55,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Tl in ppm"
+          },
+          {
+            "label": "Pb",
+            "colNum": 56,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Pb in ppm"
+          },
+          {
+            "label": "Bi",
+            "colNum": 57,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Bi in ppm"
+          },
+          {
+            "label": "Th",
+            "colNum": 58,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of Th in ppm"
+          },
+          {
+            "label": "U",
+            "colNum": 59,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of U in ppm"
+          }
+        ],
+        "countRows": 7,
+        "description": "Processed iCAPQ ICP-MS data",
+        "countColumns": 59,
+        "headerRowCount": 2,
+        "dataComponentType": "QICPMSProcessedTabular"
+      },
+      "sourceFile": 12137,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 17408,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/bdq3-px39",
+        "supDocType": "methodDescription",
+        "description": "method and data processing description",
+        "associatedFiles": [
+          "10.60707/fzjk-kt84",
+          "20250128_Q-ICP-MS_WUSTL_multiSample_1_QICPMSProcessedTabular_1"
+        ]
+      },
+      "sourceFile": 12139,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-11T19:00:07.273273",
+  "updatedAt": "2025-03-04T19:05:13.500635",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Q-ICP-MS Bulk elemental analyses of the three Bennu lithologies and the SEIWG and SOAWG bulk aggregates",
+  "description": "The major and trace elemental analyses of the Bennu samples OREX-800117-107 (SEIWG bulk aggregate), OREX-800107-101 (SOAWG bulk aggregate), OREX-800055-103 (angular lithology), OREX-803231-101 (hummocky lithology), and OREX-800023-113 (mottled lithology). All samples, excluding the hummocky lithology, show simialr compositions which are close to the average CI chondrite composition. The SOAWG bulk aggregate does however show contamination of the elements W, La, Ce, and Mo. As for the hummocky lithology, it shows a distinct elemental composition, likely due to its disticnt mineralogic differences.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Quadrupole Inductively Coupled Plasma Mass Spectrometry",
+  "doi": "10.60707/bdq3-px39",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-11",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

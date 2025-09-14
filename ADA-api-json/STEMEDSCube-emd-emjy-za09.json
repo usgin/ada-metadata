@@ -1,0 +1,158 @@
+{
+  "id": 2703,
+  "files": [
+    {
+      "id": 14632,
+      "name": "20240711_TEM_UAZ_OREX-501044-104_1_STEMEDSCube_00002.emd",
+      "checksum": "908bcfcbdc4751233fcaa79d1ec02afc90a5c11f1bc019d0130a621f135f2c99",
+      "sizeBytes": 6879839,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 34
+    },
+    {
+      "id": 14633,
+      "name": "20240711_TEM_UAZ_OREX-501044-104_1_STEMEDSCube_00002.yaml",
+      "checksum": "230376d2cfccfffd8a1618fd14e088f3fc7665c40e590aea1e4e05c1327a84a6",
+      "sizeBytes": 312,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5559,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    },
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5560,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "creationId": 3924,
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 20937,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501044-104"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 20938,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240711_TEM_UAZ_OREX-501044-104_1",
+        "analysisDate": "2024-07-11T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 20939,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Transmission Electron Microscopy",
+        "identifier": "TEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 20940,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Hitachi HF5000",
+        "identifier": "HF5000"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 20941,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 20942,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/emjy-za09",
+        "dimensions": [
+          {
+            "dimension": "X",
+            "unitOfMeasure": "eV",
+            "fieldDescription": "Energy"
+          },
+          {
+            "dimension": "Y",
+            "unitOfMeasure": "um",
+            "fieldDescription": "Height"
+          },
+          {
+            "dimension": "Z",
+            "unitOfMeasure": "um",
+            "fieldDescription": "Width"
+          }
+        ],
+        "description": "071124_EDS Specimen 1 Site 4 Map Data 4.h5oina",
+        "dataComponentType": "STEMEDSCube"
+      },
+      "sourceFile": 14633,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-12T23:20:04.982076",
+  "updatedAt": "2025-04-02T23:25:23.332984",
+  "fundingDescription": "NASA grant NNM10AA11C ",
+  "title": "EDS data of a vesicle in OREX-501044-104",
+  "description": "EDS measurements of a now-perforated vesicle in pyrrhotite\n",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Transmission Electron Microscopy",
+  "doi": "10.60707/emjy-za09",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-12",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

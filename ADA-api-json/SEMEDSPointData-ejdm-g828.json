@@ -1,0 +1,154 @@
+{
+  "id": 2719,
+  "files": [
+    {
+      "id": 14753,
+      "name": "20250213_SEM_NMNH_OREX-803089-100_1_SEMEDSPointData_269.yaml",
+      "checksum": "9ab25be859876fdd5a3baa9d707056b47feecdc648e0e4edb0c875bbb8fb3364",
+      "sizeBytes": 372,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 14754,
+      "name": "20250213_SEM_NMNH_OREX-803089-100_1_SEMEDSPointData_269.zip",
+      "checksum": "97fac1ed87b39bf7681433959a5d282af50a62acef570303c27d3134a0839141",
+      "sizeBytes": 424266,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "contributionId": 5593,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    },
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "contributionId": 5594,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "creationId": 3941,
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 21075,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803089-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 21076,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250213_SEM_NMNH_OREX-803089-100_1",
+        "analysisDate": "2025-02-13T13:32:35.223487+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 21077,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Scanning electron microscopy",
+        "identifier": "SEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 21078,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Quattro",
+        "identifier": "TFQUATT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 21079,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/00cz47042",
+        "name": "Smithsonian National Museum of Natural History",
+        "abbreviation": "NMNH"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 21080,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/ejdm-g828",
+        "columns": [
+          {
+            "colNum": 1,
+            "fieldDescription": "keV"
+          },
+          {
+            "colNum": 2,
+            "fieldDescription": "Counts"
+          }
+        ],
+        "countRows": 1536,
+        "description": "EDS point data taken at 15kV and ~0.5nA (header count varies depending on analysis)",
+        "countColumns": 2,
+        "headerRowCount": 600,
+        "dataComponentType": "SEMEDSPointData"
+      },
+      "sourceFile": 14753,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-17T18:35:15.833107",
+  "updatedAt": "2025-04-07T18:42:14.592199",
+  "fundingDescription": "OSIRIS-REx",
+  "title": "OREX-803089-100",
+  "description": "Survey data on OREX-803089-100; separate file folders for Images, Maps, and Point Spectra",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Scanning electron microscopy",
+  "doi": "10.60707/ejdm-g828",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-17",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

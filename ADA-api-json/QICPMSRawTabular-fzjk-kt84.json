@@ -1,0 +1,1388 @@
+{
+  "id": 2243,
+  "files": [
+    {
+      "id": 12140,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_QICPMSRawTabular_1.csv",
+      "checksum": "15dae93d3b61d9ac8178040cff8a08a0b35711aa6cbfacd64ad2e96f93d1805e",
+      "sizeBytes": 241348,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 12141,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_QICPMSRawTabular_1.yaml",
+      "checksum": "eb325a7727f6731901efcddf5307bcba63b5d77d120438e720f272f0db0c528f",
+      "sizeBytes": 26771,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 12142,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_methodDescription_1.pdf",
+      "checksum": "672b6eb87cc9fb4f25659590544f44ca560fb5d68e9f56b437ada2de555ecca2",
+      "sizeBytes": 83011,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 12143,
+      "name": "20250128_Q-ICP-MS_WUSTL_multiSample_1_methodDescription_1.yaml",
+      "checksum": "6075756ccfcd7daa6b72423830869c110e8e84475c8c947852c07ccec6ea9cb7",
+      "sizeBytes": 203,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 6,
+      "fullName": "Koefoed, Piers",
+      "nameType": "Personal",
+      "contributionId": 4405,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-4036-6088",
+      "email": "piers.koefoed@wustl.edu"
+    },
+    {
+      "id": 6,
+      "fullName": "Koefoed, Piers",
+      "nameType": "Personal",
+      "contributionId": 4406,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-4036-6088",
+      "email": "piers.koefoed@wustl.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 6,
+      "fullName": "Koefoed, Piers",
+      "nameType": "Personal",
+      "creationId": 3440,
+      "orcid": "https://orcid.org/0000-0002-4036-6088",
+      "email": "piers.koefoed@wustl.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 17409,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800117-107"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17410,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800055-103"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17411,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803231-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17412,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800023-113"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17413,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800107-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 17414,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250128_Q-ICP-MS_WUSTL_multiSample_1",
+        "analysisDate": "2025-01-28T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 17415,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Quadrupole Inductively Coupled Plasma Mass Spectrometry",
+        "identifier": "Q-ICP-MS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 17416,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Scientific iCAP Q",
+        "identifier": "iCAP-Q"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 17417,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/01yc7t268",
+        "name": "Washington University in St. Louis",
+        "abbreviation": "WUSTL"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 17418,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fzjk-kt84",
+        "columns": [
+          {
+            "label": "SampleList",
+            "colNum": 1,
+            "fieldDescription": "List of samples analysed"
+          },
+          {
+            "label": "SampleName",
+            "colNum": 2,
+            "fieldDescription": "user defined sample name"
+          },
+          {
+            "label": "Raw.Average 7Li (KED)",
+            "colNum": 3,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 7Li data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 23Na (KED)",
+            "colNum": 4,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 23Na data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 24Mg (KED)",
+            "colNum": 5,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 24Mg data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 27Al (KED)",
+            "colNum": 6,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 27Al data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 31P (KED)",
+            "colNum": 7,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 31P data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 39K (KED)",
+            "colNum": 8,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 39K data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 43Ca (KED)",
+            "colNum": 9,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 43Ca data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 44Ca (KED)",
+            "colNum": 10,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 44Ca data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 45Sc (KED)",
+            "colNum": 11,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 45Sc data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 47Ti (KED)",
+            "colNum": 12,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 47Ti data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 48Ti (KED)",
+            "colNum": 13,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 48Ti data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 51V (KED)",
+            "colNum": 14,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 51V data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 52Cr (KED)",
+            "colNum": 15,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 52Cr data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 55Mn (KED)",
+            "colNum": 16,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 55Mn data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 56Fe (KED)",
+            "colNum": 17,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 56Fe data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 57Fe (KED)",
+            "colNum": 18,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 57Fe data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 59Co (KED)",
+            "colNum": 19,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 59Co data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 60Ni (KED)",
+            "colNum": 20,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 60Ni data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 63Cu (KED)",
+            "colNum": 21,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 63Cu data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 66Zn (KED)",
+            "colNum": 22,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 66Zn data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 71Ga (KED)",
+            "colNum": 23,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 71Ga data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 75As (KED)",
+            "colNum": 24,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 75As data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 77Se (KED)",
+            "colNum": 25,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 77Se data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 82Se (KED)",
+            "colNum": 26,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 82Se data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 85Rb (KED)",
+            "colNum": 27,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 85Rb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 88Sr (KED)",
+            "colNum": 28,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 88Sr data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 89Y (KED)",
+            "colNum": 29,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 89Y data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 90Zr (KED)",
+            "colNum": 30,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 90Zr data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 93Nb (KED)",
+            "colNum": 31,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 93Nb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 95Mo (KED)",
+            "colNum": 32,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 95Mo data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 103Rh (KED)",
+            "colNum": 33,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 103Rh data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 107Ag (KED)",
+            "colNum": 34,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 107Ag data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 111Cd (KED)",
+            "colNum": 35,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 111Cd data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 115In (KED)",
+            "colNum": 36,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 115In data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 121Sb (KED)",
+            "colNum": 37,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 121Sb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 125Te (KED)",
+            "colNum": 38,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 125Te data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 133Cs (KED)",
+            "colNum": 39,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 133Cs data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 137Ba (KED)",
+            "colNum": 40,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 137Ba data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 139La (KED)",
+            "colNum": 41,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 139La data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 140Ce (KED)",
+            "colNum": 42,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 140Ce data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 141Pr (KED)",
+            "colNum": 43,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 141Pr data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 146Nd (KED)",
+            "colNum": 44,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 146Nd data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 147Sm (KED)",
+            "colNum": 45,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 147Sm data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 153Eu (KED)",
+            "colNum": 46,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 153Eu data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 157Gd (KED)",
+            "colNum": 47,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 157Gd data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 159Tb (KED)",
+            "colNum": 48,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 159Tb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 163Dy (KED)",
+            "colNum": 49,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 163Dy data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 165Ho (KED)",
+            "colNum": 50,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 165Ho data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 166Er (KED)",
+            "colNum": 51,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 166Er data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 169Tm (KED)",
+            "colNum": 52,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 169Tm data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 172Yb (KED)",
+            "colNum": 53,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 172Yb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 175Lu (KED)",
+            "colNum": 54,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 175Lu data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 178Hf (KED)",
+            "colNum": 55,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 178Hf data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 181Ta (KED)",
+            "colNum": 56,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 181Ta data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 182W (KED)",
+            "colNum": 57,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 182W data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 185Re (KED)",
+            "colNum": 58,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 185Re data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 193Ir (KED)",
+            "colNum": 59,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 193Ir data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 195Pt (KED)",
+            "colNum": 60,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 195Pt data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 205Tl (KED)",
+            "colNum": 61,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 205Tl data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 206Pb (KED)",
+            "colNum": 62,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 206Pb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 207Pb (KED)",
+            "colNum": 63,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 207Pb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 208Pb (KED)",
+            "colNum": 64,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 208Pb data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 209Bi (KED)",
+            "colNum": 65,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 209Bi data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 232Th (KED)",
+            "colNum": 66,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 232Th data measured in KED mode"
+          },
+          {
+            "label": "Raw.Average 238U (KED)",
+            "colNum": 67,
+            "unitOfMeasure": "counts",
+            "fieldDescription": "raw 238U data measured in KED mode"
+          },
+          {
+            "label": "Raw.RSD 7Li (KED)",
+            "colNum": 68,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 7Li"
+          },
+          {
+            "label": "Raw.RSD 23Na (KED)",
+            "colNum": 69,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 23Na"
+          },
+          {
+            "label": "Raw.RSD 24Mg (KED)",
+            "colNum": 70,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 24Mg"
+          },
+          {
+            "label": "Raw.RSD 27Al (KED)",
+            "colNum": 71,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 27Al"
+          },
+          {
+            "label": "Raw.RSD 31P (KED)",
+            "colNum": 72,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 31P"
+          },
+          {
+            "label": "Raw.RSD 39K (KED)",
+            "colNum": 73,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 39K"
+          },
+          {
+            "label": "Raw.RSD 43Ca (KED)",
+            "colNum": 74,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 43Ca"
+          },
+          {
+            "label": "Raw.RSD 44Ca (KED)",
+            "colNum": 75,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 44Ca"
+          },
+          {
+            "label": "Raw.RSD 45Sc (KED)",
+            "colNum": 76,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 45Sc"
+          },
+          {
+            "label": "Raw.RSD 47Ti (KED)",
+            "colNum": 77,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 47Ti"
+          },
+          {
+            "label": "Raw.RSD 48Ti (KED)",
+            "colNum": 78,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 48Ti"
+          },
+          {
+            "label": "Raw.RSD 51V (KED)",
+            "colNum": 79,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 51V"
+          },
+          {
+            "label": "Raw.RSD 52Cr (KED)",
+            "colNum": 80,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 52Cr"
+          },
+          {
+            "label": "Raw.RSD 52Mn (KED)",
+            "colNum": 81,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 52Mn"
+          },
+          {
+            "label": "Raw.RSD 56Fe (KED)",
+            "colNum": 82,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 56Fe"
+          },
+          {
+            "label": "Raw.RSD 57Fe (KED)",
+            "colNum": 83,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 57Fe"
+          },
+          {
+            "label": "Raw.RSD 59Co (KED)",
+            "colNum": 84,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 59Co"
+          },
+          {
+            "label": "Raw.RSD 60Ni (KED)",
+            "colNum": 85,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 60Ni"
+          },
+          {
+            "label": "Raw.RSD 63Cu (KED)",
+            "colNum": 86,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 63Cu"
+          },
+          {
+            "label": "Raw.RSD 66Zn (KED)",
+            "colNum": 87,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 66Zn"
+          },
+          {
+            "label": "Raw.RSD 71Ga (KED)",
+            "colNum": 88,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 71Ga"
+          },
+          {
+            "label": "Raw.RSD 75As (KED)",
+            "colNum": 89,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 75As"
+          },
+          {
+            "label": "Raw.RSD 77Se (KED)",
+            "colNum": 90,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 77Se"
+          },
+          {
+            "label": "Raw.RSD 82Se (KED)",
+            "colNum": 91,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 82Se"
+          },
+          {
+            "label": "Raw.RSD 85Rb (KED)",
+            "colNum": 92,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 85Rb"
+          },
+          {
+            "label": "Raw.RSD 88Sr (KED)",
+            "colNum": 93,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 88Sr"
+          },
+          {
+            "label": "Raw.RSD 89Y (KED)",
+            "colNum": 94,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 89Y"
+          },
+          {
+            "label": "Raw.RSD 90Zr (KED)",
+            "colNum": 95,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 90Zr"
+          },
+          {
+            "label": "Raw.RSD 93Nb (KED)",
+            "colNum": 96,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 93Nb"
+          },
+          {
+            "label": "Raw.RSD 95Mo (KED)",
+            "colNum": 97,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 95Mo"
+          },
+          {
+            "label": "Raw.RSD 103Rh (KED)",
+            "colNum": 98,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 103Rh"
+          },
+          {
+            "label": "Raw.RSD 107Ag (KED)",
+            "colNum": 99,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 107Ag"
+          },
+          {
+            "label": "Raw.RSD 111Cd (KED)",
+            "colNum": 100,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 111Cd"
+          },
+          {
+            "label": "Raw.RSD 115In (KED)",
+            "colNum": 101,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 115In"
+          },
+          {
+            "label": "Raw.RSD 121Sb (KED)",
+            "colNum": 102,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 121Sb"
+          },
+          {
+            "label": "Raw.RSD 125Te (KED)",
+            "colNum": 103,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 125Te"
+          },
+          {
+            "label": "Raw.RSD 133Cs (KED)",
+            "colNum": 104,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 133Cs"
+          },
+          {
+            "label": "Raw.RSD 137Ba (KED)",
+            "colNum": 105,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 137Ba"
+          },
+          {
+            "label": "Raw.RSD 139La (KED)",
+            "colNum": 106,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 139La"
+          },
+          {
+            "label": "Raw.RSD 140Ce (KED)",
+            "colNum": 107,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 140Ce"
+          },
+          {
+            "label": "Raw.RSD 141Pr (KED)",
+            "colNum": 108,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 141Pr"
+          },
+          {
+            "label": "Raw.RSD 146Nd (KED)",
+            "colNum": 109,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 146Nd"
+          },
+          {
+            "label": "Raw.RSD 147Sm (KED)",
+            "colNum": 110,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 147Sm"
+          },
+          {
+            "label": "Raw.RSD 153Eu (KED)",
+            "colNum": 111,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 153Eu"
+          },
+          {
+            "label": "Raw.RSD 157Gd (KED)",
+            "colNum": 112,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 157Gd"
+          },
+          {
+            "label": "Raw.RSD 159Tb (KED)",
+            "colNum": 113,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 159Tb"
+          },
+          {
+            "label": "Raw.RSD 163Dy (KED)",
+            "colNum": 114,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 163Dy"
+          },
+          {
+            "label": "Raw.RSD 165Ho (KED)",
+            "colNum": 115,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 165Ho"
+          },
+          {
+            "label": "Raw.RSD 166Er (KED)",
+            "colNum": 116,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 166Er"
+          },
+          {
+            "label": "Raw.RSD 169Tm (KED)",
+            "colNum": 117,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 169Tm"
+          },
+          {
+            "label": "Raw.RSD 172Yb (KED)",
+            "colNum": 118,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 172Yb"
+          },
+          {
+            "label": "Raw.RSD 175Lu (KED)",
+            "colNum": 119,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 175Lu"
+          },
+          {
+            "label": "Raw.RSD 178Hf (KED)",
+            "colNum": 120,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 178Hf"
+          },
+          {
+            "label": "Raw.RSD 181Ta (KED)",
+            "colNum": 121,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 181Ta"
+          },
+          {
+            "label": "Raw.RSD 182W (KED)",
+            "colNum": 122,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 182W"
+          },
+          {
+            "label": "Raw.RSD 185Re (KED)",
+            "colNum": 123,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 185Re"
+          },
+          {
+            "label": "Raw.RSD 193Ir (KED)",
+            "colNum": 124,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 193Ir"
+          },
+          {
+            "label": "Raw.RSD 195Pt (KED)",
+            "colNum": 125,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 195Pt"
+          },
+          {
+            "label": "Raw.RSD 205Tl (KED)",
+            "colNum": 126,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 205Tl"
+          },
+          {
+            "label": "Raw.RSD 206Pb (KED)",
+            "colNum": 127,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 206Pb"
+          },
+          {
+            "label": "Raw.RSD 207Pb (KED)",
+            "colNum": 128,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 207Pb"
+          },
+          {
+            "label": "Raw.RSD 208Pb (KED)",
+            "colNum": 129,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 208Pb"
+          },
+          {
+            "label": "Raw.RSD 209Bi (KED)",
+            "colNum": 130,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 209Bi"
+          },
+          {
+            "label": "Raw.RSD 232Th (KED)",
+            "colNum": 131,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 232Th"
+          },
+          {
+            "label": "Raw.RSD 238U (KED)",
+            "colNum": 132,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "instrament calculated error (RSD) for 238U"
+          },
+          {
+            "label": "ExtCal.Average 7Li (KED)",
+            "colNum": 133,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 7Li in ppm"
+          },
+          {
+            "label": "ExtCal.Average 23Na (KED)",
+            "colNum": 134,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 23Na in ppm"
+          },
+          {
+            "label": "ExtCal.Average 24Mg (KED)",
+            "colNum": 135,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 24Mg in ppm"
+          },
+          {
+            "label": "ExtCal.Average 27Al (KED)",
+            "colNum": 136,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 27Al in ppm"
+          },
+          {
+            "label": "ExtCal.Average 31P (KED)",
+            "colNum": 137,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 31P in ppm"
+          },
+          {
+            "label": "ExtCal.Average 39K (KED)",
+            "colNum": 138,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 39K in ppm"
+          },
+          {
+            "label": "ExtCal.Average 43Ca (KED)",
+            "colNum": 139,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 43Ca in ppm"
+          },
+          {
+            "label": "ExtCal.Average 44Ca (KED)",
+            "colNum": 140,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 44Ca in ppm"
+          },
+          {
+            "label": "ExtCal.Average 45Sc (KED)",
+            "colNum": 141,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 45Sc in ppm"
+          },
+          {
+            "label": "ExtCal.Average 47Ti (KED)",
+            "colNum": 142,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 47Ti in ppm"
+          },
+          {
+            "label": "ExtCal.Average 48Ti (KED)",
+            "colNum": 143,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 48Ti in ppm"
+          },
+          {
+            "label": "ExtCal.Average 51V (KED)",
+            "colNum": 144,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 51V in ppm"
+          },
+          {
+            "label": "ExtCal.Average 52Cr (KED)",
+            "colNum": 145,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 52Cr in ppm"
+          },
+          {
+            "label": "ExtCal.Average 55Mn (KED)",
+            "colNum": 146,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 55Mn in ppm"
+          },
+          {
+            "label": "ExtCal.Average 56Fe (KED)",
+            "colNum": 147,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 56Fe in ppm"
+          },
+          {
+            "label": "ExtCal.Average 57Fe (KED)",
+            "colNum": 148,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 57Fe in ppm"
+          },
+          {
+            "label": "ExtCal.Average 59Co (KED)",
+            "colNum": 149,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 59Co in ppm"
+          },
+          {
+            "label": "ExtCal.Average 60Ni (KED)",
+            "colNum": 150,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 60Ni in ppm"
+          },
+          {
+            "label": "ExtCal.Average 63Cu (KED)",
+            "colNum": 151,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 63Cu in ppm"
+          },
+          {
+            "label": "ExtCal.Average 66Zn (KED)",
+            "colNum": 152,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 66Zn in ppm"
+          },
+          {
+            "label": "ExtCal.Average 71Ga (KED)",
+            "colNum": 153,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 71Ga in ppm"
+          },
+          {
+            "label": "ExtCal.Average 75As (KED)",
+            "colNum": 154,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 75As in ppm"
+          },
+          {
+            "label": "ExtCal.Average 77Se (KED)",
+            "colNum": 155,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 77Se in ppm"
+          },
+          {
+            "label": "ExtCal.Average 82Se (KED)",
+            "colNum": 156,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 82Se in ppm"
+          },
+          {
+            "label": "ExtCal.Average 85Rb (KED)",
+            "colNum": 157,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 85Rb in ppm"
+          },
+          {
+            "label": "ExtCal.Average 88Sr (KED)",
+            "colNum": 158,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 88Sr in ppm"
+          },
+          {
+            "label": "ExtCal.Average 89Y (KED)",
+            "colNum": 159,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 89Y in ppm"
+          },
+          {
+            "label": "ExtCal.Average 90Zr (KED)",
+            "colNum": 160,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 90Zr in ppm"
+          },
+          {
+            "label": "ExtCal.Average 93Nb (KED)",
+            "colNum": 161,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 93Nb in ppm"
+          },
+          {
+            "label": "ExtCal.Average 95Mo (KED)",
+            "colNum": 162,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 95Mo in ppm"
+          },
+          {
+            "label": "ExtCal.Average 103Rh (KED)",
+            "colNum": 163,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 103Rh in ppm"
+          },
+          {
+            "label": "ExtCal.Average 107Ag (KED)",
+            "colNum": 164,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 107Ag in ppm"
+          },
+          {
+            "label": "ExtCal.Average 111Cd (KED)",
+            "colNum": 165,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 111Cd in ppm"
+          },
+          {
+            "label": "ExtCal.Average 115In (KED)",
+            "colNum": 166,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 115In in ppm"
+          },
+          {
+            "label": "ExtCal.Average 121Sb (KED)",
+            "colNum": 167,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 121Sb in ppm"
+          },
+          {
+            "label": "ExtCal.Average 125Te (KED)",
+            "colNum": 168,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 125Te in ppm"
+          },
+          {
+            "label": "ExtCal.Average 133Cs (KED)",
+            "colNum": 169,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 133Cs in ppm"
+          },
+          {
+            "label": "ExtCal.Average 137Ba (KED)",
+            "colNum": 170,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 137Ba in ppm"
+          },
+          {
+            "label": "ExtCal.Average 139La (KED)",
+            "colNum": 171,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 139La in ppm"
+          },
+          {
+            "label": "ExtCal.Average 140Ce (KED)",
+            "colNum": 172,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 140Ca in ppm"
+          },
+          {
+            "label": "ExtCal.Average 141Pr (KED)",
+            "colNum": 173,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 141Pr in ppm"
+          },
+          {
+            "label": "ExtCal.Average 146Nd (KED)",
+            "colNum": 174,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 146Nd in ppm"
+          },
+          {
+            "label": "ExtCal.Average 147Sm (KED)",
+            "colNum": 175,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 147Sm in ppm"
+          },
+          {
+            "label": "ExtCal.Average 153Eu (KED)",
+            "colNum": 176,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 153Eu in ppm"
+          },
+          {
+            "label": "ExtCal.Average 157Gd (KED)",
+            "colNum": 177,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 157Gd in ppm"
+          },
+          {
+            "label": "ExtCal.Average 159Tb (KED)",
+            "colNum": 178,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 159Tb in ppm"
+          },
+          {
+            "label": "ExtCal.Average 163Dy (KED)",
+            "colNum": 179,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 163Dy in ppm"
+          },
+          {
+            "label": "ExtCal.Average 165Ho (KED)",
+            "colNum": 180,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 165Ho in ppm"
+          },
+          {
+            "label": "ExtCal.Average 166Er (KED)",
+            "colNum": 181,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 166Er in ppm"
+          },
+          {
+            "label": "ExtCal.Average 169Tm (KED)",
+            "colNum": 182,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 169Tm in ppm"
+          },
+          {
+            "label": "ExtCal.Average 172Yb (KED)",
+            "colNum": 183,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 172Yb in ppm"
+          },
+          {
+            "label": "ExtCal.Average 175Lu (KED)",
+            "colNum": 184,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 175Lu in ppm"
+          },
+          {
+            "label": "ExtCal.Average 178Hf (KED)",
+            "colNum": 185,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 178Hf in ppm"
+          },
+          {
+            "label": "ExtCal.Average 181Ta (KED)",
+            "colNum": 186,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 181Ta in ppm"
+          },
+          {
+            "label": "ExtCal.Average 182W (KED)",
+            "colNum": 187,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 182W in ppm"
+          },
+          {
+            "label": "ExtCal.Average 185Re (KED)",
+            "colNum": 188,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 185Re in ppm"
+          },
+          {
+            "label": "ExtCal.Average 193Ir (KED)",
+            "colNum": 189,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 193Ir in ppm"
+          },
+          {
+            "label": "ExtCal.Average 195Pt (KED)",
+            "colNum": 190,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 195Pt in ppm"
+          },
+          {
+            "label": "ExtCal.Average 205Tl (KED)",
+            "colNum": 191,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 205Tl in ppm"
+          },
+          {
+            "label": "ExtCal.Average 208Pb (KED)",
+            "colNum": 192,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 208Pb in ppm"
+          },
+          {
+            "label": "ExtCal.Average 209Bi (KED)",
+            "colNum": 193,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 209Bi in ppm"
+          },
+          {
+            "label": "ExtCal.Average 232Th (KED)",
+            "colNum": 194,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 232Th in ppm"
+          },
+          {
+            "label": "ExtCal.Average 238U (KED)",
+            "colNum": 195,
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "calculated concentraions of 238U in ppm"
+          }
+        ],
+        "countRows": 118,
+        "description": "Raw iCAPQ ICP-MS data",
+        "countColumns": 195,
+        "headerRowCount": 3,
+        "dataComponentType": "QICPMSRawTabular"
+      },
+      "sourceFile": 12141,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 17419,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fzjk-kt84",
+        "supDocType": "methodDescription",
+        "description": "method and data processing description",
+        "associatedFiles": [
+          "20250128_Q-ICP-MS_WUSTL_multiSample_1_QICPMSRawTabular_1",
+          "10.60707/bdq3-px39"
+        ]
+      },
+      "sourceFile": 12143,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-11T19:00:05.784710",
+  "updatedAt": "2025-03-04T19:05:21.056588",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Q-ICP-MS Bulk elemental analyses of the three Bennu lithologies and the SEIWG and SOAWG bulk aggregates",
+  "description": "The major and trace elemental analyses of the Bennu samples OREX-800117-107 (SEIWG bulk aggregate), OREX-800107-101 (SOAWG bulk aggregate), OREX-800055-103 (angular lithology), OREX-803231-101 (hummocky lithology), and OREX-800023-113 (mottled lithology). All samples, excluding the hummocky lithology, show simialr compositions which are close to the average CI chondrite composition. The SOAWG bulk aggregate does however show contamination of the elements W, La, Ce, and Mo. As for the hummocky lithology, it shows a distinct elemental composition, likely due to its disticnt mineralogic differences.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Quadrupole Inductively Coupled Plasma Mass Spectrometry",
+  "doi": "10.60707/fzjk-kt84",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-11",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

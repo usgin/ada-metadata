@@ -1,0 +1,144 @@
+{
+  "id": 2720,
+  "files": [
+    {
+      "id": 14749,
+      "name": "20250213_SEM_NMNH_OREX-803089-100_1_SEMEDSElementalMaps_597.yaml",
+      "checksum": "987d8a0ee6b2b0de5fc802782f08132254b8246f7258ca22156ce51808cc3db0",
+      "sizeBytes": 286,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 14750,
+      "name": "20250213_SEM_NMNH_OREX-803089-100_1_SEMEDSElementalMaps_597.zip",
+      "checksum": "c99fa7fec548d7b79f121437cd5f266b5aa34391565ce8f819bb255f46f3f589",
+      "sizeBytes": 158058311,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "contributionId": 5589,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    },
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "contributionId": 5590,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 155,
+      "fullName": "Wilbur, Zoe",
+      "nameType": "Personal",
+      "creationId": 3942,
+      "orcid": "https://orcid.org/0000-0002-5279-0417",
+      "email": "wilburz@si.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 21063,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803089-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 21064,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20250213_SEM_NMNH_OREX-803089-100_1",
+        "analysisDate": "2025-02-13T13:32:35.223487+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 21065,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Scanning electron microscopy",
+        "identifier": "SEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 21066,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Quattro",
+        "identifier": "TFQUATT"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 21067,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/00cz47042",
+        "name": "Smithsonian National Museum of Natural History",
+        "abbreviation": "NMNH"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 21068,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/85yk-sr06",
+        "imageType": [
+          "single element map"
+        ],
+        "description": "Single tile EDS map taken with 2 detectors, 15kV and ~0.5nA. 100 Frames at 100s per frame.",
+        "dataComponentType": "SEMEDSElementalMaps"
+      },
+      "sourceFile": 14749,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-17T18:35:17.214428",
+  "updatedAt": "2025-04-07T18:40:41.589744",
+  "fundingDescription": "OSIRIS-REx",
+  "title": "OREX-803089-100",
+  "description": "Survey data on OREX-803089-100; separate file folders for Images, Maps, and Point Spectra",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Scanning electron microscopy",
+  "doi": "10.60707/85yk-sr06",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-17",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

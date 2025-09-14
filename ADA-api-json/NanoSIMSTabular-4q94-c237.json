@@ -1,0 +1,323 @@
+{
+  "id": 926,
+  "files": [
+    {
+      "id": 9744,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSTabular_1.csv",
+      "checksum": "69dab2eb772473588b46df4a54f6fde53c4a3d28f8d0fed76eb9608291bf5db5",
+      "sizeBytes": 2587,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 9745,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSTabular_1.yaml",
+      "checksum": "d196b7577c7997ba0e3f4f1cd182c4164b8b67174a4ae17b890820aaf41720e8",
+      "sizeBytes": 2714,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 9746,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_analysisLocation_1.pdf",
+      "checksum": "145bc3789183c2fb5913c81b0be04d1cf7f58ddaec9d5625b1f066bb0e5725b1",
+      "sizeBytes": 268299,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 9747,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_analysisLocation_1.yaml",
+      "checksum": "fd8403ef61701886a02812b13f916040f9a2fdd45b53ca060bf8974e3f7e5e72",
+      "sizeBytes": 439,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 9748,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_methodDescription_1.pdf",
+      "checksum": "b431a0f9fef33e3c8a1f5bdc9be8b1894787bda143bdbb70f87ecfc00da5ba0d",
+      "sizeBytes": 96923,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 9749,
+      "name": "20240111_NanoSIMS_OU_OREX-501059-0_1_methodDescription_1.yaml",
+      "checksum": "914c6ab72897061528668fc4456e6bd2b8bc93e324ba1ea707af53f94ce94429",
+      "sizeBytes": 368,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 73,
+      "fullName": "Franchi, Ian",
+      "nameType": "Personal",
+      "contributionId": 3423,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0003-4151-0480",
+      "email": "ian.franchi@open.ac.uk"
+    },
+    {
+      "id": 133,
+      "fullName": "",
+      "nameType": "Personal",
+      "contributionId": 3424,
+      "contributorType": "Other",
+      "email": "xuchao.zhao@open.ac.uk"
+    }
+  ],
+  "creators": [
+    {
+      "id": 73,
+      "fullName": "Franchi, Ian",
+      "nameType": "Personal",
+      "creationId": 958,
+      "orcid": "https://orcid.org/0000-0003-4151-0480",
+      "email": "ian.franchi@open.ac.uk"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 14073,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501059-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 14074,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240111_NanoSIMS_OU_OREX-501059-0_1",
+        "analysisDate": "2024-01-11T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 14075,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Nanoscale secondary ion mass spectrometry",
+        "identifier": "NanoSIMS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 14076,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(OU)NanoSIMS 50L",
+        "identifier": "NS50L-OU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 14077,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/05mzfcs16",
+        "name": "Open University",
+        "abbreviation": "OU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 14078,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/4q94-c237",
+        "columns": [
+          {
+            "label": "Sample Name",
+            "colNum": 2,
+            "fieldType": "string",
+            "displayInVizTool": true,
+            "fieldDescription": "user defined Sample Name"
+          },
+          {
+            "label": "X",
+            "colNum": 3,
+            "fieldDescription": "X coordinate"
+          },
+          {
+            "label": "Y",
+            "colNum": 4,
+            "fieldDescription": "Y coordinate"
+          },
+          {
+            "label": "Z",
+            "colNum": 5,
+            "fieldDescription": "Z coordinate"
+          },
+          {
+            "label": "16O Counts",
+            "colNum": 6,
+            "fieldDescription": "Total counts of 16O during measurement"
+          },
+          {
+            "label": "17O/16O Ratio",
+            "colNum": 7,
+            "fieldDescription": "Measured 17O/16O ratio"
+          },
+          {
+            "label": "d17O SMOW",
+            "colNum": 8,
+            "maxVal": -0.6,
+            "minVal": -49.44,
+            "fieldType": "decimal",
+            "unitOfMeasure": "permil",
+            "displayInVizTool": true,
+            "fieldDescription": "Standard corrected d17O value"
+          },
+          {
+            "label": "d17O 2 sigma err",
+            "colNum": 9,
+            "maxVal": 1.66,
+            "minVal": 1.3,
+            "fieldType": "decimal",
+            "displayInVizTool": true,
+            "fieldDescription": "the calculated 2 sigma error associated with the 17O/16O spot analysis and calibration"
+          },
+          {
+            "label": "17O/16O Poisson",
+            "colNum": 10,
+            "fieldDescription": "instrument calculated error based on counting statistics only for the sample measurement only"
+          },
+          {
+            "label": "16O/18O Ratio",
+            "colNum": 11,
+            "fieldDescription": "Measured 18O/16O ratio"
+          },
+          {
+            "label": "d18O SMOW",
+            "colNum": 12,
+            "maxVal": -6.08,
+            "minVal": -45.68,
+            "fieldType": "decimal",
+            "unitOfMeasure": "permil",
+            "displayInVizTool": true,
+            "fieldDescription": "Standard corrected d18O value"
+          },
+          {
+            "label": "d18O 2 sigma err",
+            "colNum": 13,
+            "maxVal": 1.24,
+            "minVal": 0.99,
+            "fieldType": "decimal",
+            "displayInVizTool": true,
+            "fieldDescription": "the calculated 2 sigma error associated with the 18O/16O spot analysis and calibration"
+          },
+          {
+            "label": "18O/16O Poisson",
+            "colNum": 14,
+            "fieldDescription": "instrument calculated error based on counting statistics only for the sample measurement only"
+          },
+          {
+            "label": "D17O",
+            "colNum": 15,
+            "maxVal": -1.02,
+            "minVal": -25.76,
+            "fieldType": "decimal",
+            "displayInVizTool": true,
+            "fieldDescription": "Cap delta 17O measurement"
+          },
+          {
+            "label": "D17O 2 sigma err",
+            "colNum": 16,
+            "fieldDescription": "the calculated 2 sigma error associated with the D17O spot analysis based on the standard deviation of standards analysed alongside the sample"
+          },
+          {
+            "label": "16OH on 17O",
+            "colNum": 17,
+            "fieldDescription": "Calculated contribution of 16OH to d17O"
+          }
+        ],
+        "countRows": 11,
+        "xCoordCol": 2,
+        "yCoordCol": 3,
+        "zCoordCol": 4,
+        "coordUnits": "micrometer",
+        "description": "processed NanoSIMS data",
+        "countColumns": 17,
+        "headerRowCount": 1,
+        "dataComponentType": "NanoSIMSTabular"
+      },
+      "sourceFile": 9745,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 14079,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/4q94-c237",
+        "supDocType": "analysisLocation",
+        "description": "Secondary electron images showing the analysis location of precursor silicate olivine and pyroxene grains analysed",
+        "associatedFiles": [
+          "/samisprod/samismgr/prod_deploy/data/SEIWG/NS50L-OU/2024-07-11T13:50:06.263175/methodDescription/20240111_NanoSIMS_OU_OREX-501059-0_1_methodDescription_1.yaml",
+          "10.60707/4fpx-9425",
+          "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSTabular_1"
+        ]
+      },
+      "sourceFile": 9747,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 14080,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/4q94-c237",
+        "supDocType": "methodDescription",
+        "description": "description of the methods and data processing",
+        "associatedFiles": [
+          "/samisprod/samismgr/prod_deploy/data/SEIWG/NS50L-OU/2024-07-11T13:50:06.263175/analysisLocation/20240111_NanoSIMS_OU_OREX-501059-0_1_analysisLocation_1.yaml",
+          "10.60707/4fpx-9425",
+          "20240111_NanoSIMS_OU_OREX-501059-0_1_NanoSIMSTabular_1"
+        ]
+      },
+      "sourceFile": 9749,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-07-11T13:50:05.103654",
+  "updatedAt": "2025-01-27T23:59:20.278363",
+  "fundingDescription": "STFC Grant ST/Y000188/1",
+  "title": "NanoSIMS O isotopic analysis of precursor silicates in sample OREX-501059-0",
+  "description": "Small oliivne, pyrovene and other silicate and oxide phases exist within the matrix of Bennu samples. These phases are the remnants of the precursor components that formed the original Bennu parent asteroid. The oxygen isotopic composititon of these grains helps constrain the nature of what Bennu's parent formed from, and where in the protoplanetary disk this happened.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Nanoscale secondary ion mass spectrometry",
+  "doi": "10.60707/4q94-c237",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-07-11",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

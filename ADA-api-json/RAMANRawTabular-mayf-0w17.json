@@ -1,0 +1,200 @@
+{
+  "id": 1339,
+  "files": [
+    {
+      "id": 9568,
+      "name": "20240823_RAMAN_HMGU_OREX-803141-0_1_RAMANRawTabular_1.csv",
+      "checksum": "7857294e18e47805de27df944c40da4bf7cef19da96f250979737a1ab3bbe342",
+      "sizeBytes": 47152,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 9569,
+      "name": "20240823_RAMAN_HMGU_OREX-803141-0_1_RAMANRawTabular_1.yaml",
+      "checksum": "396ffe912aeb5081b28f583d8d859d2708b735a916e761b0f68ec8074b8dbe14",
+      "sizeBytes": 585,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 9570,
+      "name": "20240823_RAMAN_HMGU_OREX-803141-0_1_plot_1.png",
+      "checksum": "367d5e6eb50a2188479332b2b27f46ab8dd4931ae1453e1bfd6d8ac1a6645888",
+      "sizeBytes": 82395,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 21
+    },
+    {
+      "id": 9571,
+      "name": "20240823_RAMAN_HMGU_OREX-803141-0_1_plot_1.yaml",
+      "checksum": "cc976fe591f717c777004a07d7d62d7a1d8079face352e6b4429ae35e5591ee8",
+      "sizeBytes": 286,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 65,
+      "fullName": "",
+      "nameType": "Personal",
+      "contributionId": 3378,
+      "contributorType": "Researcher",
+      "email": "philippe.schmitt-kopplin@helmholtz-munich.de"
+    },
+    {
+      "id": 65,
+      "fullName": "",
+      "nameType": "Personal",
+      "contributionId": 3379,
+      "contributorType": "Other",
+      "email": "philippe.schmitt-kopplin@helmholtz-munich.de"
+    }
+  ],
+  "creators": [
+    {
+      "id": 47,
+      "fullName": "Liss, Michael",
+      "nameType": "Personal",
+      "creationId": 1379,
+      "orcid": "https://orcid.org/0009-0005-5228-3908",
+      "email": "michael.liss@helmholtz-munich.de"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 13890,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803141-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 13891,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240823_RAMAN_HMGU_OREX-803141-0_1",
+        "analysisDate": "2024-08-23T12:28:57.182349+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 13892,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Raman vibrational spectroscopy",
+        "identifier": "RAMAN"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 13893,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "(HGMU) WITec alpha 300 R",
+        "identifier": "WITec-HGMU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 13894,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/034rhsb33",
+        "name": "Helmholtz University (Helmholtz Zentrum Munchen)",
+        "abbreviation": "HMGU"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 13895,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mayf-0w17",
+        "columns": [
+          {
+            "label": "Point Number",
+            "colNum": 1,
+            "fieldType": "integer",
+            "fieldDescription": "Point Number"
+          },
+          {
+            "label": "Raman shift",
+            "colNum": 2,
+            "fieldType": "decimal",
+            "unitOfMeasure": "cm-1",
+            "fieldDescription": "Raman shift"
+          },
+          {
+            "label": "Intensity",
+            "colNum": 3,
+            "fieldType": "decimal",
+            "unitOfMeasure": "a.u.",
+            "fieldDescription": "Intensity"
+          }
+        ],
+        "countRows": 1600,
+        "description": "Raman spectroscopy measurements of the amorphous carbon (red shift) of OREX-803141-0.",
+        "countColumns": 3,
+        "headerRowCount": 1,
+        "dataComponentType": "RAMANRawTabular"
+      },
+      "sourceFile": 9569,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 13896,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/mayf-0w17",
+        "numPixelsX": 1024,
+        "numPixelsY": 745,
+        "supDocType": "plot",
+        "description": "Spectrum of the amorphous carbon (red shift) of OREX-803141-0.",
+        "OriginalName": "20240823_RAMAN_HMGU_OREX-803141-0_1_Plot_1.png",
+        "associatedFiles": [
+          "20240823_RAMAN_HMGU_OREX-803141-0_1_RAMANRawTabular_1"
+        ]
+      },
+      "sourceFile": 9571,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-08-23T13:15:07.518921",
+  "updatedAt": "2025-01-27T23:57:16.803721",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) Project-ID 364653263—TRR 235 (CRC 235).",
+  "title": "Raman spectroscopy of a 250 µm particle of Bennu (OREX-803141-0)",
+  "description": "Raman analysis of a 250 µm particle of Bennu (OREX-803141-0). The bundle includes four raw data files from the amorphous carbon, calcite, magnetite and the aliphatic CH carbon.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Raman vibrational spectroscopy",
+  "doi": "10.60707/mayf-0w17",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-08-23",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

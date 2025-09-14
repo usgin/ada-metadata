@@ -1,0 +1,166 @@
+{
+  "id": 2331,
+  "files": [
+    {
+      "id": 12871,
+      "name": "20240206_TEM_UAZ_OREX-501017-102_1_STEMEELSTabular_240.csv",
+      "checksum": "7c732963b88cad66dd43bd9705c5be35e6ea3d3a645dfd174ef01ccfc929a0ab",
+      "sizeBytes": 82305,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 12872,
+      "name": "20240206_TEM_UAZ_OREX-501017-102_1_STEMEELSTabular_240.yaml",
+      "checksum": "dd3c3ac266e6c327e829eeb29634fc6dee94b699c79514751ba63e0e89d1c330",
+      "sizeBytes": 563,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 146,
+      "fullName": "Thompson, Michelle",
+      "nameType": "Personal",
+      "contributionId": 4683,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0003-0824-9225",
+      "email": "mthompson@purdue.edu"
+    },
+    {
+      "id": 146,
+      "fullName": "Thompson, Michelle",
+      "nameType": "Personal",
+      "contributionId": 4684,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0003-0824-9225",
+      "email": "mthompson@purdue.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 146,
+      "fullName": "Thompson, Michelle",
+      "nameType": "Personal",
+      "creationId": 3552,
+      "orcid": "https://orcid.org/0000-0003-0824-9225",
+      "email": "mthompson@purdue.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 18186,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501017-102"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 18187,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240206_TEM_UAZ_OREX-501017-102_1",
+        "analysisDate": "2024-02-06T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 18188,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Transmission Electron Microscopy",
+        "identifier": "TEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 18189,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Hitachi HF5000",
+        "identifier": "HF5000"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 18190,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 18191,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/pte6-nf07",
+        "columns": [
+          {
+            "label": "Intensity",
+            "colNum": 1,
+            "fieldDescription": "Surface Location"
+          },
+          {
+            "label": "Energy Loss (eV)",
+            "colNum": 2,
+            "fieldDescription": "Surface Location"
+          },
+          {
+            "label": "Intensity",
+            "colNum": 3,
+            "fieldDescription": "Depth Location"
+          },
+          {
+            "label": "Energy Loss (eV)",
+            "colNum": 4,
+            "fieldDescription": "Depth Location"
+          }
+        ],
+        "countRows": 2048,
+        "description": "EELS Spectra from surface location and depth location.",
+        "countColumns": 4,
+        "HeaderRowCount": 0,
+        "dataComponentType": "STEMEELSTabular"
+      },
+      "sourceFile": 12872,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-16T17:50:08.739568",
+  "updatedAt": "2025-03-09T17:55:24.760768",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "TEM imaging for space weathering in OREX-501017-102",
+  "description": "STEM analysis of FIB section OREX-501017-102. Images show a solar wind irradiated layer at the surface. EELS analyses performed in two locations, one at surface and one at depth. The sample is composed of a fine-grained phyllosilicate matrix with magnetite, sulfides, carbonates, etc.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Transmission Electron Microscopy",
+  "doi": "10.60707/pte6-nf07",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-16",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

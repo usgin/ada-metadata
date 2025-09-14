@@ -1,0 +1,158 @@
+{
+  "id": 482,
+  "files": [
+    {
+      "id": 2361,
+      "name": "20240216_NanoIR_CSUSM_OREX-803030-0_1_NanoIRPointCollection_317.yaml",
+      "checksum": "865abd105c17fed4ae40a98ed446b9cd6085efb3e4f28ea914d3e67abc18eaa5",
+      "sizeBytes": 642,
+      "generalType": "Metadata",
+      "specificType": "",
+      "extension": 1
+    },
+    {
+      "id": 2362,
+      "name": "20240216_NanoIR_CSUSM_OREX-803030-0_1_NanoIRPointCollection_317.zip",
+      "checksum": "047f2b395896106b234f5013d96ebe14c47b5fd13fde7df49c3a0b7653950aa5",
+      "sizeBytes": 336568,
+      "generalType": "Image",
+      "specificType": "",
+      "extension": 15
+    }
+  ],
+  "contributors": [
+    {
+      "id": 46,
+      "fullName": "Dominguez, Gerardo",
+      "nameType": "Personal",
+      "contributionId": 1021,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0002-0861-2744",
+      "email": "gdominguez@csusm.edu"
+    },
+    {
+      "id": 46,
+      "fullName": "Dominguez, Gerardo",
+      "nameType": "Personal",
+      "contributionId": 1022,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0002-0861-2744",
+      "email": "gdominguez@csusm.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 46,
+      "fullName": "Dominguez, Gerardo",
+      "nameType": "Personal",
+      "creationId": 482,
+      "orcid": "https://orcid.org/0000-0002-0861-2744",
+      "email": "gdominguez@csusm.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 3544,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803030-0"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 3545,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240216_NanoIR_CSUSM_OREX-803030-0_1",
+        "analysisDate": "2024-05-28T21:19:43.666944+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 3546,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Nanoscale Infrared Mapping",
+        "identifier": "NanoIR"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 3547,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Bruker NanoIR3-s",
+        "identifier": "BNIR3S"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 3548,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/01j8e0j24",
+        "name": "California State University, San Marcos",
+        "abbreviation": "CSUSM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 3549,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/twd0-6a40",
+        "columns": [
+          {
+            "label": "wavenumbers#optional field - delete if not used",
+            "colNum": 1,
+            "displayInVizTool": false,
+            "fieldDescription": "cm-1"
+          },
+          {
+            "label": "IR absorption signal",
+            "colNum": 2,
+            "displayInVizTool": false,
+            "fieldDescription": "millivolts"
+          }
+        ],
+        "countRows": 1035,
+        "description": "Point spectra acquired with NanoIR instrument. Points are within FOV of corresponding IR map in NanoIRMapColletion_1",
+        "countColumns": 2,
+        "headerRowCount": 0,
+        "dataComponentType": "NanoIRPointCollection"
+      },
+      "sourceFile": 2361,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-05-30T06:20:03.600868",
+  "updatedAt": "2024-06-20T06:25:17.803912",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. Development of NanoIR for returned samples was supported by NASA under award 80NSSC19K1051.",
+  "title": "NanoIR imaging of a small grain that was FIB polished.",
+  "description": "AFM-IR tapping mode for IR imaging and IR spectroscopy of sample OREX-803030-0. Found submicron regions with strong absorption at 953 cm-1.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Nanoscale Infrared Mapping",
+  "doi": "10.60707/twd0-6a40",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-05-30",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

@@ -1,0 +1,264 @@
+{
+  "id": 1086,
+  "files": [
+    {
+      "id": 5995,
+      "name": "20240607_NG-NS-MS_CNRS-CRPG_OREX-800032-105_1_NGNSMSProcessed_1.csv",
+      "checksum": "bba43cdffaa70191ef0822b3761c26deae2d96bb2630327cd1b7b1ec588eebd2",
+      "sizeBytes": 8669,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 5996,
+      "name": "20240607_NG-NS-MS_CNRS-CRPG_OREX-800032-105_1_NGNSMSProcessed_1.yaml",
+      "checksum": "7bfbe7b06e6fa9e664b8d87cb458399874a1bc0425d63df2f6b5570f5c9b1920",
+      "sizeBytes": 1966,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 5997,
+      "name": "20240607_NG-NS-MS_CNRS-CRPG_OREX-800032-105_1_methodDescription_1.pdf",
+      "checksum": "bcbd6bf89a086a76e97b0ac422d6b22d4e652f1fba4f9c94d97090b8958bb542",
+      "sizeBytes": 48902,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 5998,
+      "name": "20240607_NG-NS-MS_CNRS-CRPG_OREX-800032-105_1_methodDescription_1.yaml",
+      "checksum": "7cc7da1c9dadf40c1cd9b7daa9490e997e300cc48877cd9700110c5ba122ed7f",
+      "sizeBytes": 235,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 81,
+      "fullName": "Marty, Bernard",
+      "nameType": "Personal",
+      "contributionId": 2077,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-7936-1519",
+      "email": "bernard.marty@univ-lorraine.fr"
+    },
+    {
+      "id": 139,
+      "fullName": "Zimmermann, Laurent",
+      "nameType": "Personal",
+      "contributionId": 2078,
+      "contributorType": "Researcher",
+      "email": "Laurent.zimmermann@@univ-lorraine.fr"
+    },
+    {
+      "id": 139,
+      "fullName": "Zimmermann, Laurent",
+      "nameType": "Personal",
+      "contributionId": 2079,
+      "contributorType": "Other",
+      "email": "Laurent.zimmermann@@univ-lorraine.fr"
+    }
+  ],
+  "creators": [
+    {
+      "id": 81,
+      "fullName": "Marty, Bernard",
+      "nameType": "Personal",
+      "creationId": 1126,
+      "orcid": "https://orcid.org/0000-0001-7936-1519",
+      "email": "bernard.marty@univ-lorraine.fr"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 9197,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-800032-105"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 9198,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240607_NG-NS-MS_CNRS-CRPG_OREX-800032-105_1",
+        "analysisDate": "2024-06-07T09:51:43.162587+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 9199,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Noble gas and Nitrogen Static Mass Spectrometry",
+        "identifier": "NG-NS-MS"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 9200,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Helix MC+",
+        "identifier": "HMC+"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 9201,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/011nqat45",
+        "name": "Centre de Recherches Petrographiques et Geochimiques (Nancy, France)",
+        "abbreviation": "CNRS-CRPG"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 9202,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/y3a1-7706",
+        "columns": [
+          {
+            "label": "line number",
+            "colNum": 1,
+            "unitOfMeasure": "integer",
+            "fieldDescription": "number of row (see method description)"
+          },
+          {
+            "label": "label",
+            "colNum": 2,
+            "unitOfMeasure": "string",
+            "fieldDescription": "type of run"
+          },
+          {
+            "label": "Sample name",
+            "colNum": 3,
+            "unitOfMeasure": "string",
+            "fieldDescription": "Name of sample"
+          },
+          {
+            "label": "4He",
+            "colNum": 4,
+            "unitOfMeasure": "fA (lines 1-81), mol/g (lines 85-125)",
+            "fieldDescription": "4He signal (lines 1-81),  4He concentration (lines 85-125)"
+          },
+          {
+            "label": "1 sigma",
+            "colNum": 5,
+            "unitOfMeasure": "1 sigma",
+            "fieldDescription": "standard deviation"
+          },
+          {
+            "label": "3He",
+            "colNum": 6,
+            "unitOfMeasure": "fA (lines 1-81, mol/g (lines 85-125)",
+            "fieldDescription": "signal of 3He signal (lines 1-81),  3He concentration (lines 85-125)"
+          },
+          {
+            "label": "1 sigma",
+            "colNum": 7,
+            "unitOfMeasure": "1 sigma",
+            "fieldDescription": "standard deviation"
+          },
+          {
+            "label": "3He/4He",
+            "colNum": 8,
+            "unitOfMeasure": "fA/fA",
+            "fieldDescription": "ratio of 3He over 4He signals"
+          },
+          {
+            "label": "1 sigma",
+            "colNum": 9,
+            "unitOfMeasure": "1 sigma",
+            "fieldDescription": "standard deviation"
+          },
+          {
+            "label": "% blank",
+            "colNum": 10,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "fraction of blank over sample"
+          },
+          {
+            "label": "% Mass g",
+            "colNum": 11,
+            "unitOfMeasure": "g",
+            "fieldDescription": "mass of the sample"
+          },
+          {
+            "label": "Laser %",
+            "colNum": 12,
+            "unitOfMeasure": "percent",
+            "fieldDescription": "fraction of laser power"
+          },
+          {
+            "label": "Laser W",
+            "colNum": 13,
+            "unitOfMeasure": "W",
+            "fieldDescription": "power of the laser"
+          }
+        ],
+        "countRows": 125,
+        "description": "The table reports raw data and processed for helium elemental and isotopic analysis of sample OREX-800032-105 that was analyzed in a single 5 month session together with 7 OREX aggregates. The table contains, for all OREX samples, the standard runs, the blank runs, the raw data and the processed data.",
+        "countColumns": 13,
+        "headerRowCount": 1,
+        "dataComponentType": "NGNSMSProcessed"
+      },
+      "sourceFile": 5996,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 9203,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/y3a1-7706",
+        "supDocType": "methodDescription",
+        "description": "data and method description associated with He isotopes obtained on OREX-8000032-105",
+        "associatedFiles": [
+          "20240607_NG-NS-MS_CNRS-CRPG_OREX-800032-105_1_NGNSMSProcessed_1"
+        ]
+      },
+      "sourceFile": 5998,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2024-07-23T13:10:08.912829",
+  "updatedAt": "2025-01-27T21:00:39.471474",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program and by the Centre National d'Etudes Spatiales (CNES)",
+  "title": "Noble gas He, Ne, Ar, Kr, Xe  elemental and isotopic analysis of aggregate sample OREX-800032-105",
+  "description": "We report the all noble gas (He, Ne, Ar, Kr, Xe) analysis of single grain OREX-800032-105 by static mass spectrometry done in the noble gas laboratory of CRPG-CNRS, Nancy France. The grain was sequentially heated under static vacuum using a CO2 laser and evolved noble gases were analyzed with our Helix MC (Thermo) static mass spectrometer. For each incremental heating step, gases are purified over Ti sponge getter, cryogenically separated and sequentially analyzed for abundances and isotopic ratios. Results show carbonaceous chondrite type noble gases of the CI type. Computed cosmogenic ages are a few Ma.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Noble gas and Nitrogen Static Mass Spectrometry",
+  "doi": "10.60707/y3a1-7706",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2024-07-23",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

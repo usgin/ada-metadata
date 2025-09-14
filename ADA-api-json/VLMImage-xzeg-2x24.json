@@ -1,0 +1,143 @@
+{
+  "id": 2412,
+  "files": [
+    {
+      "id": 13675,
+      "name": "20241104_VLM_JSC-ARES_OREX-803079-241_1_VLMImage_779.png",
+      "checksum": "1c515e454079a4fc3948e65ec8e2abf6734951ccff71c095dcc4e8bfae68f6d9",
+      "sizeBytes": 231389,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 21
+    },
+    {
+      "id": 13676,
+      "name": "20241104_VLM_JSC-ARES_OREX-803079-241_1_VLMImage_779.yaml",
+      "checksum": "f444752b14b6a5a419b7ffdc2f4f965741aac99cc440f04e716932faafe3ec3f",
+      "sizeBytes": 196,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 41,
+      "fullName": "Thomas-Keprta, Kathie",
+      "nameType": "Personal",
+      "contributionId": 4969,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-9402-3606",
+      "email": "kathie.thomas-keprta-1@nasa.gov"
+    },
+    {
+      "id": 41,
+      "fullName": "Thomas-Keprta, Kathie",
+      "nameType": "Personal",
+      "contributionId": 4970,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-9402-3606",
+      "email": "kathie.thomas-keprta-1@nasa.gov"
+    }
+  ],
+  "creators": [
+    {
+      "id": 41,
+      "fullName": "Thomas-Keprta, Kathie",
+      "nameType": "Personal",
+      "creationId": 3633,
+      "orcid": "https://orcid.org/0000-0001-9402-3606",
+      "email": "kathie.thomas-keprta-1@nasa.gov"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 19009,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803079-241"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19010,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20241104_VLM_JSC-ARES_OREX-803079-241_1",
+        "analysisDate": "2024-11-04T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 19011,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Visible Light Microscopy",
+        "identifier": "VLM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 19012,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Olympus BX-60 Fluorescence Microscope",
+        "identifier": "BX60"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 19013,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/04xx4z452",
+        "name": "NASA Johnson Space Center",
+        "abbreviation": "JSC-ARES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 19014,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/xzeg-2x24",
+        "channel1": "visible",
+        "description": "Optical low mag OREX 803079-241",
+        "illuminationType": "Reflected light",
+        "dataComponentType": "VLMImage"
+      },
+      "sourceFile": 13676,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-20T19:45:05.178413",
+  "updatedAt": "2025-03-13T19:50:09.555652",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program.",
+  "title": "Optical Images of Particle and Chondrule",
+  "description": "Optical Images of Particle and Chondrule",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Visible Light Microscopy",
+  "doi": "10.60707/xzeg-2x24",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-20",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}
