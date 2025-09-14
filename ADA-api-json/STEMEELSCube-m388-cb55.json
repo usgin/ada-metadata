@@ -1,0 +1,158 @@
+{
+  "id": 2701,
+  "files": [
+    {
+      "id": 14622,
+      "name": "20240521_TEM_UAZ_OREX-501044-104_1_STEMEELSCube_00007.emd",
+      "checksum": "b4584709ea462825758a4d568fd5b3f12ca5087d8f74dd4336b36e80b0f1b22a",
+      "sizeBytes": 4014984,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 34
+    },
+    {
+      "id": 14623,
+      "name": "20240521_TEM_UAZ_OREX-501044-104_1_STEMEELSCube_00007.yaml",
+      "checksum": "8240c61c88794e7ab6442c466aad60f9191006d15263d5619c2b4d033d81b588",
+      "sizeBytes": 312,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5551,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    },
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5552,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "creationId": 3922,
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 20912,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501044-104"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 20913,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240521_TEM_UAZ_OREX-501044-104_1",
+        "analysisDate": "2024-05-21T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 20914,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Transmission Electron Microscopy",
+        "identifier": "TEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 20915,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Hitachi HF5000",
+        "identifier": "HF5000"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 20916,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 20917,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/m388-cb55",
+        "dimensions": [
+          {
+            "dimension": "X",
+            "unitOfMeasure": "um",
+            "fieldDescription": "Height"
+          },
+          {
+            "dimension": "Y",
+            "unitOfMeasure": "um",
+            "fieldDescription": "Width"
+          },
+          {
+            "dimension": "Z",
+            "unitOfMeasure": "eV",
+            "fieldDescription": "Energy loss"
+          }
+        ],
+        "description": "SI41 EELS Spectrum Image (high-loss).dm4",
+        "dataComponentType": "STEMEELSCube"
+      },
+      "sourceFile": 14623,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-12T21:45:09.376408",
+  "updatedAt": "2025-04-02T21:50:22.731924",
+  "fundingDescription": null,
+  "title": "STEM imaging and EELS of vesicles in pyrrhotite in OREX-501044-104",
+  "description": "Taking EELS spectra and STEM images of volatile-filled vesicles in pyrrhotite as a part of our campaign to uncover Mother Nature's sectrets",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Transmission Electron Microscopy",
+  "doi": "10.60707/m388-cb55",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-12",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

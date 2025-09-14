@@ -1,0 +1,495 @@
+{
+  "id": 2431,
+  "files": [
+    {
+      "id": 13810,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_ICPOESRawTabular_1.csv",
+      "checksum": "8fd443ab4c22ddde22854bd8aee39436ef79ff5350f2bff18ebce842113f23c1",
+      "sizeBytes": 4832,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 13811,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_ICPOESRawTabular_1.yaml",
+      "checksum": "65cc784946e8d91f5240a7256a55c538b062ad327b612b5199c9118b50d41244",
+      "sizeBytes": 5097,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13812,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_calibrationFile_1.csv",
+      "checksum": "bb4759f361644ac22a9bb987d2b438298ad51007b2c3eafb9bf6c5b347aa82da",
+      "sizeBytes": 1814,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 11
+    },
+    {
+      "id": 13813,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_calibrationFile_1.yaml",
+      "checksum": "49a509948d0c5a00b0984af517cf76a206b206cab62a9dd6856b0b797803e7dc",
+      "sizeBytes": 350,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13814,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_1.pdf",
+      "checksum": "e79725d724db01f515e5067b93c8e682dc150b3bbc4eebdc84d078009eca99f2",
+      "sizeBytes": 90044,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13815,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_1.yaml",
+      "checksum": "ce15d89b44f7ee85cca90b7669acc73adca14e8c227b0f9e9aa4b5cf0d94f61b",
+      "sizeBytes": 506,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 13816,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_2.pdf",
+      "checksum": "f9cae41ccde51fe527a57b56a2f629f5ed59c61cc8a9eef917533a13bc8d1cab",
+      "sizeBytes": 74682,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 14
+    },
+    {
+      "id": 13817,
+      "name": "20240125_ICP-OES_UCB_multiSample_1_methodDescription_2.yaml",
+      "checksum": "7b3864d79e0a7ae7ac13f957075fb4c6b3def105d93242313b246cbfeca56cbe",
+      "sizeBytes": 451,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "contributionId": 5011,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    },
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "contributionId": 5012,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 8,
+      "fullName": "Welten, Kees",
+      "nameType": "Personal",
+      "creationId": 3652,
+      "orcid": "https://orcid.org/0000-0001-8577-6753",
+      "email": "kcwelten@berkeley.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 19176,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803047-100"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19177,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-803047-101"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 19178,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240125_ICP-OES_UCB_multiSample_1",
+        "analysisDate": "2024-01-25T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 19179,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Inductively coupled plasma - optical emission spectrometry",
+        "identifier": "ICP-OES"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 19180,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Thermo Fisher Scientific iCAP 6300 duo",
+        "identifier": "ICAP6300"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 19181,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley",
+        "abbreviation": "UCB"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 19182,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fj10-mc96",
+        "columns": [
+          {
+            "label": "Date",
+            "colNum": 1,
+            "fieldType": "string",
+            "fieldDescription": "Date of ICP-OES measurement (mm/dd/yyyy)"
+          },
+          {
+            "label": "Time",
+            "colNum": 2,
+            "fieldType": "string",
+            "fieldDescription": "Time of ICP-OES measurement (hh:mm:ss am/pm)"
+          },
+          {
+            "label": "Sample",
+            "colNum": 3,
+            "fieldType": "string",
+            "fieldDescription": "Name of sample solution"
+          },
+          {
+            "label": "Method",
+            "colNum": 4,
+            "fieldType": "string",
+            "fieldDescription": "Name and version of ICP method"
+          },
+          {
+            "label": "AL1670",
+            "colNum": 5,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Al concentration based on Al 1670 A line"
+          },
+          {
+            "label": "Al3961",
+            "colNum": 6,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Al concentration based on Al 3961 A line"
+          },
+          {
+            "label": "Be2348",
+            "colNum": 7,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Be concentration based on Be 2348 A line"
+          },
+          {
+            "label": "Be3130",
+            "colNum": 8,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Be concentration based on Be 3130 A line"
+          },
+          {
+            "label": "Ca1840",
+            "colNum": 9,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ca concentration based on Ca 1840 A line"
+          },
+          {
+            "label": "Ca3179",
+            "colNum": 10,
+            "fieldType": "decimal",
+            "unitOfMeasure": "gram",
+            "fieldDescription": "Ca concentration based on Ca 3179 A line"
+          },
+          {
+            "label": "Ca3933",
+            "colNum": 11,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ca concentration based on Ca 3933 A line"
+          },
+          {
+            "label": "Ca3968",
+            "colNum": 12,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ca concentration based on Al 3968 A line"
+          },
+          {
+            "label": "Co2286",
+            "colNum": 13,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Co concentration based on Co 2286 A line"
+          },
+          {
+            "label": "Co2388",
+            "colNum": 14,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Co concentration based on Co 2388 A line"
+          },
+          {
+            "label": "Fe2382",
+            "colNum": 15,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Fe concentration based on Fe 2382 A line"
+          },
+          {
+            "label": "Fe2598",
+            "colNum": 16,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Fe concentration based on Fe 2598 A line"
+          },
+          {
+            "label": "Fe2599",
+            "colNum": 17,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Fe concentration based on Fe 2599 A line"
+          },
+          {
+            "label": "K7664",
+            "colNum": 18,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "K concentration based on K 7664 A line"
+          },
+          {
+            "label": "Mg2025",
+            "colNum": 19,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Mg concentration based on Mg 2025 A line"
+          },
+          {
+            "label": "Mg2795",
+            "colNum": 20,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Mg concentration based on Mg 2795 A line"
+          },
+          {
+            "label": "Mg2852",
+            "colNum": 21,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Mg concentration based on Mg 2852 A line"
+          },
+          {
+            "label": "Mn2576",
+            "colNum": 22,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Mn concentration based on Mn 2576 A line"
+          },
+          {
+            "label": "Mn2605",
+            "colNum": 23,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Mn concentration based on Mn 2605 A line"
+          },
+          {
+            "label": "Na5895",
+            "colNum": 24,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Na concentration based on Na 5895 A line"
+          },
+          {
+            "label": "Ni2216",
+            "colNum": 25,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ni concentration based on Ni 2216 A line"
+          },
+          {
+            "label": "Ni2303",
+            "colNum": 26,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ni concentration based on Ni 2303 A line"
+          },
+          {
+            "label": "Ni2316",
+            "colNum": 27,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ni concentration based on Ni 2316 A line"
+          },
+          {
+            "label": "P_1774",
+            "colNum": 28,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "P concentration based on P 1774 A line"
+          },
+          {
+            "label": "P_1782",
+            "colNum": 29,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "P concentration based on P 1782 A line"
+          },
+          {
+            "label": "S_1807",
+            "colNum": 30,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "S concentration based on S 1807 A line"
+          },
+          {
+            "label": "S_1820",
+            "colNum": 31,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "S concentration based on S 1820 A line"
+          },
+          {
+            "label": "Ti3234",
+            "colNum": 32,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ti concentration based on Ti 3234 A line"
+          },
+          {
+            "label": "Ti3349",
+            "colNum": 33,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ti concentration based on Ti 3349 A line"
+          },
+          {
+            "label": "Ti3383",
+            "colNum": 34,
+            "fieldType": "decimal",
+            "unitOfMeasure": "ppm",
+            "fieldDescription": "Ti concentration based on Ti 3383 A line"
+          }
+        ],
+        "countRows": 18,
+        "description": "Raw ICP-OES Data for ORX-8 thru ORX-10, blanks and standards. The data includes measured concentrations (in ppm) for individual spectral lines of each element. The concentrations are based on the linear calibration curves of the standards shown in the Calibration File.",
+        "countColumns": 34,
+        "headerRowCount": 1,
+        "dataComponentType": "ICPOESRawTabular"
+      },
+      "sourceFile": 13811,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19183,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fj10-mc96",
+        "supDocType": "calibrationFile",
+        "description": "csv file with calibrations (cps vs. ppm) for all relevant elemental lines used in the ICP-OES analysis of Be, Na, Mg, Al, P, S, K, Ca, Ti, Mn, Fe, Co, Ni in samples ORX-9 (Orgueil) and ORX-10 (OREX-803047-0)",
+        "associatedFiles": [
+          "20240125_ICP-OES_UCB_multiSample_1_ICPOESRawTabular_1"
+        ]
+      },
+      "sourceFile": 13813,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19184,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fj10-mc96",
+        "supDocType": "methodDescription",
+        "description": "Methods and Sample processing description, part 1. This section describes dissolution of the samples in HF/HNO3, the addition of Be, Al and Cl carrier solutions and the procedure for taking aliquots of the dissolved sample for ICP-OES analysis.",
+        "OriginalName": "20240125_ICP-OES_UCB_multiSample_1_MethodDescription_1.pdf",
+        "associatedFiles": [
+          "20240125_ICP-OES_UCB_multiSample_1_ICPOESRawTabular_1",
+          "10.60707/3qvv-wy22",
+          "10.60707/rm08-bg04"
+        ]
+      },
+      "sourceFile": 13815,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 19185,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/fj10-mc96",
+        "supDocType": "methodDescription",
+        "description": "Methods and Sample processing description, part 2; This section includes details of the ICP-OES analysis, including a description of the standards and elemental lines used for each element.",
+        "OriginalName": "20240125_ICP-OES_UCB_multiSample_1_MethodDescription_2.pdf",
+        "associatedFiles": [
+          "20240125_ICP-OES_UCB_multiSample_1_ICPOESRawTabular_1",
+          "10.60707/3qvv-wy22",
+          "10.60707/rm08-bg04"
+        ]
+      },
+      "sourceFile": 13817,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-02-23T04:30:05.859745",
+  "updatedAt": "2025-03-16T04:35:16.829162",
+  "fundingDescription": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program. This study is supported by NASA grant 80NSSC22K1693 through the OREX Participating Scientist Program.",
+  "title": "Chemical composition of Bennu samples",
+  "description": "This dataset shows the chemical composition of Bennu aggregate sample OREX-803047-0 and Orgueil CI chondrite that were dissolved for cosmogenic radionuclide analysis. A small aliquot (~5%) of each of the dissolved samples was taken for chemical analysis by ICP-OES.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Inductively coupled plasma - optical emission spectrometry",
+  "doi": "10.60707/fj10-mc96",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-02-23",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}

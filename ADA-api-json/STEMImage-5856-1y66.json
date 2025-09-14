@@ -1,0 +1,179 @@
+{
+  "id": 2694,
+  "files": [
+    {
+      "id": 14608,
+      "name": "20240522_TEM_UAZ_OREX-501044-104_1_STEMImage_925.tif",
+      "checksum": "d75df16569cfabc967a65c5eacf373b43e1efd5fcbac48577cd355c7b618f227",
+      "sizeBytes": 16778234,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 20
+    },
+    {
+      "id": 14609,
+      "name": "20240522_TEM_UAZ_OREX-501044-104_1_STEMImage_925.yaml",
+      "checksum": "7f7ec601b9777efd859baf974d6e68026e50aa9d9f535f413db7b7858f4cfa3d",
+      "sizeBytes": 205,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    },
+    {
+      "id": 14610,
+      "name": "20240522_TEM_UAZ_OREX-501044-104_1_instrumentMetadata_2430.txt",
+      "checksum": "f92b99f401d4b762d47b35e67ac623c0ea81f47d8a748711456bdfb9251965cb",
+      "sizeBytes": 1228,
+      "generalType": "Image",
+      "specificType": null,
+      "extension": 13
+    },
+    {
+      "id": 14611,
+      "name": "20240522_TEM_UAZ_OREX-501044-104_1_instrumentMetadata_2430.yaml",
+      "checksum": "d45462a74ef1fafc30e10fc56738815af284a03bb9cff4b915b80fe82b2fc6bb",
+      "sizeBytes": 260,
+      "generalType": "Metadata",
+      "specificType": null,
+      "extension": 1
+    }
+  ],
+  "contributors": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5543,
+      "contributorType": "Researcher",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    },
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "contributionId": 5544,
+      "contributorType": "Other",
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "creators": [
+    {
+      "id": 143,
+      "fullName": "Prince, Beau",
+      "nameType": "Personal",
+      "creationId": 3915,
+      "orcid": "https://orcid.org/0000-0001-6217-4290",
+      "email": "beauprince@arizona.edu"
+    }
+  ],
+  "funding": [],
+  "licenses": [],
+  "subjects": [
+    {
+      "id": 20885,
+      "subjectSchemaName": "sample",
+      "subject": {
+        "identifier": "OREX-501044-104"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 1
+    },
+    {
+      "id": 20886,
+      "subjectSchemaName": "analysis.general",
+      "subject": {
+        "sessionId": "20240522_TEM_UAZ_OREX-501044-104_1",
+        "analysisDate": "2024-05-22T12:00:00+00:00"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 2
+    },
+    {
+      "id": 20887,
+      "subjectSchemaName": "analysis.technique",
+      "subject": {
+        "name": "Transmission Electron Microscopy",
+        "identifier": "TEM"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 3
+    },
+    {
+      "id": 20888,
+      "subjectSchemaName": "analysis.instrument",
+      "subject": {
+        "name": "Hitachi HF5000",
+        "identifier": "HF5000"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 4
+    },
+    {
+      "id": 20889,
+      "subjectSchemaName": "analysis.laboratory",
+      "subject": {
+        "ror": "https://ror.org/03m2x1q45",
+        "name": "University of Arizona",
+        "abbreviation": "UAZ"
+      },
+      "sourceFile": null,
+      "associatedFile": null,
+      "subjectSchema": 5
+    },
+    {
+      "id": 20890,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/5856-1y66",
+        "pxUnits": "nanometer",
+        "channel1": "Intensity",
+        "pxScaleX": 0.13728174567222595,
+        "pxScaleY": 0.13728174567222595,
+        "description": "OREX-501044-104 200kV ADF 70kX 0024.dm4",
+        "dataComponentType": "STEMImage"
+      },
+      "sourceFile": 14609,
+      "associatedFile": null,
+      "subjectSchema": 6
+    },
+    {
+      "id": 20891,
+      "subjectSchemaName": "unknown",
+      "subject": {
+        "doi": "10.60707/5856-1y66",
+        "supDocType": "instrumentMetadata",
+        "description": "OREX-501044-104 200kV ADF 70kX 0024.dm4",
+        "OriginalName": "20240522_TEM_UAZ_OREX-501044-104_1_instrumentMetadata_00001.ome.txt",
+        "associatedFiles": [
+          "20240522_TEM_UAZ_OREX-501044-104_1_STEMImage_925"
+        ]
+      },
+      "sourceFile": 14611,
+      "associatedFile": null,
+      "subjectSchema": 6
+    }
+  ],
+  "relatedIdentifiers": [],
+  "createdAt": "2025-03-12T20:20:08.793779",
+  "updatedAt": "2025-04-02T20:25:35.971259",
+  "fundingDescription": null,
+  "title": "STEM imaging and EELS, focusing on vesicles in pyrrhotite in OREX-501044-104",
+  "description": "Continuing to look at volatile-rich vesicles in pyrrhotite with EELS. STEM imaging along the way.",
+  "submissionType": "BundleDelivery",
+  "generalType": "Dataset",
+  "specificType": "Transmission Electron Microscopy",
+  "doi": "10.60707/5856-1y66",
+  "daysUntilRelease": 0,
+  "publicationDate": "2025-12-31T00:00:00",
+  "doiIssuedDate": "2025-03-12",
+  "doiStatus": "findable",
+  "processStatus": "Calibration and Validation",
+  "processMessage": null,
+  "processPath": null
+}
