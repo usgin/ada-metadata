@@ -1,0 +1,227 @@
+{% load json_extras %}
+
+{
+    "@schema": "https://w3id.org/adaJSONLD/schema/1.0",
+     "@context": {
+        "schema": "https://schema.org/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ada": "https://ada.astromat.org/metadata/",
+       "cdi": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/"
+    },
+    "@id":"ada:record_{{recorditems.record_id}}",
+    "@type": ["schema:Dataset", "schema:Product" ],
+    "schema:name": "{{recorditems.title}}",
+    "schema:description": "{{recorditems.description}}",
+    "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "{{recorditems.doi}}",
+        "url": "https://doi.org/{{recorditems.doi}}"
+    },
+    "schema:additionalType": ["{{recorditems.specific_type}}"],
+    "schema:datePublished": "{{recorditems.publication_date}}" ,
+    "schema:url": "",
+    {% if recorditems.creator %}
+    "schema:creator": [
+        {% for theagent in recorditems.creator %}
+            {
+                "@id": "https://ada.org/person/5489",
+                "@type": "schema:Person",
+                "schema:name": "{{theagent.name}}",
+                "schema:identifier":"{{theagent.identifier}}",
+                "schema:email": "{{theagent.email}}"
+            } {% if not forloop.last %},{% endif %}
+        {% endfor %}
+      ],
+    {% endif %}
+ {% if recorditems.contributor %}
+ "schema:contributor": [
+        {% for theagent in recorditems.contributor %}
+                {
+            "@type": "schema:Role",
+            "schema:roleName": "{{theagent.role}}",
+            "schema:contributor": {
+                "@type": "schema:Person",
+                "@id": "https://ada.org/person/437",
+                "schema:name": "{{theagent.name}}",
+                "schema:identifier": "{{theagent.identifier}}",
+                "schema:email": "{{theagent.email}}"
+            }
+            } {% if not forloop.last %},{% endif %}
+        {% endfor %}
+      ],
+{% endif %}
+
+{% if recorditems.funding or recorditems.fundingdescription %}
+  "schema:funding": [
+      {% if recorditems.fundingdescription %}
+              {
+          "@type": "schema:MonetaryGrant",
+          "schema:description": "{{recorditems.fundingdescription}}"
+          }{% if recorditems.funding  %},{% endif %}
+      {% endif %}
+      {% if recorditems.funding  %}
+        {% for fitem in recorditems.funding %}
+        {
+            "@type": "schema:MonetaryGrant",
+            "schema:identifier": "{{fitem.awardnumber}}",
+            "schema:name": "{{fitem.awardtitle}}",
+            "schema:url": "{{fitem.awardurl}}"
+            "schema:funder": {
+                "@type": "schema:Organization",
+                "schema:name": "{{fitem.fundername}}",
+                "schema:identifier": "{{fitem.funderurl}}"
+              }
+        } {% if not forloop.last %},{% endif %}
+        {% endfor %}
+        {% endif %}
+      ],
+{% endif %}
+
+
+"schema:measurementTechnique": {
+        "@type": "schema:DefinedTerm",
+        "schema:name": "{{recorditems.technique}}",
+        "schema:termCode": "{{recorditems.techniqueid}}"
+    },
+
+"prov:wasGeneratedBy": {
+    "@type": [
+        "schema:Event",
+        "xas:AnalysisEvent",
+        "prov:Activity"
+    ],
+    "schema:startDate": "{{recorditems.analysisDate}}",
+    "schema:identifier": "{{recorditems.sessionid}}",
+    "prov:used": [
+        {
+            "@type": ["schema:Thing", "prov:Entity","nxs:BaseClass/NXinstrument"],
+            "schema:name": "{{recorditems.instrument}}",
+            "schema:identifier": "{{recorditems.instrumentid}}"
+        }
+    ],
+    "schema:location": {
+        "@type": ["schema:Place","nxs:BaseClass/NXsource"],
+        "schema:identifier": "{{recorditems.laboratoriid}}",
+        "schema:name": "{{recorditems.laboratory}}",
+        "schema:alternateName": "{{recorditems.lab_abbrev}}"
+    },
+    "schema:mainEntity": [
+        {
+            "@type": ["schema:Thing","https://w3id.org/isample/vocabulary/materialsampleobjecttype/materialsample"],
+            "schema:additionalType": ["MaterialSample"],
+            "schema:identifier": "{{recorditems.sampleid}}"
+        }
+    ]
+},
+
+"schema:variableMeasured": [
+{% for fileitem in recorditems.fileparts %}
+  {% if fileitem.dataStructureComponents %}
+    {% for col in fileitem.dataStructureComponents %}
+        {
+            "@id": "#{{col.token}}",
+            "@type": "schema:PropertyValue",
+            "schema:name": "{{col.name}}",
+            "schema:description": "{{col.description}}",
+            "schema:propertyID": ["missing"],
+            "cdi:unitOfMeasureKind": "missing"
+        }
+      {% if not forloop.last %},   {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+        ]
+
+
+,"schema:distribution":[ {
+    "@type": ["schema:DataDownload"],
+    "encodingFormat":"application/zip",
+"description": "this data product is distributed in zip archive; contents of the archive are listed as parts. The component files are not individually accessible",
+"contentURL": "",
+"schema:hasPart": [
+  {% for fileitem in recorditems.fileparts %}
+    {
+    "@type": "schema:Dataset",
+    "@id": "#{{fileitem.keyset.id_}}",
+    "schema:name": "{{fileitem.keyset.name}}",
+    "schema:description": "{{fileitem.keyset.description}}",
+    "spdx:checksum": "{{fileitem.keyset.checksum}}",
+    "schema:size": {
+        "@type": "schema:QuantitativeValue",
+        "schema:value": {{fileitem.keyset.size}},
+        "schema:unitText": "byte"
+    },
+    "schema:encodingFormat": "{{fileitem.keyset.encodingFormat}}"
+    {% if fileitem.keyset.componentType == 'ada:metadata' %}
+        ,"schema:about": [
+          {"@id": "#{{fileitem.keyset.about}}"}
+      ]
+    {% endif %}
+   {% if fileitem.thedetail %}
+    ,"fileDetail": {
+        "@type": {{fileitem.keyset.type_|tojson}} ,
+        "componentType":"{{fileitem.keyset.componentType}}"
+        {% if fileitem.thedetail.items %}, {% endif %}
+
+        {% for key, value in fileitem.thedetail.items %}
+          {% if value %}
+              "{{key}}": {{ value|tojson }}
+              {% if not forloop.last %}, {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% if fileitem.dataStructureComponents %}
+          ,"cdi:isStructuredBy": {
+            "@type": "{{fileitem.datastructure}}",
+            "cdi:has_DataStructureComponent": [
+              {% for col in fileitem.dataStructureComponents %}
+                    {
+                        "@type": "{{col.type_}}",
+                        "cdi:isDefinedBy_InstanceVariable": {"@id": "#{{col.token}}"},
+                        "schema:name": "{{col.name}}",
+                        "unitOfMeasure": "{{col.unitOfMeasure}}"
+                        {% if col.index %}
+                        ,"cdi:has": {
+                            "@type":  "cdi:ValueMapping",
+                            "cdi:hasIndex": {{col.index}},
+                            "cdi:physicalDataType":"{{col.fieldType}}"
+                        }
+                        {%  endif %}
+                    }
+                  {% if not forloop.last %},   {% endif %}
+              {% endfor %}
+             ]
+          }
+        {% endif %} }
+      {% endif %}}
+  {% if not forloop.last %},  {% endif %}
+  {% endfor  %}
+  ]
+
+}
+],
+  "schema:subjectOf": {
+        "@id": "ada:metadata_{{recorditems.record_id}}",
+        "@type": "schema:Dataset",
+        "schema:dateModified": "{{recorditems.updated}}",
+        "schema:creator": [
+            {
+                "@id": "https://ada.org/person/3479",
+                "@type": "schema:Person",
+                "schema:name": "Richard, Stephen M.",
+                "schema:identifier": "https://orcid.org/0000-0002-7933-2154",
+                "schema:email": "smrTucson@email.org"
+            }
+        ],
+        "schema:about": {"@id": "ada:record_{{recorditems.record_id}}"},
+        "schema:description": "metadata about documentation for https://doi.org/{{recorditems.doi}}",
+        "dcterms:conformsTo": [
+            {% for cls in recorditems.conformsto %}
+            {"@id":  "{{cls}}" }{% if not forloop.last %},  {% endif %}
+            {% endfor %}
+        ]
+    }
+}

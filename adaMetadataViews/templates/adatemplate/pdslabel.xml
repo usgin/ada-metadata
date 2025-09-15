@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{% load debug_filters %}
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 file:/G:/My%20Drive/Astromat/PlanetaryDataSystem/PDS-XML-Schema/PDS4_PDS_1E00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:astromat:astromat_archive:ada_record_{{recorditems.record_id}}</logical_identifier>
+        <version_id>0.1</version_id>
+        <title>{{recorditems.title}}</title>
+        <information_model_version>information_model_version0</information_model_version>
+        <product_class>Dataset:{{recorditems.specific_type}}</product_class>
+        <Citation_Information>
+            <author_list>{% for theagent in recorditems.creator %}
+             {{theagent.name}}
+            } {% if not forloop.last %}; {% endif %}
+        {% endfor %}</author_list>
+            <publication_year>{{ recorditems.publication_year }}</publication_year>
+            <doi>{{ recorditems.doi }}</doi>
+            <description>{{ recorditems.description }}</description>
+        </Citation_Information>
+    </Identification_Area>
+    <Observation_Area>
+        <Time_Coordinates>
+            <start_date_time>{{recorditems.analysisDate}}</start_date_time>
+            <start_date_time>{{recorditems.analysisDate}}</start_date_time>
+        </Time_Coordinates>
+        <Investigation_Area>
+            <name>Astromaterials Data System material sample analytical data</name>
+            <type>Other Investigation</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:other_investigation.ada_data</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Investigation_Area>
+            <name>{{recorditems.sessionid}}</name>
+            <type>analysis session</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:astromat:astromat_archive:{{recorditems.sessionid}}</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+
+        <Observing_System>
+            <Observing_System_Component>
+                <name>{{recorditems.instrument}}</name>
+                <type>{{recorditems.instrumenttype}}</type>
+                <description>{{recorditems.laboratory}}</description>
+                <External_Reference>
+                    <reference_text>{{recorditems.instrumentid}}</reference_text>
+                </External_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+
+        {%  if 'OREX' in recorditems.sampleid %}
+        <Target_Identification>
+            <name>101955 Bennu</name>
+            <type>asteroid</type>
+        </Target_Identification>
+        {% endif %}
+    {%  if '7300' in recorditems.sampleid %}
+        <Target_Identification>
+            <name>urn:nasa:pds:context:target:satellite.earth.moon</name>
+            <type>satellite</type>
+        </Target_Identification>
+        {% endif %}
+        <Target_Identification>
+            <name>{{recorditems.sampleid}}</name>
+            <type>Material sample</type>
+        </Target_Identification>
+    </Observation_Area>
+ {% for fileitem in recorditems.fileparts %}
+    {%  if fileitem.datastructure == "cdi:WideDataStructure" %}
+    <File_Area_Observational>
+        <File>{{ fileitem.keyset.name|debug }}
+            <file_name>{{ fileitem.keyset.name }}</file_name>
+            <file_size unit="byte">{{ fileitem.keyset.size }}</file_size>
+        </File>
+        {%  if fileitem.thedetail.headerRowCount > 0 %}
+            <Header>
+            <name>file header</name>
+            <offset unit="byte">-1</offset>
+            <object_length unit="line">{{fileitem.thedetail.headerRowCount}}</object_length>
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>content of header not described</description>
+        </Header>
+            {% endif %}
+        <Table_Delimited>
+            <!-- how is the header with column names indicated? -->
+            <name>{{fileitem.keyset.name}}</name>
+            {%  if fileitem.thedetail.headerRowCount %}
+            <offset unit="line">{{fileitem.thedetail.headerRowCount}}</offset>
+                {% else %}
+                <offset unit="line">0</offset>
+                {% endif %}
+            <!-- We don't have this information -->
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>{{fileitem.keyset.description}}</description>
+            <records>{{fileitem.thedetail.countrows}}</records>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+            <field_delimiter>Comma</field_delimiter>
+
+            <Record_Delimited>
+                <fields>11</fields>
+                <groups>0</groups>
+            {%  if fileitem.dataStructureComponents %}
+                {% for col in fileitem.dataStructureComponents %}
+                <Field_Delimited>
+                    <name>{{col.name}}</name>
+                    <field_number>{{col.index}}</field_number>
+                    <data_type>{{col.fieldType}}</data_type>
+                    <description>{{col.description}}</description>
+                </Field_Delimited>
+                {% endfor %}
+            {%  endif %}
+                 </Record_Delimited>
+        </Table_Delimited>
+    </File_Area_Observational>
+     {% endif %}
+
+      {%  if "ada:image" in fileitem.keyset.type_ and "schema:ImageObject" in fileitem.keyset.type_ %}
+    <File_Area_Observational>
+        <File>
+            <file_name>{{ fileitem.keyset.name }}</file_name>
+            <file_size unit="byte">{{ fileitem.keyset.size }}</file_size>
+        </File>
+
+        <Array_2D_Image>
+            <!-- how is the header with column names indicated? -->
+            <name>{{fileitem.keyset.name}}</name>
+            <md5_checksum>{{fileitem.keyset.checksum}}</md5_checksum>
+            <offset>0</offset>
+            <description>{{fileitem.keyset.description}}. ADA componentType: {{fileitem.keyset.componentType}};
+            file encoding format: {{fileitem.keyset.encodingFormat}}; {% for key, value in fileitem.thedetail.items %}
+          {% if value %} {{key}}: {{ value}} {% if not forloop.last %}; {% endif %}
+          {% endif %} {% endfor %} </description>
+        </Array_2D_Image>
+    </File_Area_Observational>
+     {% endif %}
+
+     {%  if "ada:imageMap" in fileitem.keyset.type_ %}
+    <File_Area_Observational>
+        <File>
+            <file_name>{{ fileitem.keyset.name }}</file_name>
+            <file_size unit="byte">{{ fileitem.keyset.size }}</file_size>
+        </File>
+
+        <Array_2D_Map>
+            <name>{{fileitem.keyset.name}}</name>
+            <md5_checksum>{{fileitem.keyset.checksum}}</md5_checksum>
+            <offset unit="byte">0</offset>
+            <axes>2</axes>
+            <description>{{fileitem.keyset.description}}. ADA componentType: {{fileitem.keyset.componentType}};
+            file encoding format: {{fileitem.keyset.encodingFormat}}; {% for key, value in fileitem.thedetail.items %}
+          {% if value %} {{key}}: {{ value}} {% if not forloop.last %}; {% endif %}
+          {% endif %} {% endfor %}</description>
+            {% if fileitem.thedetail.numPixelsX %}
+            <Axis_Array>
+                <axis_name>X</axis_name>
+                <elements>{{fileitem.thedetail.numPixelsX}}</elements>
+            </Axis_Array>
+            <Axis_Array>
+                <axis_name>Y</axis_name>
+                <elements>{{fileitem.thedetail.numPixelsY}}</elements>
+            </Axis_Array>
+        {% endif %}
+        </Array_2D_Map>
+    </File_Area_Observational>
+     {% endif %}
+
+         {%  if "ada:dataCube" in fileitem.keyset.type_ %}
+    <File_Area_Observational>
+        <File>
+            <file_name>{{ fileitem.keyset.name }}</file_name>
+            <file_size unit="byte">{{ fileitem.keyset.size }}</file_size>
+        </File>
+        <Parsable_Byte_Stream>
+            <!-- how is the header with column names indicated? -->
+            <name>{{fileitem.keyset.name}}</name>
+            <md5_checksum>{{fileitem.keyset.checksum}}</md5_checksum>
+            <parsing_standard_id>{{fileitem.keyset.encodingFormat}}</parsing_standard_id>
+            {%  if fileitem.dataStructureComponents %}
+                {% for col in fileitem.dataStructureComponents %}
+                <Field_Delimited>
+                    <name>{{col.name}}</name>
+                    <field_number>{{col.index}}</field_number>
+                    <data_type>{{col.fieldType}}</data_type>
+                    <unit>{{col.unitOfMeasure}}</unit>
+                    <description>{{col.description}}</description>
+                </Field_Delimited>
+                {% endfor %}
+            {%  endif %}
+
+
+            <description>{{fileitem.keyset.description}}; {% for key, value in fileitem.thedetail.items %}
+          {% if value %} {{key}}: {{ value}} {% if not forloop.last %}; {% endif %}
+          {% endif %} {% endfor %}</description>
+
+        </Parsable_Byte_Stream>
+    </File_Area_Observational>
+     {% endif %}
+
+    {%  if "ada:document" in fileitem.keyset.type_ and "schema:DigitalDocument" in fileitem.keyset.type_ %}
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>{{ fileitem.keyset.name }}</file_name>
+            <file_size unit="byte">{{ fileitem.keyset.size }}</file_size>
+        </File>
+
+        <Parsable_Byte_Stream>
+            <!-- how is the header with column names indicated? -->
+            <name>{{fileitem.keyset.name}}</name>
+            <md5_checksum>{{fileitem.keyset.checksum}}</md5_checksum>
+            <offset>0</offset>
+            <description>{{fileitem.keyset.description}}; {% for key, value in fileitem.thedetail.items %}
+          {% if value %} {{key}}: {{ value}} {% if not forloop.last %}; {% endif %}
+          {% endif %} {% endfor %}</description>
+
+        </Parsable_Byte_Stream>
+    </File_Area_Observational_Supplemental>
+     {% endif %}
+
+    {%  if "ada:image" in fileitem.keyset.type_ and "schema:DigitalDocument" in fileitem.keyset.type_ %}
+        <File_Area_Observational_Supplemental>
+            <File>
+                <file_name>{{ fileitem.keyset.name }}</file_name>
+                <file_size unit="byte">{{ fileitem.keyset.size }}</file_size>
+            </File>
+            <Encoded_Image>
+                <name>{{ fileitem.keyset.name}}</name>
+                 <md5_checksum>{{fileitem.keyset.checksum}}</md5_checksum>
+                <offset unit="byte">0</offset>
+                <encoding_standard_id>{{ fileitem.keyset.encodingFormat }}</encoding_standard_id>
+                <description>{{ fileitem.keyset.description }}; {% for key, value in fileitem.thedetail.items %}
+              {% if value %} {{key}}: {{ value}} {% if not forloop.last %}; {% endif %}
+              {% endif %} {% endfor %}</description>
+            </Encoded_Image>
+        </File_Area_Observational_Supplemental>
+    {% endif %}
+{% endfor %} <!-- for file item in recorditems.fileparts -->
+</Product_Observational>
