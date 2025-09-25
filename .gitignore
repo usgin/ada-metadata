@@ -1,0 +1,4 @@
+*.pyc
+*.js
+/adaMetadataViews/static
+/adaMetadataViews/backups

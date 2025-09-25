@@ -1,0 +1,44 @@
+﻿id,extension,type_name,media_type,description_url,description
+1,.yaml,YAML,application/yaml,https://yaml.org/spec/1.2.2/,
+2,.mzML,community standard for mass spectrometry data,text/xml,https://www.psidev.info/mzML; https://github.com/HUPO-PSI/mzML,
+3,.hdf,Hierarchical Data Format,application/x-hdf,https://en.wikipedia.org/wiki/Hierarchical_Data_Format,
+4,.h4,Hierarchical Data Format,application/x-hdf,https://en.wikipedia.org/wiki/Hierarchical_Data_Format,
+5,.hdf4,Hierarchical Data Format,application/x-hdf,https://en.wikipedia.org/wiki/Hierarchical_Data_Format,
+6,.he2,Hierarchical Data Format,application/x-hdf,https://en.wikipedia.org/wiki/Hierarchical_Data_Format,
+7,.hdf5,Hierarchical Data Format v5,application/x-hdf5,https://support.hdfgroup.org/HDF5/,
+8,.he5,Hierarchical Data Format v5,application/x-hdf5,https://support.hdfgroup.org/HDF5/,
+9,.h5,Hierarchical Data Format v5,application/x-hdf5,https://support.hdfgroup.org/HDF5/,
+10,.nc,Network Common Data Format,application/x-netcdf,https://www.unidata.ucar.edu/software/netcdf/,
+11,.csv,Comma Separated Values,text/csv,https://www.iana.org/assignments/media-types/text/csv,
+12,.tsv,Tab Separated Values,text/tab-separated-values,https://www.iana.org/assignments/media-types/text/tab-separated-values,
+13,.txt,Plain Text,text/plain,https://en.wikipedia.org/wiki/Text_file,
+14,.pdf,Portable Document Format,application/pdf,https://www.iana.org/assignments/media-types/application/pdf,
+15,.zip,Zip Archive Compression,application/zip,https://www.iana.org/assignments/media-types/application/zip,
+16,.mp4,mp4 video,video/mp4,https://www.iana.org/assignments/media-types/video/mp4,
+17,.jpg,JPEG,image/jpeg,https://en.wikipedia.org/wiki/JPEG,
+18,.jpeg,JPEG,image/jpeg,https://en.wikipedia.org/wiki/JPEG,
+19,.tiff,Tagged Image File Format,image/tiff,https://www.iana.org/assignments/media-types/image/tiff,note: tiff image stacks might use the same extension
+20,.tif,Tagged Image File Format,image/tiff,https://www.iana.org/assignments/media-types/image/tiff,note: tiff image stacks might use the same extension
+21,.png,Portable Network Format,image/png,https://www.iana.org/assignments/media-types/image/png,
+22,.obj,3D model file,model/obj,https://en.wikipedia.org/wiki/Wavefront_.obj_file ; https://www.iana.org/assignments/media-types/model/obj,
+23,.yml,YAML,application/yaml,https://yaml.org/spec/1.2.2/,
+24,.stl,Standard Triangle Language,model/stl,https://www.iana.org/assignments/media-types/model/stl,
+34,.emd,Electron Microscopy Dataset,application/x-hdf5,https://emdatasets.com/format/, HDF5-based interchange file format for electron microscopy data and metadata
+35,.bmp,Bitmap graphic,image/bmp,,
+36,.tfw,TIFF world file ,text/plain,,
+37,.mzml,community standard for mass spectrometry data,text/xml,https://www.psidev.info/mzML; https://github.com/HUPO-PSI/mzML,
+38,.docx,Microsoft Word Open XML document,application/vnd.openxmlformats-officedocument.wordprocessingml.document,,
+39,.m4v,m4v video,video/x-m4v,https://www.adobe.com/creativecloud/file-types/video/container/m4v.html,"a variation of the MP4 format, often used for video content, especially those purchased or rented from the iTunes Store. While similar to MP4, M4V may optionally include Apple's FairPlay DRM copyright protection. "
+40,,tiff stack movie,image/tiff,,"The TIFF format is flexible and is designed to store multiple images within a single file. When a program creates a ""TIFF stack"" or ""TIFF movie,"" it's simply a TIFF file with multiple pages or image frames. "
+61,.jgw,JPEG world file,text/plain,,
+62,.cpg,cpg,application/x-cpg,,"extension used for text and binary files, need to know the context to get the type either text/plain or application/octet-stream"
+63,.dbf,dBase data file,application/x-dbf,,"For astromat archive, these are only allowed as part of a shapefile composite dataset.  Various mime type extensions are used"
+64,.shp,GIS Shape File,application/vnd.shp,,"shape files are bundle with .shp, .shx, and .dbf"
+65,.shx,GIS Shape Index,application/vnd.shx,,
+66,.xlsx,Microsoft Excel Open XML workbook,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,,
+1067,.cdf,Common Data Format,application/x-cdf ,https://cdf.gsfc.nasa.gov/html/cdf_docs.html,NASA Common Data Format (CDF); made up the media type. File content is binary [example instance I found is not valid cdf…]
+1068,.emsa,Spectral Data Exchange File,text/plain,https://the-mas.org/wp-content/uploads/2018/11/emmff_ascii.txt ; https://cdn.standards.iteh.ai/samples/78268/03d5e52577ba4c5889b1c21ceaeec743/ISO-22029-2022.pdf,
+1069,.exp,mass spectrometry data,application/octet-stream,required in MCICPMS raw data delivery. ,The .exp extension is a proprietary format used by specific mass spectrometry software for exporting data. 
+1070,.im,Cameca .im file,not defined,"required in NanoSIMSImageCollection.  Cameca *.im file format is used for storing SIMS (Secondary Ion Mass Spectrometry) data acquired using Cameca SIMS instruments; the format is proprietary to Cameca.  There is open-source software that open .im files: OpenMIMS (https://nano.bwh.harvard.edu/openmims--dead link.  Github source code:https://github.com/BWHCNI/OpenMIMS, no releases, last update 2018; apparently can run with Fiji software, see https://github.com/BWHCNI/OpenMIMS/wiki/Installation); Look@NanoSIMS (http://nanosims.geo.uu.nl/nanosims-wiki/doku.php/nanosims:lans;  Requires Matlab (proprietary software) installed on your system to run).  Python module to read Cameca .im files: https://github.com/zanpeeters/sims; imViewer, avaialble via https://www.lss.ls.tum.de/en/boku/download/tools/nanosims/ (2025-05-04). Cameca commercial software: https://www.cameca.com/service/software/winimage",
+1071,.log,log file,text/plain,required in MCICPMS raw data delivery.  What is it,guess this is a plain text file
+1072,.msa,Spectral Data Exchange File,text/plain,https://the-mas.org/wp-content/uploads/2018/11/emmff_ascii.txt ; https://cdn.standards.iteh.ai/samples/78268/03d5e52577ba4c5889b1c21ceaeec743/ISO-22029-2022.pdf,
