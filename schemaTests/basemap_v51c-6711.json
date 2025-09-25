@@ -1,0 +1,236 @@
+{
+    "@schema": "https://w3id.org/adaJSONLD/schema/1.0",
+    "@context": {
+        "schema": "https://schema.org/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ada": "https://ada.astromat.org/metadata/",
+        "cdi": "http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/"
+    },
+    "@id": "ada:record_1481",
+    "@type": [
+        "schema:Dataset",
+        "schema:Product"
+    ],
+    "schema:name": "Official SAMIS basemap for sample OREX-800055-17",
+    "schema:description": "This image will be used to define the thick-section coordinate system for all subsequent SAMIS µGIS spatial registration and will serve as the basemap image in SAMIS Viz.",
+    "schema:identifier": {
+        "@type": "schema:PropertyValue",
+        "schema:propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "10.60707/v51c-6711",
+        "url": "https://doi.org/10.60707/v51c-6711"
+    },
+    "schema:additionalType": ["Visible Light Microscopy Basemap"],
+    "schema:datePublished": "2025-12-31",
+    "schema:url": "",
+    "schema:creator": [
+        {
+            "@id": "https://ada.org/person/5489",
+            "@type": "schema:Person",
+            "schema:name": "Westermann, Mathilde",
+            "schema:identifier": "https://orcid.org/0000-0002-2050-7293",
+            "schema:email": "mmwest@orex.lpl.arizona.edu"
+        }
+    ],
+    "schema:contributor": [
+        {
+            "@type": "schema:Role",
+            "schema:roleName": "Researcher",
+            "schema:contributor": {
+                "@type": "schema:Person",
+                "@id": "https://ada.org/person/437",
+                "schema:name": "Haenecour, Pierre",
+                "schema:identifier": "",
+                "schema:email": "pierre@lpl.arizona.edu"
+            }
+        }
+    ],
+    "schema:funding": [
+        {
+            "@type": "schema:MonetaryGrant",
+            "schema:description": "This material is supported by NASA under contract NNM10AA11C issued through the New Frontiers program."
+        }
+    ],
+    "schema:measurementTechnique": {
+        "@type": "schema:DefinedTerm",
+        "schema:name": "Visible Light Microscopy Basemap",
+        "schema:termCode": "VLMBasemap"
+    },
+    "prov:wasGeneratedBy": {
+        "@type": [
+            "schema:Event",
+            "xas:AnalysisEvent",
+            "prov:Activity"
+        ],
+        "schema:startDate": "2024-08-26T12:00:00+00:00",
+        "schema:identifier": "20240826_VLMBasemap_UAZ_OREX-800055-17_1",
+        "prov:used": [
+            {
+                "@type": [
+                    "schema:Thing",
+                    "prov:Entity",
+                    "nxs:BaseClass/NXinstrument"
+                ],
+                "schema:name": "(UAZ)Keyence VHX-7000 Digital Microscope",
+                "schema:identifier": "KEY7000-UAZ"
+            }
+        ],
+        "schema:location": {
+            "@type": [
+                "schema:Place",
+                "nxs:BaseClass/NXsource"
+            ],
+            "schema:identifier": "",
+            "schema:name": "University of Arizona",
+            "schema:alternateName": "UAZ"
+        },
+        "schema:mainEntity": [
+            {
+                "@type": [
+                    "schema:Thing",
+                    "https://w3id.org/isample/vocabulary/materialsampleobjecttype/materialsample"
+                ],
+                "schema:additionalType": ["MaterialSample"],
+                "schema:identifier": "OREX-800055-17"
+            }
+        ]
+    },
+    "schema:variableMeasured": [],
+    "schema:distribution": [
+        {
+            "@type": ["schema:DataDownload"],
+            "encodingFormat": "application/zip",
+            "description": "this data product is distributed in zip archive; contents of the archive are listed as parts. The component files are not individually accessible",
+            "contentURL": "",
+            "schema:hasPart": [
+                {
+                    "@type": "schema:Dataset",
+                    "@id": "#dda401167ab08145256c270865e8f4ef",
+                    "schema:name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_basemap_1.jgw",
+                    "schema:description": "Reflected Light VML mosaic of sample OREX-800055-17",
+                    "spdx:checksum": "6a5c968a9fd9e7a6366afb34fbbd52255020aadf2d9e3443748f0a8f674cea23",
+                    "schema:size": {
+                        "@type": "schema:QuantitativeValue",
+                        "schema:value": 41,
+                        "schema:unitText": "byte"
+                    },
+                    "schema:encodingFormat": "text/plain",
+                    "fileDetail": {
+                        "@type": [
+                            "ada:imageMap",
+                            "schema:ImageObject"
+                        ],
+                        "componentType": "ada:basemap",
+                        "pixelUnits": "micrometer",
+                        "pixelScaleX": 0.803212851,
+                        "pixelScaleY": 0.803212851,
+                        "channel1": "Intensity"
+                    }
+                },
+                {
+                    "@type": "schema:Dataset",
+                    "@id": "#e6e3a35c68777eb26dd3935e385d97af",
+                    "schema:name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_basemap_1.jpg",
+                    "schema:description": "Reflected Light VML mosaic of sample OREX-800055-17",
+                    "spdx:checksum": "a5a4b5ac9e1f28778a529c6461cf841bb86ea224e93d43aac06d9e9ad8aade08",
+                    "schema:size": {
+                        "@type": "schema:QuantitativeValue",
+                        "schema:value": 1031263839,
+                        "schema:unitText": "byte"
+                    },
+                    "schema:encodingFormat": "image/jpeg",
+                    "fileDetail": {
+                        "@type": [
+                            "ada:imageMap",
+                            "schema:ImageObject"
+                        ],
+                        "componentType": "ada:basemap",
+                        "pixelUnits": "micrometer",
+                        "pixelScaleX": 0.803212851,
+                        "pixelScaleY": 0.803212851,
+                        "channel1": "Intensity"
+                    }
+                },
+                {
+                    "@type": "schema:Dataset",
+                    "@id": "#739d71b268e3c933a9b7c389c693cefa",
+                    "schema:name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_basemap_1.yaml",
+                    "schema:description": "",
+                    "spdx:checksum": "8bd68d1158673626994ef25ca4652f34e72a38cca82ac15ee482876f19a9277f",
+                    "schema:size": {
+                        "@type": "schema:QuantitativeValue",
+                        "schema:value": 292,
+                        "schema:unitText": "byte"
+                    },
+                    "schema:encodingFormat": "application/yaml",
+                    "schema:about": [
+                        {"@id": "#dda401167ab08145256c270865e8f4ef"}
+                    ]
+                },
+                {
+                    "@type": "schema:Dataset",
+                    "@id": "#5b8f260a65fefc21b8e21211fd3edefc",
+                    "schema:name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_other_1.jpg",
+                    "schema:description": "Coaxial VML mosaic of sample OREX-800055-17",
+                    "spdx:checksum": "2a167986f0f337ef46d0fccdd99b1911e243208c6962f588bfe6b7668cd3d4eb",
+                    "schema:size": {
+                        "@type": "schema:QuantitativeValue",
+                        "schema:value": 1103156598,
+                        "schema:unitText": "byte"
+                    },
+                    "schema:encodingFormat": "image/jpeg",
+                    "fileDetail": {
+                        "@type": [
+                            "ada:image",
+                            "schema:DigitalDocument"
+                        ],
+                        "componentType": "ada:other",
+                        "numPixelsX": 9268,
+                        "numPixelsY": 9268
+                    }
+                },
+                {
+                    "@type": "schema:Dataset",
+                    "@id": "#dc7eaa4ea61c6d1e4342ccd5b4bb06bc",
+                    "schema:name": "20240826_VLMBasemap_UAZ_OREX-800055-17_1_other_1.yaml",
+                    "schema:description": "",
+                    "spdx:checksum": "262831ef242fbe7e0809c8fb616c3ca0825ce45f2dc0fc1c14681d3048d5d2c1",
+                    "schema:size": {
+                        "@type": "schema:QuantitativeValue",
+                        "schema:value": 204,
+                        "schema:unitText": "byte"
+                    },
+                    "schema:encodingFormat": "application/yaml",
+                    "schema:about": [
+                        {"@id": "#5b8f260a65fefc21b8e21211fd3edefc"}
+                    ]
+                }
+            ]
+        }
+    ],
+    "schema:subjectOf": {
+        "@id": "ada:metadata_1481",
+        "@type": "schema:Dataset",
+        "schema:dateModified": "2025-09-14",
+        "schema:creator": [
+            {
+                "@id": "https://ada.org/person/3479",
+                "@type": "schema:Person",
+                "schema:name": "Richard, Stephen M.",
+                "schema:identifier": "https://orcid.org/0000-0002-7933-2154",
+                "schema:email": "smrTucson@email.org"
+            }
+        ],
+        "schema:about": {"@id": "ada:record_1481"},
+        "schema:description": "metadata about documentation for https://doi.org/10.60707/v51c-6711",
+        "dcterms:conformsTo": [
+            {"@id": "ada:other"},
+            {"@id": "ada:metadata"},
+            {"@id": "ada:imageMap"},
+            {"@id": "ada:image"},
+            {"@id": "CDIF_basic_1.0"},
+            {"@id": "ada:basemap"}
+        ]
+    }
+}

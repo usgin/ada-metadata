@@ -1,0 +1,298 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema#",
+    "type": "object",
+    "properties": {
+        "@context": {"$ref": "#/$defs/@context_type"},
+        "id": {"type": "string"},
+        "type": {"$ref": "#/$defs/type_type"},
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "additionalType": {"$ref": "#/$defs/type_type"},
+        "identifier": {"type": "string"},
+        "url": {"type": "string"},
+        "creator": {"$ref": "#/$defs/creator_type"},
+        "contributor": {"$ref": "#/$defs/contributor2_type"},
+        "funding": {"$ref": "#/$defs/funding_type"},
+        "license": {"$ref": "#/$defs/type_type"},
+        "dateCreated": {"type": "string"},
+        "dateModified": {"type": "string"},
+        "datePublished": {"type": "string"},
+        "creativeWorkStatus": {"type": "string"},
+        "additionalProperty": {"$ref": "#/$defs/additionalProperty_type"},
+        "subjectOf": {"$ref": "#/$defs/subjectOf_type"}
+    },
+    "$defs": {
+        "@context_type": {
+            "type": "array",
+            "minItems": 0,
+            "prefixItems": [
+                {"type": "string"},
+                {
+                    "type": "object",
+                    "properties": {
+                        "dcterms": {"type": "string"},
+                        "geosparql": {"type": "string"},
+                        "spdx": {"type": "string"},
+                        "ada": {"type": "string"},
+                        "id": {"type": "string"},
+                        "type": {"type": "string"}
+                    }
+                }
+            ]
+        },
+        "type_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {"type": "string"}
+        },
+        "creator_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "type": {"type": "string"},
+                    "name": {"type": "string"},
+                    "identifier": {"type": "string"},
+                    "email": {"type": "string"}
+                },
+                "required": [
+                    "identifier",
+                    "name",
+                    "id",
+                    "type",
+                    "email"
+                ]
+            }
+        },
+        "contributor_type": {
+            "type": "object",
+            "properties": {
+                "@type": {"type": "string"},
+                "id": {"type": "string"},
+                "name": {"type": "string"},
+                "identifier": {"type": "string"},
+                "email": {"type": "string"}
+            }
+        },
+        "contributor2_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {"type": "string"},
+                    "roleName": {"type": "string"},
+                    "contributor": {"$ref": "#/$defs/contributor_type"}
+                },
+                "required": [
+                    "contributor",
+                    "@type",
+                    "roleName"
+                ]
+            }
+        },
+        "funder_type": {
+            "type": "object",
+            "properties": {
+                "@type": {"type": "string"},
+                "name": {"type": "string"},
+                "identifier": {"type": "string"}
+            }
+        },
+        "funding_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {"type": "string"},
+                    "identifier": {"type": "string"},
+                    "name": {"type": "string"},
+                    "funder": {"$ref": "#/$defs/funder_type"}
+                },
+                "required": [
+                    "funder",
+                    "identifier",
+                    "@type",
+                    "name"
+                ]
+            }
+        },
+        "mainEntity_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {"type": "string"},
+                    "additionalType": {"type": "string"},
+                    "identifier": {"type": "string"}
+                },
+                "required": [
+                    "identifier",
+                    "additionalType",
+                    "@type"
+                ]
+            }
+        },
+        "measurementTechnique_type": {
+            "type": "object",
+            "properties": {
+                "@type": {"type": "string"},
+                "name": {"type": "string"},
+                "termCode": {"type": "string"}
+            }
+        },
+        "location_type": {
+            "type": "object",
+            "properties": {
+                "identifier": {"type": "string"},
+                "name": {"type": "string"},
+                "alternateName": {"type": "string"}
+            }
+        },
+        "ada:AnalysisEvent_type": {
+            "type": "object",
+            "properties": {
+                "@type": {"type": "string"},
+                "identifier": {"type": "string"},
+                "endDate": {"type": "string"},
+                "ada:analysis.instrument": {"$ref": "#/$defs/funder_type"},
+                "location": {"$ref": "#/$defs/location_type"}
+            }
+        },
+        "variableMeasured_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {"type": "string"},
+                    "name": {"type": "string"},
+                    "ada:fieldType": {"type": "string"},
+                    "description": {"type": "string"},
+                    "unitText": {"type": "string"},
+                    "maxValue": {"type": "number"},
+                    "minValue": {"type": "number"}
+                },
+                "required": [
+                    "@type",
+                    "ada:fieldType",
+                    "name",
+                    "description"
+                ]
+            }
+        },
+        "size_type": {
+            "type": "object",
+            "properties": {
+                "@type": {"type": "string"},
+                "value": {"type": "integer"},
+                "unitText": {"type": "string"}
+            }
+        },
+        "relatedLink_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {"type": "string"},
+                    "linkrelationship": {"type": "string"},
+                    "name": {"type": "string"}
+                },
+                "required": [
+                    "@type",
+                    "name",
+                    "linkrelationship"
+                ]
+            }
+        },
+        "hasPart_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {"type": "string"},
+                    "additionalType": {"type": "string"},
+                    "name": {"type": "string"},
+                    "description": {"type": "string"},
+                    "about": {"$ref": "#/$defs/type_type"},
+                    "spdx:checksum": {"type": "string"},
+                    "variableMeasured": {"$ref": "#/$defs/variableMeasured_type"},
+                    "ada:countRows": {"type": "integer"},
+                    "ada:countColumns": {"type": "integer"},
+                    "ada:headerRowCount": {"type": "integer"},
+                    "size": {"$ref": "#/$defs/size_type"},
+                    "encodingFormat": {"type": "string"},
+                    "relatedLink": {"$ref": "#/$defs/relatedLink_type"},
+                    "ada:numPixelsX": {"type": "integer"},
+                    "ada:numPixelsY": {"type": "integer"}
+                },
+                "required": [
+                    "additionalType",
+                    "size",
+                    "@type",
+                    "name",
+                    "about",
+                    "encodingFormat",
+                    "spdx:checksum"
+                ]
+            }
+        },
+        "value_type": {
+            "type": "object",
+            "properties": {
+                "mainEntity": {"$ref": "#/$defs/mainEntity_type"},
+                "measurementTechnique": {"$ref": "#/$defs/measurementTechnique_type"},
+                "ada:AnalysisEvent": {"$ref": "#/$defs/ada:AnalysisEvent_type"},
+                "hasPart": {"$ref": "#/$defs/hasPart_type"}
+            }
+        },
+        "additionalProperty_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@type": {"type": "string"},
+                    "propertyID": {"type": "string"},
+                    "description": {"type": "string"},
+                    "value": {"$ref": "#/$defs/value_type"}
+                },
+                "required": [
+                    "@type",
+                    "description",
+                    "propertyID",
+                    "value"
+                ]
+            }
+        },
+        "dcterms:conformsTo_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "@id": {"type": "string"}
+                },
+                "required": ["@id"]
+            }
+        },
+        "subjectOf_type": {
+            "type": "object",
+            "properties": {
+                "@id": {"type": "string"},
+                "@type": {"type": "string"},
+                "dateModified": {"type": "string"},
+                "creator": {"$ref": "#/$defs/creator_type"},
+                "about": {"type": "string"},
+                "description": {"type": "string"},
+                "dcterms:conformsTo": {"$ref": "#/$defs/dcterms:conformsTo_type"}
+            }
+        }
+    }
+}
