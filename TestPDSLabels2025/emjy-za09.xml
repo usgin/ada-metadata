@@ -1,0 +1,92 @@
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 file:/G:/My%20Drive/Astromat/PlanetaryDataSystem/PDS-XML-Schema/PDS4_PDS_1E00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:astromat:astromat_archive:ada_record_2703</logical_identifier>
+        <version_id>0.1</version_id>
+        <title>EDS data of a vesicle in OREX-501044-104</title>
+        <information_model_version>information_model_version0</information_model_version>
+        <product_class>Dataset:Transmission Electron Microscopy</product_class>
+        <Citation_Information>
+            <author_list> Prince, Beau } </author_list>
+            <publication_year>2025</publication_year>
+            <doi>10.60707/emjy-za09</doi>
+            <description>EDS measurements of a now-perforated vesicle in pyrrhotite</description>
+        </Citation_Information>
+    </Identification_Area>
+    <Observation_Area>
+        <Time_Coordinates>
+            <start_date_time>2024-07-11T12:00:00+00:00</start_date_time>
+            <start_date_time>2024-07-11T12:00:00+00:00</start_date_time>
+        </Time_Coordinates>
+        <Investigation_Area>
+            <name>Astromaterials Data System material sample analytical data</name>
+            <type>Other Investigation</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:other_investigation.ada_data</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Investigation_Area>
+            <name>20240711_TEM_UAZ_OREX-501044-104_1</name>
+            <type>analysis session</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:astromat:astromat_archive:20240711_TEM_UAZ_OREX-501044-104_1</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Observing_System>
+            <Observing_System_Component>
+                <name>Hitachi HF5000</name>
+                <type>Transmission Electron Microscope</type>
+                <description>University of Arizona</description>
+                <External_Reference>
+                    <reference_text>HF5000</reference_text>
+                </External_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+        <Target_Identification>
+            <name>101955 Bennu</name>
+            <type>asteroid</type>
+        </Target_Identification>
+        <Target_Identification>
+            <name>OREX-501044-104</name>
+            <type>Material sample</type>
+        </Target_Identification>
+    </Observation_Area>
+    <File_Area_Observational>
+        <File>
+            <file_name>20240711_TEM_UAZ_OREX-501044-104_1_STEMEDSCube_00002.emd</file_name>
+            <file_size unit="byte">6879839</file_size>
+        </File>
+        <Parsable_Byte_Stream>
+            <!--  how is the header with column names indicated?  -->
+            <name>20240711_TEM_UAZ_OREX-501044-104_1_STEMEDSCube_00002.emd</name>
+            <md5_checksum>908bcfcbdc4751233fcaa79d1ec02afc90a5c11f1bc019d0130a621f135f2c99</md5_checksum>
+            <parsing_standard_id>application/x-hdf5</parsing_standard_id>
+            <Field_Delimited>
+                <name>X</name>
+                <field_number/>
+                <data_type>None</data_type>
+                <unit>eV</unit>
+                <description>Energy</description>
+            </Field_Delimited>
+            <Field_Delimited>
+                <name>Y</name>
+                <field_number/>
+                <data_type>None</data_type>
+                <unit>um</unit>
+                <description>Height</description>
+            </Field_Delimited>
+            <Field_Delimited>
+                <name>Z</name>
+                <field_number/>
+                <data_type>None</data_type>
+                <unit>um</unit>
+                <description>Width</description>
+            </Field_Delimited>
+            <description>071124_EDS Specimen 1 Site 4 Map Data 4.h5oina; </description>
+        </Parsable_Byte_Stream>
+    </File_Area_Observational>
+    <!--  for file item in recorditems.fileparts  -->
+</Product_Observational>

@@ -41,7 +41,7 @@ def clean_string(input_string):
     return cleaned_string
 
 
-FILEEXT_LOOKUP =  'C:/Users/smrTu/OneDrive/Documents/GithubC/smrgeoinfo/ada-metadata/ADA-FileExtensions.xlsx'
+FILEEXT_LOOKUP =  '../ADA-FileExtensions.xlsx'
 print('File Extension lookup')
 lkup = pandas.read_excel(FILEEXT_LOOKUP,
                          sheet_name='adaFileExtensions',
@@ -53,7 +53,7 @@ for index, row in lkup.iterrows():
 lkup = {}
 
 
-METADATA_DATA_LOOKUP =  'C:/Users/smrTu/OneDrive/Documents/GithubC/smrgeoinfo/ada-metadata/MetadataToDataMapping.xlsx'
+METADATA_DATA_LOOKUP =  '../MetadataToDataMapping.xlsx'
 print('Metadata-data component lookup')
 lkup = pandas.read_excel(METADATA_DATA_LOOKUP,
                          sheet_name='MetadataToDataMapping',
@@ -71,7 +71,7 @@ for index, row in lkup.iterrows():
     METADATA_DATA_LKUP[theKey] = row
 lkup = {}
 
-INSTRUMENT_LOOKUP =  'C:/Users/smrTu/OneDrive/Documents/GithubC/smrgeoinfo/ada-metadata/Instruments.xlsx'
+INSTRUMENT_LOOKUP =  '../Instruments.xlsx'
 print('Instruments  lookup')
 lkup = pandas.read_excel(INSTRUMENT_LOOKUP,
                          sheet_name='Instruments',

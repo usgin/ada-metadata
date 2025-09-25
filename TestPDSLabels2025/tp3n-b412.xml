@@ -1,0 +1,197 @@
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 file:/G:/My%20Drive/Astromat/PlanetaryDataSystem/PDS-XML-Schema/PDS4_PDS_1E00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:astromat:astromat_archive:ada_record_2429</logical_identifier>
+        <version_id>0.1</version_id>
+        <title>AMS, 26Al, particles and bulk aggregate sample of OREX-803014-0</title>
+        <information_model_version>information_model_version0</information_model_version>
+        <product_class>Dataset:Accelerator Mass Spectrometry</product_class>
+        <Citation_Information>
+            <author_list> Welten, Kees } </author_list>
+            <publication_year>2025</publication_year>
+            <doi>10.60707/tp3n-b412</doi>
+            <description>Accelerator mass spectrometry analysis of 26Al concentrations in six sub-samples from aggregate sample OEX-803014-0. The samples include one bulk aggregate sample, OREX-803047-0, of almost 10 mg, and 5 individual mm-sized particles (OREX-803048-0, OREX-803049-0, OREX-803050-0, OREX-803051-0, OREX-803052-0), each one weighing less than 1 mg. For comparison, we also measured two aliquots of the Orgueil CI chondrite. Each sample was dissolved in HF/HNO3 and a small aliquot of the dissolved sample was taken for chemical analysis by ICP-OES. The 26Al concentrations in the particles range from ~20 to ~26 dpm/kg, compared to a 26Al concentration of ~21 dpm/kg in the aggregate sample. Combined with the 10Be data, these results constrain the cosmic-ray exposure age of the samples to at least a few Myr near the sufrace of asteroid Bennu.</description>
+        </Citation_Information>
+    </Identification_Area>
+    <Observation_Area>
+        <Time_Coordinates>
+            <start_date_time>2024-03-06T00:30:02.637164+00:00</start_date_time>
+            <start_date_time>2024-03-06T00:30:02.637164+00:00</start_date_time>
+        </Time_Coordinates>
+        <Investigation_Area>
+            <name>Astromaterials Data System material sample analytical data</name>
+            <type>Other Investigation</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:other_investigation.ada_data</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Investigation_Area>
+            <name>20240306_AMS_PU_multiSample_1</name>
+            <type>analysis session</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:astromat:astromat_archive:20240306_AMS_PU_multiSample_1</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Observing_System>
+            <Observing_System_Component>
+                <name>Purdue Rare Isotope Measurement (PRIME) Lab AMS facility</name>
+                <type>Accelerator mass spectrometer</type>
+                <description>Purdue University</description>
+                <External_Reference>
+                    <reference_text>PRIME-AMS</reference_text>
+                </External_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+        <Target_Identification>
+            <name>101955 Bennu</name>
+            <type>asteroid</type>
+        </Target_Identification>
+        <Target_Identification>
+            <name>OREX-803047-0</name>
+            <type>Material sample</type>
+        </Target_Identification>
+    </Observation_Area>
+    <File_Area_Observational>
+        <File>
+            '20240306_AMS_PU_multiSample_1_AMSRawData_1.csv'
+            <file_name>20240306_AMS_PU_multiSample_1_AMSRawData_1.csv</file_name>
+            <file_size unit="byte">1292</file_size>
+        </File>
+        <Header>
+            <name>file header</name>
+            <offset unit="byte">-1</offset>
+            <object_length unit="line">8</object_length>
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>content of header not described</description>
+        </Header>
+        <Table_Delimited>
+            <!--  how is the header with column names indicated?  -->
+            <name>20240306_AMS_PU_multiSample_1_AMSRawData_1.csv</name>
+            <offset unit="line">8</offset>
+            <!--  We don't have this information  -->
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>This file contains the raw 26Al AMS data for multiple samples analyzed in the same AMS run, including normalized 26Al/27Al ratios of each sample, along with the maximum, minimum and average 27Al current of each sample and the total number of 26Al ions counted in the detector. The file also shows the interference count rates in the detector, which is dominated by 26Mg ions and requires a small correction on the measured 26Al/27Al ratio. The last two columns show the interference-corrected 26Al/27Al ratio (and 1 sigma uncertainty) of the samples.</description>
+            <records/>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+            <field_delimiter>Comma</field_delimiter>
+            <Record_Delimited>
+                <fields>11</fields>
+                <groups>0</groups>
+                <Field_Delimited>
+                    <name>PRIME_ID</name>
+                    <field_number>1</field_number>
+                    <data_type>integer</data_type>
+                    <description>ID number of sample analyzed at PRIME lab</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Sample Holder</name>
+                    <field_number>2</field_number>
+                    <data_type>integer</data_type>
+                    <description>ID Number of cathode (sample holder)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Sample Name</name>
+                    <field_number>3</field_number>
+                    <data_type>string</data_type>
+                    <description>UC Berkeley sample ID</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>26Al/27Al ratio</name>
+                    <field_number>4</field_number>
+                    <data_type>decimal</data_type>
+                    <description>Normalized 26Al/27Al ratio (10^-15)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>26Al/27Al error</name>
+                    <field_number>5</field_number>
+                    <data_type>decimal</data_type>
+                    <description>1-sigma uncertainty in 26Al/27Al ratio (10^-15)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Rel. Uncertainty</name>
+                    <field_number>6</field_number>
+                    <data_type>decimal</data_type>
+                    <description>1-sigma uncertainty in 26Al/27Al ratio (%)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Max 27Al current</name>
+                    <field_number>7</field_number>
+                    <data_type>integer</data_type>
+                    <description>Maximum 27Al current of the sample during the run (in nano-Ampere)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Min 27Al current</name>
+                    <field_number>8</field_number>
+                    <data_type>integer</data_type>
+                    <description>Minimum 27Al current of the sample during the run (in nano-Ampere)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Avg 27Al current</name>
+                    <field_number>9</field_number>
+                    <data_type>integer</data_type>
+                    <description>Average 27Al current of the sample during the run (in nano-Ampere)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Total 26Al counts</name>
+                    <field_number>10</field_number>
+                    <data_type>integer</data_type>
+                    <description>total number of 26Al ion counts in gas ionization detector</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Intf count rate</name>
+                    <field_number>11</field_number>
+                    <data_type>integer</data_type>
+                    <description>interference count rate in gas ionization detector</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Intf/27Al</name>
+                    <field_number>12</field_number>
+                    <data_type>decimal</data_type>
+                    <description>ratio of interference count rate to average 27Al current</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>26Al/27Al-corrected</name>
+                    <field_number>13</field_number>
+                    <data_type>decimal</data_type>
+                    <description>Interference corrected 26Al/27Al ratio (10^-15)</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>err26</name>
+                    <field_number>14</field_number>
+                    <data_type>decimal</data_type>
+                    <description>1-sigma uncertainty in 26Al/27Al ratio (10^-15)</description>
+                </Field_Delimited>
+            </Record_Delimited>
+        </Table_Delimited>
+    </File_Area_Observational>
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20240306_AMS_PU_multiSample_1_methodDescription_1.pdf</file_name>
+            <file_size unit="byte">121600</file_size>
+        </File>
+        <Parsable_Byte_Stream>
+            <!--  how is the header with column names indicated?  -->
+            <name>20240306_AMS_PU_multiSample_1_methodDescription_1.pdf</name>
+            <md5_checksum>4a3a15ed6a321cdebfef9fc46c0b8f2f63b601e8afc364005a3134395acb3d45</md5_checksum>
+            <offset>0</offset>
+            <description>Methods and Sample processing description; </description>
+        </Parsable_Byte_Stream>
+    </File_Area_Observational_Supplemental>
+    <File_Area_Observational_Supplemental>
+        <File>
+            <file_name>20240306_AMS_PU_multiSample_1_processingDescription_1.pdf</file_name>
+            <file_size unit="byte">98084</file_size>
+        </File>
+        <Parsable_Byte_Stream>
+            <!--  how is the header with column names indicated?  -->
+            <name>20240306_AMS_PU_multiSample_1_processingDescription_1.pdf</name>
+            <md5_checksum>68e3808bd5f6aaa294f08a4044d6198da681238da9489fadbb066df714558b9a</md5_checksum>
+            <offset>0</offset>
+            <description>Description of data processing for 26Al AMS data, including calculations to convert the normalized 26Al/27Al ratio to 26Al concentration (in atoms/g and dpm/kg) based on amount of sample dissolved and total amount of Al (from sample + carrier); </description>
+        </Parsable_Byte_Stream>
+    </File_Area_Observational_Supplemental>
+    <!--  for file item in recorditems.fileparts  -->
+</Product_Observational>
